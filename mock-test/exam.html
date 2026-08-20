@@ -918,19 +918,20 @@
 
             // Audio for listening
             if (currentSection === 'listening') {
+                const hasAudio = audioFiles[q.subSection] || false;
                 leftHtml += `
                     <div class="audio-player">
                         <button class="play-btn ${audioPlaying ? 'playing' : ''}" onclick="toggleAudio()">
                             ${audioPlaying ? '⏸' : '▶'}
                         </button>
                         <div class="audio-info">
-                            <div class="audio-title">Section ${q.subSection + 1}</div>
+                            <div class="audio-title">Section ${q.subSection + 1} ${hasAudio ? '🎵' : '(TTS)'}</div>
                             <div class="audio-progress" onclick="seekAudio(event)">
                                 <div class="audio-fill" id="audioFill" style="width: ${audioProgress}%"></div>
                             </div>
                         </div>
                         <div class="audio-time" id="audioTime">0:00 / 7:30</div>
-                        <button class="volume-btn">🔊</button>
+                        <button class="nav-btn" onclick="loadAudioFile(${q.subSection})">Load MP3</button>
                     </div>
                 `;
             }
@@ -1067,6 +1068,8 @@
         let audioProgress = 0;
         let audioInterval = null;
         let currentUtterance = null;
+        let audioFiles = {}; // section index -> audio URL
+        let audioElement = null; // HTML5 audio element
 
         function toggleAudio() {
             if (audioPlaying) {
@@ -1082,7 +1085,37 @@
             const subSec = secData.sections[currentSubSection];
             if (!subSec) return;
 
-            // Get the passage text (strip HTML)
+            // Check if audio file is loaded for this section
+            const audioUrl = audioFiles[currentSubSection];
+            if (audioUrl) {
+                audioElement = new Audio(audioUrl);
+                audioElement.play();
+                audioPlaying = true;
+                updateAudioBtn();
+
+                audioElement.ontimeupdate = () => {
+                    audioProgress = (audioElement.currentTime / audioElement.duration) * 100;
+                    updateAudioProgress();
+                    const cur = Math.floor(audioElement.currentTime);
+                    document.getElementById('audioTime').textContent =
+                        `${String(Math.floor(cur/60)).padStart(2,'0')}:${String(cur%60).padStart(2,'0')} / ${String(Math.floor(audioElement.duration/60)).padStart(2,'0')}:${String(Math.floor(audioElement.duration%60)).padStart(2,'0')}`;
+                };
+
+                audioElement.onended = () => {
+                    audioPlaying = false;
+                    audioProgress = 100;
+                    updateAudioBtn();
+                };
+
+                audioElement.onerror = () => {
+                    audioPlaying = false;
+                    updateAudioBtn();
+                    alert('Failed to play audio file.');
+                };
+                return;
+            }
+
+            // Fallback to TTS
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = subSec.passage;
             const text = tempDiv.textContent || tempDiv.innerText || '';
@@ -1090,45 +1123,49 @@
             if ('speechSynthesis' in window) {
                 audioPlaying = true;
                 updateAudioBtn();
-
                 const utterance = new SpeechSynthesisUtterance(text);
                 utterance.lang = 'en-US';
                 utterance.rate = 0.9;
-                utterance.pitch = 1;
-
-                // Track progress
                 const totalChars = text.length;
-                let charsSpoken = 0;
-
                 utterance.onboundary = (event) => {
-                    charsSpoken = event.charIndex;
-                    audioProgress = (charsSpoken / totalChars) * 100;
+                    audioProgress = (event.charIndex / totalChars) * 100;
                     updateAudioProgress();
                 };
-
                 utterance.onend = () => {
                     audioPlaying = false;
                     audioProgress = 100;
                     updateAudioBtn();
                     updateAudioProgress();
                 };
-
-                utterance.onerror = () => {
-                    audioPlaying = false;
-                    updateAudioBtn();
-                };
-
+                utterance.onerror = () => { audioPlaying = false; updateAudioBtn(); };
                 currentUtterance = utterance;
                 window.speechSynthesis.speak(utterance);
             } else {
-                alert('Speech synthesis not supported in this browser. Try Chrome or Edge.');
+                alert('No audio loaded. Click "Load MP3" to add audio, or use Chrome/Edge for TTS.');
             }
         }
 
         function stopAudio() {
+            if (audioElement) { audioElement.pause(); audioElement = null; }
             window.speechSynthesis.cancel();
             audioPlaying = false;
             updateAudioBtn();
+        }
+
+        function loadAudioFile(sectionIdx) {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.mp3,.wav,.ogg,.m4a';
+            input.onchange = (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const url = URL.createObjectURL(file);
+                    audioFiles[sectionIdx] = url;
+                    alert(`Audio loaded for Section ${sectionIdx + 1}! Click ▶ to play.`);
+                    loadQuestion(); // refresh to show audio indicator
+                }
+            };
+            input.click();
         }
 
         function updateAudioBtn() {
