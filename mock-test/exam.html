@@ -1464,16 +1464,19 @@
         }
 
         // ─── Init ───
-        function init() {
+        async function init() {
             // Read language from sessionStorage
             const storedLang = sessionStorage.getItem('ielts-lang');
             if (storedLang) lang = storedLang;
             document.getElementById('langBtn').textContent = lang === 'zh' ? 'EN/中' : '中/EN';
+
+            // Load test data
+            await loadTestData();
+            console.log('Init complete, currentTest:', currentTest ? 'loaded' : 'null');
         }
 
         // Run init
         init();
-        loadTestData();
     </script>
 </body>
 </html>
