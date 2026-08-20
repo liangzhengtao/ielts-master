@@ -211,7 +211,7 @@
             } else {
                 html += `<div class="q-text">${t(q.text)}</div><div class="q-options">`;
                 (q.options||[]).forEach((o,i) => {
-                    html += `<div class="q-opt${answers[q.id]===i?' selected':''}" onclick="sel(${q.id},${i})"><div class="q-opt-letter">${String.fromCharCode(65+i)}</div><div>${o}</div></div>`;
+                    html += `<div class="q-opt${answers[q.id]===i?' selected':''}" onclick="sel(${q.id},${i})"><div class="q-opt-letter">${String.fromCharCode(65+i)}</div><div>${t(o)}</div></div>`;
                 });
                 html += '</div>';
             }
@@ -287,8 +287,8 @@
                 if (test[s]) test[s].sections.forEach(seg => seg.questions.forEach(q => {
                     if (q.answer !== undefined && q.options) {
                         const ok = answers[q.id] === q.answer;
-                        const yourAns = answers[q.id] !== undefined ? q.options[answers[q.id]] : (lang==='zh'?'未作答':'Not answered');
-                        const correctAns = q.options[q.answer];
+                        const yourAns = answers[q.id] !== undefined ? t(q.options[answers[q.id]]) : (lang==='zh'?'未作答':'Not answered');
+                        const correctAns = t(q.options[q.answer]);
                       html += `<div class="review-item ${ok?'correct':'wrong'}"><div class="review-q">Q${q.id}: ${t(q.text)}</div><div class="review-a ${ok?'correct':'wrong'}">${ok?'✓':'✗'} ${yourAns} ${!ok?'→ '+correctAns:''}</div></div>`;
                     }
                 }));
