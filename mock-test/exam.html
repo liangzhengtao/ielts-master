@@ -824,11 +824,24 @@
 
         // ─── Load Test Data ───
         async function loadTestData() {
+            // First try to get from sessionStorage (passed from index.html)
+            const stored = sessionStorage.getItem('ielts-test');
+            if (stored) {
+                try {
+                    currentTest = JSON.parse(stored);
+                    console.log('Test loaded from session:', currentTest.title);
+                    return;
+                } catch (e) {
+                    console.error('Failed to parse stored test:', e);
+                }
+            }
+
+            // Fallback: fetch test1.json
             try {
                 const resp = await fetch('tests/test1.json');
                 if (resp.ok) {
                     currentTest = await resp.json();
-                    console.log('Test loaded:', currentTest.title);
+                    console.log('Test loaded from file:', currentTest.title);
                 } else {
                     console.error('Failed to load test data:', resp.status);
                 }
@@ -1444,6 +1457,15 @@
         }
 
         // ─── Init ───
+        function init() {
+            // Read language from sessionStorage
+            const storedLang = sessionStorage.getItem('ielts-lang');
+            if (storedLang) lang = storedLang;
+            document.getElementById('langBtn').textContent = lang === 'zh' ? 'EN/中' : '中/EN';
+        }
+
+        // Run init
+        init();
         loadTestData();
     </script>
 </body>
