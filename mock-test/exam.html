@@ -745,7 +745,7 @@
                 <div class="start-option-desc">2h 45min · All sections</div>
             </div>
         </div>
-        <button class="start-btn" id="startBtn" onclick="startExam('full')" disabled>Loading...</button>
+        <button class="start-btn" id="startBtn" onclick="startExam('full')">Start Test →</button>
     </div>
 
     <!-- Exam Screen -->
@@ -842,23 +842,17 @@
             } catch (e) {}
         }
 
-        // Init - load data and enable button
-        (async function() {
-            await loadTestData();
-            const btn = document.getElementById('startBtn');
-            if (btn && currentTest) {
-                btn.disabled = false;
-                btn.textContent = 'Start Test →';
-            }
-        })();
+        // Init - load data in background
+        loadTestData();
 
         // ─── Start Exam ───
         async function startExam(mode) {
+            // Always try to load data first
             if (!currentTest) {
                 await loadTestData();
             }
             if (!currentTest) {
-                alert('Failed to load test data. Please try again.');
+                alert('Loading test data... Please try again in a moment.');
                 return;
             }
 
