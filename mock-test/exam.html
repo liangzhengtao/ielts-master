@@ -277,7 +277,7 @@
             let correct = 0, total = 0;
             ['listening', 'reading'].forEach(s => {
                 if (test[s]) test[s].sections.forEach(seg => seg.questions.forEach(q => {
-                    if (q.answer !== undefined) { total++; if (answers[q.id] === q.answer) correct++; }
+                    if (q.answer !== undefined && q.options) { total++; if (answers[q.id] === q.answer) correct++; }
                 }));
             });
             const band = total > 0 ? Math.round((correct / total) * 9) : 0;
@@ -285,9 +285,11 @@
             let html = `<div class="review-header"><h1 style="font-size:28px;margin-bottom:16px;">${lang==='zh'?'考试完成':'Exam Complete'}</h1><div class="score-box"><div class="score-num">${band}</div><div class="score-lbl">${lang==='zh'?'预估分数':'Estimated Band'}</div></div><p style="color:var(--text-2);">${lang==='zh'?`答对 ${correct}/${total} 题`:`${correct}/${total} correct`}</p></div><h2 style="margin-bottom:16px;font-size:18px;">${lang==='zh'?'答案回顾':'Review'}</h2>`;
             ['listening', 'reading'].forEach(s => {
                 if (test[s]) test[s].sections.forEach(seg => seg.questions.forEach(q => {
-                    if (q.answer !== undefined) {
+                    if (q.answer !== undefined && q.options) {
                         const ok = answers[q.id] === q.answer;
-                      html += `<div class="review-item ${ok?'correct':'wrong'}"><div class="review-q">Q${q.id}: ${t(q.text)}</div><div class="review-a ${ok?'correct':'wrong'}">${ok?'✓':'✗'} ${answers[q.id]!==undefined?q.options[answers[q.id]]:'-'} ${!ok?'→ '+q.options[q.answer]:''}</div></div>`;
+                        const yourAns = answers[q.id] !== undefined ? q.options[answers[q.id]] : (lang==='zh'?'未作答':'Not answered');
+                        const correctAns = q.options[q.answer];
+                      html += `<div class="review-item ${ok?'correct':'wrong'}"><div class="review-q">Q${q.id}: ${t(q.text)}</div><div class="review-a ${ok?'correct':'wrong'}">${ok?'✓':'✗'} ${yourAns} ${!ok?'→ '+correctAns:''}</div></div>`;
                     }
                 }));
             });
