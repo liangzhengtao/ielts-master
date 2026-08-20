@@ -85,38 +85,30 @@
 
         /* ─── Animations ─── */
         @keyframes fadeInUp {
-            from { opacity: 0; transform: translateY(20px); }
+            from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        @keyframes slideIn {
-            from { opacity: 0; transform: translateX(-20px); }
-            to { opacity: 1; transform: translateX(0); }
-        }
-
-        .fade-in { animation: fadeInUp 0.5s ease forwards; }
-        .slide-in { animation: slideIn 0.4s ease forwards; }
+        .fade-in { animation: fadeInUp 0.3s ease forwards; }
 
         /* Hero section */
         .hero-section {
             text-align: center;
-            padding: 60px 0 40px;
+            padding: 40px 0 30px;
             background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
             color: white;
-            border-radius: 16px;
-            margin-bottom: 32px;
-            position: relative;
-            overflow: hidden;
+            border-radius: 12px;
+            margin-bottom: 24px;
         }
 
         .hero-title {
-            font-size: 36px;
+            font-size: 28px;
             font-weight: 800;
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
 
         .hero-subtitle {
-            font-size: 16px;
+            font-size: 14px;
             opacity: 0.9;
         }
 
@@ -124,86 +116,16 @@
         .stats-row {
             display: flex;
             justify-content: center;
-            gap: 40px;
-            margin-top: 24px;
+            gap: 30px;
+            margin-top: 16px;
             flex-wrap: wrap;
         }
 
-        .stat-item {
-            text-align: center;
-        }
+        .stat-item { text-align: center; }
+        .stat-number { font-size: 22px; font-weight: 800; font-family: 'JetBrains Mono', monospace; }
+        .stat-label { font-size: 11px; opacity: 0.8; }
 
-        .stat-number {
-            font-size: 28px;
-            font-weight: 800;
-            font-family: 'JetBrains Mono', monospace;
-        }
-
-        .stat-label {
-            font-size: 12px;
-            opacity: 0.8;
-        }
-
-        /* Book section animation */
-        .book-section {
-            animation: fadeInUp 0.3s ease forwards;
-            opacity: 0;
-        }
-
-        .book-section:nth-child(1) { animation-delay: 0.05s; }
-        .book-section:nth-child(2) { animation-delay: 0.1s; }
-        .book-section:nth-child(3) { animation-delay: 0.15s; }
-        .book-section:nth-child(4) { animation-delay: 0.2s; }
-        .book-section:nth-child(5) { animation-delay: 0.25s; }
-
-        /* Sidebar animations */
-        .sidebar-card {
-            animation: fadeInUp 0.4s ease forwards;
-            opacity: 0;
-        }
-
-        .sidebar-card:nth-child(1) { animation-delay: 0.1s; }
-        .sidebar-card:nth-child(2) { animation-delay: 0.2s; }
-        .sidebar-card:nth-child(3) { animation-delay: 0.3s; }
-
-        /* Random card pulse */
-        .random-card {
-            animation: pulse 2s ease-in-out infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { transform: scale(1); }
-            50% { transform: scale(1.02); }
-        }
-
-        /* Filter button transitions */
-        .filter-btn {
-            transition: all 0.2s ease;
-        }
-
-        .filter-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(108, 92, 231, 0.2);
-        }
-
-        /* Book header hover effect */
-        .book-header {
-            transition: all 0.2s ease;
-        }
-
-        .book-header:hover {
-            transform: translateX(4px);
-        }
-
-        /* Test button hover */
-        .test-btn {
-            transition: all 0.2s ease;
-        }
-
-        .test-btn:hover {
-            transform: scale(1.05);
-            box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
-        }
+        /* No heavy animations */
     </style>
 </head>
 <body>
@@ -301,10 +223,9 @@
             document.getElementById('filterPractice').textContent = lang === 'zh' ? '模拟题' : 'Practice';
         }
 
-        // Load tests - lazy load, only load when needed
+        // Load tests - only load practice tests
         async function loadTests() {
             const tests = [];
-            // Only load first 6 practice tests initially
             for (let i = 1; i <= 6; i++) {
                 try {
                     const resp = await fetch(`tests/test${i}.json`);
