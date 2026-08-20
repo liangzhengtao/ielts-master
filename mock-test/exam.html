@@ -828,11 +828,17 @@
                 const resp = await fetch('tests/test1.json');
                 if (resp.ok) {
                     currentTest = await resp.json();
+                    console.log('Test loaded:', currentTest.title);
+                } else {
+                    console.error('Failed to load test data:', resp.status);
                 }
             } catch (e) {
                 console.error('Failed to load test data:', e);
             }
         }
+
+        // Auto-load on page load
+        loadTestData();
 
         // ─── Start Exam ───
         async function startExam(mode) {
@@ -885,6 +891,7 @@
             const secData = currentTest[currentSection];
             if (!secData) return;
 
+            // Build flat question list
             const allQuestions = [];
             secData.sections.forEach((sub, si) => {
                 if (currentSection === 'writing') {
@@ -910,6 +917,7 @@
             }
 
             const q = allQuestions[currentQuestion];
+            currentSubSection = q.subSection; // Update current sub-section
             const subSec = secData.sections[q.subSection];
 
             // Left panel
