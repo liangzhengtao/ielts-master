@@ -1062,35 +1062,91 @@
             `;
         }
 
-        // ─── Audio ───
+        // ─── Audio (TTS-based) ───
+        let audioPlaying = false;
+        let audioProgress = 0;
+        let audioInterval = null;
+        let currentUtterance = null;
+
         function toggleAudio() {
-            audioPlaying = !audioPlaying;
+            if (audioPlaying) {
+                stopAudio();
+            } else {
+                playAudio();
+            }
+        }
+
+        function playAudio() {
+            const secData = currentTest[currentSection];
+            if (!secData) return;
+            const subSec = secData.sections[currentSubSection];
+            if (!subSec) return;
+
+            // Get the passage text (strip HTML)
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = subSec.passage;
+            const text = tempDiv.textContent || tempDiv.innerText || '';
+
+            if ('speechSynthesis' in window) {
+                audioPlaying = true;
+                updateAudioBtn();
+
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'en-US';
+                utterance.rate = 0.9;
+                utterance.pitch = 1;
+
+                // Track progress
+                const totalChars = text.length;
+                let charsSpoken = 0;
+
+                utterance.onboundary = (event) => {
+                    charsSpoken = event.charIndex;
+                    audioProgress = (charsSpoken / totalChars) * 100;
+                    updateAudioProgress();
+                };
+
+                utterance.onend = () => {
+                    audioPlaying = false;
+                    audioProgress = 100;
+                    updateAudioBtn();
+                    updateAudioProgress();
+                };
+
+                utterance.onerror = () => {
+                    audioPlaying = false;
+                    updateAudioBtn();
+                };
+
+                currentUtterance = utterance;
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert('Speech synthesis not supported in this browser. Try Chrome or Edge.');
+            }
+        }
+
+        function stopAudio() {
+            window.speechSynthesis.cancel();
+            audioPlaying = false;
+            updateAudioBtn();
+        }
+
+        function updateAudioBtn() {
             const btn = document.querySelector('.play-btn');
             if (btn) {
                 btn.innerHTML = audioPlaying ? '⏸' : '▶';
                 btn.classList.toggle('playing', audioPlaying);
             }
+        }
 
-            if (audioPlaying) {
-                const sectionDuration = 7.5 * 60; // 7:30 per section
-                audioInterval = setInterval(() => {
-                    audioProgress += (100 / sectionDuration) * 0.1;
-                    if (audioProgress >= 100) {
-                        audioProgress = 100;
-                        audioPlaying = false;
-                        clearInterval(audioInterval);
-                        if (btn) { btn.innerHTML = '▶'; btn.classList.remove('playing'); }
-                    }
-                    const fill = document.getElementById('audioFill');
-                    if (fill) fill.style.width = audioProgress + '%';
-                    const time = document.getElementById('audioTime');
-                    if (time) {
-                        const cur = Math.floor(sectionDuration * audioProgress / 100);
-                      time.textContent = `${String(Math.floor(cur/60)).padStart(2,'0')}:${String(cur%60).padStart(2,'0')} / 7:30`;
-                    }
-                }, 100);
-            } else {
-                clearInterval(audioInterval);
+        function updateAudioProgress() {
+            const fill = document.getElementById('audioFill');
+            if (fill) fill.style.width = audioProgress + '%';
+            const time = document.getElementById('audioTime');
+            if (time) {
+              const totalSec = 450; // ~7:30 per section
+              const cur = Math.floor(totalSec * audioProgress / 100);
+              time.textContent = `${String(Math.floor(cur/60)).padStart(2,'0')}:${String(cur%60).padStart(2,'0')} / 7:30`;
             }
         }
 
