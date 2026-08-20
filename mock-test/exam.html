@@ -13,8 +13,6 @@
             --accent: #6c5ce7; --accent-2: #a29bfe; --pink: #fd79a8; --green: #00b894;
         }
         body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); height: 100vh; overflow: hidden; }
-
-        /* ─── Header ─── */
         .exam-header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; height: 48px; }
         .exam-left { display: flex; align-items: center; gap: 12px; }
         .exam-logo { font-size: 16px; font-weight: 800; color: var(--accent); }
@@ -25,25 +23,19 @@
         .timer { font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 600; color: var(--text-2); }
         .lang-btn { padding: 5px 10px; border-radius: 5px; border: 1px solid var(--border); background: transparent; color: var(--text-2); font-size: 11px; cursor: pointer; }
         .submit-btn { padding: 5px 16px; border-radius: 5px; background: var(--accent); color: white; border: none; font-size: 11px; font-weight: 600; cursor: pointer; }
-
-        /* ─── Main ─── */
         .exam-main { display: flex; height: calc(100vh - 48px); }
         .passage-panel { flex: 1; padding: 24px; overflow-y: auto; border-right: 1px solid var(--border); }
         .question-panel { width: 380px; padding: 20px; overflow-y: auto; background: var(--surface); }
-
-        /* ─── Passage ─── */
         .passage-title { font-size: 16px; font-weight: 700; margin-bottom: 16px; color: var(--accent-2); }
         .passage-body { font-size: 14px; line-height: 1.9; color: var(--text-2); }
         .passage-body p { margin-bottom: 12px; }
-
-        /* ─── Audio ─── */
         .audio-bar { background: var(--surface-2); padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
-        .play-btn { width: 32px; height: 32px; border-radius: 50%; background: var(--accent); border: none; color: white; font-size: 14px; cursor: pointer; }
-        .audio-track { flex: 1; height: 3px; background: var(--border); border-radius: 2px; }
-        .audio-fill { height: 100%; background: var(--accent); border-radius: 2px; width: 0; }
-        .audio-time { font-size: 11px; color: var(--text-3); font-family: monospace; }
-
-        /* ─── Questions ─── */
+        .play-btn { width: 32px; height: 32px; border-radius: 50%; background: var(--accent); border: none; color: white; font-size: 14px; cursor: pointer; transition: background 0.2s; }
+        .play-btn:hover { background: #5a4bd1; }
+        .play-btn.playing { background: var(--pink); }
+        .audio-track { flex: 1; height: 3px; background: var(--border); border-radius: 2px; cursor: pointer; }
+        .audio-fill { height: 100%; background: var(--accent); border-radius: 2px; width: 0; transition: width 0.3s; }
+        .audio-time { font-size: 11px; color: var(--text-3); font-family: monospace; min-width: 80px; }
         .q-card { margin-bottom: 16px; padding: 14px; background: rgba(255,255,255,0.02); border-radius: 8px; border: 1px solid var(--border); }
         .q-num { font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 6px; }
         .q-text { font-size: 13px; margin-bottom: 10px; line-height: 1.5; }
@@ -53,29 +45,21 @@
         .q-opt.selected { border-color: var(--accent); background: rgba(108,92,231,0.1); }
         .q-opt-letter { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; flex-shrink: 0; }
         .q-opt.selected .q-opt-letter { border-color: var(--accent); background: var(--accent); color: white; }
-
-        /* Writing */
         .writing-area { width: 100%; min-height: 200px; padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-size: 13px; line-height: 1.7; outline: none; resize: vertical; font-family: inherit; }
         .writing-area:focus { border-color: var(--accent); }
         .word-count { text-align: right; font-size: 11px; color: var(--text-3); margin-top: 4px; }
-
-        /* Nav */
         .q-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
         .q-btn { padding: 6px 14px; border-radius: 5px; font-size: 12px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
         .q-btn-primary { background: var(--accent); color: white; }
         .q-btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
         .q-btn:disabled { opacity: 0.3; cursor: not-allowed; }
         .q-progress { font-size: 11px; color: var(--text-3); }
-
-        /* Answer sheet */
         .sheet { display: none; padding: 20px; overflow-y: auto; height: calc(100vh - 48px); }
         .sheet-title { font-size: 14px; font-weight: 700; margin-bottom: 16px; }
-        .sheet-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; margin-bottom: 20px; }
+        .sheet-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; margin-bottom: 20px; }
         .sheet-cell { width: 36px; height: 36px; border-radius: 6px; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; cursor: pointer; transition: all 0.15s; }
         .sheet-cell.answered { background: var(--accent); color: white; border-color: var(--accent); }
         .sheet-cell:hover { border-color: var(--accent); }
-
-        /* Review */
         .review { display: none; padding: 40px; overflow-y: auto; height: 100vh; }
         .review-header { text-align: center; margin-bottom: 32px; }
         .score-box { display: inline-flex; flex-direction: column; align-items: center; padding: 20px 36px; background: var(--surface); border: 2px solid var(--accent); border-radius: 14px; margin-bottom: 12px; }
@@ -88,18 +72,17 @@
         .review-a { font-size: 13px; }
         .review-a.correct { color: var(--green); }
         .review-a.wrong { color: var(--pink); }
-
-        /* Responsive */
+        .section-divider { padding: 8px 12px; background: var(--surface-2); border-radius: 6px; margin: 12px 0; font-size: 12px; color: var(--accent-2); font-weight: 600; }
         @media (max-width: 768px) {
             .exam-main { flex-direction: column; }
             .question-panel { width: 100%; height: 50vh; }
             .passage-panel { height: 50vh; border-right: none; border-bottom: 1px solid var(--border); }
             .sheet { height: auto; }
+            .sheet-grid { grid-template-columns: repeat(5, 1fr); }
         }
     </style>
 </head>
 <body>
-    <!-- Exam Header -->
     <div class="exam-header">
         <div class="exam-left">
             <div class="exam-logo">IELTS</div>
@@ -113,35 +96,34 @@
         </div>
     </div>
 
-    <!-- Exam Main -->
     <div class="exam-main" id="examMain">
         <div class="passage-panel" id="passagePanel"></div>
         <div class="question-panel" id="questionPanel"></div>
     </div>
 
-    <!-- Answer Sheet -->
     <div class="sheet" id="sheetPanel">
-        <div class="sheet-title">答题卡</div>
+        <div class="sheet-title" id="sheetTitle">答题卡</div>
         <div id="sheetContent"></div>
         <div style="text-align:center;margin-top:20px;">
             <button class="q-btn q-btn-primary" onclick="hideSheet()">返回考试</button>
         </div>
     </div>
 
-    <!-- Review -->
     <div class="review" id="reviewPanel"></div>
 
     <script>
-        // ─── State ───
         let test = null;
         let lang = 'zh';
         let section = 'listening';
+        let secIdx = 0; // which sub-section (0-3 for listening, 0-2 for reading)
         let qIdx = 0;
         let answers = {};
         let seconds = 0;
         let timerInterval = null;
+        let audioPlaying = false;
+        let audioProgress = 0;
+        let audioInterval = null;
 
-        // ─── Init ───
         function init() {
             const stored = sessionStorage.getItem('ielts-test');
             lang = sessionStorage.getItem('ielts-lang') || 'zh';
@@ -156,12 +138,12 @@
         function toggleLang() {
             lang = lang === 'zh' ? 'en' : 'zh';
             document.getElementById('langBtn').textContent = lang === 'zh' ? 'EN/中' : '中/EN';
+            setupTabs();
             loadQ();
         }
 
         function t(obj) { return typeof obj === 'object' ? (obj[lang] || obj.en || '') : obj; }
 
-        // ─── Tabs ───
         function setupTabs() {
             const tabs = document.getElementById('examTabs');
             tabs.innerHTML = '';
@@ -169,12 +151,11 @@
                 const tab = document.createElement('button');
                 tab.className = 'exam-tab' + (s === section ? ' active' : '');
                 tab.textContent = lang === 'zh' ? { listening: '听力', reading: '阅读', writing: '写作' }[s] : s[0].toUpperCase() + s.slice(1);
-                tab.onclick = () => { section = s; qIdx = 0; setupTabs(); loadQ(); };
+                tab.onclick = () => { section = s; secIdx = 0; qIdx = 0; setupTabs(); loadQ(); };
                 tabs.appendChild(tab);
             });
         }
 
-        // ─── Timer ───
         function startTimer() {
             timerInterval = setInterval(() => {
                 seconds++;
@@ -184,30 +165,77 @@
             }, 1000);
         }
 
-        // ─── Load Question ───
-        function loadQ() {
+        // Get all questions for current section (flattened)
+        function getAllQuestions() {
             const secData = test[section];
-            if (!secData || !secData.sections[0]) return;
-            const sec = secData.sections[0];
-            const qs = sec.questions || [];
+            if (!secData) return [];
+            const all = [];
+            secData.sections.forEach((sub, si) => {
+                (sub.questions || []).forEach(q => {
+                    all.push({ ...q, subSection: si, subTitle: sub.title, subPassage: sub.passage });
+                });
+            });
+            return all;
+        }
 
-            // Passage
-            const pp = document.getElementById('passagePanel');
-            pp.innerHTML = `<div class="passage-title">${t(sec.title)}</div>${section === 'listening' ? '<div class="audio-bar"><button class="play-btn">▶</button><div class="audio-track"><div class="audio-fill"></div></div><span class="audio-time">0:00</span></div>' : ''}<div class="passage-body">${sec.passage}</div>`;
+        // Get current sub-section info
+        function getCurrentSubSection() {
+            const secData = test[section];
+            if (!secData || !secData.sections[secIdx]) return null;
+            return secData.sections[secIdx];
+        }
 
-            // Question
-            const qp = document.getElementById('questionPanel');
-            if (qIdx >= qs.length) {
-                qp.innerHTML = `<div style="text-align:center;padding:40px;"><p style="color:var(--text-2);margin-bottom:16px;">${lang==='zh'?'本部分完成':'Section complete'}</p><button class="q-btn q-btn-primary" onclick="nextSec()">${lang==='zh'?'下一部分':'Next'} →</button></div>`;
+        function loadQ() {
+            const allQ = getAllQuestions();
+            const secData = test[section];
+            if (!secData || allQ.length === 0) return;
+
+            // Find which sub-section current question belongs to
+            let globalIdx = 0;
+            for (let si = 0; si < secIdx; si++) {
+                globalIdx += (secData.sections[si].questions || []).length;
+            }
+            globalIdx += qIdx;
+
+            if (globalIdx >= allQ.length) {
+                // Section complete
+                const pp = document.getElementById('passagePanel');
+                const qp = document.getElementById('questionPanel');
+                pp.innerHTML = `<div class="passage-title">${lang==='zh'?'本部分完成':'Section Complete'}</div>`;
+                qp.innerHTML = `<div style="text-align:center;padding:40px;"><p style="color:var(--text-2);margin-bottom:16px;">${lang==='zh'?'所有题目已完成':'All questions answered'}</p><button class="q-btn q-btn-primary" onclick="nextSec()">${lang==='zh'?'下一部分':'Next Section'} →</button></div>`;
                 return;
             }
 
-            const q = qs[qIdx];
-            let html = `<div class="q-card"><div class="q-num">${lang==='zh'?'第':'Q'}${qIdx+1}${lang==='zh'?'题':' of '+qs.length}</div>`;
+            const q = allQ[globalIdx];
+            const subSec = secData.sections[q.subSection];
+
+            // Left panel - passage
+            const pp = document.getElementById('passagePanel');
+            let leftHtml = `<div class="passage-title">${t(subSec.title)}</div>`;
+
+            // Audio for listening
+            if (section === 'listening') {
+                leftHtml += `<div class="audio-bar">
+                    <button class="play-btn ${audioPlaying?'playing':''}" onclick="toggleAudio()">▶</button>
+                    <div class="audio-track" onclick="seekAudio(event)"><div class="audio-fill" id="audioFill" style="width:${audioProgress}%"></div></div>
+                    <span class="audio-time" id="audioTime">0:00 / 30:00</span>
+                </div>`;
+            }
+
+            leftHtml += `<div class="passage-body">${subSec.passage}</div>`;
+            pp.innerHTML = leftHtml;
+
+            // Right panel - question
+            const qp = document.getElementById('questionPanel');
+            const totalInSection = allQ.length;
+            let html = `<div class="q-card">`;
+            html += `<div class="q-num">${lang==='zh'?'第':'Q'}${globalIdx+1}${lang==='zh'?'题，共':' of '}${totalInSection}${lang==='zh'?'题':''}</div>`;
 
             if (q.type === 'writing') {
                 const wc = answers[q.id] ? answers[q.id].split(/\s+/).filter(w=>w).length : 0;
-                html += `<div class="q-text">${t(q.text||q.prompt)}</div><textarea class="writing-area" oninput="updWC(${q.id},${q.minWords||250})">${answers[q.id]||''}</textarea><div class="word-count">${wc} / ${q.minWords||250} ${lang==='zh'?'字':'words'}</div>`;
+                html += `<div class="q-text">${t(q.text||q.prompt)}</div>`;
+                html += `<textarea class="writing-area" oninput="updWC(${q.id},${q.minWords||250})">${answers[q.id]||''}</textarea>`;
+                html += `<div class="word-count">${wc} / ${q.minWords||250} ${lang==='zh'?'字':'words'}</div>`;
             } else {
                 html += `<div class="q-text">${t(q.text)}</div><div class="q-options">`;
                 (q.options||[]).forEach((o,i) => {
@@ -216,7 +244,11 @@
                 html += '</div>';
             }
 
-            html += `<div class="q-nav"><button class="q-btn q-btn-ghost" onclick="prevQ()" ${qIdx===0?'disabled':''}>← ${lang==='zh'?'上一题':'Prev'}</button><span class="q-progress">${qIdx+1}/${qs.length}</span><button class="q-btn q-btn-primary" onclick="nextQ()">${qIdx===qs.length-1?(lang==='zh'?'完成':'Finish'):(lang==='zh'?'下一题':'Next →')}</button></div></div>`;
+            html += `<div class="q-nav">
+                <button class="q-btn q-btn-ghost" onclick="prevQ()" ${globalIdx===0?'disabled':''}>← ${lang==='zh'?'上一题':'Prev'}</button>
+                <span class="q-progress">${globalIdx+1}/${totalInSection}</span>
+                <button class="q-btn q-btn-primary" onclick="nextQ()">${globalIdx===totalInSection-1?(lang==='zh'?'完成':'Finish'):(lang==='zh'?'下一题':'Next →')}</button>
+            </div></div>`;
             qp.innerHTML = html;
         }
 
@@ -227,15 +259,82 @@
             const wc = ta.value.split(/\s+/).filter(w=>w).length;
             document.querySelector('.word-count').textContent = `${wc} / ${min} ${lang==='zh'?'字':'words'}`;
         }
-        function nextQ() { qIdx++; loadQ(); }
-        function prevQ() { if (qIdx > 0) { qIdx--; loadQ(); } }
+
+        function nextQ() {
+            const secData = test[section];
+            const subSec = secData.sections[secIdx];
+            const subQCount = (subSec.questions || []).length;
+
+            qIdx++;
+            if (qIdx >= subQCount) {
+                // Move to next sub-section
+                secIdx++;
+                qIdx = 0;
+                if (secIdx >= secData.sections.length) {
+                    // Move to next main section
+                    nextSec();
+                    return;
+                }
+            }
+            loadQ();
+        }
+
+        function prevQ() {
+            if (qIdx > 0) {
+                qIdx--;
+            } else if (secIdx > 0) {
+                secIdx--;
+                const secData = test[section];
+                qIdx = (secData.sections[secIdx].questions || []).length - 1;
+            }
+            loadQ();
+        }
+
         function nextSec() {
-            if (section === 'listening') { section = 'reading'; qIdx = 0; setupTabs(); loadQ(); }
-            else if (section === 'reading') { section = 'writing'; qIdx = 0; setupTabs(); loadQ(); }
+            if (section === 'listening') { section = 'reading'; secIdx = 0; qIdx = 0; setupTabs(); loadQ(); }
+            else if (section === 'reading') { section = 'writing'; secIdx = 0; qIdx = 0; setupTabs(); loadQ(); }
             else { endExam(); }
         }
 
-        // ─── Answer Sheet ───
+        // Audio simulation
+        function toggleAudio() {
+            audioPlaying = !audioPlaying;
+            const btn = document.querySelector('.play-btn');
+            if (btn) {
+                btn.textContent = audioPlaying ? '⏸' : '▶';
+                btn.classList.toggle('playing', audioPlaying);
+            }
+            if (audioPlaying) {
+                audioInterval = setInterval(() => {
+                    audioProgress += 0.5;
+                    if (audioProgress >= 100) {
+                        audioProgress = 100;
+                        audioPlaying = false;
+                        clearInterval(audioInterval);
+                        if (btn) { btn.textContent = '▶'; btn.classList.remove('playing'); }
+                    }
+                    const fill = document.getElementById('audioFill');
+                    if (fill) fill.style.width = audioProgress + '%';
+                    const time = document.getElementById('audioTime');
+                    if (time) {
+                      const totalSec = 1800; // 30 min
+                      const cur = Math.floor(totalSec * audioProgress / 100);
+                      time.textContent = `${String(Math.floor(cur/60)).padStart(2,'0')}:${String(cur%60).padStart(2,'0')} / 30:00`;
+                    }
+                }, 100);
+            } else {
+                clearInterval(audioInterval);
+            }
+        }
+
+        function seekAudio(e) {
+            const rect = e.target.getBoundingClientRect();
+            audioProgress = ((e.clientX - rect.left) / rect.width) * 100;
+            const fill = document.getElementById('audioFill');
+            if (fill) fill.style.width = audioProgress + '%';
+        }
+
+        // Answer Sheet
         function showSheet() {
             document.getElementById('examMain').style.display = 'none';
             document.getElementById('sheetPanel').style.display = 'block';
@@ -248,25 +347,30 @@
         function renderSheet() {
             const content = document.getElementById('sheetContent');
             let html = '';
+            let globalNum = 1;
             ['listening', 'reading', 'writing'].forEach(s => {
                 const sec = test[s];
                 if (!sec) return;
-                html += `<div style="margin-bottom:16px;"><div style="font-size:13px;font-weight:600;margin-bottom:8px;">${lang==='zh'?{listening:'听力',reading:'阅读',writing:'写作'}[s]:s.toUpperCase()}</div><div class="sheet-grid">`;
-                sec.sections.forEach(seg => {
-                    seg.questions.forEach((q,i) => {
+                html += `<div style="margin-bottom:16px;"><div style="font-size:13px;font-weight:600;margin-bottom:8px;">${lang==='zh'?{listening:'听力',reading:'阅读',writing:'写作'}[s]:s.toUpperCase()}</div>`;
+                sec.sections.forEach((sub, si) => {
+                    html += `<div style="font-size:11px;color:var(--text-3);margin-bottom:4px;">${t(sub.title)}</div><div class="sheet-grid">`;
+                    (sub.questions||[]).forEach((q,i) => {
                       const answered = answers[q.id] !== undefined;
-                      html += `<div class="sheet-cell${answered?' answered':''}" onclick="goQ('${s}',${i})">${i+1}</div>`;
+                      html += `<div class="sheet-cell${answered?' answered':''}" onclick="goQ('${s}',${si},${i})">${globalNum}</div>`;
+                      globalNum++;
                     });
+                    html += '</div>';
                 });
-                html += '</div></div>';
+                html += '</div>';
             });
             content.innerHTML = html;
         }
-        function goQ(sec, idx) { section = sec; qIdx = idx; hideSheet(); setupTabs(); loadQ(); }
+        function goQ(sec, si, idx) { section = sec; secIdx = si; qIdx = idx; hideSheet(); setupTabs(); loadQ(); }
 
-        // ─── End Exam ───
+        // End Exam
         function endExam() {
             clearInterval(timerInterval);
+            clearInterval(audioInterval);
             document.getElementById('examMain').style.display = 'none';
             document.getElementById('sheetPanel').style.display = 'none';
             document.getElementById('reviewPanel').style.display = 'block';
@@ -297,7 +401,6 @@
             rp.innerHTML = html;
         }
 
-        // ─── Start ───
         init();
     </script>
 </body>
