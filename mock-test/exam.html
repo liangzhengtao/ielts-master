@@ -171,9 +171,23 @@
             if (!secData) return [];
             const all = [];
             secData.sections.forEach((sub, si) => {
-                (sub.questions || []).forEach(q => {
-                    all.push({ ...q, subSection: si, subTitle: sub.title, subPassage: sub.passage });
-                });
+                if (section === 'writing') {
+                    // Writing has prompts, not questions
+                    all.push({
+                        id: 'writing_' + si,
+                        type: 'writing',
+                        text: sub.prompt,
+                        prompt: sub.prompt,
+                        minWords: sub.minWords || (si === 0 ? 150 : 250),
+                        subSection: si,
+                        subTitle: sub.title,
+                        subPassage: ''
+                    });
+                } else {
+                    (sub.questions || []).forEach(q => {
+                        all.push({ ...q, subSection: si, subTitle: sub.title, subPassage: sub.passage });
+                    });
+                }
             });
             return all;
         }
@@ -354,11 +368,18 @@
                 html += `<div style="margin-bottom:16px;"><div style="font-size:13px;font-weight:600;margin-bottom:8px;">${lang==='zh'?{listening:'听力',reading:'阅读',writing:'写作'}[s]:s.toUpperCase()}</div>`;
                 sec.sections.forEach((sub, si) => {
                     html += `<div style="font-size:11px;color:var(--text-3);margin-bottom:4px;">${t(sub.title)}</div><div class="sheet-grid">`;
-                    (sub.questions||[]).forEach((q,i) => {
-                      const answered = answers[q.id] !== undefined;
-                      html += `<div class="sheet-cell${answered?' answered':''}" onclick="goQ('${s}',${si},${i})">${globalNum}</div>`;
-                      globalNum++;
-                    });
+                    if (s === 'writing') {
+                        // Writing has prompts, not questions
+                        const answered = answers['writing_' + si] !== undefined && answers['writing_' + si].length > 0;
+                        html += `<div class="sheet-cell${answered?' answered':''}" onclick="goQ('${s}',${si},0)">${lang==='zh'?'任务':'Task'} ${si+1}</div>`;
+                        globalNum++;
+                    } else {
+                        (sub.questions||[]).forEach((q,i) => {
+                          const answered = answers[q.id] !== undefined;
+                          html += `<div class="sheet-cell${answered?' answered':''}" onclick="goQ('${s}',${si},${i})">${globalNum}</div>`;
+                          globalNum++;
+                        });
+                    }
                     html += '</div>';
                 });
                 html += '</div>';
@@ -380,23 +401,35 @@
         function showReview() {
             let correct = 0, total = 0;
             ['listening', 'reading'].forEach(s => {
-                if (test[s]) test[s].sections.forEach(seg => seg.questions.forEach(q => {
-                    if (q.answer !== undefined && q.options) { total++; if (answers[q.id] === q.answer) correct++; }
-                }));
+                if (test[s]) test[s].sections.forEach(seg => {
+                    (seg.questions||[]).forEach(q => {
+                        if (q.answer !== undefined && q.options) { total++; if (answers[q.id] === q.answer) correct++; }
+                    });
+                });
             });
             const band = total > 0 ? Math.round((correct / total) * 9) : 0;
             const rp = document.getElementById('reviewPanel');
             let html = `<div class="review-header"><h1 style="font-size:28px;margin-bottom:16px;">${lang==='zh'?'考试完成':'Exam Complete'}</h1><div class="score-box"><div class="score-num">${band}</div><div class="score-lbl">${lang==='zh'?'预估分数':'Estimated Band'}</div></div><p style="color:var(--text-2);">${lang==='zh'?`答对 ${correct}/${total} 题`:`${correct}/${total} correct`}</p></div><h2 style="margin-bottom:16px;font-size:18px;">${lang==='zh'?'答案回顾':'Review'}</h2>`;
             ['listening', 'reading'].forEach(s => {
-                if (test[s]) test[s].sections.forEach(seg => seg.questions.forEach(q => {
-                    if (q.answer !== undefined && q.options) {
-                        const ok = answers[q.id] === q.answer;
-                        const yourAns = answers[q.id] !== undefined ? t(q.options[answers[q.id]]) : (lang==='zh'?'未作答':'Not answered');
-                        const correctAns = t(q.options[q.answer]);
-                      html += `<div class="review-item ${ok?'correct':'wrong'}"><div class="review-q">Q${q.id}: ${t(q.text)}</div><div class="review-a ${ok?'correct':'wrong'}">${ok?'✓':'✗'} ${yourAns} ${!ok?'→ '+correctAns:''}</div></div>`;
-                    }
-                }));
+                if (test[s]) test[s].sections.forEach(seg => {
+                    (seg.questions||[]).forEach(q => {
+                        if (q.answer !== undefined && q.options) {
+                            const ok = answers[q.id] === q.answer;
+                            const yourAns = answers[q.id] !== undefined ? t(q.options[answers[q.id]]) : (lang==='zh'?'未作答':'Not answered');
+                            const correctAns = t(q.options[q.answer]);
+                          html += `<div class="review-item ${ok?'correct':'wrong'}"><div class="review-q">Q${q.id}: ${t(q.text)}</div><div class="review-a ${ok?'correct':'wrong'}">${ok?'✓':'✗'} ${yourAns} ${!ok?'→ '+correctAns:''}</div></div>`;
+                        }
+                    });
+                });
             });
+            // Show writing tasks
+            if (test.writing) {
+              html += `<h2 style="margin:24px 0 16px;font-size:18px;">${lang==='zh'?'写作':'Writing'}</h2>`;
+              test.writing.sections.forEach((sub,si) => {
+                const wc = answers['writing_'+si] ? answers['writing_'+si].split(/\s+/).filter(w=>w).length : 0;
+                html += `<div class="review-item"><div class="review-q">${t(sub.title)}</div><div class="review-a">${lang==='zh'?`已写 ${wc} 字`:`${wc} words written`}</div></div>`;
+              });
+            }
             html += `<div style="text-align:center;margin-top:24px;"><button class="q-btn q-btn-primary" onclick="window.location.href='index.html'">${lang==='zh'?'返回':'Back'}</button></div>`;
             rp.innerHTML = html;
         }
