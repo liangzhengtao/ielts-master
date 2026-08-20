@@ -1,0 +1,1224 @@
+{
+  "id": 1,
+  "title": {
+    "en": "IELTS Practice Test 1",
+    "zh": "雅思模拟考试 1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Conversation between two people in an everyday social context",
+          "zh": "第一部分 - 日常社交场景中的两人对话"
+        },
+        "passage": "A conversation between a student and a housing officer at a university. The student, Maria, is calling to inquire about accommodation options for the upcoming academic year. She mentions that she previously lived in a shared house off-campus but wants to try university housing this time. The housing officer, David, explains the different types of accommodation available: single rooms in halls of residence, shared flats with other postgraduate students, and family apartments for those with dependents. Maria says she is a postgraduate student studying Environmental Science and prefers a quiet environment for studying. David suggests Elm Hall, which is specifically designated for postgraduate students and has a no-noise policy after 10 PM. The rent is 650 pounds per month, which includes all utility bills and internet access. Maria asks about the distance to the Science Faculty building, and David tells her it's approximately a ten-minute walk, though there is also a shuttle bus service that runs every fifteen minutes during term time. Maria then asks about the application deadline, and David explains that she needs to submit her application form along with a copy of her student ID and proof of enrollment by the end of June. He also mentions that a deposit of one month's rent is required upon acceptance, which is refundable at the end of the tenancy agreement provided there is no damage to the property. Maria thanks David for the information and says she will complete the application form online that evening.",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What type of accommodation did Maria previously live in?",
+              "zh": "Maria 之前住的是哪种类型的住所？"
+            },
+            "options": [
+              {"en": "University hall of residence", "zh": "大学宿舍"},
+              {"en": "A shared house off-campus", "zh": "校外合租房"},
+              {"en": "A family apartment", "zh": "家庭公寓"},
+              {"en": "A private studio flat", "zh": "私人单间公寓"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What is Maria studying?",
+              "zh": "Maria 学的是什么专业？"
+            },
+            "options": [
+              {"en": "Computer Science", "zh": "计算机科学"},
+              {"en": "Business Administration", "zh": "工商管理"},
+              {"en": "Environmental Science", "zh": "环境科学"},
+              {"en": "Engineering", "zh": "工程学"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "Which hall does David recommend for Maria?",
+              "zh": "David 推荐 Maria 住哪栋宿舍楼？"
+            },
+            "options": [
+              {"en": "Oak Hall", "zh": "橡树楼"},
+              {"en": "Elm Hall", "zh": "榆树楼"},
+              {"en": "Pine Hall", "zh": "松树楼"},
+              {"en": "Maple Hall", "zh": "枫树楼"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What is the monthly rent for the accommodation?",
+              "zh": "该住所的月租金是多少？"
+            },
+            "options": [
+              {"en": "550 pounds", "zh": "550英镑"},
+              {"en": "600 pounds", "zh": "600英镑"},
+              {"en": "650 pounds", "zh": "650英镑"},
+              {"en": "700 pounds", "zh": "700英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "The rent includes all of the following EXCEPT:",
+              "zh": "租金包含以下所有费用，除了："
+            },
+            "options": [
+              {"en": "Utility bills", "zh": "水电费"},
+              {"en": "Internet access", "zh": "网络接入"},
+              {"en": "Meals", "zh": "餐食"},
+              {"en": "Water charges", "zh": "水费"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "How far is Elm Hall from the Science Faculty building?",
+              "zh": "榆树楼距离理学院大楼有多远？"
+            },
+            "options": [
+              {"en": "A five-minute walk", "zh": "步行五分钟"},
+              {"en": "A ten-minute walk", "zh": "步行十分钟"},
+              {"en": "A fifteen-minute walk", "zh": "步行十五分钟"},
+              {"en": "A twenty-minute walk", "zh": "步行二十分钟"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How often does the shuttle bus run during term time?",
+              "zh": "学期期间班车多久一班？"
+            },
+            "options": [
+              {"en": "Every five minutes", "zh": "每五分钟"},
+              {"en": "Every ten minutes", "zh": "每十分钟"},
+              {"en": "Every fifteen minutes", "zh": "每十五分钟"},
+              {"en": "Every twenty minutes", "zh": "每二十分钟"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What is the application deadline?",
+              "zh": "申请截止日期是什么时候？"
+            },
+            "options": [
+              {"en": "End of May", "zh": "五月底"},
+              {"en": "End of June", "zh": "六月底"},
+              {"en": "End of July", "zh": "七月底"},
+              {"en": "End of August", "zh": "八月底"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What documents are required for the application?",
+              "zh": "申请需要哪些文件？"
+            },
+            "options": [
+              {"en": "Student ID and passport copy", "zh": "学生证和护照复印件"},
+              {"en": "Student ID and proof of enrollment", "zh": "学生证和在读证明"},
+              {"en": "Passport and bank statement", "zh": "护照和银行对账单"},
+              {"en": "Proof of enrollment and reference letter", "zh": "在读证明和推荐信"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "When is the deposit refundable?",
+              "zh": "押金在什么情况下可以退还？"
+            },
+            "options": [
+              {"en": "At any time during the tenancy", "zh": "租期内任何时候"},
+              {"en": "At the end of the tenancy if there is no damage", "zh": "租期结束时如果没有损坏"},
+              {"en": "After six months of residence", "zh": "入住六个月后"},
+              {"en": "Only if Maria moves out early", "zh": "只有 Maria 提前搬出时"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Monologue in an everyday social context",
+          "zh": "第二部分 - 日常社交场景中的独白"
+        },
+        "passage": "Welcome to the Greenfield Community Centre. My name is Sarah and I'm the Activities Coordinator here. I'd like to tell you about the various programs and facilities we offer to local residents. The community centre was established in 1998 and has been serving the Greenfield neighbourhood for over twenty-five years. We are open seven days a week, from 7 AM until 10 PM on weekdays and from 8 AM until 8 PM on weekends. Our fitness centre on the ground floor includes a fully equipped gym with cardiovascular and weight-training machines, a 25-metre swimming pool, and a studio for yoga and pilates classes. Membership costs 45 pounds per month for adults, with a discounted rate of 30 pounds for students and senior citizens. We also offer family memberships at 100 pounds per month, which covers two adults and up to three children under sixteen. On the first floor, we have our arts and crafts workshop, which runs sessions every Tuesday and Thursday afternoon. These sessions are free for members and 5 pounds per session for non-members. The workshop covers painting, pottery, and textile arts, and all materials are provided. Our children's programme operates during school holidays and includes activities such as drama workshops, science experiments, and outdoor adventure trips. For older residents, we run a social club every Wednesday morning with activities including book discussions, board games, and guest speakers on topics of local interest. The centre also has a small café on the ground floor that serves hot and cold meals, snacks, and beverages. The café is open from 9 AM until 5 PM daily and offers a 10 percent discount to all centre members. We recently introduced a loyalty card system where every tenth purchase is free. For more information about any of our programmes or to register for membership, please visit our reception desk or call us on 01onal 456-7890. You can also visit our website at www.greenfieldcc.org where you can download membership forms and view the full schedule of activities.",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "When was the community centre established?",
+              "zh": "社区中心是什么时候建立的？"
+            },
+            "options": [
+              {"en": "1988", "zh": "1988年"},
+              {"en": "1998", "zh": "1998年"},
+              {"en": "2008", "zh": "2008年"},
+              {"en": "2018", "zh": "2018年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What are the weekend opening hours?",
+              "zh": "周末的开放时间是什么？"
+            },
+            "options": [
+              {"en": "7 AM to 10 PM", "zh": "上午7点到晚上10点"},
+              {"en": "8 AM to 8 PM", "zh": "上午8点到晚上8点"},
+              {"en": "9 AM to 6 PM", "zh": "上午9点到下午6点"},
+              {"en": "10 AM to 5 PM", "zh": "上午10点到下午5点"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How long is the swimming pool?",
+              "zh": "游泳池有多长？"
+            },
+            "options": [
+              {"en": "15 metres", "zh": "15米"},
+              {"en": "20 metres", "zh": "20米"},
+              {"en": "25 metres", "zh": "25米"},
+              {"en": "50 metres", "zh": "50米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "What is the monthly adult membership fee?",
+              "zh": "成人会员月费是多少？"
+            },
+            "options": [
+              {"en": "30 pounds", "zh": "30英镑"},
+              {"en": "35 pounds", "zh": "35英镑"},
+              {"en": "45 pounds", "zh": "45英镑"},
+              {"en": "100 pounds", "zh": "100英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How many children can a family membership cover?",
+              "zh": "家庭会员最多可以包含几个孩子？"
+            },
+            "options": [
+              {"en": "One", "zh": "一个"},
+              {"en": "Two", "zh": "两个"},
+              {"en": "Three", "zh": "三个"},
+              {"en": "Four", "zh": "四个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "On which days does the arts and crafts workshop run?",
+              "zh": "手工艺术工作坊在哪几天开课？"
+            },
+            "options": [
+              {"en": "Monday and Wednesday", "zh": "周一和周三"},
+              {"en": "Tuesday and Thursday", "zh": "周二和周四"},
+              {"en": "Wednesday and Friday", "zh": "周三和周五"},
+              {"en": "Saturday and Sunday", "zh": "周六和周日"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What activities are included in the children's programme?",
+              "zh": "儿童项目包括哪些活动？"
+            },
+            "options": [
+              {"en": "Swimming and gymnastics", "zh": "游泳和体操"},
+              {"en": "Drama, science experiments, and outdoor trips", "zh": "戏剧、科学实验和户外旅行"},
+              {"en": "Music and dance classes", "zh": "音乐和舞蹈课"},
+              {"en": "Language classes and tutoring", "zh": "语言课和辅导"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "When does the social club for older residents meet?",
+              "zh": "老年居民社交俱乐部什么时候聚会？"
+            },
+            "options": [
+              {"en": "Monday morning", "zh": "周一上午"},
+              {"en": "Tuesday morning", "zh": "周二上午"},
+              {"en": "Wednesday morning", "zh": "周三上午"},
+              {"en": "Thursday morning", "zh": "周四上午"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What discount do centre members receive at the café?",
+              "zh": "中心会员在咖啡厅享受什么折扣？"
+            },
+            "options": [
+              {"en": "5 percent", "zh": "5%"},
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "20 percent", "zh": "20%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What reward does the loyalty card offer?",
+              "zh": "会员卡提供什么奖励？"
+            },
+            "options": [
+              {"en": "Every fifth purchase is free", "zh": "每第五次消费免费"},
+              {"en": "Every tenth purchase is free", "zh": "每第十次消费免费"},
+              {"en": "A 20 percent discount on all purchases", "zh": "所有消费打八折"},
+              {"en": "Double points on weekends", "zh": "周末双倍积分"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Conversation between up to four people in an educational or training context",
+          "zh": "第三部分 - 教育或培训场景中的多人对话（最多四人）"
+        },
+        "passage": "A conversation between two university students, James and Emily, and their tutor, Professor Williams, about their joint research project on urban wildlife habitats. James and Emily have been studying the population of red foxes in the city of Bristol over the past six months. Professor Williams asks them to summarize their findings so far. James explains that they conducted surveys in three different areas of the city: the suburban residential area of Bishopston, the industrial zone near Avonmouth, and the parkland areas around Ashton Court. They used camera traps and footprint tracking to estimate population density. Emily reports that they found the highest concentration of foxes in the suburban residential area, with an estimated population density of 12 foxes per square kilometre. This was significantly higher than the industrial zone, which had only 3 foxes per square kilometre, and the parkland areas, which had approximately 7 foxes per square kilometre. Professor Williams asks about the reasons for these differences. Emily suggests that the abundance of food sources in residential areas, particularly discarded human food waste in bins, is a major factor. James adds that foxes in residential areas also have access to shelter in garden sheds, under decking, and in disused buildings. They note that foxes in the industrial zone face challenges such as pollution and limited food sources, while parkland foxes have more natural food but face competition from other predators. Professor Williams then asks about the methodology they used to collect data. James explains that they set up 15 camera traps across the three study areas, with 5 cameras in each location. The cameras were left in place for four weeks at a time, and they conducted three separate survey periods. Emily adds that they also used GPS tracking devices on a sample of 8 foxes to monitor their movement patterns and home range sizes. The GPS data revealed that suburban foxes had much smaller home ranges, averaging 0.8 square kilometres, compared to industrial area foxes with ranges of up to 3.5 square kilometres. Professor Williams commends their work but suggests they should also consider seasonal variations in their analysis, as fox behaviour changes significantly between breeding season in winter and the rest of the year. He recommends they conduct additional surveys during the mating season in January and February to compare with their current data, which was primarily collected in spring and summer. He also suggests they look at the impact of recent urban development projects on fox populations and consider collaborating with the local wildlife trust, which has been conducting similar research in neighbouring areas.",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What animal are James and Emily studying?",
+              "zh": "James 和 Emily 在研究什么动物？"
+            },
+            "options": [
+              {"en": "Badgers", "zh": "獾"},
+              {"en": "Red foxes", "zh": "红狐"},
+              {"en": "Hedgehogs", "zh": "刺猬"},
+              {"en": "Rabbits", "zh": "兔子"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "How long have they been conducting their research?",
+              "zh": "他们进行了多长时间的研究？"
+            },
+            "options": [
+              {"en": "Three months", "zh": "三个月"},
+              {"en": "Six months", "zh": "六个月"},
+              {"en": "Nine months", "zh": "九个月"},
+              {"en": "One year", "zh": "一年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "In which area did they find the highest fox population density?",
+              "zh": "他们在哪个区域发现了最高的狐狸种群密度？"
+            },
+            "options": [
+              {"en": "Industrial zone near Avonmouth", "zh": "阿文茅斯附近的工业区"},
+              {"en": "Parkland around Ashton Court", "zh": "阿什顿庄园周围的公园地带"},
+              {"en": "Suburban residential area of Bishopston", "zh": "毕晓普斯顿郊区住宅区"},
+              {"en": "City centre", "zh": "市中心"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What was the fox density in the suburban area?",
+              "zh": "郊区的狐狸密度是多少？"
+            },
+            "options": [
+              {"en": "7 per square kilometre", "zh": "每平方公里7只"},
+              {"en": "9 per square kilometre", "zh": "每平方公里9只"},
+              {"en": "12 per square kilometre", "zh": "每平方公里12只"},
+              {"en": "15 per square kilometre", "zh": "每平方公里15只"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What does Emily identify as a major factor for higher fox numbers in residential areas?",
+              "zh": "Emily 认为住宅区狐狸数量较高的主要因素是什么？"
+            },
+            "options": [
+              {"en": "Fewer predators in urban areas", "zh": "城市地区捕食者较少"},
+              {"en": "Abundant food from human waste", "zh": "人类废弃物提供的丰富食物"},
+              {"en": "Warmer temperatures in the city", "zh": "城市温度较高"},
+              {"en": "Government conservation programs", "zh": "政府保护计划"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How many camera traps were set up in total?",
+              "zh": "总共设置了多少个摄像头陷阱？"
+            },
+            "options": [
+              {"en": "5", "zh": "5个"},
+              {"en": "8", "zh": "8个"},
+              {"en": "10", "zh": "10个"},
+              {"en": "15", "zh": "15个"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "How many foxes were fitted with GPS tracking devices?",
+              "zh": "有多少只狐狸被安装了GPS追踪器？"
+            },
+            "options": [
+              {"en": "5", "zh": "5只"},
+              {"en": "8", "zh": "8只"},
+              {"en": "10", "zh": "10只"},
+              {"en": "12", "zh": "12只"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What was the average home range size for suburban foxes?",
+              "zh": "郊区狐狸的平均活动范围是多少？"
+            },
+            "options": [
+              {"en": "0.5 square kilometres", "zh": "0.5平方公里"},
+              {"en": "0.8 square kilometres", "zh": "0.8平方公里"},
+              {"en": "1.2 square kilometres", "zh": "1.2平方公里"},
+              {"en": "2.0 square kilometres", "zh": "2.0平方公里"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When does Professor Williams suggest they should conduct additional surveys?",
+              "zh": "Williams 教授建议他们什么时候进行额外调查？"
+            },
+            "options": [
+              {"en": "During spring migration", "zh": "春季迁徙期间"},
+              {"en": "During mating season in January and February", "zh": "一月和二月的交配季节期间"},
+              {"en": "During the summer holidays", "zh": "暑假期间"},
+              {"en": "During autumn when food is scarce", "zh": "食物匮乏的秋季"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What additional suggestion does Professor Williams make?",
+              "zh": "Williams 教授还提出了什么额外建议？"
+            },
+            "options": [
+              {"en": "Expand the study to rural areas", "zh": "将研究扩展到农村地区"},
+              {"en": "Use different camera equipment", "zh": "使用不同的摄像设备"},
+              {"en": "Collaborate with the local wildlife trust", "zh": "与当地野生动物信托基金合作"},
+              {"en": "Publish their findings immediately", "zh": "立即发表他们的研究结果"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Monologue on an academic subject",
+          "zh": "第四部分 - 学术主题的独白"
+        },
+        "passage": "Good morning, everyone. Today's lecture is about the history and development of renewable energy sources, with a particular focus on solar power technology. I'll be discussing how solar energy has evolved from a niche scientific curiosity into one of the fastest-growing energy sources in the world. The story of solar power begins in 1839 when French physicist Edmond Becquerel discovered the photovoltaic effect, which is the process by which sunlight is converted into electricity. However, it wasn't until 1954 that researchers at Bell Laboratories in the United States developed the first practical silicon solar cell, which achieved an efficiency of about 6 percent. This was a breakthrough moment, though the technology remained prohibitively expensive for widespread use. During the 1960s and 1970s, solar cells found their first practical application in the space industry, powering satellites and spacecraft. The energy crisis of the 1970s spurred renewed interest in solar power as an alternative to fossil fuels, and governments around the world began investing in research and development. By the 1990s, solar panel efficiency had improved significantly, reaching around 15 percent for commercial panels, and costs had begun to decline. The real transformation came in the 2000s and 2010s, driven largely by manufacturing innovations and economies of scale, particularly in China. The cost of solar panels fell by approximately 90 percent between 2010 and 2020, making solar energy competitive with, and in many cases cheaper than, traditional fossil fuel sources. Today, the most efficient commercial solar panels can convert around 22 percent of sunlight into electricity, while laboratory prototypes have achieved efficiencies exceeding 47 percent using multi-junction cell technology. There are two main types of solar power systems: photovoltaic panels, which convert sunlight directly into electricity, and concentrated solar power systems, which use mirrors or lenses to focus sunlight onto a receiver that generates heat to drive a turbine. Photovoltaic systems are far more common for residential and commercial use, while concentrated solar power is typically used in large-scale power plants in regions with high direct sunlight, such as the deserts of North Africa and the American Southwest. One of the main challenges facing solar energy is intermittency, meaning that solar panels only generate electricity when the sun is shining. This has led to significant research into energy storage solutions, particularly lithium-ion batteries and emerging technologies such as solid-state batteries and hydrogen fuel cells. Another challenge is the environmental impact of manufacturing solar panels, which requires rare earth minerals and energy-intensive processes. However, studies have shown that the carbon footprint of solar panel production is typically offset within two to three years of operation, and panels have a lifespan of 25 to 30 years. Looking to the future, emerging technologies such as perovskite solar cells, which can be printed onto flexible surfaces, and building-integrated photovoltaics, which incorporate solar cells into windows and building materials, promise to further expand the applications and reduce the costs of solar energy. The International Energy Agency projects that solar power will become the largest source of electricity generation globally by 2050, accounting for approximately 30 percent of total electricity production.",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "Who discovered the photovoltaic effect?",
+              "zh": "谁发现了光伏效应？"
+            },
+            "options": [
+              {"en": "Albert Einstein", "zh": "阿尔伯特·爱因斯坦"},
+              {"en": "Thomas Edison", "zh": "托马斯·爱迪生"},
+              {"en": "Edmond Becquerel", "zh": "埃德蒙·贝克勒尔"},
+              {"en": "Nikola Tesla", "zh": "尼古拉·特斯拉"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "In which year was the first practical silicon solar cell developed?",
+              "zh": "第一个实用硅太阳能电池是在哪一年开发的？"
+            },
+            "options": [
+              {"en": "1839", "zh": "1839年"},
+              {"en": "1954", "zh": "1954年"},
+              {"en": "1970", "zh": "1970年"},
+              {"en": "1990", "zh": "1990年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What was the efficiency of the first practical solar cell?",
+              "zh": "第一个实用太阳能电池的效率是多少？"
+            },
+            "options": [
+              {"en": "About 2 percent", "zh": "约2%"},
+              {"en": "About 6 percent", "zh": "约6%"},
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 22 percent", "zh": "约22%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "Where were solar cells first used practically?",
+              "zh": "太阳能电池最初在哪个领域得到实际应用？"
+            },
+            "options": [
+              {"en": "Residential homes", "zh": "住宅"},
+              {"en": "The space industry", "zh": "航天工业"},
+              {"en": "Commercial buildings", "zh": "商业建筑"},
+              {"en": "Power plants", "zh": "发电厂"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "By how much did the cost of solar panels fall between 2010 and 2020?",
+              "zh": "2010年至2020年间太阳能电池板的成本下降了多少？"
+            },
+            "options": [
+              {"en": "About 50 percent", "zh": "约50%"},
+              {"en": "About 70 percent", "zh": "约70%"},
+              {"en": "About 90 percent", "zh": "约90%"},
+              {"en": "About 95 percent", "zh": "约95%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What efficiency have laboratory solar cell prototypes achieved?",
+              "zh": "实验室太阳能电池原型达到了什么效率？"
+            },
+            "options": [
+              {"en": "Exceeding 22 percent", "zh": "超过22%"},
+              {"en": "Exceeding 30 percent", "zh": "超过30%"},
+              {"en": "Exceeding 47 percent", "zh": "超过47%"},
+              {"en": "Exceeding 60 percent", "zh": "超过60%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "Where is concentrated solar power typically used?",
+              "zh": "聚光太阳能通常在哪里使用？"
+            },
+            "options": [
+              {"en": "In residential areas", "zh": "在住宅区"},
+              {"en": "In cloudy northern regions", "zh": "在多云的北方地区"},
+              {"en": "In large-scale power plants in high-sunlight regions", "zh": "在高日照地区的大规模发电厂"},
+              {"en": "In underwater installations", "zh": "在水下设施中"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What is the main challenge of solar energy mentioned in the lecture?",
+              "zh": "讲座中提到的太阳能的主要挑战是什么？"
+            },
+            "options": [
+              {"en": "High manufacturing costs", "zh": "高昂的制造成本"},
+              {"en": "Intermittency", "zh": "间歇性"},
+              {"en": "Lack of public interest", "zh": "缺乏公众兴趣"},
+              {"en": "Insufficient sunlight in most regions", "zh": "大多数地区日照不足"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "How long does it typically take for solar panels to offset their production carbon footprint?",
+              "zh": "太阳能电池板通常需要多长时间来抵消其生产碳足迹？"
+            },
+            "options": [
+              {"en": "Six months to one year", "zh": "六个月到一年"},
+              {"en": "Two to three years", "zh": "两到三年"},
+              {"en": "Five to seven years", "zh": "五到七年"},
+              {"en": "Ten years", "zh": "十年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What percentage of global electricity does the IEA project solar will provide by 2050?",
+              "zh": "国际能源署预测到2050年太阳能将提供全球多少百分比的电力？"
+            },
+            "options": [
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 20 percent", "zh": "约20%"},
+              {"en": "About 30 percent", "zh": "约30%"},
+              {"en": "About 50 percent", "zh": "约50%"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The History of Tea",
+          "zh": "文章1 - 茶的历史"
+        },
+        "passage": "Tea is one of the most widely consumed beverages in the world, second only to water. Its history stretches back nearly five thousand years to ancient China, where legend has it that Emperor Shen Nung discovered tea in 2737 BC when leaves from a wild tea tree blew into his pot of boiling water. While this story is likely apocryphal, archaeological evidence suggests that tea was indeed consumed in China as early as the Han Dynasty (206 BC to 220 AD), initially for its medicinal properties. During the Tang Dynasty (618 to 907 AD), tea drinking became a widespread cultural practice, and the scholar Lu Yu wrote the first known treatise on tea, The Classic of Tea, which detailed the cultivation, processing, and preparation of tea. Tea was introduced to Japan by Buddhist monks in the early ninth century, and the Japanese developed their own elaborate tea ceremony, known as chanoyu, which emphasises harmony, respect, purity, and tranquility. The tea ceremony became a central element of Japanese culture and remains so to this day. Tea reached Europe in the sixteenth century through Portuguese and Dutch traders, who brought it from their trading posts in Asia. It quickly became fashionable among the European aristocracy, particularly in Britain, where it was initially an expensive luxury item affordable only by the wealthy. The British East India Company played a crucial role in popularising tea in Britain, and by the eighteenth century, tea had become the national drink. The British passion for tea had profound global consequences. To address the trade imbalance caused by Britain's massive tea imports from China, the British East India Company began growing tea in India, particularly in the regions of Assam and Darjeeling, and in Sri Lanka, then known as Ceylon. This colonial tea industry transformed the economies and landscapes of these regions and established India as one of the world's largest tea producers. The tea trade also contributed to significant historical events, including the Opium Wars between Britain and China in the nineteenth century and the Boston Tea Party of 1773, which was a catalyst for the American Revolution. Today, tea is grown in more than sixty countries, with China, India, Kenya, Sri Lanka, and Turkey being the largest producers. Global tea production exceeded six million tonnes in 2020, and the industry employs millions of people worldwide. The most common types of tea are black, green, oolong, and white, all of which come from the same plant, Camellia sinensis, but differ in their processing methods. Black tea is fully oxidised, green tea is unoxidised, oolong is partially oxidised, and white tea is made from young buds and minimally processed. In recent years, there has been growing interest in specialty and artisan teas, with consumers increasingly seeking out single-origin teas and unique flavour profiles, much as they do with specialty coffee. The health benefits of tea have also attracted considerable scientific attention, with studies suggesting that regular tea consumption may reduce the risk of heart disease, certain cancers, and neurodegenerative conditions, though more research is needed to confirm these findings.",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "According to legend, who discovered tea?",
+              "zh": "根据传说，谁发现了茶？"
+            },
+            "options": [
+              {"en": "Lu Yu", "zh": "陆羽"},
+              {"en": "Emperor Shen Nung", "zh": "神农帝"},
+              {"en": "Buddhist monks", "zh": "佛教僧侣"},
+              {"en": "Portuguese traders", "zh": "葡萄牙商人"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When was tea first consumed according to archaeological evidence?",
+              "zh": "根据考古证据，茶最早是什么时候被饮用的？"
+            },
+            "options": [
+              {"en": "2737 BC", "zh": "公元前2737年"},
+              {"en": "During the Han Dynasty", "zh": "汉朝时期"},
+              {"en": "During the Tang Dynasty", "zh": "唐朝时期"},
+              {"en": "In the ninth century", "zh": "九世纪"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What did Lu Yu's The Classic of Tea describe?",
+              "zh": "陆羽的《茶经》描述了什么？"
+            },
+            "options": [
+              {"en": "Tea trading routes", "zh": "茶叶贸易路线"},
+              {"en": "The cultivation, processing, and preparation of tea", "zh": "茶的种植、加工和制备"},
+              {"en": "Japanese tea ceremonies", "zh": "日本茶道"},
+              {"en": "The medicinal uses of tea", "zh": "茶的药用价值"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What are the four principles of the Japanese tea ceremony?",
+              "zh": "日本茶道的四个原则是什么？"
+            },
+            "options": [
+              {"en": "Speed, efficiency, precision, and cleanliness", "zh": "速度、效率、精确和清洁"},
+              {"en": "Harmony, respect, purity, and tranquility", "zh": "和谐、尊重、纯洁和宁静"},
+              {"en": "Patience, dedication, mindfulness, and gratitude", "zh": "耐心、奉献、正念和感恩"},
+              {"en": "Simplicity, elegance, tradition, and spirituality", "zh": "简洁、优雅、传统和灵性"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "Which European traders first brought tea to Europe?",
+              "zh": "哪些欧洲商人首先将茶带到欧洲？"
+            },
+            "options": [
+              {"en": "British and French", "zh": "英国和法国"},
+              {"en": "Spanish and Italian", "zh": "西班牙和意大利"},
+              {"en": "Portuguese and Dutch", "zh": "葡萄牙和荷兰"},
+              {"en": "German and Swedish", "zh": "德国和瑞典"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Why did the British East India Company begin growing tea in India?",
+              "zh": "为什么英国东印度公司开始在印度种植茶？"
+            },
+            "options": [
+              {"en": "Because tea could not grow in Britain", "zh": "因为茶不能在英国生长"},
+              {"en": "To address the trade imbalance with China", "zh": "为了解决与中国的贸易失衡"},
+              {"en": "To supply the American colonies", "zh": "为了供应美洲殖民地"},
+              {"en": "Because Indian tea was of better quality", "zh": "因为印度茶质量更好"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "The Boston Tea Party of 1773 was a catalyst for which historical event?",
+              "zh": "1773年的波士顿倾茶事件是哪个历史事件的催化剂？"
+            },
+            "options": [
+              {"en": "The French Revolution", "zh": "法国大革命"},
+              {"en": "The Industrial Revolution", "zh": "工业革命"},
+              {"en": "The American Revolution", "zh": "美国独立战争"},
+              {"en": "The Opium Wars", "zh": "鸦片战争"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "Which country is NOT mentioned as one of the largest tea producers?",
+              "zh": "以下哪个国家没有被提到是最大的茶叶生产国之一？"
+            },
+            "options": [
+              {"en": "China", "zh": "中国"},
+              {"en": "Japan", "zh": "日本"},
+              {"en": "Kenya", "zh": "肯尼亚"},
+              {"en": "Turkey", "zh": "土耳其"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What differentiates the types of tea from the same plant?",
+              "zh": "是什么使来自同一植物的不同类型的茶有所区别？"
+            },
+            "options": [
+              {"en": "Different plant varieties", "zh": "不同的植物品种"},
+              {"en": "Different growing regions", "zh": "不同的种植区域"},
+              {"en": "Different processing methods", "zh": "不同的加工方法"},
+              {"en": "Different harvesting seasons", "zh": "不同的采摘季节"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What does 'black tea' refer to in terms of processing?",
+              "zh": "从加工角度来看，'红茶'指的是什么？"
+            },
+            "options": [
+              {"en": "Minimally processed tea", "zh": "最少加工的茶"},
+              {"en": "Unoxidised tea", "zh": "未氧化的茶"},
+              {"en": "Fully oxidised tea", "zh": "完全氧化的茶"},
+              {"en": "Fermented tea", "zh": "发酵茶"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "How much did global tea production exceed in 2020?",
+              "zh": "2020年全球茶叶产量超过了多少？"
+            },
+            "options": [
+              {"en": "Four million tonnes", "zh": "400万吨"},
+              {"en": "Five million tonnes", "zh": "500万吨"},
+              {"en": "Six million tonnes", "zh": "600万吨"},
+              {"en": "Seven million tonnes", "zh": "700万吨"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What health benefit of tea has been suggested by studies?",
+              "zh": "研究提出了茶的什么健康益处？"
+            },
+            "options": [
+              {"en": "Curing all types of cancer", "zh": "治愈所有类型的癌症"},
+              {"en": "Reducing risk of heart disease", "zh": "降低心脏病风险"},
+              {"en": "Eliminating the need for sleep", "zh": "消除睡眠需求"},
+              {"en": "Preventing all infections", "zh": "预防所有感染"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "What plant do all types of tea come from?",
+              "zh": "所有类型的茶都来自什么植物？"
+            },
+            "options": [
+              {"en": "Camellia japonica", "zh": "山茶花"},
+              {"en": "Camellia sinensis", "zh": "茶树"},
+              {"en": "Camellia reticulata", "zh": "滇山茶"},
+              {"en": "Camellia sasanqua", "zh": "茶梅"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - Coral Reef Ecosystems",
+          "zh": "文章2 - 珊瑚礁生态系统"
+        },
+        "passage": "Coral reefs are among the most biodiverse and valuable ecosystems on Earth, often referred to as the 'rainforests of the sea.' Although they cover less than one percent of the ocean floor, coral reefs support approximately 25 percent of all marine species, making them one of the most complex and productive ecosystems in the natural world. Coral reefs are built by colonies of tiny animals called coral polyps, which secrete calcium carbonate to form the hard skeleton that provides the reef's structure. These polyps have a symbiotic relationship with microscopic algae called zooxanthellae, which live within their tissues. The algae photosynthesise and provide the coral with up to 90 percent of its energy needs, while the coral provides the algae with shelter and the compounds they need for photosynthesis. This relationship is also responsible for the vibrant colours associated with healthy coral reefs. There are three main types of coral reefs: fringing reefs, which grow directly from the shore; barrier reefs, which are separated from the coast by a lagoon; and atolls, which form ring-shaped structures around a central lagoon, typically around submerged volcanic islands. The Great Barrier Reef off the coast of Queensland, Australia, is the world's largest coral reef system, stretching over 2,300 kilometres and comprising more than 2,900 individual reefs and 900 islands. Coral reefs provide numerous ecosystem services that are vital to human wellbeing. They protect coastlines from the damaging effects of wave action and tropical storms, provide habitats for organisms that are sources of food and medicine, and support the livelihoods of over 500 million people worldwide through fisheries and tourism. The global economic value of coral reef services has been estimated at approximately 375 billion dollars per year. However, coral reefs around the world are under severe threat from a combination of human activities and environmental changes. Climate change is the most significant threat, as rising ocean temperatures cause coral bleaching, a phenomenon in which corals expel their zooxanthellae under stress, turning white and eventually dying if conditions do not improve. The Great Barrier Reef has experienced several mass bleaching events in recent years, including severe events in 2016, 2017, 2020, and 2022. Ocean acidification, caused by increased absorption of carbon dioxide from the atmosphere, is another major threat, as it reduces the availability of calcium carbonate that corals need to build their skeletons. Other threats to coral reefs include pollution from agricultural runoff and sewage, overfishing, destructive fishing practices such as blast fishing and cyanide fishing, and physical damage from coastal development and shipping. Invasive species, such as the crown-of-thorns starfish, which feeds on coral polyps, can also cause significant damage to reef systems. Conservation efforts to protect coral reefs include the establishment of marine protected areas, restrictions on fishing and coastal development, and research into coral restoration techniques such as coral gardening and assisted gene flow, which involves breeding heat-tolerant coral strains. Scientists are also exploring the use of probiotics to enhance coral resilience to environmental stress. While these efforts are encouraging, experts warn that without significant reductions in greenhouse gas emissions and other measures to address climate change, the long-term survival of coral reefs remains uncertain.",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "What percentage of marine species do coral reefs support?",
+              "zh": "珊瑚礁为多少百分比的海洋物种提供支持？"
+            },
+            "options": [
+              {"en": "About 10 percent", "zh": "约10%"},
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 50 percent", "zh": "约50%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What do coral polyps secrete to form the reef structure?",
+              "zh": "珊瑚虫分泌什么来形成珊瑚礁结构？"
+            },
+            "options": [
+              {"en": "Silicon dioxide", "zh": "二氧化硅"},
+              {"en": "Calcium carbonate", "zh": "碳酸钙"},
+              {"en": "Iron oxide", "zh": "氧化铁"},
+              {"en": "Sodium chloride", "zh": "氯化钠"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How much of a coral's energy needs do zooxanthellae provide?",
+              "zh": "虫黄藻为珊瑚提供多少能量需求？"
+            },
+            "options": [
+              {"en": "About 50 percent", "zh": "约50%"},
+              {"en": "About 70 percent", "zh": "约70%"},
+              {"en": "About 90 percent", "zh": "约90%"},
+              {"en": "About 100 percent", "zh": "约100%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Which type of reef forms ring-shaped structures around submerged volcanic islands?",
+              "zh": "哪种类型的珊瑚礁围绕沉没的火山岛形成环形结构？"
+            },
+            "options": [
+              {"en": "Fringing reefs", "zh": "岸礁"},
+              {"en": "Barrier reefs", "zh": "堡礁"},
+              {"en": "Atolls", "zh": "环礁"},
+              {"en": "Patch reefs", "zh": "斑礁"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How long is the Great Barrier Reef?",
+              "zh": "大堡礁有多长？"
+            },
+            "options": [
+              {"en": "Over 1,500 kilometres", "zh": "超过1500公里"},
+              {"en": "Over 2,300 kilometres", "zh": "超过2300公里"},
+              {"en": "Over 3,000 kilometres", "zh": "超过3000公里"},
+              {"en": "Over 4,000 kilometres", "zh": "超过4000公里"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What is the estimated annual economic value of coral reef services?",
+              "zh": "珊瑚礁服务的估计年经济价值是多少？"
+            },
+            "options": [
+              {"en": "About 175 billion dollars", "zh": "约1750亿美元"},
+              {"en": "About 275 billion dollars", "zh": "约2750亿美元"},
+              {"en": "About 375 billion dollars", "zh": "约3750亿美元"},
+              {"en": "About 500 billion dollars", "zh": "约5000亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What happens during coral bleaching?",
+              "zh": "珊瑚白化期间会发生什么？"
+            },
+            "options": [
+              {"en": "Corals turn blue due to cold water", "zh": "珊瑚因冷水而变蓝"},
+              {"en": "Corals expel their zooxanthellae and turn white", "zh": "珊瑚排出虫黄藻并变白"},
+              {"en": "Corals grow faster due to warmer water", "zh": "珊瑚因水温升高而生长更快"},
+              {"en": "Corals change to a different species", "zh": "珊瑚变成不同的物种"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "What causes ocean acidification?",
+              "zh": "是什么导致了海洋酸化？"
+            },
+            "options": [
+              {"en": "Industrial waste dumping", "zh": "工业废物倾倒"},
+              {"en": "Increased absorption of carbon dioxide", "zh": "二氧化碳吸收增加"},
+              {"en": "Volcanic eruptions underwater", "zh": "海底火山喷发"},
+              {"en": "Nuclear testing in oceans", "zh": "海洋中的核试验"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What is the crown-of-thorns starfish?",
+              "zh": "棘冠海星是什么？"
+            },
+            "options": [
+              {"en": "A species that helps coral grow", "zh": "一种帮助珊瑚生长的物种"},
+              {"en": "An invasive species that feeds on coral polyps", "zh": "一种以珊瑚虫为食的入侵物种"},
+              {"en": "A type of coral", "zh": "一种珊瑚"},
+              {"en": "A fish that protects reefs", "zh": "一种保护珊瑚礁的鱼"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What is coral gardening?",
+              "zh": "珊瑚园艺是什么？"
+            },
+            "options": [
+              {"en": "A type of underwater tourism", "zh": "一种水下旅游"},
+              {"en": "A coral restoration technique", "zh": "一种珊瑚修复技术"},
+              {"en": "A fishing practice", "zh": "一种捕鱼方式"},
+              {"en": "A method of coral bleaching", "zh": "一种珊瑚白化方法"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What is 'assisted gene flow' in coral conservation?",
+              "zh": "珊瑚保护中的'辅助基因流动'是什么？"
+            },
+            "options": [
+              {"en": "Moving coral to colder waters", "zh": "将珊瑚转移到较冷的水域"},
+              {"en": "Breeding heat-tolerant coral strains", "zh": "培育耐热珊瑚品种"},
+              {"en": "Using chemicals to prevent bleaching", "zh": "使用化学物质防止白化"},
+              {"en": "Removing invasive species from reefs", "zh": "从珊瑚礁中清除入侵物种"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How many people depend on coral reefs for their livelihoods?",
+              "zh": "有多少人依靠珊瑚礁维持生计？"
+            },
+            "options": [
+              {"en": "Over 100 million", "zh": "超过1亿"},
+              {"en": "Over 300 million", "zh": "超过3亿"},
+              {"en": "Over 500 million", "zh": "超过5亿"},
+              {"en": "Over 1 billion", "zh": "超过10亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What do experts say is necessary for the long-term survival of coral reefs?",
+              "zh": "专家表示什么对珊瑚礁的长期生存是必要的？"
+            },
+            "options": [
+              {"en": "More underwater research stations", "zh": "更多的水下研究站"},
+              {"en": "Significant reductions in greenhouse gas emissions", "zh": "大幅减少温室气体排放"},
+              {"en": "Banning all fishing worldwide", "zh": "全球禁止捕鱼"},
+              {"en": "Moving all coral to aquariums", "zh": "将所有珊瑚转移到水族馆"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Psychology of Decision-Making",
+          "zh": "文章3 - 决策心理学"
+        },
+        "passage": "Human beings make thousands of decisions every day, from trivial choices like what to eat for breakfast to life-altering decisions such as choosing a career or a life partner. Despite the central importance of decision-making in our lives, research in psychology and behavioural economics has repeatedly demonstrated that human decision-making is far from rational. Our choices are systematically influenced by cognitive biases, emotional states, and environmental factors that we are often unaware of. One of the most influential contributions to our understanding of decision-making comes from the work of Daniel Kahneman and Amos Tversky, who developed Prospect Theory in the late 1970s. Their research showed that people tend to weigh losses more heavily than equivalent gains, a phenomenon known as loss aversion. For example, the pain of losing 100 dollars is psychologically more intense than the pleasure of gaining 100 dollars. This asymmetry leads people to make risk-averse choices when facing potential gains and risk-seeking choices when facing potential losses, which has profound implications for financial decision-making, consumer behaviour, and public policy. Another well-documented bias is the anchoring effect, whereby people rely too heavily on the first piece of information they encounter when making decisions. In a classic experiment, participants were asked to estimate the percentage of African countries that are members of the United Nations. Before answering, they spun a rigged wheel that landed on either 10 or 65. Those who saw the number 10 gave significantly lower estimates than those who saw 65, despite the fact that the number on the wheel was completely irrelevant to the question. This demonstrates how arbitrary anchors can influence even factual estimates. The availability heuristic is another cognitive shortcut that affects decision-making. People tend to overestimate the likelihood of events that are easy to recall, typically because they are recent, vivid, or emotionally charged. For instance, after hearing about a plane crash, people may overestimate the risk of flying, even though statistically, air travel is far safer than driving. Media coverage amplifies this effect by disproportionately reporting dramatic but rare events, skewing our perception of risk. Social influences also play a significant role in decision-making. The phenomenon of groupthink, first identified by psychologist Irving Janis, occurs when the desire for group consensus overrides individuals' ability to critically evaluate alternatives. This can lead to poor decisions in organisational settings, as demonstrated by historical examples such as the Bay of Pigs invasion in 1961, where members of President Kennedy's advisory group failed to challenge a flawed plan due to pressure to conform. Similarly, the bandwagon effect describes the tendency for people to adopt behaviours or beliefs because many others have done so, regardless of their own analysis. More recently, researchers have explored the role of emotions in decision-making. The somatic marker hypothesis, proposed by neuroscientist Antonio Damasio, suggests that emotions play a crucial role in guiding decisions by creating physiological responses, or somatic markers, that signal the potential outcomes of different choices. Damasio's research with patients who had damage to the prefrontal cortex showed that without the ability to experience emotions, individuals struggled to make even simple decisions, suggesting that purely rational decision-making is neither possible nor desirable. Understanding these biases and influences has practical applications in many fields. In healthcare, awareness of cognitive biases can help doctors make more accurate diagnoses. In finance, understanding loss aversion can lead to better investment strategies. In public policy, insights from behavioural economics have been used to design 'nudges' that guide people towards better choices without restricting their freedom, such as automatically enrolling employees in pension schemes, which significantly increases participation rates. However, critics argue that the nudge approach is paternalistic and may be used to manipulate people rather than genuinely help them, raising important ethical questions about the boundaries of behavioural influence in democratic societies.",
+        "questions": [
+          {
+            "id": 27,
+            "text": {
+              "en": "What did Kahneman and Tversky develop?",
+              "zh": "卡尼曼和特沃斯基开发了什么理论？"
+            },
+            "options": [
+              {"en": "The Availability Heuristic", "zh": "可得性启发式"},
+              {"en": "Prospect Theory", "zh": "前景理论"},
+              {"en": "The Somatic Marker Hypothesis", "zh": "躯体标记假说"},
+              {"en": "Groupthink Theory", "zh": "群体思维理论"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What is loss aversion?",
+              "zh": "什么是损失厌恶？"
+            },
+            "options": [
+              {"en": "The tendency to avoid all risks", "zh": "避免所有风险的倾向"},
+              {"en": "Weighing losses more heavily than equivalent gains", "zh": "对损失的重视程度高于同等收益"},
+              {"en": "The fear of making any decisions", "zh": "害怕做出任何决定"},
+              {"en": "Preferring smaller guaranteed gains over larger uncertain ones", "zh": "偏好较小的确定收益而非较大的不确定收益"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "In the anchoring experiment, what were participants asked to estimate?",
+              "zh": "在锚定实验中，参与者被要求估计什么？"
+            },
+            "options": [
+              {"en": "The population of Africa", "zh": "非洲的人口"},
+              {"en": "The percentage of African UN member countries", "zh": "非洲联合国成员国的百分比"},
+              {"en": "The number of countries in Africa", "zh": "非洲的国家数量"},
+              {"en": "The GDP of African countries", "zh": "非洲国家的GDP"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What is the availability heuristic?",
+              "zh": "什么是可得性启发式？"
+            },
+            "options": [
+              {"en": "Making decisions based on available resources", "zh": "基于可用资源做出决定"},
+              {"en": "Overestimating likelihood of easily recalled events", "zh": "高估容易回忆起的事件的可能性"},
+              {"en": "Choosing the most readily available option", "zh": "选择最容易获得的选项"},
+              {"en": "Only considering information that is immediately available", "zh": "只考虑立即可用的信息"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "Why do people overestimate the risk of flying after a plane crash?",
+              "zh": "为什么人们在飞机失事后会高估飞行风险？"
+            },
+            "options": [
+              {"en": "Because flying is actually dangerous", "zh": "因为飞行确实危险"},
+              {"en": "Because plane crashes are easy to recall due to media coverage", "zh": "因为媒体报道使飞机失事容易被回忆"},
+              {"en": "Because they have personal experience of crashes", "zh": "因为他们有坠机的个人经历"},
+              {"en": "Because government statistics are unreliable", "zh": "因为政府统计数据不可靠"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "Who first identified the phenomenon of groupthink?",
+              "zh": "谁首先发现了群体思维现象？"
+            },
+            "options": [
+              {"en": "Daniel Kahneman", "zh": "丹尼尔·卡尼曼"},
+              {"en": "Antonio Damasio", "zh": "安东尼奥·达马西奥"},
+              {"en": "Irving Janis", "zh": "欧文·贾尼斯"},
+              {"en": "Amos Tversky", "zh": "阿莫斯·特沃斯基"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "Which historical event is used as an example of groupthink?",
+              "zh": "哪个历史事件被用作群体思维的例子？"
+            },
+            "options": [
+              {"en": "The French Revolution", "zh": "法国大革命"},
+              {"en": "The Bay of Pigs invasion", "zh": "猪湾入侵"},
+              {"en": "The fall of the Berlin Wall", "zh": "柏林墙倒塌"},
+              {"en": "The moon landing", "zh": "登月"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What does the bandwagon effect describe?",
+              "zh": "从众效应描述的是什么？"
+            },
+            "options": [
+              {"en": "The tendency to avoid popular choices", "zh": "避免流行选择的倾向"},
+              {"en": "Adopting behaviours because many others have done so", "zh": "因为很多人采用了某种行为而跟风"},
+              {"en": "The desire to be unique in decision-making", "zh": "在决策中追求独特性的愿望"},
+              {"en": "Following only expert opinions", "zh": "只听从专家意见"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What does the somatic marker hypothesis propose?",
+              "zh": "躯体标记假说提出了什么？"
+            },
+            "options": [
+              {"en": "That decisions should be purely rational", "zh": "决定应该完全是理性的"},
+              {"en": "That emotions create physiological signals guiding decisions", "zh": "情绪产生生理信号来指导决策"},
+              {"en": "That body language reveals true intentions", "zh": "肢体语言揭示真实意图"},
+              {"en": "That physical exercise improves decision-making", "zh": "体育锻炼改善决策能力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What happened to patients with prefrontal cortex damage in Damasio's research?",
+              "zh": "在达马西奥的研究中，前额叶皮层受损的患者会怎样？"
+            },
+            "options": [
+              {"en": "They made better decisions than healthy people", "zh": "他们做出的决定比健康人更好"},
+              {"en": "They struggled to make even simple decisions", "zh": "他们甚至难以做出简单的决定"},
+              {"en": "They showed no change in decision-making ability", "zh": "他们的决策能力没有变化"},
+              {"en": "They became more emotional", "zh": "他们变得更情绪化"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What is a 'nudge' in behavioural economics?",
+              "zh": "行为经济学中的'助推'是什么？"
+            },
+            "options": [
+              {"en": "A legal requirement to make certain choices", "zh": "做出某些选择的法律要求"},
+              {"en": "A design that guides people towards better choices without restricting freedom", "zh": "一种在不限制自由的情况下引导人们做出更好选择的设计"},
+              {"en": "A financial incentive for good behaviour", "zh": "对良好行为的经济激励"},
+              {"en": "A punishment for making poor decisions", "zh": "对做出糟糕决定的惩罚"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What example of a nudge is given in the passage?",
+              "zh": "文章中给出了什么助推的例子？"
+            },
+            "options": [
+              {"en": "Banning unhealthy food", "zh": "禁止不健康食品"},
+              {"en": "Automatically enrolling employees in pension schemes", "zh": "自动将员工纳入养老金计划"},
+              {"en": "Providing free financial advice", "zh": "提供免费财务咨询"},
+              {"en": "Taxing unhealthy products", "zh": "对不健康产品征税"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What criticism of the nudge approach is mentioned?",
+              "zh": "文章提到了对助推方法的什么批评？"
+            },
+            "options": [
+              {"en": "It is too expensive to implement", "zh": "实施成本太高"},
+              {"en": "It is paternalistic and may be used to manipulate people", "zh": "它是家长式的，可能被用来操纵人们"},
+              {"en": "It has been proven not to work", "zh": "已被证明不起作用"},
+              {"en": "It only works in laboratory settings", "zh": "只在实验室环境中有效"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What does the passage suggest about purely rational decision-making?",
+              "zh": "文章对纯粹理性的决策提出了什么看法？"
+            },
+            "options": [
+              {"en": "It is the ideal that everyone should strive for", "zh": "这是每个人都应该追求的理想"},
+              {"en": "It is neither possible nor desirable", "zh": "既不可能也不可取"},
+              {"en": "It can be achieved through training", "zh": "可以通过训练实现"},
+              {"en": "It is only possible for highly educated people", "zh": "只有受过高等教育的人才能做到"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1 - Describe a Chart",
+          "zh": "任务1 - 描述图表"
+        },
+        "prompt": {
+          "en": "The bar chart below shows the percentage of households in different income groups that owned various consumer electronics in a European country in 2023.\n\nLow Income Group: Television 95%, Smartphone 78%, Laptop 45%, Tablet 32%, Gaming Console 18%\nMiddle Income Group: Television 98%, Smartphone 92%, Laptop 72%, Tablet 58%, Gaming Console 35%\nHigh Income Group: Television 99%, Smartphone 97%, Laptop 89%, Tablet 76%, Gaming Console 52%\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的柱状图显示了2023年某欧洲国家不同收入群体拥有各种消费电子产品的家庭百分比。\n\n低收入群体：电视95%，智能手机78%，笔记本电脑45%，平板电脑32%，游戏机18%\n中等收入群体：电视98%，智能手机92%，笔记本电脑72%，平板电脑58%，游戏机35%\n高收入群体：电视99%，智能手机97%，笔记本电脑89%，平板电脑76%，游戏机52%\n\n通过选择和报告主要特征来总结信息，并在相关处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2 - Essay",
+          "zh": "任务2 - 议论文"
+        },
+        "prompt": {
+          "en": "Some people believe that universities should focus on providing academic knowledge and theoretical understanding, while others argue that universities should prioritise practical skills and vocational training to prepare students for the job market.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些人认为大学应该专注于提供学术知识和理论理解，而另一些人则认为大学应该优先考虑实践技能培训和职业教育，为学生进入就业市场做好准备。\n\n讨论两种观点并给出你自己的意见。\n\n给出你的理由，并包括你自己的知识或经验中任何相关的例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

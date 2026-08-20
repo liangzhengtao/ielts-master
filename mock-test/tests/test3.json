@@ -1,0 +1,1184 @@
+{
+  "id": 3,
+  "title": {
+    "en": "IELTS Practice Test 3 - Health, Society & Culture",
+    "zh": "雅思模拟考试 3 - 健康、社会与文化"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Conversation between a patient and a health clinic receptionist",
+          "zh": "第一部分 - 患者与健康诊所前台的对话"
+        },
+        "passage": "A patient calls the Greenfield Health Clinic to register as a new patient and book an appointment. The receptionist asks for personal details, medical history, and preferred appointment times. The patient mentions they have recently moved to the area from another city and need to transfer their medical records. They discuss insurance coverage, available doctors, and the clinic's opening hours. The receptionist explains the registration process and what documents the patient needs to bring.",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What is the patient's surname?",
+              "zh": "患者的姓氏是什么？"
+            },
+            "options": [
+              {"en": "Thompson", "zh": "汤普森"},
+              {"en": "Thomson", "zh": "汤姆森"},
+              {"en": "Thorman", "zh": "托尔曼"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What is the patient's date of birth?",
+              "zh": "患者的出生日期是什么？"
+            },
+            "options": [
+              {"en": "15th March 1988", "zh": "1988年3月15日"},
+              {"en": "15th May 1988", "zh": "1988年5月15日"},
+              {"en": "5th March 1988", "zh": "1988年3月5日"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What is the patient's current address?",
+              "zh": "患者现在的地址是什么？"
+            },
+            "options": [
+              {"en": "14 Oak Lane, Greenfield", "zh": "格林菲尔德橡树巷14号"},
+              {"en": "40 Oak Lane, Greenfield", "zh": "格林菲尔德橡树巷40号"},
+              {"en": "14 Oak Avenue, Greenfield", "zh": "格林菲尔德橡树大道14号"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What is the patient's phone number?",
+              "zh": "患者的电话号码是什么？"
+            },
+            "options": [
+              {"en": "07845 239016", "zh": "07845 239016"},
+              {"en": "07854 239016", "zh": "07854 239016"},
+              {"en": "07845 230916", "zh": "07845 230916"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "The patient has which medical condition?",
+              "zh": "患者有什么医疗状况？"
+            },
+            "options": [
+              {"en": "Asthma", "zh": "哮喘"},
+              {"en": "Diabetes", "zh": "糖尿病"},
+              {"en": "High blood pressure", "zh": "高血压"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Which medication is the patient currently taking?",
+              "zh": "患者目前在服用什么药物？"
+            },
+            "options": [
+              {"en": "Metformin", "zh": "二甲双胍"},
+              {"en": "Amlodipine", "zh": "氨氯地平"},
+              {"en": "Lisinopril", "zh": "赖诺普利"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "Which insurance provider does the patient have?",
+              "zh": "患者使用哪家保险提供商？"
+            },
+            "options": [
+              {"en": "BUPA Health", "zh": "BUPA健康保险"},
+              {"en": "AXA PPP", "zh": "AXA PPP保险"},
+              {"en": "Aviva Health", "zh": "安盛健康保险"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What documents does the patient need to bring?",
+              "zh": "患者需要带什么文件？"
+            },
+            "options": [
+              {"en": "Passport and proof of address", "zh": "护照和地址证明"},
+              {"en": "Driving licence and medical records", "zh": "驾照和病历"},
+              {"en": "Photo ID and insurance card", "zh": "带照片的身份证和保险卡"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What time is the patient's appointment?",
+              "zh": "患者的预约时间是什么？"
+            },
+            "options": [
+              {"en": "10:30 am on Tuesday", "zh": "周二上午10:30"},
+              {"en": "11:00 am on Tuesday", "zh": "周二上午11:00"},
+              {"en": "10:30 am on Thursday", "zh": "周四上午10:30"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "Which doctor will the patient see?",
+              "zh": "患者将看哪位医生？"
+            },
+            "options": [
+              {"en": "Dr. Williams", "zh": "威廉姆斯医生"},
+              {"en": "Dr. Wilson", "zh": "威尔逊医生"},
+              {"en": "Dr. Watson", "zh": "沃森医生"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Monologue about a community sports centre",
+          "zh": "第二部分 - 关于社区体育中心的独白"
+        },
+        "passage": "The director of the Riverside Community Sports Centre gives a talk to new members about the facilities and programmes available. The centre has recently undergone a major renovation and now includes a new swimming pool, a fully equipped gym, two indoor basketball courts, and a yoga studio. The director explains the membership options, opening hours, and the various classes offered throughout the week. Special discounts are available for students and senior citizens. The centre also organises weekend community events and tournaments.",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "When was the sports centre originally built?",
+              "zh": "体育中心最初是什么时候建的？"
+            },
+            "options": [
+              {"en": "2001", "zh": "2001年"},
+              {"en": "2005", "zh": "2005年"},
+              {"en": "2010", "zh": "2010年"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What is the size of the new swimming pool?",
+              "zh": "新游泳池的大小是多少？"
+            },
+            "options": [
+              {"en": "25 metres", "zh": "25米"},
+              {"en": "50 metres", "zh": "50米"},
+              {"en": "35 metres", "zh": "35米"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many indoor basketball courts does the centre have?",
+              "zh": "中心有多少个室内篮球场？"
+            },
+            "options": [
+              {"en": "One", "zh": "一个"},
+              {"en": "Two", "zh": "两个"},
+              {"en": "Three", "zh": "三个"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "What is the cost of a standard monthly membership?",
+              "zh": "标准月度会员费是多少？"
+            },
+            "options": [
+              {"en": "£30", "zh": "30英镑"},
+              {"en": "£45", "zh": "45英镑"},
+              {"en": "£50", "zh": "50英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What discount do students receive?",
+              "zh": "学生享受什么折扣？"
+            },
+            "options": [
+              {"en": "10%", "zh": "10%"},
+              {"en": "20%", "zh": "20%"},
+              {"en": "25%", "zh": "25%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What time does the centre open on weekdays?",
+              "zh": "中心工作日几点开门？"
+            },
+            "options": [
+              {"en": "6:00 am", "zh": "早上6:00"},
+              {"en": "6:30 am", "zh": "早上6:30"},
+              {"en": "7:00 am", "zh": "早上7:00"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Which new class is being introduced next month?",
+              "zh": "下个月将引入什么新课程？"
+            },
+            "options": [
+              {"en": "Pilates", "zh": "普拉提"},
+              {"en": "Kickboxing", "zh": "跆拳道"},
+              {"en": "Zumba", "zh": "尊巴舞"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "Where can members park their cars?",
+              "zh": "会员可以把车停在哪里？"
+            },
+            "options": [
+              {"en": "Underground car park", "zh": "地下停车场"},
+              {"en": "Free car park behind the building", "zh": "大楼后面的免费停车场"},
+              {"en": "Street parking only", "zh": "仅限路边停车"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What community event is planned for next Saturday?",
+              "zh": "下周六计划了什么社区活动？"
+            },
+            "options": [
+              {"en": "Swimming competition", "zh": "游泳比赛"},
+              {"en": "Family fun day", "zh": "家庭欢乐日"},
+              {"en": "Charity marathon", "zh": "慈善马拉松"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "How can members book classes?",
+              "zh": "会员如何预约课程？"
+            },
+            "options": [
+              {"en": "By phone only", "zh": "仅限电话预约"},
+              {"en": "Through the centre's mobile app", "zh": "通过中心的手机应用"},
+              {"en": "At the reception desk", "zh": "在前台预约"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Discussion between two students about a research project on urban pollution",
+          "zh": "第三部分 - 两名学生关于城市污染研究项目的讨论"
+        },
+        "passage": "Two university students, Emma and James, are discussing their joint research project on urban air pollution for their Environmental Science course. They have collected data from five major cities and are analysing the relationship between traffic density and particulate matter levels. Emma suggests using a comparative bar chart to present their findings, while James prefers a line graph to show trends over time. They discuss the methodology, including the sampling techniques they used and the limitations of their data. Their professor has advised them to include a section on policy recommendations. They also debate whether to focus on industrial emissions or vehicle exhaust as the primary contributor.",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What subject are Emma and James studying?",
+              "zh": "Emma和James在学什么科目？"
+            },
+            "options": [
+              {"en": "Geography", "zh": "地理学"},
+              {"en": "Environmental Science", "zh": "环境科学"},
+              {"en": "Chemistry", "zh": "化学"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "How many cities did they collect data from?",
+              "zh": "他们从多少个城市收集了数据？"
+            },
+            "options": [
+              {"en": "Three", "zh": "三个"},
+              {"en": "Four", "zh": "四个"},
+              {"en": "Five", "zh": "五个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What type of graph does Emma suggest?",
+              "zh": "Emma建议用什么类型的图表？"
+            },
+            "options": [
+              {"en": "Pie chart", "zh": "饼图"},
+              {"en": "Bar chart", "zh": "柱状图"},
+              {"en": "Line graph", "zh": "折线图"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What does James prefer to show in the presentation?",
+              "zh": "James更倾向于在报告中展示什么？"
+            },
+            "options": [
+              {"en": "Trends over time", "zh": "随时间变化的趋势"},
+              {"en": "City comparisons", "zh": "城市之间的比较"},
+              {"en": "Pollution sources", "zh": "污染来源"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What did their professor advise them to include?",
+              "zh": "教授建议他们包含什么内容？"
+            },
+            "options": [
+              {"en": "More statistical analysis", "zh": "更多的统计分析"},
+              {"en": "Policy recommendations", "zh": "政策建议"},
+              {"en": "Historical background", "zh": "历史背景"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What limitation did they identify in their data?",
+              "zh": "他们发现数据有什么局限性？"
+            },
+            "options": [
+              {"en": "Too few sampling locations", "zh": "采样点太少"},
+              {"en": "Inconsistent measurement periods", "zh": "测量周期不一致"},
+              {"en": "Outdated equipment", "zh": "设备过时"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What sampling technique did they use?",
+              "zh": "他们使用了什么采样技术？"
+            },
+            "options": [
+              {"en": "Random sampling", "zh": "随机抽样"},
+              {"en": "Stratified sampling", "zh": "分层抽样"},
+              {"en": "Systematic sampling", "zh": "系统抽样"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What is the main debate between Emma and James?",
+              "zh": "Emma和James之间的主要争论是什么？"
+            },
+            "options": [
+              {"en": "Which cities to include", "zh": "包含哪些城市"},
+              {"en": "Primary pollution source: industry or vehicles", "zh": "主要污染源：工业还是车辆"},
+              {"en": "How to collect more data", "zh": "如何收集更多数据"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When is the project deadline?",
+              "zh": "项目的截止日期是什么时候？"
+            },
+            "options": [
+              {"en": "End of this month", "zh": "本月底"},
+              {"en": "In two weeks", "zh": "两周后"},
+              {"en": "Next semester", "zh": "下学期"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What will they do before submitting?",
+              "zh": "提交前他们要做什么？"
+            },
+            "options": [
+              {"en": "Conduct additional field research", "zh": "进行额外的实地研究"},
+              {"en": "Ask their professor to review a draft", "zh": "请教授审阅草稿"},
+              {"en": "Interview local residents", "zh": "采访当地居民"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Lecture on the history and impact of tea on global trade",
+          "zh": "第四部分 - 关于茶的历史及其对全球贸易影响的讲座"
+        },
+        "passage": "A university professor delivers a lecture on the fascinating history of tea and its profound impact on global trade and cultural exchange. The lecture begins with the origins of tea cultivation in ancient China over 5,000 years ago, tracing its spread along the Silk Road to Central Asia and the Middle East. The professor discusses how European explorers first encountered tea in the 16th century and how the Portuguese and Dutch were instrumental in introducing it to Europe. A significant portion of the lecture focuses on the British East India Company's role in establishing tea plantations in India and Sri Lanka during the 18th and 19th centuries. The professor also examines the social consequences of tea trade, including the Opium Wars between Britain and China, the establishment of tea houses as centres of social life in England, and the Boston Tea Party in colonial America. The lecture concludes with a discussion of modern tea production and how fair trade initiatives are working to improve conditions for tea workers in developing countries.",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "How long ago did tea cultivation begin in China?",
+              "zh": "茶的种植在中国始于多少年前？"
+            },
+            "options": [
+              {"en": "Over 3,000 years ago", "zh": "3000多年前"},
+              {"en": "Over 5,000 years ago", "zh": "5000多年前"},
+              {"en": "Over 8,000 years ago", "zh": "8000多年前"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "Which route did tea travel to reach the Middle East?",
+              "zh": "茶通过哪条路线到达中东？"
+            },
+            "options": [
+              {"en": "The Spice Route", "zh": "香料之路"},
+              {"en": "The Silk Road", "zh": "丝绸之路"},
+              {"en": "The Tea Horse Road", "zh": "茶马古道"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "When did Europeans first encounter tea?",
+              "zh": "欧洲人最早在什么时候接触到茶？"
+            },
+            "options": [
+              {"en": "14th century", "zh": "14世纪"},
+              {"en": "15th century", "zh": "15世纪"},
+              {"en": "16th century", "zh": "16世纪"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "Which countries were instrumental in introducing tea to Europe?",
+              "zh": "哪些国家在将茶引入欧洲方面发挥了重要作用？"
+            },
+            "options": [
+              {"en": "Spain and Italy", "zh": "西班牙和意大利"},
+              {"en": "Portugal and the Netherlands", "zh": "葡萄牙和荷兰"},
+              {"en": "France and Germany", "zh": "法国和德国"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "Which company established tea plantations in India?",
+              "zh": "哪家公司在印度建立了茶园？"
+            },
+            "options": [
+              {"en": "The Dutch East India Company", "zh": "荷兰东印度公司"},
+              {"en": "The British East India Company", "zh": "英国东印度公司"},
+              {"en": "The French East India Company", "zh": "法国东印度公司"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "In which centuries were tea plantations established in India and Sri Lanka?",
+              "zh": "印度和斯里兰卡的茶园是在哪几个世纪建立的？"
+            },
+            "options": [
+              {"en": "16th and 17th centuries", "zh": "16和17世纪"},
+              {"en": "17th and 18th centuries", "zh": "17和18世纪"},
+              {"en": "18th and 19th centuries", "zh": "18和19世纪"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What conflict between Britain and China was related to the tea trade?",
+              "zh": "与茶贸易相关的英中之间发生了什么冲突？"
+            },
+            "options": [
+              {"en": "The Tea Wars", "zh": "茶叶战争"},
+              {"en": "The Opium Wars", "zh": "鸦片战争"},
+              {"en": "The Trade Wars", "zh": "贸易战"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What role did tea houses play in England?",
+              "zh": "茶馆在英格兰扮演了什么角色？"
+            },
+            "options": [
+              {"en": "Political meeting places", "zh": "政治集会场所"},
+              {"en": "Centres of social life", "zh": "社交生活中心"},
+              {"en": "Trading posts", "zh": "贸易站"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "The Boston Tea Party took place in which location?",
+              "zh": "波士顿倾茶事件发生在哪个地区？"
+            },
+            "options": [
+              {"en": "Colonial India", "zh": "殖民地印度"},
+              {"en": "Colonial America", "zh": "殖民地美国"},
+              {"en": "Colonial Australia", "zh": "殖民地澳大利亚"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What modern initiative aims to help tea workers?",
+              "zh": "什么现代倡议旨在帮助茶工？"
+            },
+            "options": [
+              {"en": "Green trade agreements", "zh": "绿色贸易协议"},
+              {"en": "Fair trade initiatives", "zh": "公平贸易倡议"},
+              {"en": "Government subsidies", "zh": "政府补贴"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The Science of Sleep and Its Impact on Public Health",
+          "zh": "文章1 - 睡眠科学及其对公共健康的影响"
+        },
+        "passage": "Sleep is one of the most fundamental biological processes, yet it remains one of the least understood aspects of human health. In recent decades, scientific research has revealed that sleep is far from a passive state of rest; it is an active period during which the body performs critical maintenance and repair functions. The average adult requires between seven and nine hours of sleep per night, although individual needs can vary significantly based on age, genetics, and lifestyle factors.\n\nThe consequences of chronic sleep deprivation have become a major public health concern. Studies have consistently linked insufficient sleep to an increased risk of cardiovascular disease, obesity, type 2 diabetes, and weakened immune function. A landmark study published in the European Heart Journal in 2011 found that people who slept fewer than six hours per night had a 48% greater risk of developing or dying from coronary heart disease compared to those who slept seven to eight hours. Furthermore, sleep deprivation has been shown to impair cognitive function, reduce concentration, and increase the likelihood of accidents, particularly in occupations such as healthcare, transportation, and manufacturing.\n\nModern lifestyles have introduced numerous factors that interfere with natural sleep patterns. The proliferation of electronic devices emitting blue light has been shown to suppress the production of melatonin, the hormone responsible for regulating the sleep-wake cycle. Shift work, which affects approximately 20% of the workforce in industrialised nations, disrupts circadian rhythms and has been classified by the World Health Organization as a probable carcinogen. Additionally, the 24-hour availability of entertainment and social media has created a culture of 'screen time before bed' that many sleep researchers consider detrimental to sleep quality.\n\nThe economic impact of sleep deprivation is staggering. A 2016 study by the RAND Corporation estimated that sleep deprivation costs the US economy up to $411 billion annually and Japan's economy up to $138 billion. These costs arise from reduced productivity, increased healthcare expenditure, and higher rates of workplace accidents. In response, several countries have begun implementing public health campaigns to raise awareness about the importance of sleep hygiene, and some progressive companies have introduced nap pods and flexible working hours to promote healthier sleep habits among their employees.\n\nThe relationship between sleep and mental health is particularly noteworthy. Research has demonstrated a bidirectional relationship between sleep disorders and psychiatric conditions: poor sleep can contribute to the development of depression and anxiety, while these conditions in turn frequently disrupt sleep patterns. A meta-analysis of 21 longitudinal studies found that insomnia was associated with a twofold increased risk of developing depression. This has led to a growing recognition among healthcare professionals that addressing sleep problems should be an integral component of mental health treatment plans.\n\nEmerging research continues to uncover new dimensions of sleep science. Studies on the glymphatic system, a recently discovered waste clearance pathway in the brain, have shown that this system is primarily active during sleep, removing toxic proteins that accumulate during waking hours. This discovery has significant implications for understanding neurodegenerative diseases such as Alzheimer's, as impaired sleep may accelerate the accumulation of these toxic proteins. As our understanding of sleep deepens, it becomes increasingly clear that prioritising sleep is not a luxury but a biological necessity with profound implications for individual and public health.",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "According to the passage, how many hours of sleep does the average adult need?",
+              "zh": "根据文章，成年人平均需要多少小时的睡眠？"
+            },
+            "options": [
+              {"en": "Six to eight hours", "zh": "六到八小时"},
+              {"en": "Seven to nine hours", "zh": "七到九小时"},
+              {"en": "Eight to ten hours", "zh": "八到十小时"},
+              {"en": "Five to seven hours", "zh": "五到七小时"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What percentage increase in coronary heart disease risk was found for people sleeping fewer than six hours?",
+              "zh": "睡眠不足六小时的人患冠心病的风险增加了多少百分比？"
+            },
+            "options": [
+              {"en": "28%", "zh": "28%"},
+              {"en": "38%", "zh": "38%"},
+              {"en": "48%", "zh": "48%"},
+              {"en": "58%", "zh": "58%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What does blue light from electronic devices suppress?",
+              "zh": "电子设备发出的蓝光会抑制什么？"
+            },
+            "options": [
+              {"en": "Cortisol production", "zh": "皮质醇的产生"},
+              {"en": "Adrenaline production", "zh": "肾上腺素的产生"},
+              {"en": "Melatonin production", "zh": "褪黑素的产生"},
+              {"en": "Serotonin production", "zh": "血清素的产生"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What percentage of the workforce in industrialised nations does shift work affect?",
+              "zh": "在工业化国家中，轮班工作影响了多少比例的劳动力？"
+            },
+            "options": [
+              {"en": "About 10%", "zh": "约10%"},
+              {"en": "About 15%", "zh": "约15%"},
+              {"en": "About 20%", "zh": "约20%"},
+              {"en": "About 30%", "zh": "约30%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "According to the RAND Corporation study, how much does sleep deprivation cost the US economy annually?",
+              "zh": "根据兰德公司的研究，睡眠不足每年给美国经济造成多少损失？"
+            },
+            "options": [
+              {"en": "Up to $211 billion", "zh": "高达2110亿美元"},
+              {"en": "Up to $311 billion", "zh": "高达3110亿美元"},
+              {"en": "Up to $411 billion", "zh": "高达4110亿美元"},
+              {"en": "Up to $511 billion", "zh": "高达5110亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What relationship exists between sleep and mental health according to the passage?",
+              "zh": "根据文章，睡眠和心理健康之间存在什么关系？"
+            },
+            "options": [
+              {"en": "A one-way relationship from sleep to mental health", "zh": "从睡眠到心理健康的单向关系"},
+              {"en": "A bidirectional relationship", "zh": "双向关系"},
+              {"en": "No proven relationship", "zh": "没有已证实的关系"},
+              {"en": "Mental health affects sleep but not the reverse", "zh": "心理健康影响睡眠，但反过来不会"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What is the glymphatic system?",
+              "zh": "胶质淋巴系统是什么？"
+            },
+            "options": [
+              {"en": "A hormone regulation system", "zh": "激素调节系统"},
+              {"en": "A waste clearance pathway in the brain", "zh": "大脑中的废物清除通道"},
+              {"en": "A sleep cycle regulator", "zh": "睡眠周期调节器"},
+              {"en": "A blood circulation network", "zh": "血液循环网络"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "According to the meta-analysis, insomnia was associated with what increased risk of developing depression?",
+              "zh": "根据荟萃分析，失眠与患抑郁症的风险增加多少有关？"
+            },
+            "options": [
+              {"en": "1.5 times", "zh": "1.5倍"},
+              {"en": "Twofold", "zh": "两倍"},
+              {"en": "Threefold", "zh": "三倍"},
+              {"en": "Fourfold", "zh": "四倍"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "Which organisation classified shift work as a probable carcinogen?",
+              "zh": "哪个组织将轮班工作列为可能的致癌物？"
+            },
+            "options": [
+              {"en": "The United Nations", "zh": "联合国"},
+              {"en": "The World Health Organization", "zh": "世界卫生组织"},
+              {"en": "The International Labour Organization", "zh": "国际劳工组织"},
+              {"en": "The RAND Corporation", "zh": "兰德公司"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What have some progressive companies introduced to promote healthier sleep habits?",
+              "zh": "一些进步的公司引入了什么来促进更健康的睡眠习惯？"
+            },
+            "options": [
+              {"en": "Mandatory sleep tracking devices", "zh": "强制睡眠追踪设备"},
+              {"en": "Nap pods and flexible working hours", "zh": "午睡舱和弹性工作时间"},
+              {"en": "Sleep therapy sessions", "zh": "睡眠治疗课程"},
+              {"en": "Reduced working weeks", "zh": "减少工作周"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "The glymphatic system removes which substances during sleep?",
+              "zh": "胶质淋巴系统在睡眠期间移除什么物质？"
+            },
+            "options": [
+              {"en": "Excess hormones", "zh": "多余的激素"},
+              {"en": "Toxic proteins", "zh": "有毒蛋白质"},
+              {"en": "Dead cells", "zh": "死亡细胞"},
+              {"en": "Chemical waste", "zh": "化学废物"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "Which neurodegenerative disease is specifically mentioned in relation to impaired sleep?",
+              "zh": "哪种神经退行性疾病与睡眠受损有关？"
+            },
+            "options": [
+              {"en": "Parkinson's disease", "zh": "帕金森病"},
+              {"en": "Multiple sclerosis", "zh": "多发性硬化"},
+              {"en": "Alzheimer's disease", "zh": "阿尔茨海默病"},
+              {"en": "Huntington's disease", "zh": "亨廷顿病"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "What is the main purpose of this passage?",
+              "zh": "这篇文章的主要目的是什么？"
+            },
+            "options": [
+              {"en": "To promote specific sleep products", "zh": "推广特定的睡眠产品"},
+              {"en": "To highlight the importance of sleep for health", "zh": "强调睡眠对健康的重要性"},
+              {"en": "To criticise modern work culture", "zh": "批评现代工作文化"},
+              {"en": "To explain how to treat sleep disorders", "zh": "解释如何治疗睡眠障碍"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Evolution of Urban Planning and Smart Cities",
+          "zh": "文章2 - 城市规划与智慧城市的演变"
+        },
+        "passage": "The concept of urban planning has undergone dramatic transformations over the past century, evolving from simple zoning regulations to sophisticated, technology-driven approaches that aim to create sustainable and liveable cities. In the early 20th century, urban planning was primarily concerned with separating industrial, residential, and commercial areas to improve public health and reduce congestion. The Garden City movement, pioneered by Ebenezer Howard in 1898, envisioned self-contained communities surrounded by greenbelts, combining the benefits of urban and rural living.\n\nThe mid-20th century saw a shift towards modernist planning principles, exemplified by Le Corbusier's vision of 'towers in the park' — high-rise buildings set in open green spaces. While this approach addressed housing shortages in rapidly growing cities, it often resulted in sterile, monolithic developments that lacked the vibrancy and diversity of organic urban growth. Critics such as Jane Jacobs argued in her seminal work 'The Death and Life of Great American Cities' (1961) that successful cities require mixed-use neighbourhoods, short blocks, and a diversity of building ages and types to foster community interaction and economic vitality.\n\nThe late 20th and early 21st centuries have witnessed the emergence of the 'smart city' concept, which leverages information and communication technologies to enhance urban services, reduce costs, and improve the quality of life for residents. Smart city initiatives typically encompass a wide range of applications, including intelligent transportation systems that use real-time data to optimise traffic flow, smart grids that manage energy distribution more efficiently, and sensor networks that monitor air quality, noise levels, and water quality. Singapore, often cited as a leading smart city, has implemented a comprehensive 'Smart Nation' initiative that includes autonomous vehicles, digital health services, and a nationwide sensor network.\n\nHowever, the smart city paradigm has not been without criticism. Privacy advocates have raised concerns about the extensive surveillance capabilities embedded in smart city infrastructure, arguing that the collection of vast amounts of personal data could enable unprecedented levels of government and corporate monitoring. Furthermore, there are concerns about digital equity, as smart city technologies may disproportionately benefit wealthier, more technologically literate residents while marginalising lower-income communities. The failed Sidewalk Labs project in Toronto, which was abandoned in 2020 following public backlash over data privacy concerns, serves as a cautionary tale about the tensions between technological innovation and civic trust.\n\nA more recent development in urban planning is the concept of the '15-minute city', popularised by Professor Carlos Moreno of the Sorbonne University. This model proposes that all essential services — including work, shopping, healthcare, education, and entertainment — should be accessible within a 15-minute walk or bike ride from any residence. Paris, under Mayor Anne Hidalgo, has been at the forefront of implementing this concept, with plans to create 'polycentric' neighbourhoods where each district functions as a self-sufficient village within the larger metropolis. The COVID-19 pandemic has accelerated interest in this model, as remote work has reduced the need for long commutes and highlighted the importance of local amenities and green spaces.\n\nThe integration of nature-based solutions represents another frontier in contemporary urban planning. Cities such as Copenhagen, Melbourne, and Singapore are incorporating extensive green infrastructure — including urban forests, green roofs, bioswales, and permeable surfaces — to address challenges such as urban heat islands, stormwater management, and biodiversity loss. Research has shown that access to green spaces is associated with improved mental health, reduced air pollution, and lower urban temperatures, making nature-based solutions a critical component of climate adaptation strategies. As cities continue to grow — with the United Nations projecting that 68% of the world's population will live in urban areas by 2050 — the challenge of creating sustainable, equitable, and liveable cities will remain one of the defining issues of the 21st century.",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "Who pioneered the Garden City movement?",
+              "zh": "谁开创了田园城市运动？"
+            },
+            "options": [
+              {"en": "Le Corbusier", "zh": "勒·柯布西耶"},
+              {"en": "Ebenezer Howard", "zh": "埃比尼泽·霍华德"},
+              {"en": "Jane Jacobs", "zh": "简·雅各布斯"},
+              {"en": "Carlos Moreno", "zh": "卡洛斯·莫雷诺"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What was Le Corbusier's planning vision called?",
+              "zh": "勒·柯布西耶的规划愿景叫什么？"
+            },
+            "options": [
+              {"en": "Garden cities", "zh": "花园城市"},
+              {"en": "Smart cities", "zh": "智慧城市"},
+              {"en": "Towers in the park", "zh": "公园中的塔楼"},
+              {"en": "15-minute cities", "zh": "15分钟城市"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "In what year was Jane Jacobs' book published?",
+              "zh": "简·雅各布斯的书出版于哪一年？"
+            },
+            "options": [
+              {"en": "1948", "zh": "1948年"},
+              {"en": "1951", "zh": "1951年"},
+              {"en": "1961", "zh": "1961年"},
+              {"en": "1971", "zh": "1971年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Which city is cited as a leading smart city with a 'Smart Nation' initiative?",
+              "zh": "哪个城市被称为具有"智慧国家"倡议的领先智慧城市？"
+            },
+            "options": [
+              {"en": "Tokyo", "zh": "东京"},
+              {"en": "Seoul", "zh": "首尔"},
+              {"en": "Dubai", "zh": "迪拜"},
+              {"en": "Singapore", "zh": "新加坡"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "Why was the Sidewalk Labs project in Toronto abandoned?",
+              "zh": "多伦多的Sidewalk Labs项目为什么被放弃？"
+            },
+            "options": [
+              {"en": "Insufficient funding", "zh": "资金不足"},
+              {"en": "Data privacy concerns", "zh": "数据隐私问题"},
+              {"en": "Technical failures", "zh": "技术故障"},
+              {"en": "Political opposition", "zh": "政治反对"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "Who popularised the concept of the '15-minute city'?",
+              "zh": "谁推广了"15分钟城市"的概念？"
+            },
+            "options": [
+              {"en": "Anne Hidalgo", "zh": "安妮·伊达尔戈"},
+              {"en": "Carlos Moreno", "zh": "卡洛斯·莫雷诺"},
+              {"en": "Jane Jacobs", "zh": "简·雅各布斯"},
+              {"en": "Le Corbusier", "zh": "勒·柯布西耶"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "Which city has been at the forefront of implementing the 15-minute city concept?",
+              "zh": "哪个城市在实施15分钟城市概念方面处于领先地位？"
+            },
+            "options": [
+              {"en": "London", "zh": "伦敦"},
+              {"en": "New York", "zh": "纽约"},
+              {"en": "Paris", "zh": "巴黎"},
+              {"en": "Tokyo", "zh": "东京"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "What event accelerated interest in the 15-minute city model?",
+              "zh": "什么事件加速了人们对15分钟城市模型的兴趣？"
+            },
+            "options": [
+              {"en": "The financial crisis of 2008", "zh": "2008年金融危机"},
+              {"en": "The climate change summit", "zh": "气候变化峰会"},
+              {"en": "The COVID-19 pandemic", "zh": "新冠疫情"},
+              {"en": "The Paris Agreement", "zh": "巴黎协定"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "According to the UN, what percentage of the world's population will live in urban areas by 2050?",
+              "zh": "根据联合国预测，到2050年世界人口的多少百分比将居住在城市地区？"
+            },
+            "options": [
+              {"en": "58%", "zh": "58%"},
+              {"en": "68%", "zh": "68%"},
+              {"en": "78%", "zh": "78%"},
+              {"en": "88%", "zh": "88%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "Which cities are mentioned as incorporating extensive green infrastructure?",
+              "zh": "哪些城市被提到正在纳入广泛的绿色基础设施？"
+            },
+            "options": [
+              {"en": "Copenhagen, Melbourne, and Singapore", "zh": "哥本哈根、墨尔本和新加坡"},
+              {"en": "Paris, London, and Berlin", "zh": "巴黎、伦敦和柏林"},
+              {"en": "Tokyo, Seoul, and Beijing", "zh": "东京、首尔和北京"},
+              {"en": "New York, Chicago, and Toronto", "zh": "纽约、芝加哥和多伦多"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What is one criticism of smart cities mentioned in the passage?",
+              "zh": "文章中提到的对智慧城市的一个批评是什么？"
+            },
+            "options": [
+              {"en": "They are too expensive to build", "zh": "建设成本太高"},
+              {"en": "They increase surveillance and privacy concerns", "zh": "它们增加了监控和隐私问题"},
+              {"en": "They reduce employment opportunities", "zh": "它们减少了就业机会"},
+              {"en": "They damage the natural environment", "zh": "它们破坏自然环境"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What benefits are associated with access to green spaces according to the passage?",
+              "zh": "根据文章，绿色空间的使用与哪些好处相关？"
+            },
+            "options": [
+              {"en": "Improved mental health, reduced air pollution, and lower temperatures", "zh": "改善心理健康、减少空气污染和降低温度"},
+              {"en": "Higher property values and tourism", "zh": "更高的房产价值和旅游业"},
+              {"en": "Increased biodiversity and farming", "zh": "增加生物多样性和农业"},
+              {"en": "Better transportation and communication", "zh": "更好的交通和通信"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What does the term 'polycentric neighbourhoods' refer to in the context of Paris?",
+              "zh": "在巴黎的语境中，"多中心社区"一词指的是什么？"
+            },
+            "options": [
+              {"en": "Neighbourhoods with multiple shopping centres", "zh": "有多个购物中心的社区"},
+              {"en": "Districts functioning as self-sufficient villages", "zh": "作为自给自足村庄运作的区域"},
+              {"en": "Areas with multiple transport hubs", "zh": "有多个交通枢纽的地区"},
+              {"en": "Communities with diverse populations", "zh": "人口多元化的社区"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What is the author's overall tone regarding the future of urban planning?",
+              "zh": "作者对城市规划未来的总体态度是什么？"
+            },
+            "options": [
+              {"en": "Deeply pessimistic about the challenges ahead", "zh": "对未来的挑战深感悲观"},
+              {"en": "Cautiously optimistic about new approaches", "zh": "对新方法持谨慎乐观态度"},
+              {"en": "Strongly critical of all modern approaches", "zh": "对所有现代方法持强烈批评态度"},
+              {"en": "Neutral and detached", "zh": "中立且超然"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Role of Traditional Knowledge in Modern Medicine",
+          "zh": "文章3 - 传统知识在现代医学中的作用"
+        },
+        "passage": "Throughout human history, traditional medicine systems have served as the primary source of healthcare for the vast majority of the world's population. From the Ayurvedic traditions of India and the herbal medicine practices of China to the ethnobotanical knowledge of indigenous communities in the Amazon basin, these systems represent a vast repository of accumulated wisdom about the medicinal properties of plants, minerals, and animal products. In recent decades, modern pharmaceutical research has increasingly turned to these traditional sources in the search for novel therapeutic compounds, leading to a complex and sometimes contentious dialogue between traditional knowledge holders and the scientific establishment.\n\nThe most celebrated example of modern medicine drawing from traditional knowledge is the development of aspirin. The pain-relieving properties of willow bark had been known to ancient Egyptian, Greek, and indigenous American healers for thousands of years before German chemist Felix Hoffmann synthesised acetylsalicylic acid in 1897, creating the drug we know today as aspirin. Similarly, the antimalarial drug quinine was derived from the bark of the cinchona tree, which indigenous peoples of Peru had used to treat fevers long before European colonists recognised its pharmaceutical potential. More recently, the cancer treatment drug Taxol was developed from the Pacific yew tree after researchers investigated traditional Native American uses of the plant.\n\nHowever, the relationship between traditional knowledge and modern pharmaceutical research has been fraught with ethical challenges. The practice of 'biopiracy' — the appropriation of traditional knowledge and biological resources without proper authorisation or compensation — has been a persistent source of tension. Perhaps the most notorious case involves the neem tree, which has been used in Indian traditional medicine and agriculture for centuries. In the 1990s, several multinational companies attempted to patent neem-based products, prompting a lengthy legal battle that ultimately resulted in the revocation of these patents by the European Patent Office. Similar controversies have arisen over attempts to patent traditional uses of turmeric, ayahuasca, and hoodia, a succulent plant used by the San people of southern Africa as an appetite suppressant.\n\nIn response to these concerns, the international community has developed frameworks aimed at protecting traditional knowledge and ensuring equitable benefit-sharing. The Convention on Biological Diversity (CBD), adopted in 1992, established the principle of national sovereignty over biological resources and called for the fair distribution of benefits arising from their use. The Nagoya Protocol, adopted in 2010, went further by establishing specific mechanisms for access and benefit-sharing related to genetic resources and associated traditional knowledge. Despite these frameworks, enforcement remains challenging, and many indigenous communities continue to lack the legal resources to protect their knowledge from exploitation.\n\nThe integration of traditional knowledge into modern healthcare systems presents both opportunities and challenges. The World Health Organization has recognised the value of traditional medicine and has developed strategies to promote its safe and effective integration into national healthcare systems. In China, traditional Chinese medicine (TCM) is fully integrated into the public healthcare system, with TCM hospitals operating alongside Western medicine facilities. In India, the AYUSH ministry oversees the promotion and regulation of Ayurveda, Yoga, Unani, Siddha, and Homeopathy. These integrative approaches aim to combine the holistic, patient-centred philosophy of traditional medicine with the evidence-based rigour of modern scientific methodology.\n\nOne of the most promising areas of convergence between traditional knowledge and modern science is in the field of drug discovery. A 2020 study published in the journal Nature found that approximately 25% of all modern drugs are derived from or inspired by natural products, many of which were first identified through traditional knowledge systems. Researchers are now using advanced technologies such as high-throughput screening, computational chemistry, and genomic analysis to systematically evaluate traditional remedies and identify their active compounds. This approach, sometimes called 'reverse pharmacology', starts with observed clinical effects in traditional use and works backwards to understand the underlying molecular mechanisms, offering a more efficient pathway to drug development than the traditional 'target-based' approach that begins with laboratory screening of random compounds.\n\nDespite these advances, significant challenges remain. The documentation and preservation of traditional knowledge is an urgent priority, as many traditional practices are transmitted orally and are at risk of being lost as elder practitioners pass away without trained successors. Additionally, there is a need for greater respect and recognition of traditional knowledge holders as equal partners in research collaborations, rather than mere sources of raw material for Western scientific inquiry. As the global healthcare landscape continues to evolve, the successful integration of traditional and modern medicine will depend on building relationships based on mutual respect, equitable benefit-sharing, and a genuine appreciation for the complementary strengths that each tradition brings to the pursuit of human health and wellbeing.",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "From which tree was the antimalarial drug quinine derived?",
+              "zh": "抗疟疾药物奎宁来自哪种树？"
+            },
+            "options": [
+              {"en": "Willow tree", "zh": "柳树"},
+              {"en": "Cinchona tree", "zh": "金鸡纳树"},
+              {"en": "Pacific yew tree", "zh": "太平洋紫杉树"},
+              {"en": "Neem tree", "zh": "印楝树"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "Who synthesised acetylsalicylic acid (aspirin)?",
+              "zh": "谁合成了乙酰水杨酸（阿司匹林）？"
+            },
+            "options": [
+              {"en": "A French pharmacist", "zh": "一位法国药剂师"},
+              {"en": "Felix Hoffmann", "zh": "费利克斯·霍夫曼"},
+              {"en": "An Egyptian physician", "zh": "一位埃及医生"},
+              {"en": "A Peruvian researcher", "zh": "一位秘鲁研究员"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What is 'biopiracy'?",
+              "zh": ""生物剽窃"是什么？"
+            },
+            "options": [
+              {"en": "Illegal trading of endangered species", "zh": "非法交易濒危物种"},
+              {"en": "Appropriation of traditional knowledge without authorisation or compensation", "zh": "未经授权或补偿擅自使用传统知识"},
+              {"en": "Stealing laboratory research data", "zh": "窃取实验室研究数据"},
+              {"en": "Patenting synthetic chemical compounds", "zh": "为合成化学物质申请专利"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "Which tree was at the centre of a notable biopiracy legal case?",
+              "zh": "哪种树成为一起著名的生物剽窃法律案件的焦点？"
+            },
+            "options": [
+              {"en": "The cinchona tree", "zh": "金鸡纳树"},
+              {"en": "The Pacific yew tree", "zh": "太平洋紫杉树"},
+              {"en": "The neem tree", "zh": "印楝树"},
+              {"en": "The willow tree", "zh": "柳树"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "When was the Convention on Biological Diversity adopted?",
+              "zh": "《生物多样性公约》是在哪一年通过的？"
+            },
+            "options": [
+              {"en": "1982", "zh": "1982年"},
+              {"en": "1992", "zh": "1992年"},
+              {"en": "2002", "zh": "2002年"},
+              {"en": "2010", "zh": "2010年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What does the Nagoya Protocol establish mechanisms for?",
+              "zh": "《名古屋议定书》建立了什么机制？"
+            },
+            "options": [
+              {"en": "Climate change mitigation", "zh": "减缓气候变化"},
+              {"en": "Access and benefit-sharing related to genetic resources", "zh": "与遗传资源相关的获取和惠益分享"},
+              {"en": "International trade regulations", "zh": "国际贸易法规"},
+              {"en": "Pharmaceutical testing standards", "zh": "药物测试标准"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What percentage of modern drugs are derived from or inspired by natural products?",
+              "zh": "现代药物中有多少百分比源自或受到天然产品的启发？"
+            },
+            "options": [
+              {"en": "About 15%", "zh": "约15%"},
+              {"en": "About 25%", "zh": "约25%"},
+              {"en": "About 35%", "zh": "约35%"},
+              {"en": "About 45%", "zh": "约45%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What is 'reverse pharmacology'?",
+              "zh": ""反向药理学"是什么？"
+            },
+            "options": [
+              {"en": "Testing random compounds in laboratories", "zh": "在实验室中测试随机化合物"},
+              {"en": "Starting from observed clinical effects and working backwards to molecular mechanisms", "zh": "从观察到的临床效果出发，反向研究分子机制"},
+              {"en": "Reversing the effects of toxic substances", "zh": "逆转有毒物质的效果"},
+              {"en": "Re-evaluating rejected drug candidates", "zh": "重新评估被拒绝的候选药物"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Which ministry in India oversees traditional medicine systems?",
+              "zh": "印度的哪个部门负责监督传统医学体系？"
+            },
+            "options": [
+              {"en": "The Ministry of Health", "zh": "卫生部"},
+              {"en": "The AYUSH ministry", "zh": "AYUSH部"},
+              {"en": "The Ministry of Science", "zh": "科学部"},
+              {"en": "The Ministry of Culture", "zh": "文化部"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What plant did the San people of southern Africa use as an appetite suppressant?",
+              "zh": "南非的桑人用什么植物作为食欲抑制剂？"
+            },
+            "options": [
+              {"en": "Turmeric", "zh": "姜黄"},
+              {"en": "Ayahuasca", "zh": "死藤水"},
+              {"en": "Hoodia", "zh": "蝴蝶亚"},
+              {"en": "Neem", "zh": "印楝"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What is identified as an urgent priority regarding traditional knowledge?",
+              "zh": "关于传统知识，什么被确定为紧迫优先事项？"
+            },
+            "options": [
+              {"en": "Abolishing traditional medicine entirely", "zh": "完全废除传统医学"},
+              {"en": "Documenting and preserving traditional knowledge", "zh": "记录和保存传统知识"},
+              {"en": "Converting all traditional remedies to synthetic drugs", "zh": "将所有传统药物转化为合成药物"},
+              {"en": "Restricting access to traditional knowledge", "zh": "限制获取传统知识"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "How is traditional Chinese medicine positioned within China's healthcare system?",
+              "zh": "传统中医在中国的医疗体系中处于什么位置？"
+            },
+            "options": [
+              {"en": "As an alternative outside the public system", "zh": "作为公共系统之外的替代选择"},
+              {"en": "Fully integrated into the public healthcare system", "zh": "完全融入公共医疗系统"},
+              {"en": "Only available in private clinics", "zh": "仅在私人诊所提供"},
+              {"en": "Being phased out gradually", "zh": "正在逐步淘汰"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What does the author suggest is needed for successful integration of traditional and modern medicine?",
+              "zh": "作者认为传统医学和现代医学的成功融合需要什么？"
+            },
+            "options": [
+              {"en": "Abandoning traditional practices in favour of modern science", "zh": "放弃传统实践，支持现代科学"},
+              {"en": "Mutual respect, equitable benefit-sharing, and appreciation of complementary strengths", "zh": "相互尊重、公平的惠益分享以及对互补优势的欣赏"},
+              {"en": "Strict government regulation of all traditional practices", "zh": "政府对所有传统实践的严格监管"},
+              {"en": "Focusing exclusively on pharmaceutical development", "zh": "专注于药物开发"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1 - Describe a chart",
+          "zh": "任务1 - 描述图表"
+        },
+        "prompt": {
+          "en": "The bar chart below shows the percentage of adults participating in regular physical exercise in five different countries in 2010 and 2020. The countries are: Australia, Japan, Brazil, Germany, and India.\n\nAustralia: 2010 = 62%, 2020 = 58%\nJapan: 2010 = 45%, 2020 = 52%\nBrazil: 2010 = 35%, 2020 = 41%\nGermany: 2010 = 55%, 2020 = 61%\nIndia: 2010 = 22%, 2020 = 30%\n\nWrite at least 150 words describing and comparing the data shown in the chart. You should:\n- Summarise the information by selecting and reporting the main features\n- Make comparisons where relevant\n- Write at least 150 words",
+          "zh": "下面的柱状图显示了2010年和2020年五个不同国家成年人定期参加体育锻炼的百分比。这五个国家分别是：澳大利亚、日本、巴西、德国和印度。\n\n澳大利亚：2010年 = 62%，2020年 = 58%\n日本：2010年 = 45%，2020年 = 52%\n巴西：2010年 = 35%，2020年 = 41%\n德国：2010年 = 55%，2020年 = 61%\n印度：2010年 = 22%，2020年 = 30%\n\n请用至少150个词描述和比较图表中显示的数据。你应该：\n- 通过选择和报告主要特征来总结信息\n- 在相关的地方进行比较\n- 至少写150个词"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2 - Essay",
+          "zh": "任务2 - 议论文"
+        },
+        "prompt": {
+          "en": "Some people believe that governments should invest more money in building public libraries, while others think that in the digital age, this money could be better spent on other public services. Discuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些人认为政府应该投入更多资金建设公共图书馆，而另一些人认为在数字时代，这些钱可以更好地花在其他公共服务上。讨论两种观点并给出你自己的看法。\n\n给出你的理由，并包括来自你自己的知识或经验的相关例子。至少写250个词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}
