@@ -829,36 +829,38 @@
             if (stored) {
                 try {
                     currentTest = JSON.parse(stored);
-                    enableStart();
                     return;
                 } catch (e) {}
             }
 
-            // Fallback: fetch
+            // Fallback: fetch test1.json
             try {
                 const resp = await fetch('tests/test1.json');
                 if (resp.ok) {
                     currentTest = await resp.json();
-                    enableStart();
                 }
             } catch (e) {}
         }
 
-        function enableStart() {
+        // Init - load data and enable button
+        (async function() {
+            await loadTestData();
             const btn = document.getElementById('startBtn');
-            if (btn) {
+            if (btn && currentTest) {
                 btn.disabled = false;
                 btn.textContent = 'Start Test →';
             }
-        }
-
-        // Auto-load
-        loadTestData();
+        })();
 
         // ─── Start Exam ───
         async function startExam(mode) {
-            if (!currentTest) await loadTestData();
-            if (!currentTest) { alert('Failed to load test data'); return; }
+            if (!currentTest) {
+                await loadTestData();
+            }
+            if (!currentTest) {
+                alert('Failed to load test data. Please try again.');
+                return;
+            }
 
             document.getElementById('startScreen').style.display = 'none';
             document.getElementById('examScreen').style.display = 'block';
