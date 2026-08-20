@@ -3,337 +3,972 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IELTS Exam | 雅思考试</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>IELTS Computer-Delivered Test</title>
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+        
         :root {
-            --bg: #07070a; --surface: #12121a; --surface-2: #1a1a24;
-            --border: rgba(255,255,255,0.06); --text: #eaeaf0; --text-2: #8888a0; --text-3: #555570;
-            --accent: #6c5ce7; --accent-2: #a29bfe; --pink: #fd79a8; --green: #00b894;
+            /* Official IELTS CD colors */
+            --bg: #1a1a2e;
+            --surface: #16213e;
+            --surface-2: #0f3460;
+            --header-bg: #1a1a2e;
+            --accent: #e94560;
+            --accent-2: #533483;
+            --text: #ffffff;
+            --text-2: #b8b8d4;
+            --text-3: #6c6c8a;
+            --border: rgba(255,255,255,0.1);
+            --success: #4ade80;
+            --warning: #fbbf24;
+            --selected: rgba(233,69,96,0.2);
         }
-        body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); height: 100vh; overflow: hidden; }
-        .exam-header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; height: 48px; }
-        .exam-left { display: flex; align-items: center; gap: 12px; }
-        .exam-logo { font-size: 16px; font-weight: 800; color: var(--accent); }
-        .exam-tabs { display: flex; gap: 4px; }
-        .exam-tab { padding: 5px 12px; border-radius: 5px; font-size: 11px; cursor: pointer; border: 1px solid var(--border); background: transparent; color: var(--text-2); transition: all 0.2s; font-weight: 500; }
-        .exam-tab.active { background: var(--accent); color: white; border-color: var(--accent); }
-        .exam-right { display: flex; align-items: center; gap: 12px; }
-        .timer { font-family: 'JetBrains Mono', monospace; font-size: 18px; font-weight: 600; color: var(--text-2); }
-        .lang-btn { padding: 5px 10px; border-radius: 5px; border: 1px solid var(--border); background: transparent; color: var(--text-2); font-size: 11px; cursor: pointer; }
-        .submit-btn { padding: 5px 16px; border-radius: 5px; background: var(--accent); color: white; border: none; font-size: 11px; font-weight: 600; cursor: pointer; }
-        .exam-main { display: flex; height: calc(100vh - 48px); }
-        .passage-panel { flex: 1; padding: 24px; overflow-y: auto; border-right: 1px solid var(--border); }
-        .question-panel { width: 380px; padding: 20px; overflow-y: auto; background: var(--surface); }
-        .passage-title { font-size: 16px; font-weight: 700; margin-bottom: 16px; color: var(--accent-2); }
-        .passage-body { font-size: 14px; line-height: 1.9; color: var(--text-2); }
-        .passage-body p { margin-bottom: 12px; }
-        .audio-bar { background: var(--surface-2); padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
-        .play-btn { width: 32px; height: 32px; border-radius: 50%; background: var(--accent); border: none; color: white; font-size: 14px; cursor: pointer; transition: background 0.2s; }
-        .play-btn:hover { background: #5a4bd1; }
-        .play-btn.playing { background: var(--pink); }
-        .audio-track { flex: 1; height: 3px; background: var(--border); border-radius: 2px; cursor: pointer; }
-        .audio-fill { height: 100%; background: var(--accent); border-radius: 2px; width: 0; transition: width 0.3s; }
-        .audio-time { font-size: 11px; color: var(--text-3); font-family: monospace; min-width: 80px; }
-        .q-card { margin-bottom: 16px; padding: 14px; background: rgba(255,255,255,0.02); border-radius: 8px; border: 1px solid var(--border); }
-        .q-num { font-size: 11px; font-weight: 600; color: var(--accent); margin-bottom: 6px; }
-        .q-text { font-size: 13px; margin-bottom: 10px; line-height: 1.5; }
-        .q-options { display: flex; flex-direction: column; gap: 5px; }
-        .q-opt { display: flex; align-items: center; gap: 8px; padding: 6px 10px; border-radius: 5px; cursor: pointer; border: 1px solid var(--border); transition: all 0.15s; font-size: 12px; }
-        .q-opt:hover { border-color: var(--accent); background: rgba(108,92,231,0.04); }
-        .q-opt.selected { border-color: var(--accent); background: rgba(108,92,231,0.1); }
-        .q-opt-letter { width: 20px; height: 20px; border-radius: 50%; border: 1.5px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: 600; flex-shrink: 0; }
-        .q-opt.selected .q-opt-letter { border-color: var(--accent); background: var(--accent); color: white; }
-        .writing-area { width: 100%; min-height: 200px; padding: 12px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 6px; color: var(--text); font-size: 13px; line-height: 1.7; outline: none; resize: vertical; font-family: inherit; }
-        .writing-area:focus { border-color: var(--accent); }
-        .word-count { text-align: right; font-size: 11px; color: var(--text-3); margin-top: 4px; }
-        .q-nav { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
-        .q-btn { padding: 6px 14px; border-radius: 5px; font-size: 12px; font-weight: 600; cursor: pointer; border: none; transition: all 0.15s; }
-        .q-btn-primary { background: var(--accent); color: white; }
-        .q-btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
-        .q-btn:disabled { opacity: 0.3; cursor: not-allowed; }
-        .q-progress { font-size: 11px; color: var(--text-3); }
-        .sheet { display: none; padding: 20px; overflow-y: auto; height: calc(100vh - 48px); }
-        .sheet-title { font-size: 14px; font-weight: 700; margin-bottom: 16px; }
-        .sheet-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; margin-bottom: 20px; }
-        .sheet-cell { width: 36px; height: 36px; border-radius: 6px; border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; cursor: pointer; transition: all 0.15s; }
-        .sheet-cell.answered { background: var(--accent); color: white; border-color: var(--accent); }
+
+        body {
+            font-family: 'Segoe UI', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* ─── Top Bar (Official IELTS style) ─── */
+        .top-bar {
+            background: var(--header-bg);
+            border-bottom: 2px solid var(--accent);
+            padding: 8px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 48px;
+        }
+
+        .top-left {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .ielts-logo {
+            font-size: 18px;
+            font-weight: 800;
+            color: var(--accent);
+            letter-spacing: 1px;
+        }
+
+        .section-indicator {
+            font-size: 13px;
+            color: var(--text-2);
+            font-weight: 500;
+        }
+
+        .top-center {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .timer-display {
+            font-family: 'Courier New', monospace;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--warning);
+            min-width: 80px;
+            text-align: center;
+        }
+
+        .timer-display.warning { color: var(--accent); animation: pulse 1s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.6; } }
+
+        .top-right {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .nav-btn {
+            padding: 6px 14px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-2);
+            transition: all 0.2s;
+            font-weight: 500;
+        }
+
+        .nav-btn:hover { border-color: var(--accent); color: var(--text); }
+        .nav-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .nav-btn.primary { background: var(--accent); color: white; border-color: var(--accent); }
+        .nav-btn.primary:hover { background: #d63d56; }
+
+        /* ─── Main Layout ─── */
+        .main {
+            display: flex;
+            height: calc(100vh - 48px);
+        }
+
+        /* ─── Left Panel (Passage/Content) ─── */
+        .left-panel {
+            flex: 1;
+            padding: 24px;
+            overflow-y: auto;
+            border-right: 1px solid var(--border);
+            background: var(--bg);
+        }
+
+        .passage-header {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .passage-content {
+            font-size: 15px;
+            line-height: 1.9;
+            color: var(--text-2);
+        }
+
+        .passage-content p { margin-bottom: 14px; }
+        .passage-content strong { color: var(--text); }
+
+        /* Highlight tool */
+        .highlight-btn {
+            position: fixed;
+            display: none;
+            padding: 4px 10px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+            z-index: 100;
+        }
+
+        .highlighted { background: rgba(233,69,96,0.3); padding: 1px 2px; border-radius: 2px; }
+
+        /* ─── Right Panel (Questions) ─── */
+        .right-panel {
+            width: 420px;
+            background: var(--surface);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .question-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .question-counter {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .question-body {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .question-text {
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+            color: var(--text);
+        }
+
+        /* Options */
+        .options-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .option {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 12px 14px;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.15s;
+            background: transparent;
+        }
+
+        .option:hover {
+            border-color: var(--accent);
+            background: rgba(233,69,96,0.05);
+        }
+
+        .option.selected {
+            border-color: var(--accent);
+            background: var(--selected);
+        }
+
+        .option-marker {
+            width: 24px;
+            height: 24px;
+            border: 2px solid var(--border);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: 600;
+            flex-shrink: 0;
+            transition: all 0.15s;
+        }
+
+        .option.selected .option-marker {
+            border-color: var(--accent);
+            background: var(--accent);
+            color: white;
+        }
+
+        .option-text {
+            font-size: 14px;
+            line-height: 1.5;
+            color: var(--text-2);
+        }
+
+        .option.selected .option-text { color: var(--text); }
+
+        /* Writing area */
+        .writing-container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .writing-prompt {
+            padding: 16px 20px;
+            background: var(--surface-2);
+            border-bottom: 1px solid var(--border);
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-2);
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .writing-area {
+            flex: 1;
+            padding: 20px;
+            background: transparent;
+            border: none;
+            color: var(--text);
+            font-size: 15px;
+            line-height: 1.8;
+            outline: none;
+            resize: none;
+            font-family: inherit;
+        }
+
+        .writing-footer {
+            padding: 10px 20px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 12px;
+            color: var(--text-3);
+        }
+
+        .word-count {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            color: var(--text-2);
+        }
+
+        .word-count.warning { color: var(--warning); }
+        .word-count.good { color: var(--success); }
+
+        /* Navigation footer */
+        .nav-footer {
+            padding: 12px 20px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* ─── Audio Player ─── */
+        .audio-player {
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .play-btn {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: var(--accent);
+            border: none;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            flex-shrink: 0;
+        }
+
+        .play-btn:hover { background: #d63d56; transform: scale(1.05); }
+        .play-btn.playing { background: var(--success); }
+
+        .audio-info {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .audio-title {
+            font-size: 12px;
+            color: var(--text-3);
+        }
+
+        .audio-progress {
+            height: 4px;
+            background: var(--border);
+            border-radius: 2px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .audio-fill {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 2px;
+            width: 0;
+            transition: width 0.1s linear;
+        }
+
+        .audio-time {
+            font-size: 12px;
+            color: var(--text-3);
+            font-family: 'Courier New', monospace;
+            min-width: 80px;
+            text-align: right;
+        }
+
+        .volume-btn {
+            background: none;
+            border: none;
+            color: var(--text-3);
+            font-size: 16px;
+            cursor: pointer;
+            padding: 4px;
+        }
+
+        /* ─── Answer Sheet Modal ─── */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.7);
+            z-index: 200;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-overlay.active { display: flex; }
+
+        .modal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            max-width: 600px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-title {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: var(--text-3);
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .sheet-section {
+            margin-bottom: 20px;
+        }
+
+        .sheet-section-title {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--accent);
+            margin-bottom: 10px;
+        }
+
+        .sheet-grid {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            gap: 6px;
+        }
+
+        .sheet-cell {
+            width: 36px;
+            height: 36px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.15s;
+            font-weight: 500;
+        }
+
         .sheet-cell:hover { border-color: var(--accent); }
-        .review { display: none; padding: 40px; overflow-y: auto; height: 100vh; }
-        .review-header { text-align: center; margin-bottom: 32px; }
-        .score-box { display: inline-flex; flex-direction: column; align-items: center; padding: 20px 36px; background: var(--surface); border: 2px solid var(--accent); border-radius: 14px; margin-bottom: 12px; }
-        .score-num { font-size: 42px; font-weight: 800; color: var(--accent); }
-        .score-lbl { font-size: 11px; color: var(--text-3); }
-        .review-item { padding: 12px; background: var(--surface); border-radius: 8px; margin-bottom: 8px; border: 1px solid var(--border); }
-        .review-item.correct { border-left: 3px solid var(--green); }
-        .review-item.wrong { border-left: 3px solid var(--pink); }
-        .review-q { font-size: 12px; color: var(--text-3); margin-bottom: 4px; }
-        .review-a { font-size: 13px; }
-        .review-a.correct { color: var(--green); }
-        .review-a.wrong { color: var(--pink); }
-        .section-divider { padding: 8px 12px; background: var(--surface-2); border-radius: 6px; margin: 12px 0; font-size: 12px; color: var(--accent-2); font-weight: 600; }
+        .sheet-cell.answered { background: var(--accent); color: white; border-color: var(--accent); }
+        .sheet-cell.current { border-color: var(--warning); box-shadow: 0 0 8px rgba(251,191,36,0.3); }
+
+        /* ─── Review Screen ─── */
+        .review-screen {
+            display: none;
+            height: 100vh;
+            overflow-y: auto;
+            padding: 40px;
+            background: var(--bg);
+        }
+
+        .review-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .score-circle {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 140px;
+            height: 140px;
+            border: 4px solid var(--accent);
+            border-radius: 50%;
+            margin-bottom: 16px;
+        }
+
+        .score-value {
+            font-size: 48px;
+            font-weight: 800;
+            color: var(--accent);
+        }
+
+        .score-label {
+            font-size: 12px;
+            color: var(--text-3);
+        }
+
+        .review-section {
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .review-section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--accent);
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .review-item {
+            padding: 12px 16px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            margin-bottom: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .review-item.correct { border-left: 3px solid var(--success); }
+        .review-item.wrong { border-left: 3px solid var(--accent); }
+
+        .review-q {
+            font-size: 13px;
+            color: var(--text-2);
+            flex: 1;
+        }
+
+        .review-answer {
+            font-size: 13px;
+            font-weight: 600;
+            margin-left: 16px;
+        }
+
+        .review-answer.correct { color: var(--success); }
+        .review-answer.wrong { color: var(--accent); }
+
+        /* ─── Start Screen ─── */
+        .start-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+            background: var(--bg);
+        }
+
+        .start-logo {
+            font-size: 48px;
+            font-weight: 900;
+            color: var(--accent);
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+        }
+
+        .start-sub {
+            font-size: 16px;
+            color: var(--text-3);
+            margin-bottom: 40px;
+        }
+
+        .start-options {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+            max-width: 500px;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .start-option {
+            padding: 20px;
+            background: var(--surface);
+            border: 2px solid var(--border);
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: left;
+        }
+
+        .start-option:hover {
+            border-color: var(--accent);
+            transform: translateY(-3px);
+            box-shadow: 0 8px 24px rgba(233,69,96,0.2);
+        }
+
+        .start-option-title {
+            font-size: 16px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .start-option-desc {
+            font-size: 12px;
+            color: var(--text-3);
+        }
+
+        .start-btn {
+            padding: 14px 40px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .start-btn:hover { background: #d63d56; transform: translateY(-2px); }
+
+        /* ─── Responsive ─── */
         @media (max-width: 768px) {
-            .exam-main { flex-direction: column; }
-            .question-panel { width: 100%; height: 50vh; }
-            .passage-panel { height: 50vh; border-right: none; border-bottom: 1px solid var(--border); }
-            .sheet { height: auto; }
+            .main { flex-direction: column; }
+            .right-panel { width: 100%; height: 50vh; }
+            .left-panel { height: 50vh; border-right: none; border-bottom: 1px solid var(--border); }
+            .top-bar { padding: 8px 12px; }
+            .nav-btn { padding: 4px 8px; font-size: 11px; }
+            .start-options { grid-template-columns: 1fr; }
             .sheet-grid { grid-template-columns: repeat(5, 1fr); }
         }
     </style>
 </head>
 <body>
-    <div class="exam-header">
-        <div class="exam-left">
-            <div class="exam-logo">IELTS</div>
-            <div class="exam-tabs" id="examTabs"></div>
+
+    <!-- Start Screen -->
+    <div class="start-screen" id="startScreen">
+        <div class="start-logo">IELTS</div>
+        <div class="start-sub">Computer-Delivered Mock Test</div>
+        <div class="start-options">
+            <div class="start-option" onclick="startExam('listening')">
+                <div class="start-option-title">🎧 Listening</div>
+                <div class="start-option-desc">30 minutes · 40 questions</div>
+            </div>
+            <div class="start-option" onclick="startExam('reading')">
+                <div class="start-option-title">📖 Reading</div>
+                <div class="start-option-desc">60 minutes · 40 questions</div>
+            </div>
+            <div class="start-option" onclick="startExam('writing')">
+                <div class="start-option-title">✍️ Writing</div>
+                <div class="start-option-desc">60 minutes · 2 tasks</div>
+            </div>
+            <div class="start-option" onclick="startExam('full')">
+                <div class="start-option-title">📝 Full Test</div>
+                <div class="start-option-desc">2h 45min · All sections</div>
+            </div>
         </div>
-        <div class="exam-right">
-            <div class="timer" id="timer">00:00</div>
-            <button class="lang-btn" id="langBtn" onclick="toggleLang()">EN/中</button>
-            <button class="submit-btn" onclick="showSheet()">答题卡</button>
-            <button class="submit-btn" style="background:var(--green)" onclick="endExam()">交卷</button>
+        <button class="start-btn" onclick="startExam('full')">Start Test →</button>
+    </div>
+
+    <!-- Exam Screen -->
+    <div id="examScreen" style="display: none;">
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="top-left">
+                <div class="ielts-logo">IELTS</div>
+                <div class="section-indicator" id="sectionLabel">Listening</div>
+            </div>
+            <div class="top-center">
+                <div class="timer-display" id="timer">30:00</div>
+            </div>
+            <div class="top-right">
+                <button class="nav-btn" onclick="showAnswerSheet()">Answer Sheet</button>
+                <button class="nav-btn" onclick="toggleHelp()">Help</button>
+                <button class="nav-btn primary" onclick="confirmSubmit()">Submit</button>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main">
+            <div class="left-panel" id="leftPanel"></div>
+            <div class="right-panel" id="rightPanel"></div>
         </div>
     </div>
 
-    <div class="exam-main" id="examMain">
-        <div class="passage-panel" id="passagePanel"></div>
-        <div class="question-panel" id="questionPanel"></div>
-    </div>
-
-    <div class="sheet" id="sheetPanel">
-        <div class="sheet-title" id="sheetTitle">答题卡</div>
-        <div id="sheetContent"></div>
-        <div style="text-align:center;margin-top:20px;">
-            <button class="q-btn q-btn-primary" onclick="hideSheet()">返回考试</button>
+    <!-- Answer Sheet Modal -->
+    <div class="modal-overlay" id="answerSheetModal">
+        <div class="modal">
+            <div class="modal-title">
+                <span>Answer Sheet</span>
+                <button class="modal-close" onclick="closeAnswerSheet()">×</button>
+            </div>
+            <div id="answerSheetContent"></div>
         </div>
     </div>
 
-    <div class="review" id="reviewPanel"></div>
+    <!-- Review Screen -->
+    <div class="review-screen" id="reviewScreen">
+        <div id="reviewContent"></div>
+    </div>
 
     <script>
-        let test = null;
-        let lang = 'zh';
-        let section = 'listening';
-        let secIdx = 0; // which sub-section (0-3 for listening, 0-2 for reading)
-        let qIdx = 0;
+        // ─── State ───
+        let currentTest = null;
+        let currentSection = 'listening';
+        let currentSubSection = 0;
+        let currentQuestion = 0;
         let answers = {};
-        let seconds = 0;
+        let timerSeconds = 0;
         let timerInterval = null;
         let audioPlaying = false;
         let audioProgress = 0;
         let audioInterval = null;
+        let totalTime = { listening: 30*60, reading: 60*60, writing: 60*60 };
 
-        function init() {
-            const stored = sessionStorage.getItem('ielts-test');
-            lang = sessionStorage.getItem('ielts-lang') || 'zh';
-            if (!stored) { window.location.href = 'index.html'; return; }
-            test = JSON.parse(stored);
-            document.getElementById('langBtn').textContent = lang === 'zh' ? 'EN/中' : '中/EN';
-            setupTabs();
+        // ─── Load Test Data ───
+        async function loadTestData() {
+            try {
+                const resp = await fetch('tests/test1.json');
+                if (resp.ok) {
+                    currentTest = await resp.json();
+                }
+            } catch (e) {
+                console.error('Failed to load test data:', e);
+            }
+        }
+
+        // ─── Start Exam ───
+        async function startExam(mode) {
+            if (!currentTest) await loadTestData();
+            if (!currentTest) { alert('Failed to load test data'); return; }
+
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('examScreen').style.display = 'block';
+
+            currentSection = mode === 'full' ? 'listening' : mode;
+            currentSubSection = 0;
+            currentQuestion = 0;
+            answers = {};
+
+            updateSectionLabel();
             startTimer();
-            loadQ();
+            loadQuestion();
         }
 
-        function toggleLang() {
-            lang = lang === 'zh' ? 'en' : 'zh';
-            document.getElementById('langBtn').textContent = lang === 'zh' ? 'EN/中' : '中/EN';
-            setupTabs();
-            loadQ();
-        }
-
-        function t(obj) { return typeof obj === 'object' ? (obj[lang] || obj.en || '') : obj; }
-
-        function setupTabs() {
-            const tabs = document.getElementById('examTabs');
-            tabs.innerHTML = '';
-            ['listening', 'reading', 'writing'].forEach(s => {
-                const tab = document.createElement('button');
-                tab.className = 'exam-tab' + (s === section ? ' active' : '');
-                tab.textContent = lang === 'zh' ? { listening: '听力', reading: '阅读', writing: '写作' }[s] : s[0].toUpperCase() + s.slice(1);
-                tab.onclick = () => { section = s; secIdx = 0; qIdx = 0; setupTabs(); loadQ(); };
-                tabs.appendChild(tab);
-            });
-        }
-
+        // ─── Timer ───
         function startTimer() {
+            timerSeconds = totalTime[currentSection] || 30*60;
+            updateTimerDisplay();
             timerInterval = setInterval(() => {
-                seconds++;
-                const m = Math.floor(seconds / 60);
-                const s = seconds % 60;
-                document.getElementById('timer').textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+                timerSeconds--;
+                if (timerSeconds <= 0) {
+                    clearInterval(timerInterval);
+                    nextSection();
+                    return;
+                }
+                updateTimerDisplay();
             }, 1000);
         }
 
-        // Get all questions for current section (flattened)
-        function getAllQuestions() {
-            const secData = test[section];
-            if (!secData) return [];
-            const all = [];
+        function updateTimerDisplay() {
+            const m = Math.floor(timerSeconds / 60);
+            const s = timerSeconds % 60;
+            const timerEl = document.getElementById('timer');
+            timerEl.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+            timerEl.className = timerSeconds < 300 ? 'timer-display warning' : 'timer-display';
+        }
+
+        function updateSectionLabel() {
+            const labels = { listening: 'Listening', reading: 'Reading', writing: 'Writing' };
+            document.getElementById('sectionLabel').textContent = labels[currentSection] || currentSection;
+        }
+
+        // ─── Load Question ───
+        function loadQuestion() {
+            const secData = currentTest[currentSection];
+            if (!secData) return;
+
+            const allQuestions = [];
             secData.sections.forEach((sub, si) => {
-                if (section === 'writing') {
-                    // Writing has prompts, not questions
-                    all.push({
+                if (currentSection === 'writing') {
+                    allQuestions.push({
                         id: 'writing_' + si,
                         type: 'writing',
                         text: sub.prompt,
                         prompt: sub.prompt,
-                        minWords: sub.minWords || (si === 0 ? 150 : 250),
+                        minWords: si === 0 ? 150 : 250,
                         subSection: si,
-                        subTitle: sub.title,
-                        subPassage: ''
+                        subTitle: sub.title
                     });
                 } else {
                     (sub.questions || []).forEach(q => {
-                        all.push({ ...q, subSection: si, subTitle: sub.title, subPassage: sub.passage });
+                        allQuestions.push({ ...q, subSection: si, subTitle: sub.title, subPassage: sub.passage });
                     });
                 }
             });
-            return all;
-        }
 
-        // Get current sub-section info
-        function getCurrentSubSection() {
-            const secData = test[section];
-            if (!secData || !secData.sections[secIdx]) return null;
-            return secData.sections[secIdx];
-        }
-
-        function loadQ() {
-            const allQ = getAllQuestions();
-            const secData = test[section];
-            if (!secData || allQ.length === 0) return;
-
-            // Find which sub-section current question belongs to
-            let globalIdx = 0;
-            for (let si = 0; si < secIdx; si++) {
-                globalIdx += (secData.sections[si].questions || []).length;
-            }
-            globalIdx += qIdx;
-
-            if (globalIdx >= allQ.length) {
-                // Section complete
-                const pp = document.getElementById('passagePanel');
-                const qp = document.getElementById('questionPanel');
-                pp.innerHTML = `<div class="passage-title">${lang==='zh'?'本部分完成':'Section Complete'}</div>`;
-                qp.innerHTML = `<div style="text-align:center;padding:40px;"><p style="color:var(--text-2);margin-bottom:16px;">${lang==='zh'?'所有题目已完成':'All questions answered'}</p><button class="q-btn q-btn-primary" onclick="nextSec()">${lang==='zh'?'下一部分':'Next Section'} →</button></div>`;
+            if (currentQuestion >= allQuestions.length) {
+                showSectionComplete();
                 return;
             }
 
-            const q = allQ[globalIdx];
+            const q = allQuestions[currentQuestion];
             const subSec = secData.sections[q.subSection];
 
-            // Left panel - passage
-            const pp = document.getElementById('passagePanel');
-            let leftHtml = `<div class="passage-title">${t(subSec.title)}</div>`;
+            // Left panel
+            const leftPanel = document.getElementById('leftPanel');
+            let leftHtml = `<div class="passage-header">${typeof subSec.title === 'object' ? (subSec.title.zh || subSec.title.en) : subSec.title}</div>`;
 
             // Audio for listening
-            if (section === 'listening') {
-                leftHtml += `<div class="audio-bar">
-                    <button class="play-btn ${audioPlaying?'playing':''}" onclick="toggleAudio()">▶</button>
-                    <div class="audio-track" onclick="seekAudio(event)"><div class="audio-fill" id="audioFill" style="width:${audioProgress}%"></div></div>
-                    <span class="audio-time" id="audioTime">0:00 / 30:00</span>
-                </div>`;
+            if (currentSection === 'listening') {
+                leftHtml += `
+                    <div class="audio-player">
+                        <button class="play-btn ${audioPlaying ? 'playing' : ''}" onclick="toggleAudio()">
+                            ${audioPlaying ? '⏸' : '▶'}
+                        </button>
+                        <div class="audio-info">
+                            <div class="audio-title">Section ${q.subSection + 1}</div>
+                            <div class="audio-progress" onclick="seekAudio(event)">
+                                <div class="audio-fill" id="audioFill" style="width: ${audioProgress}%"></div>
+                            </div>
+                        </div>
+                        <div class="audio-time" id="audioTime">0:00 / 7:30</div>
+                        <button class="volume-btn">🔊</button>
+                    </div>
+                `;
             }
 
-            leftHtml += `<div class="passage-body">${subSec.passage}</div>`;
-            pp.innerHTML = leftHtml;
+            leftHtml += `<div class="passage-content">${subSec.passage}</div>`;
+            leftPanel.innerHTML = leftHtml;
 
-            // Right panel - question
-            const qp = document.getElementById('questionPanel');
-            const totalInSection = allQ.length;
-            let html = `<div class="q-card">`;
-            html += `<div class="q-num">${lang==='zh'?'第':'Q'}${globalIdx+1}${lang==='zh'?'题，共':' of '}${totalInSection}${lang==='zh'?'题':''}</div>`;
+            // Right panel
+            const rightPanel = document.getElementById('rightPanel');
+            let rightHtml = `<div class="question-header">
+                <div class="question-counter">Question ${currentQuestion + 1} of ${allQuestions.length}</div>
+                <div style="font-size:12px;color:var(--text-3);">${q.subSection !== undefined ? 'Section ' + (q.subSection + 1) : ''}</div>
+            </div>
+            <div class="question-body">`;
 
             if (q.type === 'writing') {
-                const wc = answers[q.id] ? answers[q.id].split(/\s+/).filter(w=>w).length : 0;
-                html += `<div class="q-text">${t(q.text||q.prompt)}</div>`;
-                html += `<textarea class="writing-area" oninput="updWC(${q.id},${q.minWords||250})">${answers[q.id]||''}</textarea>`;
-                html += `<div class="word-count">${wc} / ${q.minWords||250} ${lang==='zh'?'字':'words'}</div>`;
+                const wc = answers[q.id] ? answers[q.id].split(/\s+/).filter(w => w).length : 0;
+                const minW = q.minWords || 250;
+                const wcClass = wc >= minW ? 'good' : 'warning';
+                rightHtml += `
+                    <div class="writing-container">
+                        <div class="writing-prompt">${typeof q.prompt === 'object' ? (q.prompt.zh || q.prompt.en) : q.prompt}</div>
+                        <textarea class="writing-area" placeholder="Start writing here..." oninput="updateWordCount('${q.id}', ${minW})">${answers[q.id] || ''}</textarea>
+                        <div class="writing-footer">
+                            <span>Minimum ${minW} words</span>
+                            <span class="word-count ${wcClass}" id="wordCount">${wc} / ${minW}</span>
+                        </div>
+                    </div>
+                `;
             } else {
-                html += `<div class="q-text">${t(q.text)}</div><div class="q-options">`;
-                (q.options||[]).forEach((o,i) => {
-                    html += `<div class="q-opt${answers[q.id]===i?' selected':''}" onclick="sel(${q.id},${i})"><div class="q-opt-letter">${String.fromCharCode(65+i)}</div><div>${t(o)}</div></div>`;
+                rightHtml += `<div class="question-text">${typeof q.text === 'object' ? (q.text.zh || q.text.en) : q.text}</div>`;
+                rightHtml += `<div class="options-list">`;
+                (q.options || []).forEach((opt, i) => {
+                    const optText = typeof opt === 'object' ? (opt.zh || opt.en) : opt;
+                    const isSelected = answers[q.id] === i;
+                    rightHtml += `
+                        <div class="option ${isSelected ? 'selected' : ''}" onclick="selectOption('${q.id}', ${i})">
+                            <div class="option-marker">${String.fromCharCode(65 + i)}</div>
+                            <div class="option-text">${optText}</div>
+                        </div>
+                    `;
                 });
-                html += '</div>';
+                rightHtml += `</div>`;
             }
 
-            html += `<div class="q-nav">
-                <button class="q-btn q-btn-ghost" onclick="prevQ()" ${globalIdx===0?'disabled':''}>← ${lang==='zh'?'上一题':'Prev'}</button>
-                <span class="q-progress">${globalIdx+1}/${totalInSection}</span>
-                <button class="q-btn q-btn-primary" onclick="nextQ()">${globalIdx===totalInSection-1?(lang==='zh'?'完成':'Finish'):(lang==='zh'?'下一题':'Next →')}</button>
-            </div></div>`;
-            qp.innerHTML = html;
+            rightHtml += `</div>
+            <div class="nav-footer">
+                <button class="nav-btn" onclick="prevQuestion()" ${currentQuestion === 0 ? 'disabled' : ''}>← Previous</button>
+                <button class="nav-btn primary" onclick="nextQuestion()">
+                    ${currentQuestion === allQuestions.length - 1 ? 'Finish' : 'Next →'}
+                </button>
+            </div>`;
+
+            rightPanel.innerHTML = rightHtml;
         }
 
-        function sel(qid, i) { answers[qid] = i; loadQ(); }
-        function updWC(qid, min) {
-            const ta = document.querySelector('.writing-area');
-            answers[qid] = ta.value;
-            const wc = ta.value.split(/\s+/).filter(w=>w).length;
-            document.querySelector('.word-count').textContent = `${wc} / ${min} ${lang==='zh'?'字':'words'}`;
+        // ─── Navigation ───
+        function selectOption(qid, idx) {
+            answers[qid] = idx;
+            loadQuestion();
         }
 
-        function nextQ() {
-            const secData = test[section];
-            const subSec = secData.sections[secIdx];
-            const subQCount = (subSec.questions || []).length;
+        function updateWordCount(qid, minWords) {
+            const textarea = document.querySelector('.writing-area');
+            answers[qid] = textarea.value;
+            const wc = textarea.value.split(/\s+/).filter(w => w).length;
+            const wcEl = document.getElementById('wordCount');
+            wcEl.textContent = `${wc} / ${minWords}`;
+            wcEl.className = `word-count ${wc >= minWords ? 'good' : 'warning'}`;
+        }
 
-            qIdx++;
-            if (qIdx >= subQCount) {
-                // Move to next sub-section
-                secIdx++;
-                qIdx = 0;
-                if (secIdx >= secData.sections.length) {
-                    // Move to next main section
-                    nextSec();
-                    return;
+        function nextQuestion() {
+            const secData = currentTest[currentSection];
+            const allQ = [];
+            secData.sections.forEach(sub => {
+                if (currentSection === 'writing') {
+                    allQ.push({ type: 'writing' });
+                } else {
+                    (sub.questions || []).forEach(() => allQ.push({}));
                 }
+            });
+
+            if (currentQuestion < allQ.length - 1) {
+                currentQuestion++;
+                loadQuestion();
+            } else {
+                nextSection();
             }
-            loadQ();
         }
 
-        function prevQ() {
-            if (qIdx > 0) {
-                qIdx--;
-            } else if (secIdx > 0) {
-                secIdx--;
-                const secData = test[section];
-                qIdx = (secData.sections[secIdx].questions || []).length - 1;
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                loadQuestion();
             }
-            loadQ();
         }
 
-        function nextSec() {
-            if (section === 'listening') { section = 'reading'; secIdx = 0; qIdx = 0; setupTabs(); loadQ(); }
-            else if (section === 'reading') { section = 'writing'; secIdx = 0; qIdx = 0; setupTabs(); loadQ(); }
-            else { endExam(); }
+        function nextSection() {
+            clearInterval(timerInterval);
+            clearInterval(audioInterval);
+            audioPlaying = false;
+
+            if (currentSection === 'listening') {
+                currentSection = 'reading';
+            } else if (currentSection === 'reading') {
+                currentSection = 'writing';
+            } else {
+                submitExam();
+                return;
+            }
+
+            currentQuestion = 0;
+            updateSectionLabel();
+            startTimer();
+            loadQuestion();
         }
 
-        // Audio simulation
+        function showSectionComplete() {
+            const rightPanel = document.getElementById('rightPanel');
+            rightPanel.innerHTML = `
+                <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;padding:40px;text-align:center;">
+                    <div style="font-size:48px;margin-bottom:16px;">✓</div>
+                    <div style="font-size:18px;font-weight:700;margin-bottom:8px;">Section Complete</div>
+                    <div style="font-size:14px;color:var(--text-3);margin-bottom:24px;">${currentSection === 'writing' ? 'You have completed all sections' : 'Click below to continue'}</div>
+                    <button class="nav-btn primary" onclick="nextSection()">
+                        ${currentSection === 'writing' ? 'Submit Test' : 'Next Section →'}
+                    </button>
+                </div>
+            `;
+        }
+
+        // ─── Audio ───
         function toggleAudio() {
             audioPlaying = !audioPlaying;
             const btn = document.querySelector('.play-btn');
             if (btn) {
-                btn.textContent = audioPlaying ? '⏸' : '▶';
+                btn.innerHTML = audioPlaying ? '⏸' : '▶';
                 btn.classList.toggle('playing', audioPlaying);
             }
+
             if (audioPlaying) {
+                const sectionDuration = 7.5 * 60; // 7:30 per section
                 audioInterval = setInterval(() => {
-                    audioProgress += 0.5;
+                    audioProgress += (100 / sectionDuration) * 0.1;
                     if (audioProgress >= 100) {
                         audioProgress = 100;
                         audioPlaying = false;
                         clearInterval(audioInterval);
-                        if (btn) { btn.textContent = '▶'; btn.classList.remove('playing'); }
+                        if (btn) { btn.innerHTML = '▶'; btn.classList.remove('playing'); }
                     }
                     const fill = document.getElementById('audioFill');
                     if (fill) fill.style.width = audioProgress + '%';
                     const time = document.getElementById('audioTime');
                     if (time) {
-                      const totalSec = 1800; // 30 min
-                      const cur = Math.floor(totalSec * audioProgress / 100);
-                      time.textContent = `${String(Math.floor(cur/60)).padStart(2,'0')}:${String(cur%60).padStart(2,'0')} / 30:00`;
+                        const cur = Math.floor(sectionDuration * audioProgress / 100);
+                      time.textContent = `${String(Math.floor(cur/60)).padStart(2,'0')}:${String(cur%60).padStart(2,'0')} / 7:30`;
                     }
                 }, 100);
             } else {
@@ -348,93 +983,146 @@
             if (fill) fill.style.width = audioProgress + '%';
         }
 
-        // Answer Sheet
-        function showSheet() {
-            document.getElementById('examMain').style.display = 'none';
-            document.getElementById('sheetPanel').style.display = 'block';
-            renderSheet();
+        // ─── Answer Sheet ───
+        function showAnswerSheet() {
+            document.getElementById('answerSheetModal').classList.add('active');
+            renderAnswerSheet();
         }
-        function hideSheet() {
-            document.getElementById('examMain').style.display = 'flex';
-            document.getElementById('sheetPanel').style.display = 'none';
+
+        function closeAnswerSheet() {
+            document.getElementById('answerSheetModal').classList.remove('active');
         }
-        function renderSheet() {
-            const content = document.getElementById('sheetContent');
+
+        function renderAnswerSheet() {
+            const content = document.getElementById('answerSheetContent');
             let html = '';
             let globalNum = 1;
+
             ['listening', 'reading', 'writing'].forEach(s => {
-                const sec = test[s];
+                const sec = currentTest[s];
                 if (!sec) return;
-                html += `<div style="margin-bottom:16px;"><div style="font-size:13px;font-weight:600;margin-bottom:8px;">${lang==='zh'?{listening:'听力',reading:'阅读',writing:'写作'}[s]:s.toUpperCase()}</div>`;
+
+                html += `<div class="sheet-section"><div class="sheet-section-title">${s.toUpperCase()}</div>`;
+
                 sec.sections.forEach((sub, si) => {
-                    html += `<div style="font-size:11px;color:var(--text-3);margin-bottom:4px;">${t(sub.title)}</div><div class="sheet-grid">`;
+                    html += `<div style="font-size:11px;color:var(--text-3);margin-bottom:6px;">${typeof sub.title === 'object' ? (sub.title.zh || sub.title.en) : sub.title}</div><div class="sheet-grid">`;
+
                     if (s === 'writing') {
-                        // Writing has prompts, not questions
-                        const answered = answers['writing_' + si] !== undefined && answers['writing_' + si].length > 0;
-                        html += `<div class="sheet-cell${answered?' answered':''}" onclick="goQ('${s}',${si},0)">${lang==='zh'?'任务':'Task'} ${si+1}</div>`;
-                        globalNum++;
+                        const answered = answers['writing_' + si] && answers['writing_' + si].length > 0;
+                        html += `<div class="sheet-cell ${answered ? 'answered' : ''}" onclick="goToQuestion('${s}', 0)">${si + 1}</div>`;
                     } else {
-                        (sub.questions||[]).forEach((q,i) => {
-                          const answered = answers[q.id] !== undefined;
-                          html += `<div class="sheet-cell${answered?' answered':''}" onclick="goQ('${s}',${si},${i})">${globalNum}</div>`;
-                          globalNum++;
+                        (sub.questions || []).forEach((q, i) => {
+                            const answered = answers[q.id] !== undefined;
+                            const isCurrent = s === currentSection && currentQuestion === globalNum - 1;
+                            html += `<div class="sheet-cell ${answered ? 'answered' : ''} ${isCurrent ? 'current' : ''}" onclick="goToQuestion('${s}', ${globalNum - 1})">${globalNum}</div>`;
+                            globalNum++;
                         });
                     }
-                    html += '</div>';
+                    html += `</div>`;
                 });
-                html += '</div>';
+                html += `</div>`;
             });
+
             content.innerHTML = html;
         }
-        function goQ(sec, si, idx) { section = sec; secIdx = si; qIdx = idx; hideSheet(); setupTabs(); loadQ(); }
 
-        // End Exam
-        function endExam() {
+        function goToQuestion(section, qIdx) {
+            if (section !== currentSection) {
+                clearInterval(timerInterval);
+                currentSection = section;
+                updateSectionLabel();
+                startTimer();
+            }
+            currentQuestion = qIdx;
+            closeAnswerSheet();
+            loadQuestion();
+        }
+
+        // ─── Submit ───
+        function confirmSubmit() {
+            if (confirm('Are you sure you want to submit your test?')) {
+                submitExam();
+            }
+        }
+
+        function submitExam() {
             clearInterval(timerInterval);
             clearInterval(audioInterval);
-            document.getElementById('examMain').style.display = 'none';
-            document.getElementById('sheetPanel').style.display = 'none';
-            document.getElementById('reviewPanel').style.display = 'block';
+            document.getElementById('examScreen').style.display = 'none';
+            document.getElementById('reviewScreen').style.display = 'block';
             showReview();
         }
 
+        // ─── Review ───
         function showReview() {
             let correct = 0, total = 0;
             ['listening', 'reading'].forEach(s => {
-                if (test[s]) test[s].sections.forEach(seg => {
-                    (seg.questions||[]).forEach(q => {
-                        if (q.answer !== undefined && q.options) { total++; if (answers[q.id] === q.answer) correct++; }
+                if (currentTest[s]) {
+                    currentTest[s].sections.forEach(sub => {
+                        (sub.questions || []).forEach(q => {
+                            if (q.answer !== undefined && q.options) {
+                                total++;
+                                if (answers[q.id] === q.answer) correct++;
+                            }
+                        });
                     });
-                });
+                }
             });
+
             const band = total > 0 ? Math.round((correct / total) * 9) : 0;
-            const rp = document.getElementById('reviewPanel');
-            let html = `<div class="review-header"><h1 style="font-size:28px;margin-bottom:16px;">${lang==='zh'?'考试完成':'Exam Complete'}</h1><div class="score-box"><div class="score-num">${band}</div><div class="score-lbl">${lang==='zh'?'预估分数':'Estimated Band'}</div></div><p style="color:var(--text-2);">${lang==='zh'?`答对 ${correct}/${total} 题`:`${correct}/${total} correct`}</p></div><h2 style="margin-bottom:16px;font-size:18px;">${lang==='zh'?'答案回顾':'Review'}</h2>`;
+            const reviewContent = document.getElementById('reviewContent');
+
+            let html = `
+                <div class="review-header">
+                    <h1 style="font-size:28px;margin-bottom:20px;">Test Complete</h1>
+                    <div class="score-circle">
+                        <div class="score-value">${band}</div>
+                        <div class="score-label">Band Score</div>
+                    </div>
+                    <p style="color:var(--text-2);">You answered ${correct} out of ${total} questions correctly.</p>
+                </div>
+            `;
+
+            // Review answers
             ['listening', 'reading'].forEach(s => {
-                if (test[s]) test[s].sections.forEach(seg => {
-                    (seg.questions||[]).forEach(q => {
-                        if (q.answer !== undefined && q.options) {
-                            const ok = answers[q.id] === q.answer;
-                            const yourAns = answers[q.id] !== undefined ? t(q.options[answers[q.id]]) : (lang==='zh'?'未作答':'Not answered');
-                            const correctAns = t(q.options[q.answer]);
-                          html += `<div class="review-item ${ok?'correct':'wrong'}"><div class="review-q">Q${q.id}: ${t(q.text)}</div><div class="review-a ${ok?'correct':'wrong'}">${ok?'✓':'✗'} ${yourAns} ${!ok?'→ '+correctAns:''}</div></div>`;
-                        }
+                if (!currentTest[s]) return;
+                html += `<div class="review-section"><div class="review-section-title">${s.toUpperCase()}</div>`;
+
+                currentTest[s].sections.forEach(sub => {
+                    (sub.questions || []).forEach(q => {
+                        if (q.answer === undefined || !q.options) return;
+                        const ok = answers[q.id] === q.answer;
+                        const yourAns = answers[q.id] !== undefined
+                            ? (typeof q.options[answers[q.id]] === 'object' ? (q.options[answers[q.id]].zh || q.options[answers[q.id]].en) : q.options[answers[q.id]])
+                            : 'Not answered';
+                        const correctAns = typeof q.options[q.answer] === 'object' ? (q.options[q.answer].zh || q.options[q.answer].en) : q.options[q.answer];
+
+                        html += `
+                            <div class="review-item ${ok ? 'correct' : 'wrong'}">
+                                <div class="review-q">Q${q.id}: ${typeof q.text === 'object' ? (q.text.zh || q.text.en) : q.text}</div>
+                                <div class="review-answer ${ok ? 'correct' : 'wrong'}">${ok ? '✓' : '✗'} ${yourAns} ${!ok ? '→ ' + correctAns : ''}</div>
+                            </div>
+                        `;
                     });
                 });
+                html += `</div>`;
             });
-            // Show writing tasks
-            if (test.writing) {
-              html += `<h2 style="margin:24px 0 16px;font-size:18px;">${lang==='zh'?'写作':'Writing'}</h2>`;
-              test.writing.sections.forEach((sub,si) => {
-                const wc = answers['writing_'+si] ? answers['writing_'+si].split(/\s+/).filter(w=>w).length : 0;
-                html += `<div class="review-item"><div class="review-q">${t(sub.title)}</div><div class="review-a">${lang==='zh'?`已写 ${wc} 字`:`${wc} words written`}</div></div>`;
-              });
-            }
-            html += `<div style="text-align:center;margin-top:24px;"><button class="q-btn q-btn-primary" onclick="window.location.href='index.html'">${lang==='zh'?'返回':'Back'}</button></div>`;
-            rp.innerHTML = html;
+
+            html += `
+                <div style="text-align:center;margin-top:40px;">
+                    <button class="start-btn" onclick="location.reload()">Take Another Test</button>
+                </div>
+            `;
+
+            reviewContent.innerHTML = html;
         }
 
-        init();
+        function toggleHelp() {
+            alert('IELTS Computer-Delivered Test\n\n• Use ← → to navigate questions\n• Click Answer Sheet to jump to any question\n• Audio plays automatically for Listening\n• Timer counts down per section');
+        }
+
+        // ─── Init ───
+        loadTestData();
     </script>
 </body>
 </html>
