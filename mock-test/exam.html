@@ -109,6 +109,30 @@
             height: calc(100vh - 48px);
         }
 
+        /* Resizable divider */
+        .divider {
+            width: 6px;
+            background: var(--border);
+            cursor: col-resize;
+            transition: background 0.2s;
+            flex-shrink: 0;
+            position: relative;
+        }
+
+        .divider:hover, .divider.dragging {
+            background: var(--accent);
+        }
+
+        .divider::after {
+            content: '⋮';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--text-3);
+            font-size: 12px;
+        }
+
         /* ─── Left Panel (Passage/Content) ─── */
         .left-panel {
             flex: 1;
@@ -150,7 +174,82 @@
             z-index: 100;
         }
 
-        .highlighted { background: rgba(233,69,96,0.3); padding: 1px 2px; border-radius: 2px; }
+        .highlighted { background: rgba(233,69,96,0.3); padding: 1px 2px; border-radius: 2px; cursor: pointer; }
+        .highlighted:hover { background: rgba(233,69,96,0.5); }
+
+        /* Highlight colors */
+        .hl-yellow { background: rgba(251,191,36,0.3); }
+        .hl-green { background: rgba(74,222,128,0.3); }
+        .hl-blue { background: rgba(96,165,250,0.3); }
+        .hl-pink { background: rgba(244,114,182,0.3); }
+
+        /* Note popup */
+        .note-popup {
+            position: fixed;
+            background: var(--surface);
+            border: 1px solid var(--accent);
+            border-radius: 8px;
+            padding: 12px;
+            z-index: 300;
+            width: 250px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+        }
+
+        .note-popup textarea {
+            width: 100%;
+            min-height: 60px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            font-size: 12px;
+            padding: 8px;
+            resize: none;
+            outline: none;
+        }
+
+        .note-popup-actions {
+            display: flex;
+            gap: 8px;
+            margin-top: 8px;
+            justify-content: flex-end;
+        }
+
+        /* Highlight toolbar */
+        .hl-toolbar {
+            position: fixed;
+            display: none;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 6px 10px;
+            z-index: 250;
+            gap: 6px;
+            align-items: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+
+        .hl-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            border: 2px solid transparent;
+            transition: all 0.15s;
+        }
+
+        .hl-color:hover { border-color: white; transform: scale(1.2); }
+
+        .hl-note-btn {
+            padding: 2px 8px;
+            background: var(--surface-2);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text-2);
+            font-size: 11px;
+            cursor: pointer;
+            margin-left: 6px;
+        }
 
         /* ─── Right Panel (Questions) ─── */
         .right-panel {
@@ -669,8 +768,27 @@
 
         <!-- Main Content -->
         <div class="main">
-            <div class="left-panel" id="leftPanel"></div>
-            <div class="right-panel" id="rightPanel"></div>
+            <div class="left-panel" id="leftPanel" style="flex:1;"></div>
+            <div class="divider" id="divider"></div>
+            <div class="right-panel" id="rightPanel" style="width:420px;"></div>
+        </div>
+
+        <!-- Highlight Toolbar -->
+        <div class="hl-toolbar" id="hlToolbar">
+            <div class="hl-color" style="background:rgba(251,191,36,0.6)" onclick="highlight('yellow')"></div>
+            <div class="hl-color" style="background:rgba(74,222,128,0.6)" onclick="highlight('green')"></div>
+            <div class="hl-color" style="background:rgba(96,165,250,0.6)" onclick="highlight('blue')"></div>
+            <div class="hl-color" style="background:rgba(244,114,182,0.6)" onclick="highlight('pink')"></div>
+            <button class="hl-note-btn" onclick="addNote()">📝 Note</button>
+        </div>
+
+        <!-- Note Popup -->
+        <div class="note-popup" id="notePopup" style="display:none;">
+            <textarea id="noteText" placeholder="Add a note..."></textarea>
+            <div class="note-popup-actions">
+                <button class="nav-btn" onclick="closeNote()">Cancel</button>
+                <button class="nav-btn primary" onclick="saveNote()">Save</button>
+            </div>
         </div>
     </div>
 
@@ -1118,7 +1236,110 @@
         }
 
         function toggleHelp() {
-            alert('IELTS Computer-Delivered Test\n\n• Use ← → to navigate questions\n• Click Answer Sheet to jump to any question\n• Audio plays automatically for Listening\n• Timer counts down per section');
+            alert('IELTS Computer-Delivered Test\n\n• Use ← → to navigate questions\n• Click Answer Sheet to jump to any question\n• Select text to highlight or add notes\n• Drag the divider to resize panels\n• Audio plays automatically for Listening\n• Timer counts down per section');
+        }
+
+        // ─── Resizable Divider ───
+        (function() {
+            const divider = document.getElementById('divider');
+            const left = document.getElementById('leftPanel');
+            const right = document.getElementById('rightPanel');
+            let isDragging = false;
+
+            divider.addEventListener('mousedown', (e) => {
+                isDragging = true;
+                divider.classList.add('dragging');
+                document.body.style.cursor = 'col-resize';
+                document.body.style.userSelect = 'none';
+            });
+
+            document.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                const container = document.querySelector('.main');
+                const rect = container.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const pct = (x / rect.width) * 100;
+                if (pct > 20 && pct < 80) {
+                    left.style.flex = 'none';
+                    left.style.width = pct + '%';
+                    right.style.width = (100 - pct) + '%';
+                }
+            });
+
+            document.addEventListener('mouseup', () => {
+                isDragging = false;
+                divider.classList.remove('dragging');
+                document.body.style.cursor = '';
+                document.body.style.userSelect = '';
+            });
+        })();
+
+        // ─── Highlight & Notes ───
+        let selectedText = '';
+        let selectedRange = null;
+        let notes = {};
+
+        document.addEventListener('mouseup', (e) => {
+            const sel = window.getSelection();
+            const text = sel.toString().trim();
+            const toolbar = document.getElementById('hlToolbar');
+
+            if (text.length > 0 && e.target.closest('.passage-content')) {
+                selectedText = text;
+                selectedRange = sel.getRangeAt(0).cloneRange();
+                toolbar.style.display = 'flex';
+                toolbar.style.left = (e.clientX - 60) + 'px';
+                toolbar.style.top = (e.clientY - 40) + 'px';
+            } else {
+                toolbar.style.display = 'none';
+            }
+        });
+
+        function highlight(color) {
+            if (!selectedRange) return;
+            const span = document.createElement('span');
+            span.className = 'highlighted hl-' + color;
+            span.title = 'Click to remove';
+            span.onclick = function() {
+                const parent = this.parentNode;
+                parent.replaceChild(document.createTextNode(this.textContent), this);
+                parent.normalize();
+            };
+            try {
+                selectedRange.surroundContents(span);
+            } catch(e) {}
+            document.getElementById('hlToolbar').style.display = 'none';
+            window.getSelection().removeAllRanges();
+        }
+
+        function addNote() {
+            const popup = document.getElementById('notePopup');
+            const toolbar = document.getElementById('hlToolbar');
+            popup.style.display = 'block';
+            popup.style.left = toolbar.style.left;
+            popup.style.top = (parseInt(toolbar.style.top) + 40) + 'px';
+            document.getElementById('noteText').value = '';
+            document.getElementById('noteText').focus();
+        }
+
+        function saveNote() {
+            const text = document.getElementById('noteText').value;
+            if (text && selectedRange) {
+                const span = document.createElement('span');
+                span.className = 'highlighted hl-blue';
+                span.title = '📝 ' + text;
+                span.style.borderBottom = '2px dotted var(--accent)';
+                try {
+                    selectedRange.surroundContents(span);
+                } catch(e) {}
+            }
+            closeNote();
+        }
+
+        function closeNote() {
+            document.getElementById('notePopup').style.display = 'none';
+            document.getElementById('hlToolbar').style.display = 'none';
+            window.getSelection().removeAllRanges();
         }
 
         // ─── Init ───
