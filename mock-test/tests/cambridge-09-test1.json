@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-09-test1",
+  "title": {
+    "en": "Cambridge IELTS 9 - Test 1",
+    "zh": "剑桥雅思9 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Enrolling for a Music Course",
+          "zh": "第一部分 - 报名音乐课程"
+        },
+        "passage": "<p>A woman calls the Community Music School to enroll in a piano course. The administrator, Andrew, answers the call and helps her through the registration process.</p><p>Andrew welcomes the caller and asks about her musical background. The woman explains that she played the piano as a child, reaching Grade 5, but stopped when she went to university about fifteen years ago. She now wants to restart her playing and feels she needs structured lessons to get back to her previous standard.</p><p>Andrew describes the available piano courses. The Beginner course is for those with no prior experience and runs on Monday evenings from 7 to 9 PM. The Intermediate course, suitable for those with Grades 3 to 5, runs on Wednesday evenings from 7 to 9 PM. The Advanced course for Grade 6 and above runs on Thursday evenings. Based on her background, Andrew recommends the Intermediate course, though the woman could also consider the Advanced course if she progresses quickly after a few weeks of practice.</p><p>The course runs for twelve weeks, from September 6th to November 22nd, with a one-week break during the half-term holiday in late October. The fee is 180 pounds for the full course, or 65 pounds per month if she prefers to pay in installments. There is also a registration fee of 15 pounds which covers the cost of course materials and music books.</p><p>The school provides pianos for all students during lessons, but Andrew recommends that she practice at home between sessions. If she does not have a piano, the school has practice rooms available for booking at 5 pounds per hour. These rooms each contain a well-maintained upright piano and are available from 9 AM to 9 PM on weekdays and from 10 AM to 6 PM on weekends.</p><p>Andrew asks for her personal details to complete the registration. Her name is Catherine Walsh, and she lives at 14 Maple Drive. Her phone number is 07845 239167 and her email is c.walsh@email.com. Andrew confirms that she will receive a confirmation email within 24 hours with all the course details and a list of what to bring to the first lesson.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What instrument does the woman want to learn?",
+              "zh": "女士想学什么乐器？"
+            },
+            "options": [
+              {"en": "Guitar", "zh": "吉他"},
+              {"en": "Piano", "zh": "钢琴"},
+              {"en": "Violin", "zh": "小提琴"},
+              {"en": "Drums", "zh": "鼓"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What grade had the woman reached when she stopped playing?",
+              "zh": "女士停止弹琴时达到了几级？"
+            },
+            "options": [
+              {"en": "Grade 3", "zh": "3级"},
+              {"en": "Grade 4", "zh": "4级"},
+              {"en": "Grade 5", "zh": "5级"},
+              {"en": "Grade 6", "zh": "6级"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How long ago did she stop playing?",
+              "zh": "她多久前停止弹琴的？"
+            },
+            "options": [
+              {"en": "About 10 years ago", "zh": "约10年前"},
+              {"en": "About 12 years ago", "zh": "约12年前"},
+              {"en": "About 15 years ago", "zh": "约15年前"},
+              {"en": "About 20 years ago", "zh": "约20年前"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "Which course does Andrew recommend for the woman?",
+              "zh": "Andrew推荐女士参加哪个课程？"
+            },
+            "options": [
+              {"en": "The Beginner course", "zh": "初级课程"},
+              {"en": "The Intermediate course", "zh": "中级课程"},
+              {"en": "The Advanced course", "zh": "高级课程"},
+              {"en": "A private course", "zh": "私人课程"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "When does the Intermediate course take place?",
+              "zh": "中级课程什么时候上课？"
+            },
+            "options": [
+              {"en": "Monday evenings", "zh": "周一晚上"},
+              {"en": "Tuesday evenings", "zh": "周二晚上"},
+              {"en": "Wednesday evenings", "zh": "周三晚上"},
+              {"en": "Thursday evenings", "zh": "周四晚上"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "How many weeks does the course run for?",
+              "zh": "课程持续多少周？"
+            },
+            "options": [
+              {"en": "10 weeks", "zh": "10周"},
+              {"en": "12 weeks", "zh": "12周"},
+              {"en": "14 weeks", "zh": "14周"},
+              {"en": "16 weeks", "zh": "16周"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What is the full course fee?",
+              "zh": "全部课程费用是多少？"
+            },
+            "options": [
+              {"en": "150 pounds", "zh": "150英镑"},
+              {"en": "165 pounds", "zh": "165英镑"},
+              {"en": "180 pounds", "zh": "180英镑"},
+              {"en": "200 pounds", "zh": "200英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "How much does the practice room cost per hour?",
+              "zh": "练习室每小时多少钱？"
+            },
+            "options": [
+              {"en": "3 pounds", "zh": "3英镑"},
+              {"en": "5 pounds", "zh": "5英镑"},
+              {"en": "8 pounds", "zh": "8英镑"},
+              {"en": "10 pounds", "zh": "10英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What is the woman's surname?",
+              "zh": "女士姓什么？"
+            },
+            "options": [
+              {"en": "Welsh", "zh": "威尔士"},
+              {"en": "Walsh", "zh": "沃尔什"},
+              {"en": "Welch", "zh": "韦尔奇"},
+              {"en": "Wallace", "zh": "华莱士"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What is the woman's phone number?",
+              "zh": "女士的电话号码是多少？"
+            },
+            "options": [
+              {"en": "07845 293167", "zh": "07845 293167"},
+              {"en": "07845 239167", "zh": "07845 239167"},
+              {"en": "07485 239167", "zh": "07485 239167"},
+              {"en": "07845 239617", "zh": "07845 239617"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Tour of a New Leisure Complex",
+          "zh": "第二部分 - 参观新的休闲中心"
+        },
+        "passage": "<p>Good morning, everyone, and welcome to the grand opening of the Meadowbrook Leisure Complex. My name is Victoria, and I'll be showing you around our new facilities today. This complex has been three years in the planning and eighteen months in construction, and we're very proud of the result.</p><p>The complex is built on the site of the former Meadowbrook factory, which closed in 2015. The developers have retained the original Victorian brick facade of the main building, which dates back to 1890, and have created a modern interior that complements the historic exterior. The total investment in the project has been 45 million pounds.</p><p>The centerpiece of the complex is our 50-meter Olympic-standard swimming pool, which has a movable floor that can be adjusted to different depths for different activities. It's suitable for competitive swimming, water polo, and recreational use. There's also a separate teaching pool for children and beginners, and a diving pool with platforms at 3, 5, 7.5, and 10 meters. The aquatic center can accommodate up to 500 spectators for swimming competitions.</p><p>The sports hall is one of the largest in the region, with 12 badminton courts, a full-size basketball court, and seating for 800 people. It's available for hire by sports clubs, schools, and community groups, and we've already had bookings from several local leagues. The hall is also equipped with a retractable stage for performances and events.</p><p>Our fitness center occupies the entire second floor and includes over 200 pieces of state-of-the-art exercise equipment, a spin studio with 40 bikes, and three exercise studios for classes ranging from yoga and pilates to high-intensity interval training. Personal training services are available at 40 pounds per session or 350 pounds for a package of ten sessions.</p><p>For families, we have a children's adventure play area covering 500 square meters, with equipment suitable for children aged 2 to 12. There's also a soft play area for toddlers under 3. Parents can relax in our family cafe, which has a viewing window overlooking the play area.</p><p>The complex opens to the public this Saturday, and we're offering a special introductory membership rate. Individual annual membership is 400 pounds, a saving of 100 pounds on the standard price. Family membership for two adults and up to three children is 700 pounds, a saving of 150 pounds. These special rates are available until the end of the month.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "What was the site previously used for?",
+              "zh": "该场地以前是做什么用的？"
+            },
+            "options": [
+              {"en": "A shopping center", "zh": "购物中心"},
+              {"en": "A factory", "zh": "工厂"},
+              {"en": "A school", "zh": "学校"},
+              {"en": "A hospital", "zh": "医院"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "When did the former factory close?",
+              "zh": "以前的工厂是什么时候关闭的？"
+            },
+            "options": [
+              {"en": "2010", "zh": "2010年"},
+              {"en": "2012", "zh": "2012年"},
+              {"en": "2015", "zh": "2015年"},
+              {"en": "2018", "zh": "2018年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How much was invested in the project?",
+              "zh": "项目投资了多少？"
+            },
+            "options": [
+              {"en": "25 million pounds", "zh": "2500万英镑"},
+              {"en": "35 million pounds", "zh": "3500万英镑"},
+              {"en": "45 million pounds", "zh": "4500万英镑"},
+              {"en": "55 million pounds", "zh": "5500万英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How many spectators can the aquatic center accommodate?",
+              "zh": "水上运动中心能容纳多少观众？"
+            },
+            "options": [
+              {"en": "Up to 300", "zh": "最多300人"},
+              {"en": "Up to 400", "zh": "最多400人"},
+              {"en": "Up to 500", "zh": "最多500人"},
+              {"en": "Up to 800", "zh": "最多800人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How many badminton courts does the sports hall have?",
+              "zh": "体育馆有多少个羽毛球场？"
+            },
+            "options": [
+              {"en": "8", "zh": "8个"},
+              {"en": "10", "zh": "10个"},
+              {"en": "12", "zh": "12个"},
+              {"en": "15", "zh": "15个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How many pieces of equipment does the fitness center have?",
+              "zh": "健身中心有多少件设备？"
+            },
+            "options": [
+              {"en": "Over 100", "zh": "超过100件"},
+              {"en": "Over 150", "zh": "超过150件"},
+              {"en": "Over 200", "zh": "超过200件"},
+              {"en": "Over 300", "zh": "超过300件"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How much does a single personal training session cost?",
+              "zh": "一次私人训练课程要多少钱？"
+            },
+            "options": [
+              {"en": "30 pounds", "zh": "30英镑"},
+              {"en": "35 pounds", "zh": "35英镑"},
+              {"en": "40 pounds", "zh": "40英镑"},
+              {"en": "50 pounds", "zh": "50英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How large is the children's adventure play area?",
+              "zh": "儿童冒险游乐区有多大？"
+            },
+            "options": [
+              {"en": "300 square meters", "zh": "300平方米"},
+              {"en": "400 square meters", "zh": "400平方米"},
+              {"en": "500 square meters", "zh": "500平方米"},
+              {"en": "600 square meters", "zh": "600平方米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What is the special introductory individual annual membership price?",
+              "zh": "特别入门个人年费是多少？"
+            },
+            "options": [
+              {"en": "300 pounds", "zh": "300英镑"},
+              {"en": "350 pounds", "zh": "350英镑"},
+              {"en": "400 pounds", "zh": "400英镑"},
+              {"en": "450 pounds", "zh": "450英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What is the special family membership price?",
+              "zh": "特别家庭会员价格是多少？"
+            },
+            "options": [
+              {"en": "500 pounds", "zh": "500英镑"},
+              {"en": "600 pounds", "zh": "600英镑"},
+              {"en": "700 pounds", "zh": "700英镑"},
+              {"en": "800 pounds", "zh": "800英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Discussion Between a Student and Tutor About an Assignment",
+          "zh": "第三部分 - 学生和导师关于作业的讨论"
+        },
+        "passage": "<p>Tomoko, a postgraduate student in Business Studies, meets her tutor Dr. Fisher to discuss her dissertation research on customer loyalty programs in the airline industry.</p><p>Dr. Fisher asks Tomoko about her progress. She explains that she has completed her literature review and is now designing her research methodology. She initially planned to use only a quantitative approach, conducting an online survey of 500 frequent flyers. However, after reading several methodological papers, she has decided to adopt a mixed-methods approach that combines quantitative and qualitative data.</p><p>For the quantitative component, Tomoko plans to survey frequent flyers who are members of at least two different airline loyalty programs. She will distribute the survey through online forums and social media groups dedicated to frequent travelers. The survey will use a 7-point Likert scale to measure customer satisfaction, perceived value, brand loyalty, and intention to continue membership. She aims to collect at least 300 valid responses.</p><p>For the qualitative component, she plans to conduct semi-structured interviews with 15 frequent flyers who have been members of loyalty programs for at least five years. She wants to explore the emotional and psychological factors that influence loyalty beyond what can be captured in a survey. The interviews will last approximately 45 minutes each and will be recorded with participants' consent.</p><p>Dr. Fisher approves of the mixed-methods approach but raises several concerns. First, she worries about sampling bias in the online survey, as the respondents may not be representative of all frequent flyers. Tomoko acknowledges this limitation but argues that online recruitment is the most practical way to access this specific population. Second, Dr. Fisher suggests that Tomoko should consider including a comparative element, perhaps contrasting loyalty programs from a full-service carrier with those from a low-cost carrier, to add depth to her analysis.</p><p>They discuss the timeline for completing the research. Tomoko plans to pilot her survey in the first week of February, make any necessary revisions, and then launch the full survey in mid-February. She hopes to complete data collection by the end of March, leaving April and May for analysis and writing. The dissertation deadline is June 15th. Dr. Fisher recommends that Tomoko start writing her methodology chapter now while the details are fresh in her mind, rather than waiting until all data is collected.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is Tomoko's dissertation topic?",
+              "zh": "Tomoko的论文主题是什么？"
+            },
+            "options": [
+              {"en": "Airline safety regulations", "zh": "航空公司安全法规"},
+              {"en": "Customer loyalty programs in the airline industry", "zh": "航空业的客户忠诚度计划"},
+              {"en": "Airline pricing strategies", "zh": "航空公司定价策略"},
+              {"en": "Airport management", "zh": "机场管理"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What approach did Tomoko initially plan to use?",
+              "zh": "Tomoko最初计划使用什么方法？"
+            },
+            "options": [
+              {"en": "Only qualitative", "zh": "仅定性"},
+              {"en": "Only quantitative", "zh": "仅定量"},
+              {"en": "Mixed methods from the start", "zh": "从一开始就混合方法"},
+              {"en": "Case study approach", "zh": "案例研究方法"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many valid survey responses does Tomoko aim to collect?",
+              "zh": "Tomoko的目标是收集多少份有效调查问卷？"
+            },
+            "options": [
+              {"en": "At least 200", "zh": "至少200份"},
+              {"en": "At least 300", "zh": "至少300份"},
+              {"en": "At least 400", "zh": "至少400份"},
+              {"en": "At least 500", "zh": "至少500份"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How many interviews does Tomoko plan to conduct?",
+              "zh": "Tomoko计划进行多少次访谈？"
+            },
+            "options": [
+              {"en": "10", "zh": "10次"},
+              {"en": "15", "zh": "15次"},
+              {"en": "20", "zh": "20次"},
+              {"en": "25", "zh": "25次"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How long will each interview last?",
+              "zh": "每次访谈持续多长时间？"
+            },
+            "options": [
+              {"en": "About 30 minutes", "zh": "约30分钟"},
+              {"en": "About 45 minutes", "zh": "约45分钟"},
+              {"en": "About 60 minutes", "zh": "约60分钟"},
+              {"en": "About 90 minutes", "zh": "约90分钟"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What concern does Dr. Fisher raise about the survey?",
+              "zh": "Fisher博士对调查提出了什么担忧？"
+            },
+            "options": [
+              {"en": "The questions are too complex", "zh": "问题太复杂了"},
+              {"en": "Sampling bias in the online survey", "zh": "在线调查中的抽样偏差"},
+              {"en": "The survey is too short", "zh": "调查太短了"},
+              {"en": "There are too many respondents", "zh": "受访者太多了"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What does Dr. Fisher suggest Tomoko include for more depth?",
+              "zh": "Fisher博士建议Tomoko包含什么来增加深度？"
+            },
+            "options": [
+              {"en": "More survey questions", "zh": "更多调查问题"},
+              {"en": "A comparison of full-service and low-cost carriers", "zh": "全服务和低成本航空公司的比较"},
+              {"en": "Additional interviews", "zh": "额外的访谈"},
+              {"en": "A financial analysis", "zh": "财务分析"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "When does Tomoko plan to pilot her survey?",
+              "zh": "Tomoko计划什么时候进行调查试点？"
+            },
+            "options": [
+              {"en": "The last week of January", "zh": "1月最后一周"},
+              {"en": "The first week of February", "zh": "2月第一周"},
+              {"en": "Mid-February", "zh": "2月中旬"},
+              {"en": "The end of February", "zh": "2月底"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When is the dissertation deadline?",
+              "zh": "论文截止日期是什么时候？"
+            },
+            "options": [
+              {"en": "May 15th", "zh": "5月15日"},
+              {"en": "June 1st", "zh": "6月1日"},
+              {"en": "June 15th", "zh": "6月15日"},
+              {"en": "July 1st", "zh": "7月1日"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What does Dr. Fisher recommend about writing the methodology chapter?",
+              "zh": "Fisher博士对写方法论章节有什么建议？"
+            },
+            "options": [
+              {"en": "Write it after all data is collected", "zh": "在所有数据收集后写"},
+              {"en": "Start writing it now while details are fresh", "zh": "趁细节还清楚现在就开始写"},
+              {"en": "Write it last of all chapters", "zh": "最后写这一章"},
+              {"en": "Skip it entirely", "zh": "完全跳过这一章"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Lecture on the Psychology of Color in Marketing",
+          "zh": "第四部分 - 关于营销中色彩心理学的讲座"
+        },
+        "passage": "<p>Good afternoon. Today's lecture examines how color influences consumer behavior and the ways in which marketers exploit our psychological responses to different colors to sell products and build brands. This is a topic that sits at the intersection of psychology, neuroscience, and marketing, and it has profound implications for how companies design everything from packaging to retail environments.</p><p>The relationship between color and emotion has been studied for over a century. Research consistently shows that colors evoke specific emotional and physiological responses. Red, for example, increases heart rate and creates a sense of urgency, which is why it is commonly used in sale signs and clearance tags. Blue conveys trust and reliability, making it the most popular color for financial institutions and technology companies. Think about how many banks use blue in their logos: Barclays, Deutsche Bank, American Express, and PayPal, to name just a few.</p><p>Green is associated with nature, health, and wealth. Organic and environmentally friendly brands frequently use green in their branding to signal their commitment to sustainability. Whole Foods Market, for example, uses a predominantly green color scheme. Yellow evokes optimism and warmth but can also cause anxiety if overused. Orange combines the energy of red with the cheerfulness of yellow and is often used to convey a sense of fun and affordability. Brands like Amazon and Nickelodeon use orange to appear approachable and exciting.</p><p>The effectiveness of color in marketing depends heavily on context and culture. In Western cultures, white is associated with purity and cleanliness, which is why it dominates packaging for health and hygiene products. In many Asian cultures, however, white is the color of mourning and may have negative associations for some consumers. Similarly, while red is associated with danger and urgency in Western markets, it symbolizes good luck and prosperity in Chinese culture, which is why it features prominently in marketing campaigns targeting Chinese consumers, particularly during the Lunar New Year.</p><p>A fascinating area of research concerns the effect of color on taste perception. Studies have shown that the color of food and drink packaging significantly influences how consumers expect the product to taste. In one famous experiment, researchers added tasteless red coloring to a batch of white peach-flavored drinks. Participants who received the red-colored drinks consistently rated them as having a stronger peach flavor than those who received the uncolored white drinks, even though the drinks were identical in every other respect. This demonstrates the powerful role that visual cues play in shaping our sensory experiences.</p><p>Color also plays a crucial role in store design and layout. Research has found that warm colors such as red and orange create a sense of stimulation and urgency, encouraging impulse purchases, which is why they are commonly used in fast-food restaurants and discount stores. Cool colors like blue and green create a calming atmosphere that encourages customers to spend more time browsing, which is why luxury retailers and department stores tend to favor these colors. The lighting temperature, whether warm or cool, also affects how colors are perceived under artificial light, a factor that store designers must carefully consider.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "What effect does the color red have on consumers?",
+              "zh": "红色对消费者有什么影响？"
+            },
+            "options": [
+              {"en": "It creates a sense of calm", "zh": "它创造平静感"},
+              {"en": "It increases heart rate and creates urgency", "zh": "它增加心率并创造紧迫感"},
+              {"en": "It promotes relaxation", "zh": "它促进放松"},
+              {"en": "It has no measurable effect", "zh": "它没有可测量的效果"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "Why is blue popular with financial institutions?",
+              "zh": "蓝色为什么受到金融机构的欢迎？"
+            },
+            "options": [
+              {"en": "It is the cheapest color to print", "zh": "它是最便宜的印刷颜色"},
+              {"en": "It conveys trust and reliability", "zh": "它传达信任和可靠性"},
+              {"en": "It attracts young customers", "zh": "它吸引年轻客户"},
+              {"en": "It is legally required", "zh": "法律要求如此"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What does green signal in branding?",
+              "zh": "绿色在品牌中传达什么信号？"
+            },
+            "options": [
+              {"en": "Luxury and exclusivity", "zh": "奢华和排他性"},
+              {"en": "Speed and efficiency", "zh": "速度和效率"},
+              {"en": "Nature, health, and sustainability", "zh": "自然、健康和可持续性"},
+              {"en": "Power and authority", "zh": "权力和权威"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What does white symbolize in many Asian cultures?",
+              "zh": "白色在许多亚洲文化中象征什么？"
+            },
+            "options": [
+              {"en": "Purity and cleanliness", "zh": "纯洁和清洁"},
+              {"en": "Mourning", "zh": "哀悼"},
+              {"en": "Good luck", "zh": "好运"},
+              {"en": "Prosperity", "zh": "繁荣"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What does red symbolize in Chinese culture?",
+              "zh": "红色在中国文化中象征什么？"
+            },
+            "options": [
+              {"en": "Danger and urgency", "zh": "危险和紧迫"},
+              {"en": "Sadness and loss", "zh": "悲伤和失去"},
+              {"en": "Good luck and prosperity", "zh": "好运和繁荣"},
+              {"en": "Peace and tranquility", "zh": "和平和宁静"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "In the peach drink experiment, what happened when red coloring was added?",
+              "zh": "在桃子饮料实验中，加入红色色素后发生了什么？"
+            },
+            "options": [
+              {"en": "Participants preferred the white drinks", "zh": "参与者更喜欢白色饮料"},
+              {"en": "Participants rated red drinks as having stronger peach flavor", "zh": "参与者认为红色饮料桃子味更浓"},
+              {"en": "There was no difference in taste perception", "zh": "味觉感知没有差异"},
+              {"en": "Participants detected the coloring", "zh": "参与者检测到了色素"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "Why do fast-food restaurants use warm colors?",
+              "zh": "快餐店为什么使用暖色？"
+            },
+            "options": [
+              {"en": "To reduce operating costs", "zh": "为了降低运营成本"},
+              {"en": "To stimulate and encourage impulse purchases", "zh": "为了刺激和鼓励冲动购买"},
+              {"en": "To make food look healthier", "zh": "为了让食物看起来更健康"},
+              {"en": "To attract elderly customers", "zh": "为了吸引年长客户"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What atmosphere do cool colors create in stores?",
+              "zh": "冷色在商店中营造什么氛围？"
+            },
+            "options": [
+              {"en": "A stimulating atmosphere", "zh": "刺激性氛围"},
+              {"en": "A calming atmosphere that encourages browsing", "zh": "鼓励浏览的平静氛围"},
+              {"en": "A confusing atmosphere", "zh": "令人困惑的氛围"},
+              {"en": "A depressing atmosphere", "zh": "压抑的氛围"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Which types of stores tend to favor cool colors?",
+              "zh": "哪些类型的商店倾向于使用冷色？"
+            },
+            "options": [
+              {"en": "Fast-food restaurants", "zh": "快餐店"},
+              {"en": "Discount stores", "zh": "折扣店"},
+              {"en": "Luxury retailers and department stores", "zh": "奢侈零售商和百货商店"},
+              {"en": "Convenience stores", "zh": "便利店"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "For how long has the relationship between color and emotion been studied?",
+              "zh": "色彩与情感的关系被研究了多长时间？"
+            },
+            "options": [
+              {"en": "About 50 years", "zh": "约50年"},
+              {"en": "About 75 years", "zh": "约75年"},
+              {"en": "Over 100 years", "zh": "超过100年"},
+              {"en": "Over 200 years", "zh": "超过200年"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - William Henry Perkin: The Man Who Invented Synthetic Dyes",
+          "zh": "文章1 - 威廉·亨利·珀金：发明合成染料的人"
+        },
+        "passage": "<p>The earliest dyes were made from natural materials such as plants, minerals, and insects. Tyrian purple, extracted from a species of sea snail, was so expensive that in ancient Rome only emperors were permitted to wear it. Indigo, derived from the leaves of the indigo plant, was the most widely used blue dye for centuries. However, natural dyes were often expensive, inconsistent in quality, and limited in color range. The development of synthetic dyes in the mid-19th century transformed the textile industry and made colorful clothing accessible to ordinary people for the first time.</p><p>The story of synthetic dyes begins with an 18-year-old chemistry student named William Henry Perkin. In 1856, Perkin was working in his home laboratory in London, attempting to synthesize quinine, a treatment for malaria, from coal tar, a cheap byproduct of the gas industry. His experiment failed to produce quinine, but when cleaning his flask with alcohol, he noticed that the residue produced a brilliant purple color. Recognizing the potential of this discovery, Perkin experimented further and found that the substance could be used to dye silk, producing a vivid purple that was remarkably resistant to fading.</p><p>Perkin named his discovery mauveine, after the French word for the mallow flower, which has a similar purple color. He quickly patented his invention and, with the financial backing of his father and brother, built a factory at Greenford Green in northwest London to manufacture the dye commercially. The timing was perfect: Queen Victoria wore a silk dress dyed with mauveine to her daughter's wedding in 1858, and the color became an instant fashion sensation. The demand for mauveine was enormous, and Perkin's factory was soon producing it on an industrial scale.</p><p>The success of mauveine sparked a wave of research into synthetic dyes derived from coal tar. German chemists, in particular, seized on the opportunity and established a thriving chemical industry based on synthetic dye production. By 1870, Germany had overtaken Britain as the leading producer of synthetic dyes, a position it maintained until the outbreak of World War I. Companies such as BASF, Bayer, and Hoechst, which were founded as dye manufacturers, later diversified into pharmaceuticals and other chemicals and remain major corporations today.</p><p>Perkin himself continued to make important contributions to chemistry. In 1868, he achieved the synthesis of alizarin, the red dye previously obtained exclusively from the madder root. This was commercially significant because it demonstrated that the most popular natural dyes could be replicated synthetically, eventually making natural dye production obsolete. Perkin also developed a method for synthesizing coumarin, a fragrant compound used in perfumery.</p><p>Despite his groundbreaking achievements, Perkin remained a modest and private individual. He was knighted in 1906, the same year that the Chemical Society held a special celebration to mark the 50th anniversary of his discovery of mauveine. He died a few months later, aged 68. His legacy extends far beyond the purple dye that made him famous: he is widely regarded as the founder of the synthetic organic chemicals industry, which today encompasses pharmaceuticals, plastics, agrochemicals, and many other products that are essential to modern life.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What was Tyrian purple made from?",
+              "zh": "泰尔紫是用什么制成的？"
+            },
+            "options": [
+              {"en": "Plant extracts", "zh": "植物提取物"},
+              {"en": "A species of sea snail", "zh": "一种海螺"},
+              {"en": "Mineral compounds", "zh": "矿物化合物"},
+              {"en": "Insect secretions", "zh": "昆虫分泌物"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What was Perkin attempting to synthesize when he discovered mauveine?",
+              "zh": "珀金在发现苯胺紫时试图合成什么？"
+            },
+            "options": [
+              {"en": "Indigo", "zh": "靛蓝"},
+              {"en": "Mauveine", "zh": "苯胺紫"},
+              {"en": "Quinine", "zh": "奎宁"},
+              {"en": "Alizarin", "zh": "茜素"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How old was Perkin when he made his discovery?",
+              "zh": "珀金做出发现时多大？"
+            },
+            "options": [
+              {"en": "16", "zh": "16岁"},
+              {"en": "18", "zh": "18岁"},
+              {"en": "20", "zh": "20岁"},
+              {"en": "22", "zh": "22岁"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What material was Perkin's dye originally tested on?",
+              "zh": "珀金的染料最初是在什么材料上测试的？"
+            },
+            "options": [
+              {"en": "Cotton", "zh": "棉花"},
+              {"en": "Wool", "zh": "羊毛"},
+              {"en": "Silk", "zh": "丝绸"},
+              {"en": "Linen", "zh": "亚麻"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "Which royal figure helped popularize mauveine?",
+              "zh": "哪位皇室人物帮助推广了苯胺紫？"
+            },
+            "options": [
+              {"en": "Queen Elizabeth I", "zh": "伊丽莎白一世女王"},
+              {"en": "Queen Victoria", "zh": "维多利亚女王"},
+              {"en": "King George III", "zh": "乔治三世国王"},
+              {"en": "Napoleon Bonaparte", "zh": "拿破仑·波拿巴"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Which country overtook Britain as the leading dye producer by 1870?",
+              "zh": "到1870年哪个国家超过了英国成为领先的染料生产国？"
+            },
+            "options": [
+              {"en": "France", "zh": "法国"},
+              {"en": "Italy", "zh": "意大利"},
+              {"en": "Germany", "zh": "德国"},
+              {"en": "The United States", "zh": "美国"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What did Perkin synthesize in 1868?",
+              "zh": "珀金在1868年合成了什么？"
+            },
+            "options": [
+              {"en": "Mauveine", "zh": "苯胺紫"},
+              {"en": "Quinine", "zh": "奎宁"},
+              {"en": "Alizarin", "zh": "茜素"},
+              {"en": "Coumarin", "zh": "香豆素"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "When was Perkin knighted?",
+              "zh": "珀金是什么时候被封为爵士的？"
+            },
+            "options": [
+              {"en": "1896", "zh": "1896年"},
+              {"en": "1900", "zh": "1900年"},
+              {"en": "1906", "zh": "1906年"},
+              {"en": "1910", "zh": "1910年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What is Perkin widely regarded as the founder of?",
+              "zh": "珀金被广泛认为是什么的创始人？"
+            },
+            "options": [
+              {"en": "The textile industry", "zh": "纺织工业"},
+              {"en": "The synthetic organic chemicals industry", "zh": "合成有机化学品工业"},
+              {"en": "The pharmaceutical industry", "zh": "制药工业"},
+              {"en": "The coal tar industry", "zh": "煤焦油工业"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What does mauveine take its name from?",
+              "zh": "苯胺紫的名字来源于什么？"
+            },
+            "options": [
+              {"en": "The Latin word for purple", "zh": "拉丁语中的紫色"},
+              {"en": "The French word for the mallow flower", "zh": "法语中的锦葵花"},
+              {"en": "Perkin's home town", "zh": "珀金的家乡"},
+              {"en": "The chemical formula", "zh": "化学分子式"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "What compound did Perkin develop for use in perfumery?",
+              "zh": "珀金开发了什么化合物用于香水制造？"
+            },
+            "options": [
+              {"en": "Alizarin", "zh": "茜素"},
+              {"en": "Mauveine", "zh": "苯胺紫"},
+              {"en": "Coumarin", "zh": "香豆素"},
+              {"en": "Quinine", "zh": "奎宁"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What was coal tar, the source material for Perkin's experiments?",
+              "zh": "煤焦油，珀金实验的源材料，是什么？"
+            },
+            "options": [
+              {"en": "A precious mineral", "zh": "一种珍贵矿物"},
+              {"en": "A cheap byproduct of the gas industry", "zh": "煤气工业的廉价副产品"},
+              {"en": "A type of plant extract", "zh": "一种植物提取物"},
+              {"en": "A synthetic chemical", "zh": "一种合成化学品"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "What year did Perkin discover mauveine?",
+              "zh": "珀金在哪一年发现了苯胺紫？"
+            },
+            "options": [
+              {"en": "1846", "zh": "1846年"},
+              {"en": "1850", "zh": "1850年"},
+              {"en": "1856", "zh": "1856年"},
+              {"en": "1862", "zh": "1862年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "What problem did natural dyes have that synthetic dyes solved?",
+              "zh": "天然染料有什么问题是合成染料解决的？"
+            },
+            "options": [
+              {"en": "They were too easy to produce", "zh": "它们太容易生产了"},
+              {"en": "They were often expensive, inconsistent, and limited in color range", "zh": "它们往往昂贵、不稳定且颜色范围有限"},
+              {"en": "They faded immediately", "zh": "它们立即褪色"},
+              {"en": "They could only dye cotton", "zh": "它们只能染棉布"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - Is There Anybody Out There? The Search for Extraterrestrial Intelligence",
+          "zh": "文章2 - 外面有人吗？寻找外星智慧生命"
+        },
+        "passage": "<p>The question of whether we are alone in the universe has fascinated humanity for millennia. In the 20th century, advances in astronomy and technology transformed this ancient philosophical question into a legitimate scientific endeavor known as SETI, the Search for Extraterrestrial Intelligence. Despite decades of effort and millions of hours of observation, SETI has yet to detect any confirmed signals from alien civilizations. However, the search continues, driven by compelling scientific reasoning and ever-improving technology.</p><p>The scientific basis for SETI rests on two key assumptions. First, given that there are an estimated 200 billion trillion stars in the observable universe, and that a significant proportion of these stars are likely to have orbiting planets, the sheer number of potential habitats for life suggests that Earth may not be unique. The discovery of exoplanets, planets orbiting stars other than our Sun, has dramatically strengthened this argument. Since the first confirmed exoplanet detection in 1992, astronomers have identified over 5,000 exoplanets, many of which lie within the so-called habitable zone where liquid water could exist on their surfaces.</p><p>Second, SETI assumes that if intelligent life does exist elsewhere, some civilizations may develop technology capable of transmitting detectable electromagnetic signals into space. Radio waves are the most commonly searched-for signals because they travel at the speed of light, can penetrate the interstellar medium with little attenuation, and are relatively easy to detect with large radio telescopes. The logic is straightforward: if we can detect natural radio emissions from distant galaxies, we should theoretically be able to detect artificial signals from a technological civilization, provided those signals are powerful enough.</p><p>The modern SETI effort began in 1960 when astronomer Frank Drake conducted Project Ozma, using a 25-meter radio telescope at the National Radio Astronomy Observatory in Green Bank, West Virginia. Drake targeted two nearby Sun-like stars, Tau Ceti and Epsilon Eridani, listening for radio signals at a frequency of 1,420 megahertz, the natural emission frequency of hydrogen, the most abundant element in the universe. The reasoning was that any technologically sophisticated civilization would likely be aware of this frequency and might choose to use it for interstellar communication. Although Project Ozma detected no alien signals during its two months of observation, it established the methodology that subsequent SETI projects would follow.</p><p>The most comprehensive SETI project to date has been the Allen Telescope Array, a set of 42 radio telescopes located at the Hat Creek Radio Observatory in northern California. Funded primarily by Microsoft co-founder Paul Allen, the array was designed specifically for SETI research and could simultaneously observe multiple target stars across a wide range of frequencies. However, funding difficulties led to the array being placed on standby in 2011, and it has operated only intermittently since then. The Breakthrough Listen project, launched in 2015 with 100 million dollars in funding from Russian billionaire Yuri Milner, represents the most ambitious and well-funded SETI initiative ever undertaken. Using existing radio telescopes around the world, it aims to survey one million nearby stars and 100 nearby galaxies over a ten-year period.</p><p>Critics of SETI raise the Fermi Paradox, first articulated by physicist Enrico Fermi in 1950: if intelligent extraterrestrial life is common, as the vast number of potential habitats suggests, why have we not detected any evidence of it? Possible answers include the possibility that intelligent civilizations tend to self-destruct before achieving interstellar communication, that they choose not to broadcast signals, that the distances between civilizations are simply too vast for signals to have reached us yet, or that advanced civilizations communicate using methods we cannot yet detect. The most humbling possibility is that intelligent life is genuinely rare, perhaps even unique to Earth.</p>",
+        "questions": [
+          {
+            "id": 15,
+            "text": {
+              "en": "What does SETI stand for?",
+              "zh": "SETI代表什么？"
+            },
+            "options": [
+              {"en": "Space Exploration Through Instrumentation", "zh": "通过仪器进行空间探索"},
+              {"en": "Search for Extraterrestrial Intelligence", "zh": "寻找外星智慧生命"},
+              {"en": "Scientific Examination of Terrestrial Interference", "zh": "对地球干扰的科学检测"},
+              {"en": "Satellite and Electronic Transmission Investigation", "zh": "卫星和电子传输调查"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How many exoplanets have been identified since 1992?",
+              "zh": "自1992年以来已识别出多少颗系外行星？"
+            },
+            "options": [
+              {"en": "Over 1,000", "zh": "超过1000颗"},
+              {"en": "Over 3,000", "zh": "超过3000颗"},
+              {"en": "Over 5,000", "zh": "超过5000颗"},
+              {"en": "Over 10,000", "zh": "超过10000颗"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Why are radio waves the most searched-for signals in SETI?",
+              "zh": "为什么无线电波是SETI最常搜索的信号？"
+            },
+            "options": [
+              {"en": "They are the only waves that exist in space", "zh": "它们是太空中唯一存在的波"},
+              {"en": "They travel at light speed, penetrate interstellar medium, and are easy to detect", "zh": "它们以光速传播，能穿透星际介质且易于检测"},
+              {"en": "Aliens prefer to use radio waves", "zh": "外星人更喜欢使用无线电波"},
+              {"en": "They carry the most information", "zh": "它们承载最多信息"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "When did the modern SETI effort begin?",
+              "zh": "现代SETI努力是什么时候开始的？"
+            },
+            "options": [
+              {"en": "1950", "zh": "1950年"},
+              {"en": "1955", "zh": "1955年"},
+              {"en": "1960", "zh": "1960年"},
+              {"en": "1965", "zh": "1965年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How many radio telescopes does the Allen Telescope Array consist of?",
+              "zh": "艾伦望远镜阵列由多少台射电望远镜组成？"
+            },
+            "options": [
+              {"en": "25", "zh": "25台"},
+              {"en": "32", "zh": "32台"},
+              {"en": "42", "zh": "42台"},
+              {"en": "55", "zh": "55台"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "How much funding did the Breakthrough Listen project receive?",
+              "zh": "突破聆听项目获得了多少资金？"
+            },
+            "options": [
+              {"en": "50 million dollars", "zh": "5000万美元"},
+              {"en": "100 million dollars", "zh": "1亿美元"},
+              {"en": "200 million dollars", "zh": "2亿美元"},
+              {"en": "500 million dollars", "zh": "5亿美元"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "What frequency did Frank Drake listen to in Project Ozma?",
+              "zh": "弗兰克·德雷克在奥兹玛计划中监听什么频率？"
+            },
+            "options": [
+              {"en": "420 megahertz", "zh": "420兆赫"},
+              {"en": "920 megahertz", "zh": "920兆赫"},
+              {"en": "1,420 megahertz", "zh": "1420兆赫"},
+              {"en": "2,420 megahertz", "zh": "2420兆赫"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What is the Fermi Paradox?",
+              "zh": "什么是费米悖论？"
+            },
+            "options": [
+              {"en": "A mathematical equation for calculating alien life probability", "zh": "计算外星生命概率的数学方程"},
+              {"en": "If intelligent life is common, why have we found no evidence of it?", "zh": "如果智慧生命很普遍，为什么我们没有找到任何证据？"},
+              {"en": "A theory about the speed of light", "zh": "关于光速的理论"},
+              {"en": "A method for detecting radio signals", "zh": "检测无线电信号的方法"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "Who funded the Allen Telescope Array?",
+              "zh": "谁资助了艾伦望远镜阵列？"
+            },
+            "options": [
+              {"en": "NASA", "zh": "美国宇航局"},
+              {"en": "The European Space Agency", "zh": "欧洲航天局"},
+              {"en": "Paul Allen", "zh": "保罗·艾伦"},
+              {"en": "Yuri Milner", "zh": "尤里·米尔纳"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How many nearby stars does Breakthrough Listen aim to survey?",
+              "zh": "突破聆听计划调查多少颗附近的恒星？"
+            },
+            "options": [
+              {"en": "100,000", "zh": "10万颗"},
+              {"en": "500,000", "zh": "50万颗"},
+              {"en": "One million", "zh": "100万颗"},
+              {"en": "Ten million", "zh": "1000万颗"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "When was the Fermi Paradox first articulated?",
+              "zh": "费米悖论是什么时候首次提出的？"
+            },
+            "options": [
+              {"en": "1940", "zh": "1940年"},
+              {"en": "1945", "zh": "1945年"},
+              {"en": "1950", "zh": "1950年"},
+              {"en": "1955", "zh": "1955年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "Why was 1,420 megahertz chosen for Project Ozma?",
+              "zh": "为什么选择1420兆赫作为奥兹玛计划的频率？"
+            },
+            "options": [
+              {"en": "It was the only frequency available", "zh": "它是唯一可用的频率"},
+              {"en": "It is the natural emission frequency of hydrogen", "zh": "它是氢的自然发射频率"},
+              {"en": "Aliens had been detected at this frequency before", "zh": "此前在这个频率上检测到过外星人"},
+              {"en": "It was the cheapest frequency to monitor", "zh": "它是监测成本最低的频率"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What is the habitable zone?",
+              "zh": "什么是宜居带？"
+            },
+            "options": [
+              {"en": "Any area in outer space", "zh": "外太空的任何区域"},
+              {"en": "Where liquid water could exist on a planet's surface", "zh": "行星表面可能存在液态水的区域"},
+              {"en": "Where oxygen is present", "zh": "存在氧气的区域"},
+              {"en": "The area between Mars and Jupiter", "zh": "火星和木星之间的区域"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Development of Museums",
+          "zh": "文章3 - 博物馆的发展"
+        },
+        "passage": "<p>The purpose of the modern museum has been debated since the earliest public collections were established in the 18th century. Traditionally, museums served as repositories of knowledge and culture, preserving important objects for the education and enlightenment of the public. In recent decades, however, museums have increasingly been expected to entertain as well as educate, to attract diverse audiences, and to generate revenue. These changing expectations have transformed the way museums operate and have raised fundamental questions about their role in society.</p><p>The earliest museums grew out of the private collections of wealthy individuals. The Ashmolean Museum in Oxford, which opened in 1683, is generally considered the first public museum. It was based on the collection of Elias Ashmole, a wealthy antiquarian who donated his collection of natural history specimens, coins, and curiosities to the University of Oxford. The British Museum, established in 1753, was the first national public museum and was based on the collections of Sir Hans Sloane, a physician and naturalist who bequeathed his vast collection of books, manuscripts, and natural specimens to the nation.</p><p>Throughout the 19th century, museums proliferated across Europe and North America. The industrial revolution created a new class of wealthy philanthropists who funded the construction of grand museum buildings and donated their private collections. Museums became symbols of national pride and cultural achievement. The Louvre in Paris, the Metropolitan Museum of Art in New York, and the National Gallery in London were all established or greatly expanded during this period. The prevailing philosophy was that museums should be temples of learning, serious institutions where visitors could contemplate great works of art and learn about the natural world.</p><p>The 20th century brought significant changes. The concept of the 'new museology,' which emerged in the 1980s, argued that museums should move away from being object-centered institutions focused on collecting and preserving artifacts, and instead become visitor-centered spaces that prioritize the needs and experiences of their audiences. This philosophy emphasized interactive exhibits, multimedia presentations, and participatory experiences over traditional glass cases and explanatory labels. Science museums and discovery centers led this transformation, with institutions like the Exploratorium in San Francisco, founded in 1969, pioneering hands-on, interactive exhibits that encouraged visitors to learn through direct experimentation.</p><p>The digital revolution has further transformed museums. Many institutions now offer virtual tours, online collections, and digital exhibitions that can be accessed from anywhere in the world. The Google Arts and Culture platform, launched in 2011, provides high-resolution images of artworks from over 2,000 museums and cultural institutions worldwide. During the COVID-19 pandemic, which forced the temporary closure of museums around the world, digital engagement became essential for maintaining public access to collections and generating revenue through online ticket sales and virtual programming.</p><p>Today's museums face the challenge of balancing multiple roles: they must be educational institutions, tourist attractions, research centers, and community spaces simultaneously. The most successful museums manage to combine scholarly rigor with engaging presentation, preserving the past while making it relevant to contemporary audiences. As museum scholar Stephen Weil famously observed, the modern museum has shifted from being 'about something' to being 'for somebody,' a transformation that reflects broader changes in how we think about the relationship between cultural institutions and the public they serve.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "When were the earliest public collections established?",
+              "zh": "最早的公共收藏是什么时候建立的？"
+            },
+            "options": [
+              {"en": "The 16th century", "zh": "16世纪"},
+              {"en": "The 17th century", "zh": "17世纪"},
+              {"en": "The 18th century", "zh": "18世纪"},
+              {"en": "The 19th century", "zh": "19世纪"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When did the Ashmolean Museum open?",
+              "zh": "阿什莫林博物馆是什么时候开放的？"
+            },
+            "options": [
+              {"en": "1653", "zh": "1653年"},
+              {"en": "1683", "zh": "1683年"},
+              {"en": "1713", "zh": "1713年"},
+              {"en": "1753", "zh": "1753年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What was the British Museum based on?",
+              "zh": "大英博物馆是基于什么建立的？"
+            },
+            "options": [
+              {"en": "The Ashmole collection", "zh": "阿什莫尔收藏"},
+              {"en": "The Sloane collection", "zh": "斯隆收藏"},
+              {"en": "Royal treasury items", "zh": "皇家珍宝"},
+              {"en": "Government purchases", "zh": "政府采购"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What caused museums to proliferate in the 19th century?",
+              "zh": "什么导致19世纪博物馆大量涌现？"
+            },
+            "options": [
+              {"en": "Government mandates", "zh": "政府指令"},
+              {"en": "The industrial revolution and wealthy philanthropists", "zh": "工业革命和富有的慈善家"},
+              {"en": "Public demand for entertainment", "zh": "公众对娱乐的需求"},
+              {"en": "Religious organizations", "zh": "宗教组织"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "When did the concept of 'new museology' emerge?",
+              "zh": "'新博物馆学'的概念是什么时候出现的？"
+            },
+            "options": [
+              {"en": "The 1960s", "zh": "20世纪60年代"},
+              {"en": "The 1970s", "zh": "20世纪70年代"},
+              {"en": "The 1980s", "zh": "20世纪80年代"},
+              {"en": "The 1990s", "zh": "20世纪90年代"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "When was the Exploratorium in San Francisco founded?",
+              "zh": "旧金山探索馆是什么时候成立的？"
+            },
+            "options": [
+              {"en": "1959", "zh": "1959年"},
+              {"en": "1964", "zh": "1964年"},
+              {"en": "1969", "zh": "1969年"},
+              {"en": "1975", "zh": "1975年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "When was Google Arts and Culture launched?",
+              "zh": "Google艺术与文化是什么时候推出的？"
+            },
+            "options": [
+              {"en": "2008", "zh": "2008年"},
+              {"en": "2011", "zh": "2011年"},
+              {"en": "2014", "zh": "2014年"},
+              {"en": "2017", "zh": "2017年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many museums are featured on Google Arts and Culture?",
+              "zh": "Google艺术与文化涵盖多少家博物馆？"
+            },
+            "options": [
+              {"en": "Over 500", "zh": "超过500家"},
+              {"en": "Over 1,000", "zh": "超过1000家"},
+              {"en": "Over 2,000", "zh": "超过2000家"},
+              {"en": "Over 5,000", "zh": "超过5000家"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What did the COVID-19 pandemic force museums to do?",
+              "zh": "新冠疫情迫使博物馆做什么？"
+            },
+            "options": [
+              {"en": "Close permanently", "zh": "永久关闭"},
+              {"en": "Rely more on digital engagement", "zh": "更多地依赖数字互动"},
+              {"en": "Reduce their collections", "zh": "减少收藏"},
+              {"en": "Lower their prices", "zh": "降低价格"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "According to Stephen Weil, the modern museum has shifted from being what to what?",
+              "zh": "根据Stephen Weil的观点，现代博物馆从什么转变为什么？"
+            },
+            "options": [
+              {"en": "From private to public", "zh": "从私人到公共"},
+              {"en": "From 'about something' to 'for somebody'", "zh": "从'关于某物'到'为某人服务'"},
+              {"en": "From free to paid", "zh": "从免费到收费"},
+              {"en": "From local to global", "zh": "从本地到全球"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What did the 'new museology' argue museums should prioritize?",
+              "zh": "'新博物馆学'认为博物馆应该优先考虑什么？"
+            },
+            "options": [
+              {"en": "Collecting more artifacts", "zh": "收集更多文物"},
+              {"en": "Building larger buildings", "zh": "建造更大的建筑"},
+              {"en": "The needs and experiences of their audiences", "zh": "观众的需求和体验"},
+              {"en": "Increasing ticket prices", "zh": "提高门票价格"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What was the traditional philosophy of 19th century museums?",
+              "zh": "19世纪博物馆的传统理念是什么？"
+            },
+            "options": [
+              {"en": "Museums should be entertainment centers", "zh": "博物馆应该是娱乐中心"},
+              {"en": "Museums should be temples of learning", "zh": "博物馆应该是学习的殿堂"},
+              {"en": "Museums should generate revenue", "zh": "博物馆应该产生收入"},
+              {"en": "Museums should be community gathering places", "zh": "博物馆应该是社区聚集场所"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "Who donated their collection to establish the Ashmolean Museum?",
+              "zh": "谁捐赠了他们的收藏来建立阿什莫林博物馆？"
+            },
+            "options": [
+              {"en": "Sir Hans Sloane", "zh": "汉斯·斯隆爵士"},
+              {"en": "Elias Ashmole", "zh": "伊莱亚斯·阿什莫尔"},
+              {"en": "Stephen Weil", "zh": "斯蒂芬·韦尔"},
+              {"en": "Frank Drake", "zh": "弗兰克·德雷克"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The chart below shows the total number of minutes (in billions) of telephone calls in the UK, divided into three categories, from 1995 to 2002. Summarize the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的图表显示了1995年至2002年英国电话通话总分钟数（以十亿计），分为三类。通过选择和报告主要特征来总结信息，并在相关处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "Some people say that the best way to improve public health is by increasing the number of sports facilities. Others, however, say that this would have little effect on public health and that other measures are required. Discuss both these views and give your own opinion. Write at least 250 words.",
+          "zh": "一些人说改善公共健康的最好方法是增加体育设施数量。然而，其他人说这对公共健康影响不大，需要采取其他措施。讨论这两种观点并给出你自己的看法。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

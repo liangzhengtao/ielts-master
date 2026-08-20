@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-08-test1",
+  "title": {
+    "en": "Cambridge IELTS 8 - Test 1",
+    "zh": "剑桥雅思8 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Arranging a Holiday Rental",
+          "zh": "第一部分 - 安排度假租房"
+        },
+        "passage": "<p>A woman telephones a holiday rental agency to book a cottage for a family vacation. The agent, Richard, assists her with finding the right property.</p><p>The woman explains that she is looking for a cottage for a week's holiday in July for her family, which includes herself, her husband, and their two children aged 8 and 12. They would prefer a coastal location with easy access to the beach. Richard suggests three properties that meet their criteria.</p><p>The first option is Seaside Cottage in the village of Thornbury, which is a five-minute walk from the beach. It has three bedrooms, a fully equipped kitchen, a living room with a TV and DVD player, and a small garden. The weekly rental in July is 650 pounds. It has a maximum occupancy of six people and pets are not allowed.</p><p>The second option is Harbour View in the town of Westport, which overlooks the harbor and is a ten-minute walk from the sandy beach. It has four bedrooms, two bathrooms, a large kitchen-diner, and a conservatory with sea views. The weekly rate is 850 pounds in July, and it can accommodate up to eight people. Well-behaved dogs are permitted with an additional charge of 25 pounds per pet per week.</p><p>The third option is Coastguard Cottage in the village of Pebble Bay, which is directly on the seafront. It has three bedrooms, an open-plan living area, a modern kitchen, and a rooftop terrace. The weekly rental is 750 pounds, with a maximum of five guests. The property has a no-pets policy and no children under five are permitted due to the steep access stairs.</p><p>The woman is interested in Harbour View because of the extra bedroom, which would allow the children to have their own rooms. She asks about the deposit and booking process. Richard explains that a 25 percent deposit is required at the time of booking, with the balance due six weeks before arrival. There is also a refundable security deposit of 200 pounds, which is returned within 14 days of departure provided there is no damage.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "How many children does the woman have?",
+              "zh": "女士有几个孩子？"
+            },
+            "options": [
+              {"en": "One", "zh": "一个"},
+              {"en": "Two", "zh": "两个"},
+              {"en": "Three", "zh": "三个"},
+              {"en": "Four", "zh": "四个"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What location preference does the woman mention?",
+              "zh": "女士提到了什么位置偏好？"
+            },
+            "options": [
+              {"en": "Mountain area", "zh": "山区"},
+              {"en": "Countryside", "zh": "乡间"},
+              {"en": "Coastal location near a beach", "zh": "靠近海滩的沿海位置"},
+              {"en": "City center", "zh": "市中心"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How far is Seaside Cottage from the beach?",
+              "zh": "海滨小屋离海滩有多远？"
+            },
+            "options": [
+              {"en": "A two-minute walk", "zh": "步行两分钟"},
+              {"en": "A five-minute walk", "zh": "步行五分钟"},
+              {"en": "A ten-minute walk", "zh": "步行十分钟"},
+              {"en": "A fifteen-minute walk", "zh": "步行十五分钟"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "How much does Seaside Cottage cost per week in July?",
+              "zh": "海滨小屋七月份每周多少钱？"
+            },
+            "options": [
+              {"en": "550 pounds", "zh": "550英镑"},
+              {"en": "650 pounds", "zh": "650英镑"},
+              {"en": "750 pounds", "zh": "750英镑"},
+              {"en": "850 pounds", "zh": "850英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "How many bedrooms does Harbour View have?",
+              "zh": "海景公寓有几间卧室？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两间"},
+              {"en": "Three", "zh": "三间"},
+              {"en": "Four", "zh": "四间"},
+              {"en": "Five", "zh": "五间"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What is the additional charge for a pet at Harbour View?",
+              "zh": "海景公寓的宠物附加费是多少？"
+            },
+            "options": [
+              {"en": "15 pounds per pet per week", "zh": "每只宠物每周15英镑"},
+              {"en": "25 pounds per pet per week", "zh": "每只宠物每周25英镑"},
+              {"en": "35 pounds per pet per week", "zh": "每只宠物每周35英镑"},
+              {"en": "50 pounds per pet per week", "zh": "每只宠物每周50英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "Which cottage does the woman choose?",
+              "zh": "女士选择了哪间小屋？"
+            },
+            "options": [
+              {"en": "Seaside Cottage", "zh": "海滨小屋"},
+              {"en": "Harbour View", "zh": "海景公寓"},
+              {"en": "Coastguard Cottage", "zh": "海岸警卫小屋"},
+              {"en": "None of the above", "zh": "以上都不是"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "Why does she prefer this cottage?",
+              "zh": "她为什么更喜欢这间小屋？"
+            },
+            "options": [
+              {"en": "It is the cheapest option", "zh": "它是最便宜的选择"},
+              {"en": "The extra bedroom allows children to have their own rooms", "zh": "额外的卧室让孩子们能有自己的房间"},
+              {"en": "It has a rooftop terrace", "zh": "它有屋顶露台"},
+              {"en": "It allows pets", "zh": "它允许宠物"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What percentage deposit is required at booking?",
+              "zh": "预订时需要支付多少百分比的押金？"
+            },
+            "options": [
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "20 percent", "zh": "20%"},
+              {"en": "25 percent", "zh": "25%"},
+              {"en": "50 percent", "zh": "50%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How much is the refundable security deposit?",
+              "zh": "可退还的安全押金是多少？"
+            },
+            "options": [
+              {"en": "100 pounds", "zh": "100英镑"},
+              {"en": "150 pounds", "zh": "150英镑"},
+              {"en": "200 pounds", "zh": "200英镑"},
+              {"en": "250 pounds", "zh": "250英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Radio Programme About Local Food Markets",
+          "zh": "第二部分 - 关于本地食品市场的广播节目"
+        },
+        "passage": "<p>Welcome to Local Life, your weekly guide to what's happening in and around the city. I'm Sarah Jenkins, and today I'm talking about the growing trend of local food markets in our region.</p><p>Food markets have experienced a remarkable resurgence in recent years. According to the National Market Association, the number of regular food markets in the UK has increased by 35 percent over the past decade, with over 1,200 markets now operating nationwide. This growth reflects a broader shift in consumer attitudes toward locally sourced, artisanal, and organic food.</p><p>In our city, we're fortunate to have several excellent markets. The oldest and largest is the Riverside Market, which has been operating every Saturday from 8 AM to 2 PM since 1987. Located on the banks of the River Trent, it features over 60 stalls selling fresh produce, baked goods, cheeses, meats, and ready-to-eat meals. The market has won the Regional Food Market of the Year award three times and attracts approximately 3,000 visitors each week.</p><p>The newest addition to our local market scene is the Night Market at the old brewery, which launched last September. This operates on the first Friday of every month from 5 PM to 10 PM and focuses on street food from around the world. You can sample dishes from over 25 different countries, including Thai curries, Mexican tacos, Japanese gyoza, Ethiopian stews, and Brazilian grilled meats. There is also live music, craft beer bars, and cooking demonstrations by local chefs. Admission is free, though some of the premium dining experiences require advance booking.</p><p>For those who prefer organic produce, the Green Market operates every Wednesday from 10 AM to 3 PM in the grounds of St. Mary's Church. All vendors must meet strict organic certification standards, and the market also hosts a weekly seed swap where gardeners can exchange seeds and growing tips. There is a popular community cafe run by volunteers that serves seasonal dishes made entirely from market produce.</p><p>Finally, for early risers, the Wholesale Farmers Market at the docks opens at 5 AM on weekday mornings. While primarily designed for trade buyers such as restaurants and caterers, it is also open to members of the public who are willing to get up early. Prices are typically 30 to 50 percent lower than retail, and you can buy everything from fresh fish caught that morning to locally grown vegetables and artisan bread.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "By how much has the number of food markets increased in the UK over the past decade?",
+              "zh": "过去十年英国食品市场的数量增加了多少？"
+            },
+            "options": [
+              {"en": "25 percent", "zh": "25%"},
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "35 percent", "zh": "35%"},
+              {"en": "45 percent", "zh": "45%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "When did the Riverside Market first start operating?",
+              "zh": "河畔市场是什么时候开始运营的？"
+            },
+            "options": [
+              {"en": "1977", "zh": "1977年"},
+              {"en": "1982", "zh": "1982年"},
+              {"en": "1987", "zh": "1987年"},
+              {"en": "1992", "zh": "1992年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many stalls does the Riverside Market feature?",
+              "zh": "河畔市场有多少个摊位？"
+            },
+            "options": [
+              {"en": "Over 40", "zh": "超过40个"},
+              {"en": "Over 50", "zh": "超过50个"},
+              {"en": "Over 60", "zh": "超过60个"},
+              {"en": "Over 80", "zh": "超过80个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How many visitors does the Riverside Market attract weekly?",
+              "zh": "河畔市场每周吸引多少游客？"
+            },
+            "options": [
+              {"en": "About 1,500", "zh": "约1500人"},
+              {"en": "About 2,000", "zh": "约2000人"},
+              {"en": "About 3,000", "zh": "约3000人"},
+              {"en": "About 5,000", "zh": "约5000人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "When does the Night Market operate?",
+              "zh": "夜市什么时候运营？"
+            },
+            "options": [
+              {"en": "Every Friday evening", "zh": "每周五晚"},
+              {"en": "The first Friday of every month", "zh": "每月第一个星期五"},
+              {"en": "Every Saturday night", "zh": "每周六晚"},
+              {"en": "The last Saturday of each month", "zh": "每月最后一个星期六"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How many countries are represented in the Night Market's food?",
+              "zh": "夜市的食品来自多少个国家？"
+            },
+            "options": [
+              {"en": "Over 15", "zh": "超过15个"},
+              {"en": "Over 20", "zh": "超过20个"},
+              {"en": "Over 25", "zh": "超过25个"},
+              {"en": "Over 30", "zh": "超过30个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Where is the Green Market located?",
+              "zh": "绿色市场在哪里？"
+            },
+            "options": [
+              {"en": "In the town hall", "zh": "在市政厅"},
+              {"en": "At the old brewery", "zh": "在旧啤酒厂"},
+              {"en": "In the grounds of St. Mary's Church", "zh": "在圣玛丽教堂场地内"},
+              {"en": "At the university campus", "zh": "在大学校园"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What does the Green Market host for gardeners?",
+              "zh": "绿色市场为园丁们举办什么活动？"
+            },
+            "options": [
+              {"en": "A planting workshop", "zh": "种植工作坊"},
+              {"en": "A weekly seed swap", "zh": "每周种子交换"},
+              {"en": "A gardening competition", "zh": "园艺比赛"},
+              {"en": "A soil testing service", "zh": "土壤测试服务"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What time does the Wholesale Farmers Market open?",
+              "zh": "批发农贸市场几点开门？"
+            },
+            "options": [
+              {"en": "4 AM", "zh": "凌晨4点"},
+              {"en": "5 AM", "zh": "凌晨5点"},
+              {"en": "6 AM", "zh": "早上6点"},
+              {"en": "7 AM", "zh": "早上7点"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "How much lower are prices at the Wholesale Market compared to retail?",
+              "zh": "批发市场比零售价格低多少？"
+            },
+            "options": [
+              {"en": "20 to 30 percent lower", "zh": "低20%到30%"},
+              {"en": "30 to 50 percent lower", "zh": "低30%到50%"},
+              {"en": "40 to 60 percent lower", "zh": "低40%到60%"},
+              {"en": "50 to 70 percent lower", "zh": "低50%到70%"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Two Students Discussing a Presentation on Urban Planning",
+          "zh": "第三部分 - 两名学生讨论关于城市规划的演示"
+        },
+        "passage": "<p>Lisa and Michael are third-year geography students who have been asked to give a joint presentation on sustainable urban planning. They meet in the university cafeteria to discuss their approach.</p><p>Lisa has been researching Copenhagen's approach to urban planning, which she believes is one of the best examples of sustainable city design in the world. She explains that Copenhagen has adopted a 'Finger Plan' first developed in 1947, which directs urban development along five corridors radiating from the city center, with green spaces preserved between the fingers. This plan has been remarkably successful in preventing urban sprawl and maintaining accessible green areas for residents.</p><p>Michael has been looking at Curitiba in Brazil, a city that has become internationally famous for its innovative public transport system. In the 1970s, under the leadership of Mayor Jaime Lerner, Curitiba introduced a bus rapid transit system that carries over 2.3 million passengers per day. The system uses dedicated bus lanes, elevated tube stations for efficient boarding, and a flat fare structure that encourages usage. The cost of building the system was only 3 percent of what a subway would have cost, making it a model for developing cities worldwide.</p><p>They agree to structure their presentation around three main themes: transport, green spaces, and community engagement. For transport, they will compare Copenhagen's cycling infrastructure with Curitiba's bus rapid transit, examining how each city has reduced car dependency. For green spaces, they will discuss Copenhagen's finger plan and Curitiba's network of parks, which was designed to serve a dual purpose: providing recreational space while also functioning as flood management infrastructure along the city's rivers.</p><p>Regarding community engagement, Lisa mentions that Copenhagen holds regular public consultations on urban development projects and has a policy of involving residents in the design of local public spaces. Michael adds that Curitiba has implemented an innovative exchange program where residents in low-income areas can exchange recyclable waste for fresh vegetables and bus tokens, combining waste management with food security and public transport access.</p><p>They need to submit their presentation slides by next Wednesday and deliver the presentation the following Monday. They agree to divide the work equally, with Lisa taking primary responsibility for the Copenhagen case study and Michael for Curitiba. They plan to meet again on Monday to review each other's sections and ensure a cohesive final product.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the presentation about?",
+              "zh": "演示是关于什么的？"
+            },
+            "options": [
+              {"en": "Climate change policy", "zh": "气候变化政策"},
+              {"en": "Sustainable urban planning", "zh": "可持续城市规划"},
+              {"en": "Population growth", "zh": "人口增长"},
+              {"en": "Economic development", "zh": "经济发展"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "When was Copenhagen's Finger Plan first developed?",
+              "zh": "哥本哈根的指状规划最早是什么时候制定的？"
+            },
+            "options": [
+              {"en": "1937", "zh": "1937年"},
+              {"en": "1947", "zh": "1947年"},
+              {"en": "1957", "zh": "1957年"},
+              {"en": "1967", "zh": "1967年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many passengers does Curitiba's bus system carry per day?",
+              "zh": "库里蒂巴的公交系统每天运载多少乘客？"
+            },
+            "options": [
+              {"en": "Over 1 million", "zh": "超过100万"},
+              {"en": "Over 1.5 million", "zh": "超过150万"},
+              {"en": "Over 2.3 million", "zh": "超过230万"},
+              {"en": "Over 3 million", "zh": "超过300万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What fraction of subway cost did Curitiba's bus system cost?",
+              "zh": "库里蒂巴的公交系统成本是地铁成本的多少？"
+            },
+            "options": [
+              {"en": "About 1 percent", "zh": "约1%"},
+              {"en": "About 3 percent", "zh": "约3%"},
+              {"en": "About 10 percent", "zh": "约10%"},
+              {"en": "About 20 percent", "zh": "约20%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How many corridors does the Finger Plan designate?",
+              "zh": "指状规划划定了多少条走廊？"
+            },
+            "options": [
+              {"en": "Three", "zh": "三条"},
+              {"en": "Four", "zh": "四条"},
+              {"en": "Five", "zh": "五条"},
+              {"en": "Six", "zh": "六条"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What dual purpose do Curitiba's parks serve?",
+              "zh": "库里蒂巴的公园有什么双重功能？"
+            },
+            "options": [
+              {"en": "Education and sports", "zh": "教育和体育"},
+              {"en": "Recreation and flood management", "zh": "休闲和洪水管理"},
+              {"en": "Agriculture and housing", "zh": "农业和住房"},
+              {"en": "Transport and shopping", "zh": "交通和购物"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What three themes will the presentation cover?",
+              "zh": "演示将涵盖哪三个主题？"
+            },
+            "options": [
+              {"en": "Transport, green spaces, and community engagement", "zh": "交通、绿地和社区参与"},
+              {"en": "Transport, housing, and education", "zh": "交通、住房"},
+              {"en": "Green spaces, economy, and health", "zh": "绿地、经济和健康"},
+              {"en": "Population, transport, and industry", "zh": "人口、交通和工业"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What can Curitiba residents exchange recyclable waste for?",
+              "zh": "库里蒂巴居民可以用可回收垃圾换什么？"
+            },
+            "options": [
+              {"en": "Cash payments", "zh": "现金支付"},
+              {"en": "Fresh vegetables and bus tokens", "zh": "新鲜蔬菜和公交代币"},
+              {"en": "School supplies", "zh": "学习用品"},
+              {"en": "Medical care", "zh": "医疗服务"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When must the presentation slides be submitted?",
+              "zh": "演示幻灯片必须什么时候提交？"
+            },
+            "options": [
+              {"en": "This Friday", "zh": "本周五"},
+              {"en": "Next Monday", "zh": "下周一"},
+              {"en": "Next Wednesday", "zh": "下周三"},
+              {"en": "The following Monday", "zh": "下下周"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "When will they deliver the presentation?",
+              "zh": "他们什么时候进行演示？"
+            },
+            "options": [
+              {"en": "Next Wednesday", "zh": "下周三"},
+              {"en": "Next Friday", "zh": "下周五"},
+              {"en": "The following Monday", "zh": "下下周"},
+              {"en": "The following Wednesday", "zh": "下下周三"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Lecture on the History of Writing Materials",
+          "zh": "第四部分 - 关于书写材料历史的讲座"
+        },
+        "passage": "<p>Good morning. Today's lecture continues our series on the history of communication technology by examining the development of writing materials from ancient times to the modern era. The ability to record information in written form has been one of the most transformative developments in human civilization, and the materials used for this purpose have evolved dramatically over thousands of years.</p><p>The earliest known writing materials were clay tablets, used by the Sumerians of ancient Mesopotamia around 3400 BC. The Sumerians developed a writing system known as cuneiform, which involved pressing a reed stylus into soft clay to create wedge-shaped marks. Once inscribed, the clay tablets were either dried in the sun or fired in a kiln to make them permanent. Thousands of these tablets have survived to the present day, providing invaluable records of ancient Mesopotamian society, including commercial transactions, legal codes, and literary works.</p><p>Papyrus, made from the pith of the papyrus plant, emerged as a writing material in ancient Egypt around 3000 BC. The plant, which grows abundantly along the Nile, was cut into strips, soaked, and then layered in two perpendicular directions before being pressed and dried to create a smooth writing surface. Papyrus was lighter and more portable than clay, and it could be rolled into scrolls for easy storage and transportation. It became the dominant writing material throughout the Mediterranean world for nearly 3,000 years.</p><p>The invention of parchment, made from animal skins, represented a significant advance. Parchment was more durable than papyrus and could be written on both sides, making it more economical. It was also possible to scrape off the writing and reuse the material, creating what is known as a palimpsest. Parchment was particularly important for the preservation of knowledge during the Middle Ages, when monks in European monasteries spent centuries copying religious texts and classical works onto parchment manuscripts.</p><p>Perhaps the most revolutionary development in writing materials was the invention of paper. Paper was first developed in China around 105 AD by Cai Lun, a court official of the Han Dynasty, though recent archaeological discoveries suggest that crude forms of paper existed in China as early as the 2nd century BC. The Chinese manufacturing process involved soaking and pounding plant fibers, primarily from mulberry bark and hemp, into a pulp, then spreading the mixture thinly over a flat screen and allowing it to dry. The technology gradually spread westward along the Silk Road, reaching the Islamic world by the 8th century and Europe by the 12th century.</p><p>The mass production of paper was made possible by the invention of the papermaking machine by Louis-Nicolas Robert in France in 1798. This machine could produce continuous rolls of paper, replacing the laborious hand-production method and dramatically reducing the cost. Combined with the development of mechanical printing presses, affordable paper enabled the explosion of literacy and the mass dissemination of information that characterized the 19th and 20th centuries. Today, despite the rise of digital technology, over 400 million tonnes of paper are produced globally each year.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "When were the earliest clay tablets created?",
+              "zh": "最早的泥板是什么时候制作的？"
+            },
+            "options": [
+              {"en": "Around 2400 BC", "zh": "约公元前2400年"},
+              {"en": "Around 3400 BC", "zh": "约公元前3400年"},
+              {"en": "Around 4400 BC", "zh": "约公元前4400年"},
+              {"en": "Around 5400 BC", "zh": "约公元前5400年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What writing system did the Sumerians develop?",
+              "zh": "苏美尔人发展了什么书写系统？"
+            },
+            "options": [
+              {"en": "Hieroglyphics", "zh": "象形文字"},
+              {"en": "Cuneiform", "zh": "楔形文字"},
+              {"en": "Alphabetic script", "zh": "字母文字"},
+              {"en": "Runic script", "zh": "卢恩文字"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "When did papyrus emerge as a writing material?",
+              "zh": "纸莎草纸是什么时候出现的书写材料？"
+            },
+            "options": [
+              {"en": "Around 2000 BC", "zh": "约公元前2000年"},
+              {"en": "Around 2500 BC", "zh": "约公元前2500年"},
+              {"en": "Around 3000 BC", "zh": "约公元前3000年"},
+              {"en": "Around 3500 BC", "zh": "约公元前3500年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What advantage did parchment have over papyrus?",
+              "zh": "羊皮纸比纸莎草纸有什么优势？"
+            },
+            "options": [
+              {"en": "It was lighter", "zh": "它更轻"},
+              {"en": "It was more durable and could be written on both sides", "zh": "它更耐用且可以双面书写"},
+              {"en": "It was cheaper to produce", "zh": "它生产成本更低"},
+              {"en": "It was easier to transport", "zh": "它更容易运输"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What is a palimpsest?",
+              "zh": "什么是重写本？"
+            },
+            "options": [
+              {"en": "A type of ink", "zh": "一种墨水"},
+              {"en": "A material where writing has been scraped off to reuse it", "zh": "一种刮去文字以重新使用的材料"},
+              {"en": "A special binding technique", "zh": "一种特殊装订技术"},
+              {"en": "A type of scroll", "zh": "一种卷轴"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Who is traditionally credited with inventing paper?",
+              "zh": "传统上谁被认为是纸的发明者？"
+            },
+            "options": [
+              {"en": "Confucius", "zh": "孔子"},
+              {"en": "Cai Lun", "zh": "蔡伦"},
+              {"en": "Marco Polo", "zh": "马可·波罗"},
+              {"en": "Johannes Gutenberg", "zh": "约翰内斯·古腾堡"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What plant fibers were primarily used in Chinese papermaking?",
+              "zh": "中国造纸术主要使用什么植物纤维？"
+            },
+            "options": [
+              {"en": "Cotton and linen", "zh": "棉花和亚麻"},
+              {"en": "Bamboo and rice straw", "zh": "竹子和稻草"},
+              {"en": "Mulberry bark and hemp", "zh": "桑树皮和麻"},
+              {"en": "Papyrus and reed", "zh": "纸莎草和芦苇"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "When did paper technology reach Europe?",
+              "zh": "造纸技术是什么时候传到欧洲的？"
+            },
+            "options": [
+              {"en": "The 8th century", "zh": "8世纪"},
+              {"en": "The 10th century", "zh": "10世纪"},
+              {"en": "The 12th century", "zh": "12世纪"},
+              {"en": "The 14th century", "zh": "14世纪"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Who invented the papermaking machine?",
+              "zh": "谁发明了造纸机？"
+            },
+            "options": [
+              {"en": "Johannes Gutenberg", "zh": "约翰内斯·古腾堡"},
+              {"en": "Louis-Nicolas Robert", "zh": "路易-尼古拉·罗伯特"},
+              {"en": "Cai Lun", "zh": "蔡伦"},
+              {"en": "William Caxton", "zh": "威廉·卡克斯顿"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "How much paper is produced globally each year today?",
+              "zh": "当今全球每年生产多少纸张？"
+            },
+            "options": [
+              {"en": "Over 100 million tonnes", "zh": "超过1亿吨"},
+              {"en": "Over 250 million tonnes", "zh": "超过2.5亿吨"},
+              {"en": "Over 400 million tonnes", "zh": "超过4亿吨"},
+              {"en": "Over 600 million tonnes", "zh": "超过6亿吨"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - A Chronicle of Timekeeping",
+          "zh": "文章1 - 计时编年史"
+        },
+        "passage": "<p>Our conception of time begins with the revolution of the Earth around the Sun. The length of time the Earth takes to make one complete revolution determines the length of our year, and the time it takes to rotate once on its axis determines the length of our day. But for most of human history, time measurement was far less precise than these astronomical observations might suggest.</p><p>The earliest timekeeping devices relied on the movement of the Sun. The sundial, which dates back to at least 3500 BC in ancient Egypt, uses the shadow cast by a gnomon, or pointer, to indicate the time of day. However, sundials are useless at night or on cloudy days, which led to the development of water clocks, or clepsydrae. These devices measured time by the regulated flow of water from one container to another. The oldest known water clock dates from about 1500 BC and was found in the Temple of Amun at Karnak in Egypt.</p><p>Mechanical clocks, driven by weights and gears rather than natural forces, first appeared in European monasteries and cathedral towers in the late 13th century. These early clocks were not particularly accurate, often losing or gaining 15 minutes per day. They typically had no dial or hands but struck a bell at regular intervals, which is why we still speak of the clock 'striking' the hour. The word 'clock' itself derives from the Latin 'clocca,' meaning 'bell.'</p><p>The development of the pendulum clock by Dutch scientist Christiaan Huygens in 1656 marked a quantum leap in accuracy. A pendulum clock could keep time to within a few seconds per day, compared to the 15 minutes per day of earlier mechanical clocks. This improvement was crucial for navigation, as accurate timekeeping was essential for determining longitude at sea. The British government's Longitude Act of 1714 offered a prize of 20,000 pounds, equivalent to several million pounds today, for a practical method of determining longitude within half a degree.</p><p>The next major advance came with the development of the marine chronometer by English clockmaker John Harrison in the 1730s. Harrison spent nearly 30 years perfecting his invention, which could keep accurate time aboard a ship despite the motion of the waves and changes in temperature and humidity. His H4 chronometer, completed in 1759, lost only 5 seconds over 81 days during sea trials, far exceeding the accuracy required to win the Longitude Prize. Harrison's achievement was one of the great technological triumphs of the 18th century.</p><p>In the 20th century, quartz crystal oscillators and atomic clocks revolutionized timekeeping yet again. The first quartz clock was built in 1927, and quartz watches became widely available in the 1960s. Atomic clocks, which measure the vibrations of cesium atoms, are accurate to within one second in 300 million years and form the basis of the international time standard. GPS satellites carry atomic clocks and use time differences in signals from multiple satellites to determine position on the Earth's surface to within a few meters.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What determines the length of our day?",
+              "zh": "什么决定了我们一天的长度？"
+            },
+            "options": [
+              {"en": "The Earth's revolution around the Sun", "zh": "地球绕太阳的公转"},
+              {"en": "The Earth's rotation on its axis", "zh": "地球的自转"},
+              {"en": "The Moon's orbit around the Earth", "zh": "月球绕地球的轨道"},
+              {"en": "The tilt of the Earth's axis", "zh": "地轴的倾斜"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When do sundials date back to?",
+              "zh": "日晷可以追溯到什么时候？"
+            },
+            "options": [
+              {"en": "At least 2500 BC", "zh": "至少公元前2500年"},
+              {"en": "At least 3500 BC", "zh": "至少公元前3500年"},
+              {"en": "At least 4500 BC", "zh": "至少公元前4500年"},
+              {"en": "At least 5500 BC", "zh": "至少公元前5500年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "Where was the oldest known water clock found?",
+              "zh": "已知最古老的水钟是在哪里发现的？"
+            },
+            "options": [
+              {"en": "In Babylon", "zh": "在巴比伦"},
+              {"en": "In Rome", "zh": "在罗马"},
+              {"en": "At the Temple of Amun at Karnak", "zh": "在卡纳克的阿蒙神庙"},
+              {"en": "In Athens", "zh": "在雅典"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "When did mechanical clocks first appear?",
+              "zh": "机械钟是什么时候首次出现的？"
+            },
+            "options": [
+              {"en": "The late 11th century", "zh": "11世纪末"},
+              {"en": "The late 12th century", "zh": "12世纪末"},
+              {"en": "The late 13th century", "zh": "13世纪末"},
+              {"en": "The late 14th century", "zh": "14世纪末"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What does the word 'clock' derive from?",
+              "zh": "'clock'这个词来源于什么？"
+            },
+            "options": [
+              {"en": "The Greek word for 'hour'", "zh": "希腊语中的'小时'"},
+              {"en": "The Latin word for 'bell'", "zh": "拉丁语中的'钟'"},
+              {"en": "The French word for 'time'", "zh": "法语中的'时间'"},
+              {"en": "The German word for 'wheel'", "zh": "德语中的'轮子'"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Who developed the pendulum clock?",
+              "zh": "谁开发了摆钟？"
+            },
+            "options": [
+              {"en": "Isaac Newton", "zh": "艾萨克·牛顿"},
+              {"en": "Galileo Galilei", "zh": "伽利略·伽利莱"},
+              {"en": "Christiaan Huygens", "zh": "克里斯蒂安·惠更斯"},
+              {"en": "John Harrison", "zh": "约翰·哈里森"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How much could a pendulum clock keep time to per day?",
+              "zh": "摆钟每天能保持多精确的时间？"
+            },
+            "options": [
+              {"en": "Within a few seconds", "zh": "几秒以内"},
+              {"en": "Within a minute", "zh": "一分钟以内"},
+              {"en": "Within 5 minutes", "zh": "五分钟以内"},
+              {"en": "Within 10 minutes", "zh": "十分钟以内"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What prize did the British government offer in 1714?",
+              "zh": "英国政府在1714年提供了什么奖项？"
+            },
+            "options": [
+              {"en": "10,000 pounds", "zh": "1万英镑"},
+              {"en": "20,000 pounds", "zh": "2万英镑"},
+              {"en": "30,000 pounds", "zh": "3万英镑"},
+              {"en": "50,000 pounds", "zh": "5万英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "How much time did Harrison's H4 chronometer lose over 81 days?",
+              "zh": "哈里森的H4航海钟在81天内损失了多少时间？"
+            },
+            "options": [
+              {"en": "5 seconds", "zh": "5秒"},
+              {"en": "15 seconds", "zh": "15秒"},
+              {"en": "30 seconds", "zh": "30秒"},
+              {"en": "1 minute", "zh": "1分钟"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How accurate are modern atomic clocks?",
+              "zh": "现代原子钟有多精确？"
+            },
+            "options": [
+              {"en": "One second in 1 million years", "zh": "100万分之一秒"},
+              {"en": "One second in 30 million years", "zh": "3000万年一秒"},
+              {"en": "One second in 300 million years", "zh": "3亿年一秒"},
+              {"en": "One second in 3 billion years", "zh": "30亿年一秒"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "When was the first quartz clock built?",
+              "zh": "第一台石英钟是什么时候制造的？"
+            },
+            "options": [
+              {"en": "1917", "zh": "1917年"},
+              {"en": "1927", "zh": "1927年"},
+              {"en": "1937", "zh": "1937年"},
+              {"en": "1947", "zh": "1947年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What was the main limitation of sundials?",
+              "zh": "日晷的主要局限是什么？"
+            },
+            "options": [
+              {"en": "They were too expensive", "zh": "它们太贵了"},
+              {"en": "They were useless at night or on cloudy days", "zh": "它们在夜间或阴天无用"},
+              {"en": "They could only measure seasons", "zh": "它们只能测量季节"},
+              {"en": "They were portable", "zh": "它们不可携带"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many years did Harrison spend perfecting his marine chronometer?",
+              "zh": "哈里森花了多少年来完善他的航海钟？"
+            },
+            "options": [
+              {"en": "Nearly 10 years", "zh": "近10年"},
+              {"en": "Nearly 20 years", "zh": "近20年"},
+              {"en": "Nearly 30 years", "zh": "近30年"},
+              {"en": "Nearly 50 years", "zh": "近50年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How do GPS satellites determine position on Earth?",
+              "zh": "GPS卫星如何确定地球上的位置？"
+            },
+            "options": [
+              {"en": "By measuring magnetic fields", "zh": "通过测量磁场"},
+              {"en": "By using time differences in signals from multiple satellites", "zh": "通过使用多颗卫星信号的时间差"},
+              {"en": "By taking photographs from space", "zh": "通过从太空拍摄照片"},
+              {"en": "By measuring atmospheric pressure", "zh": "通过测量大气压力"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - Sheet Glass Manufacture: The Float Process",
+          "zh": "文章2 - 平板玻璃制造：浮法工艺"
+        },
+        "passage": "<p>Glass, which has been made for over 3,500 years, can be broadly divided into two categories: container glass and flat (or sheet) glass. Flat glass is used primarily in the construction industry for windows and facades, and in the automotive industry for windscreens and windows. The development of the float glass process by Sir Alastair Pilkington in the 1950s revolutionized the production of flat glass and remains the dominant manufacturing method today.</p><p>Before the float process, flat glass was produced by several different methods, all of which had significant limitations. The earliest method, known as the crown glass process, involved spinning a blob of molten glass at the end of a rod until it formed a flat disc. The disc was then cut into panes. This process produced glass with good optical clarity but was limited in the size of panes that could be produced and resulted in considerable waste. The plate glass process, developed in the 17th century, involved pouring molten glass onto a flat table, rolling it to an even thickness, and then grinding and polishing both surfaces. While this produced high-quality glass, the grinding and polishing stages were extremely time-consuming and expensive.</p><p>The float glass process, which Pilkington developed over seven years at a cost of 7 million pounds, solved these problems elegantly. In the process, a continuous ribbon of molten glass at approximately 1,100 degrees Celsius flows from the melting furnace onto a bath of molten tin. Because the glass is less dense than the tin, it floats on the surface and spreads out to form a perfectly flat sheet. Surface tension ensures that both the top and bottom surfaces are smooth and parallel. The glass then passes through a long annealing chamber, called a lehr, where it is gradually cooled to relieve internal stresses. The entire process from furnace to finished sheet takes approximately 24 hours.</p><p>The advantages of the float process over previous methods are numerous. It produces glass of consistent thickness and optical quality, with no need for grinding or polishing. It can produce sheets of virtually any width, limited only by the size of the tin bath. The process is continuous, meaning that production does not need to stop and start as it did with batch methods. Furthermore, the glass produced requires no secondary processing before it can be used, which dramatically reduces manufacturing costs.</p><p>Today, over 80 percent of the world's flat glass is produced using the float process, and Pilkington's original patents have long since expired, meaning any manufacturer can use the technology. Modern float glass plants can produce over 1,000 tonnes of glass per day, with sheets ranging in thickness from 0.4 millimeters to 25 millimeters. Recent innovations in the float process include the production of low-emissivity glass, which has a microscopically thin metallic coating that reflects heat while allowing light to pass through, and self-cleaning glass, which has a photocatalytic coating that breaks down dirt when exposed to ultraviolet light.</p>",
+        "questions": [
+          {
+            "id": 15,
+            "text": {
+              "en": "How long has glass been made for?",
+              "zh": "玻璃制造有多长时间的历史？"
+            },
+            "options": [
+              {"en": "Over 1,500 years", "zh": "超过1500年"},
+              {"en": "Over 2,500 years", "zh": "超过2500年"},
+              {"en": "Over 3,500 years", "zh": "超过3500年"},
+              {"en": "Over 4,500 years", "zh": "超过4500年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "Who developed the float glass process?",
+              "zh": "谁开发了浮法玻璃工艺？"
+            },
+            "options": [
+              {"en": "Sir Isaac Pilkington", "zh": "艾萨克·皮尔金顿爵士"},
+              {"en": "Sir Alastair Pilkington", "zh": "阿拉斯泰尔·皮尔金顿爵士"},
+              {"en": "Sir James Pilkington", "zh": "詹姆斯·皮尔金顿爵士"},
+              {"en": "Sir William Pilkington", "zh": "威廉·皮尔金顿爵士"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What was the main problem with the crown glass process?",
+              "zh": "冠玻璃工艺的主要问题是什么？"
+            },
+            "options": [
+              {"en": "It was too expensive", "zh": "它太贵了"},
+              {"en": "It limited pane size and produced considerable waste", "zh": "它限制了玻璃板尺寸并产生大量废料"},
+              {"en": "The glass was too thick", "zh": "玻璃太厚了"},
+              {"en": "It took too long", "zh": "它耗时太长"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How much did developing the float process cost?",
+              "zh": "开发浮法工艺花了多少钱？"
+            },
+            "options": [
+              {"en": "3 million pounds", "zh": "300万英镑"},
+              {"en": "5 million pounds", "zh": "500万英镑"},
+              {"en": "7 million pounds", "zh": "700万英镑"},
+              {"en": "10 million pounds", "zh": "1000万英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What is the temperature of molten glass in the float process?",
+              "zh": "浮法工艺中熔融玻璃的温度是多少？"
+            },
+            "options": [
+              {"en": "Approximately 800 degrees Celsius", "zh": "约800摄氏度"},
+              {"en": "Approximately 950 degrees Celsius", "zh": "约950摄氏度"},
+              {"en": "Approximately 1,100 degrees Celsius", "zh": "约1100摄氏度"},
+              {"en": "Approximately 1,300 degrees Celsius", "zh": "约1300摄氏度"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What does the glass float on in the float process?",
+              "zh": "在浮法工艺中，玻璃漂浮在什么上面？"
+            },
+            "options": [
+              {"en": "Water", "zh": "水上"},
+              {"en": "Mercury", "zh": "汞上"},
+              {"en": "Molten tin", "zh": "熔融锡上"},
+              {"en": "Molten lead", "zh": "熔融铅上"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "How long does the entire float process take?",
+              "zh": "整个浮法工艺需要多长时间？"
+            },
+            "options": [
+              {"en": "About 8 hours", "zh": "约8小时"},
+              {"en": "About 12 hours", "zh": "约12小时"},
+              {"en": "About 24 hours", "zh": "约24小时"},
+              {"en": "About 48 hours", "zh": "约48小时"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What percentage of world flat glass is produced using the float process?",
+              "zh": "全球平板玻璃有多少百分比使用浮法工艺生产？"
+            },
+            "options": [
+              {"en": "Over 60 percent", "zh": "超过60%"},
+              {"en": "Over 70 percent", "zh": "超过70%"},
+              {"en": "Over 80 percent", "zh": "超过80%"},
+              {"en": "Over 90 percent", "zh": "超过90%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How much glass can modern float plants produce per day?",
+              "zh": "现代浮法工厂每天能生产多少玻璃？"
+            },
+            "options": [
+              {"en": "Over 500 tonnes", "zh": "超过500吨"},
+              {"en": "Over 750 tonnes", "zh": "超过750吨"},
+              {"en": "Over 1,000 tonnes", "zh": "超过1000吨"},
+              {"en": "Over 2,000 tonnes", "zh": "超过2000吨"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What does low-emissivity glass have?",
+              "zh": "低辐射玻璃有什么特点？"
+            },
+            "options": [
+              {"en": "A thick protective layer", "zh": "一层厚保护层"},
+              {"en": "A microscopically thin metallic coating", "zh": "一层极薄的金属涂层"},
+              {"en": "A self-cleaning surface", "zh": "自清洁表面"},
+              {"en": "Double-layer construction", "zh": "双层结构"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How does self-cleaning glass work?",
+              "zh": "自清洁玻璃是如何工作的？"
+            },
+            "options": [
+              {"en": "It has a special water-repellent coating", "zh": "它有特殊的防水涂层"},
+              {"en": "Its photocatalytic coating breaks down dirt with UV light", "zh": "其光催化涂层在紫外线照射下分解污垢"},
+              {"en": "It uses electrical heating elements", "zh": "它使用电加热元件"},
+              {"en": "It has a rough surface that prevents dirt accumulation", "zh": "它有粗糙表面防止污垢积累"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What was the main disadvantage of the plate glass process?",
+              "zh": "板玻璃工艺的主要缺点是什么？"
+            },
+            "options": [
+              {"en": "The glass was too thin", "zh": "玻璃太薄了"},
+              {"en": "Grinding and polishing were time-consuming and expensive", "zh": "研磨和抛光耗时且昂贵"},
+              {"en": "It could only make small pieces", "zh": "它只能制作小片"},
+              {"en": "The glass was not transparent", "zh": "玻璃不透明"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What is the range of thickness that float glass can be produced in?",
+              "zh": "浮法玻璃可以生产的厚度范围是多少？"
+            },
+            "options": [
+              {"en": "0.4 to 10 millimeters", "zh": "0.4到10毫米"},
+              {"en": "0.4 to 25 millimeters", "zh": "0.4到25毫米"},
+              {"en": "1 to 25 millimeters", "zh": "1到25毫米"},
+              {"en": "1 to 50 millimeters", "zh": "1到50毫米"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - Telepathy and the Brain",
+          "zh": "文章3 - 心灵感应与大脑"
+        },
+        "passage": "<p>The search for evidence of telepathy, the ability to communicate thoughts directly from one mind to another without using the known senses, has been a focus of parapsychological research for over a century. Despite numerous experiments and claims of success, the scientific community remains deeply divided over whether telepathy is a genuine phenomenon or simply a product of coincidence, wishful thinking, and methodological flaws.</p><p>The most famous early telepathy experiments were conducted by J.B. Rhine at Duke University in the United States in the 1930s. Rhine used a set of 25 cards, each bearing one of five symbols: a circle, a square, a star, a cross, or wavy lines. In the standard test, one person, the sender, would look at each card in turn while another person, the receiver, attempted to identify the card purely through mental concentration. With five possible choices, random guessing would produce a correct answer 20 percent of the time. Rhine reported that some subjects consistently scored significantly above this chance level, with certain individuals achieving hit rates of 30 percent or more over thousands of trials.</p><p>However, Rhine's work attracted considerable criticism. Skeptics pointed out that the experimental conditions were often inadequate to prevent cheating, that the statistical methods used were sometimes inappropriate, and that many of the most impressive results came from studies that could not be replicated by other researchers. In response to these criticisms, later researchers developed more rigorous experimental protocols, including the use of automated systems to present and record responses, the physical separation of sender and receiver by considerable distances, and the elimination of all possible sensory channels through which information might leak.</p><p>One of the most sophisticated modern approaches to testing telepathy uses brain imaging technology. In these experiments, the sender and receiver are placed in separate rooms, and the sender is shown a series of images or video clips while their brain activity is monitored using an electroencephalogram. The receiver, who sees no images, is also monitored for brain activity. Researchers then look for correlations between the brain patterns of the sender and receiver, specifically looking for instances where the receiver's brain responds to the stimulus in a way that mirrors the sender's brain response, even though the receiver has had no sensory exposure to the stimulus.</p><p>A team of researchers at the University of Barcelona published results in 2014 claiming to have found evidence of such neural correlations. In their experiment, 15 sender-receiver pairs were tested over multiple sessions. They reported that the receiver's brain showed significant electrical responses that correlated with the sender's exposure to visual stimuli, even though the receivers were in a completely shielded room with no possibility of receiving the information through normal sensory channels. The probability of these results occurring by chance, they claimed, was less than 1 in 10,000.</p><p>Despite these intriguing findings, the broader scientific community has not embraced the existence of telepathy. Critics argue that the effect sizes reported are very small, that the results have not been independently replicated with sufficient consistency, and that there is no plausible theoretical mechanism by which thoughts could be transmitted directly between brains. The human brain generates electromagnetic fields, but these are far too weak to be detected at any significant distance by another brain. Until a robust theoretical framework and consistently replicable experimental evidence are provided, telepathy will likely remain on the margins of mainstream science.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "What is telepathy defined as in the passage?",
+              "zh": "文章中将心灵感应定义为什么？"
+            },
+            "options": [
+              {"en": "Reading body language", "zh": "读取肢体语言"},
+              {"en": "Communicating thoughts directly without known senses", "zh": "不通过已知感官直接交流思想"},
+              {"en": "Predicting the future", "zh": "预测未来"},
+              {"en": "Controlling others' behavior", "zh": "控制他人的行为"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When did J.B. Rhine conduct his experiments?",
+              "zh": "J.B. Rhine是什么时候进行他的实验的？"
+            },
+            "options": [
+              {"en": "The 1910s", "zh": "1910年代"},
+              {"en": "The 1920s", "zh": "1920年代"},
+              {"en": "The 1930s", "zh": "1930年代"},
+              {"en": "The 1940s", "zh": "1940年代"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "How many symbols were on each card in Rhine's experiments?",
+              "zh": "Rhine实验中每张卡片上有多少个符号？"
+            },
+            "options": [
+              {"en": "Three", "zh": "三个"},
+              {"en": "Four", "zh": "四个"},
+              {"en": "Five", "zh": "五个"},
+              {"en": "Ten", "zh": "十个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What correct answer rate would random guessing produce?",
+              "zh": "随机猜测会产生多少正确率？"
+            },
+            "options": [
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "20 percent", "zh": "20%"},
+              {"en": "25 percent", "zh": "25%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What hit rate did some of Rhine's subjects achieve?",
+              "zh": "Rhine的一些受试者达到了多少命中率？"
+            },
+            "options": [
+              {"en": "25 percent or more", "zh": "25%或以上"},
+              {"en": "30 percent or more", "zh": "30%或以上"},
+              {"en": "40 percent or more", "zh": "40%或以上"},
+              {"en": "50 percent or more", "zh": "50%或以上"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What technology do modern telepathy experiments use?",
+              "zh": "现代心灵感应实验使用什么技术？"
+            },
+            "options": [
+              {"en": "MRI scanners", "zh": "MRI扫描仪"},
+              {"en": "Brain imaging technology including EEG", "zh": "包括EEG在内的脑成像技术"},
+              {"en": "X-ray machines", "zh": "X光机"},
+              {"en": "Ultrasound devices", "zh": "超声波设备"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "When was the University of Barcelona study published?",
+              "zh": "巴塞罗那大学的研究是什么时候发表的？"
+            },
+            "options": [
+              {"en": "2010", "zh": "2010年"},
+              {"en": "2012", "zh": "2012年"},
+              {"en": "2014", "zh": "2014年"},
+              {"en": "2016", "zh": "2016年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many sender-receiver pairs were tested in the Barcelona study?",
+              "zh": "巴塞罗那研究中测试了多少对发送者-接收者？"
+            },
+            "options": [
+              {"en": "10 pairs", "zh": "10对"},
+              {"en": "15 pairs", "zh": "15对"},
+              {"en": "20 pairs", "zh": "20对"},
+              {"en": "25 pairs", "zh": "25对"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What probability of occurring by chance did the Barcelona team claim?",
+              "zh": "巴塞罗那团队声称的偶然发生的概率是多少？"
+            },
+            "options": [
+              {"en": "Less than 1 in 100", "zh": "小于百分之一"},
+              {"en": "Less than 1 in 1,000", "zh": "小于千分之一"},
+              {"en": "Less than 1 in 10,000", "zh": "小于万分之一"},
+              {"en": "Less than 1 in 100,000", "zh": "小于十万分之一"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What criticism is made of telepathy research findings?",
+              "zh": "对心灵感应研究结果有什么批评？"
+            },
+            "options": [
+              {"en": "The effect sizes are very large", "zh": "效应量非常大"},
+              {"en": "The effect sizes are very small and results not consistently replicated", "zh": "效应量非常小且结果未能一致重复"},
+              {"en": "The experiments were too simple", "zh": "实验过于简单"},
+              {"en": "Too many researchers are involved", "zh": "涉及的研究人员太多"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "Why is telepathy considered implausible by critics?",
+              "zh": "批评者为什么认为心灵感应不可信？"
+            },
+            "options": [
+              {"en": "No one has ever reported experiencing it", "zh": "没有人报告经历过"},
+              {"en": "Brain electromagnetic fields are too weak to be detected at distance", "zh": "大脑电磁场太弱，无法在远处被检测到"},
+              {"en": "It contradicts religious beliefs", "zh": "它与宗教信仰相矛盾"},
+              {"en": "No experiments have been conducted", "zh": "没有进行过实验"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Where did J.B. Rhine work?",
+              "zh": "J.B. Rhine在哪里工作？"
+            },
+            "options": [
+              {"en": "Harvard University", "zh": "哈佛大学"},
+              {"en": "Duke University", "zh": "杜克大学"},
+              {"en": "Yale University", "zh": "耶鲁大学"},
+              {"en": "Stanford University", "zh": "斯坦福大学"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "How long has parapsychological research on telepathy been conducted?",
+              "zh": "心灵感应的超心理学研究进行了多长时间？"
+            },
+            "options": [
+              {"en": "About 50 years", "zh": "约50年"},
+              {"en": "About 75 years", "zh": "约75年"},
+              {"en": "Over 100 years", "zh": "超过100年"},
+              {"en": "Over 200 years", "zh": "超过200年"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The pie charts below show the main reasons why agricultural land becomes less productive and the percentage of land degraded in the world's three main regions. Summarize the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的饼图显示了农业用地生产力下降的主要原因以及世界三个主要地区退化土地的百分比。通过选择和报告主要特征来总结信息，并在相关处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "Some experts believe that it is better for children to begin learning a foreign language at primary school rather than secondary school. Do the advantages of this outweigh the disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些专家认为，孩子们从小学开始学习外语比从中学开始更好。这样做的优势是否大于劣势？给出你回答的理由，并包括来自你自己的知识或经验的相关例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

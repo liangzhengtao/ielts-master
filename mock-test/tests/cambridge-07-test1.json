@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-07-test1",
+  "title": {
+    "en": "Cambridge IELTS 7 - Test 1",
+    "zh": "剑桥雅思7 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Telephone Conversation About Joining a Health Club",
+          "zh": "第一部分 - 关于加入健身俱乐部的电话对话"
+        },
+        "passage": "<p>A woman calls the Riverside Health Club to inquire about membership options. The receptionist, Paul, answers the phone and provides detailed information about the club's facilities and membership plans.</p><p>Paul explains that the club recently underwent a major renovation and now features a 25-meter heated swimming pool, a fully equipped gym with over 100 pieces of exercise equipment, three exercise studios for group classes, a sauna and steam room, and a juice bar. The club also has two outdoor tennis courts and a running track that circles the grounds.</p><p>The woman asks about the different membership options available. Paul describes three tiers: the standard membership at 50 pounds per month gives access to the gym and swimming pool during standard hours from 6 AM to 10 PM. The premium membership at 75 pounds per month includes all standard facilities plus access to the sauna and steam room, unlimited group fitness classes, and extended hours from 5 AM to midnight. The platinum membership at 100 pounds per month adds personal training sessions, priority court booking for tennis, and guest passes for up to two visitors per month.</p><p>The woman mentions she is a university student, and Paul tells her about the student discount of 20 percent off any membership tier, available with a valid student ID. There is also a one-time registration fee of 30 pounds for new members, though Paul mentions there is currently a promotional offer that waives this fee for anyone who signs up before the end of the month. The minimum contract period is six months, but members can freeze their membership for up to two months per year at no additional cost if they notify the club at least two weeks in advance.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Why is the woman calling the health club?",
+              "zh": "女士为什么打电话给健身俱乐部？"
+            },
+            "options": [
+              {"en": "To book a tennis court", "zh": "预订网球场"},
+              {"en": "To inquire about membership", "zh": "咨询会员资格"},
+              {"en": "To cancel her membership", "zh": "取消会员资格"},
+              {"en": "To complain about facilities", "zh": "投诉设施问题"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How long is the swimming pool?",
+              "zh": "游泳池有多长？"
+            },
+            "options": [
+              {"en": "15 meters", "zh": "15米"},
+              {"en": "20 meters", "zh": "20米"},
+              {"en": "25 meters", "zh": "25米"},
+              {"en": "50 meters", "zh": "50米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How many pieces of exercise equipment does the gym have?",
+              "zh": "健身房有多少件健身器材？"
+            },
+            "options": [
+              {"en": "Over 50", "zh": "超过50件"},
+              {"en": "Over 75", "zh": "超过75件"},
+              {"en": "Over 100", "zh": "超过100件"},
+              {"en": "Over 150", "zh": "超过150件"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What is the monthly cost of the standard membership?",
+              "zh": "标准会员的月费是多少？"
+            },
+            "options": [
+              {"en": "30 pounds", "zh": "30英镑"},
+              {"en": "40 pounds", "zh": "40英镑"},
+              {"en": "50 pounds", "zh": "50英镑"},
+              {"en": "75 pounds", "zh": "75英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What additional feature does the premium membership include?",
+              "zh": "高级会员包括哪些额外功能？"
+            },
+            "options": [
+              {"en": "Personal training sessions", "zh": "私人训练课程"},
+              {"en": "Unlimited group fitness classes", "zh": "无限次团体健身课程"},
+              {"en": "Guest passes", "zh": "访客通行证"},
+              {"en": "Priority tennis court booking", "zh": "优先预订网球场"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What is the student discount percentage?",
+              "zh": "学生折扣是多少百分比？"
+            },
+            "options": [
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "20 percent", "zh": "20%"},
+              {"en": "25 percent", "zh": "25%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How much is the one-time registration fee?",
+              "zh": "一次性注册费是多少？"
+            },
+            "options": [
+              {"en": "20 pounds", "zh": "20英镑"},
+              {"en": "25 pounds", "zh": "25英镑"},
+              {"en": "30 pounds", "zh": "30英镑"},
+              {"en": "50 pounds", "zh": "50英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What is the minimum contract period?",
+              "zh": "最短合同期是多长？"
+            },
+            "options": [
+              {"en": "One month", "zh": "一个月"},
+              {"en": "Three months", "zh": "三个月"},
+              {"en": "Six months", "zh": "六个月"},
+              {"en": "Twelve months", "zh": "十二个月"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "How long can members freeze their membership per year?",
+              "zh": "会员每年可以冻结会员资格多长时间？"
+            },
+            "options": [
+              {"en": "One month", "zh": "一个月"},
+              {"en": "Two months", "zh": "两个月"},
+              {"en": "Three months", "zh": "三个月"},
+              {"en": "Six months", "zh": "六个月"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How many guest passes does the platinum membership provide per month?",
+              "zh": "白金会员每月提供多少张访客通行证？"
+            },
+            "options": [
+              {"en": "One", "zh": "一张"},
+              {"en": "Two", "zh": "两张"},
+              {"en": "Three", "zh": "三张"},
+              {"en": "Unlimited", "zh": "无限"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Introduction to a Community Garden Project",
+          "zh": "第二部分 - 社区花园项目介绍"
+        },
+        "passage": "<p>Welcome, everyone, to the launch of our community garden project. My name is Linda Carter, and I'm the project coordinator for the Greenway Community Trust. Thank you all for coming today. I'm delighted to see so much interest in this initiative.</p><p>Our community garden is located on the corner of Oak Street and River Road, on a site that was previously an unused car park belonging to the old factory. The local council has granted us a ten-year lease on the land, and we've spent the last six months clearing the site, testing the soil, and installing water and electricity connections. The total area is approximately 2,000 square meters, which we've divided into several distinct zones.</p><p>The largest section, covering about 800 square meters, is divided into 50 individual allotment plots, each measuring 3 meters by 5 meters. These plots are available for individual members to grow their own fruit, vegetables, and flowers. Annual rental for a standard plot is 25 pounds, or 15 pounds for senior citizens and those receiving benefits. We also have ten raised beds specifically designed for wheelchair users and people with mobility difficulties.</p><p>In addition to the allotment plots, we have created a communal herb garden that is freely available to all community members, a children's growing area where local schools can bring students for educational visits, a wildlife pond and nature trail, and a covered pavilion with seating for up to 40 people. The pavilion includes basic kitchen facilities and can be hired for community events at a cost of 50 pounds per half day.</p><p>We run a weekly gardening workshop every Saturday morning from 10 AM to noon, covering topics such as composting, organic pest control, seed saving, and seasonal planting. These workshops are free for garden members and 5 pounds per session for non-members. We also host a monthly community meal on the last Sunday of each month, where we cook dishes using produce grown in the garden. Our next meal is scheduled for March 28th, and everyone is welcome.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "What was the garden site previously used for?",
+              "zh": "花园场地以前是做什么用的？"
+            },
+            "options": [
+              {"en": "A school playground", "zh": "学校操场"},
+              {"en": "A factory car park", "zh": "工厂停车场"},
+              {"en": "A public park", "zh": "公共公园"},
+              {"en": "A waste disposal site", "zh": "废物处理场"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How long is the lease on the land?",
+              "zh": "土地租约为多长时间？"
+            },
+            "options": [
+              {"en": "Five years", "zh": "五年"},
+              {"en": "Ten years", "zh": "十年"},
+              {"en": "Fifteen years", "zh": "十五年"},
+              {"en": "Twenty years", "zh": "二十年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How large is the total garden area?",
+              "zh": "花园总面积有多大？"
+            },
+            "options": [
+              {"en": "1,000 square meters", "zh": "1000平方米"},
+              {"en": "1,500 square meters", "zh": "1500平方米"},
+              {"en": "2,000 square meters", "zh": "2000平方米"},
+              {"en": "3,000 square meters", "zh": "3000平方米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How many individual allotment plots are there?",
+              "zh": "有多少个个人分配地块？"
+            },
+            "options": [
+              {"en": "30", "zh": "30个"},
+              {"en": "40", "zh": "40个"},
+              {"en": "50", "zh": "50个"},
+              {"en": "60", "zh": "60个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How much does it cost to rent a standard plot per year?",
+              "zh": "租一个标准地块每年要花多少钱？"
+            },
+            "options": [
+              {"en": "15 pounds", "zh": "15英镑"},
+              {"en": "20 pounds", "zh": "20英镑"},
+              {"en": "25 pounds", "zh": "25英镑"},
+              {"en": "30 pounds", "zh": "30英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How many raised beds are available for wheelchair users?",
+              "zh": "有多少个为轮椅使用者设计的高架花坛？"
+            },
+            "options": [
+              {"en": "5", "zh": "5个"},
+              {"en": "8", "zh": "8个"},
+              {"en": "10", "zh": "10个"},
+              {"en": "15", "zh": "15个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How many people can the pavilion seat?",
+              "zh": "亭子能容纳多少人？"
+            },
+            "options": [
+              {"en": "20", "zh": "20人"},
+              {"en": "30", "zh": "30人"},
+              {"en": "40", "zh": "40人"},
+              {"en": "50", "zh": "50人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What time are the Saturday gardening workshops held?",
+              "zh": "周六园艺工作坊什么时间举行？"
+            },
+            "options": [
+              {"en": "9 AM to 11 AM", "zh": "上午9点到11点"},
+              {"en": "10 AM to noon", "zh": "上午10点到中午"},
+              {"en": "11 AM to 1 PM", "zh": "上午11点到下午1点"},
+              {"en": "2 PM to 4 PM", "zh": "下午2点到4点"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How much do non-members pay for gardening workshops?",
+              "zh": "非会员参加园艺工作坊要付多少钱？"
+            },
+            "options": [
+              {"en": "Free", "zh": "免费"},
+              {"en": "3 pounds per session", "zh": "每次3英镑"},
+              {"en": "5 pounds per session", "zh": "每次5英镑"},
+              {"en": "10 pounds per session", "zh": "每次10英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "When is the next community meal scheduled?",
+              "zh": "下一次社区聚餐安排在什么时候？"
+            },
+            "options": [
+              {"en": "March 15th", "zh": "3月15日"},
+              {"en": "March 21st", "zh": "3月21日"},
+              {"en": "March 28th", "zh": "3月28日"},
+              {"en": "April 5th", "zh": "4月5日"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Tutorial Discussion on an Environmental Science Assignment",
+          "zh": "第三部分 - 关于环境科学作业的辅导讨论"
+        },
+        "passage": "<p>Two students, Emma and Jake, are meeting with their tutor, Dr. Patel, to discuss their upcoming assignment on water management strategies in developing countries. The assignment requires them to compare two different approaches and present their findings in a 3,000-word report.</p><p>Dr. Patel begins by asking about their chosen focus. Emma explains that they have decided to compare rainwater harvesting systems in rural India with desalination technology in the Middle East. She believes this comparison is interesting because the two approaches represent fundamentally different solutions to the same problem of water scarcity, one working with natural water sources and the other creating new sources through technology.</p><p>Jake adds that their preliminary research has revealed some fascinating data. In India, traditional rainwater harvesting has been practiced for thousands of years, but many ancient systems have fallen into disrepair. A government initiative launched in 2015 has funded the restoration of over 10,000 traditional systems and the construction of 5,000 new ones across Rajasthan and Tamil Nadu. These systems can collect and store up to 100,000 liters of water during the monsoon season, providing sufficient water for approximately 50 families for up to six months.</p><p>Regarding desalination, Jake explains that the technology has become increasingly efficient but remains expensive. The largest desalination plant in the world, located in Ras Al Khair in Saudi Arabia, produces over one million cubic meters of fresh water per day. However, the energy costs are enormous, and the process generates highly concentrated brine waste that can damage marine ecosystems when discharged into the sea.</p><p>Dr. Patel encourages them to consider the sustainability implications of both approaches. She suggests they examine the carbon footprint of each method, the long-term maintenance requirements, and the potential for community ownership and management. She also recommends they include a cost-benefit analysis comparing the two systems over a 20-year period, taking into account not just financial costs but also social and environmental factors.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the required word count for the assignment report?",
+              "zh": "作业报告要求的字数是多少？"
+            },
+            "options": [
+              {"en": "2,000 words", "zh": "2000字"},
+              {"en": "2,500 words", "zh": "2500字"},
+              {"en": "3,000 words", "zh": "3000字"},
+              {"en": "4,000 words", "zh": "4000字"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What two approaches have Emma and Jake chosen to compare?",
+              "zh": "Emma和Jake选择了哪两种方法进行比较？"
+            },
+            "options": [
+              {"en": "Dam building and river diversion", "zh": "建坝和河流改道"},
+              {"en": "Rainwater harvesting and desalination", "zh": "雨水收集和海水淡化"},
+              {"en": "Well drilling and pipeline construction", "zh": "打井和管道建设"},
+              {"en": "Water recycling and cloud seeding", "zh": "水循环利用和人工降雨"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "When was the Indian government initiative on rainwater harvesting launched?",
+              "zh": "印度政府的雨水收集倡议是何时启动的？"
+            },
+            "options": [
+              {"en": "2010", "zh": "2010年"},
+              {"en": "2012", "zh": "2012年"},
+              {"en": "2015", "zh": "2015年"},
+              {"en": "2018", "zh": "2018年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How many traditional rainwater systems were restored under the initiative?",
+              "zh": "该倡议修复了多少个传统雨水收集系统？"
+            },
+            "options": [
+              {"en": "Over 5,000", "zh": "超过5000个"},
+              {"en": "Over 7,000", "zh": "超过7000个"},
+              {"en": "Over 10,000", "zh": "超过10000个"},
+              {"en": "Over 15,000", "zh": "超过15000个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How much water can the harvesting systems store during the monsoon?",
+              "zh": "收集系统在季风期间能储存多少水？"
+            },
+            "options": [
+              {"en": "Up to 50,000 liters", "zh": "最多50000升"},
+              {"en": "Up to 75,000 liters", "zh": "最多75000升"},
+              {"en": "Up to 100,000 liters", "zh": "最多100000升"},
+              {"en": "Up to 200,000 liters", "zh": "最多200000升"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How many families can the stored water supply for up to six months?",
+              "zh": "储存的水能为多少个家庭供应长达六个月？"
+            },
+            "options": [
+              {"en": "About 20 families", "zh": "约20个家庭"},
+              {"en": "About 35 families", "zh": "约35个家庭"},
+              {"en": "About 50 families", "zh": "约50个家庭"},
+              {"en": "About 100 families", "zh": "约100个家庭"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "Where is the world's largest desalination plant located?",
+              "zh": "世界上最大的海水淡化厂在哪里？"
+            },
+            "options": [
+              {"en": "Dubai, UAE", "zh": "阿联酋迪拜"},
+              {"en": "Ras Al Khair, Saudi Arabia", "zh": "沙特阿拉伯拉斯海尔"},
+              {"en": "Doha, Qatar", "zh": "卡塔尔多哈"},
+              {"en": "Muscat, Oman", "zh": "阿曼马斯喀特"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "How much fresh water does the Ras Al Khair plant produce per day?",
+              "zh": "拉斯海尔工厂每天生产多少淡水？"
+            },
+            "options": [
+              {"en": "Over 500,000 cubic meters", "zh": "超过50万立方米"},
+              {"en": "Over 750,000 cubic meters", "zh": "超过75万立方米"},
+              {"en": "Over one million cubic meters", "zh": "超过100万立方米"},
+              {"en": "Over two million cubic meters", "zh": "超过200万立方米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What environmental problem does desalination brine cause?",
+              "zh": "海水淡化的盐水会造成什么环境问题？"
+            },
+            "options": [
+              {"en": "Air pollution", "zh": "空气污染"},
+              {"en": "Damage to marine ecosystems", "zh": "损害海洋生态系统"},
+              {"en": "Soil contamination", "zh": "土壤污染"},
+              {"en": "Noise pollution", "zh": "噪音污染"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What does Dr. Patel recommend they include in their comparison?",
+              "zh": "Patel博士建议他们在比较中包含什么？"
+            },
+            "options": [
+              {"en": "A cost-benefit analysis over 20 years", "zh": "20年期的成本效益分析"},
+              {"en": "A survey of local residents", "zh": "当地居民的调查"},
+              {"en": "A detailed engineering blueprint", "zh": "详细的工程蓝图"},
+              {"en": "A historical timeline of water use", "zh": "水资源使用的历史时间线"}
+            ],
+            "answer": 0
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Lecture on the History of Chocolate",
+          "zh": "第四部分 - 关于巧克力历史的讲座"
+        },
+        "passage": "<p>Good afternoon, everyone. Today I'll be tracing the fascinating history of chocolate, from its origins as a bitter ceremonial drink in ancient Mesoamerica to the sweet confection we know today. This is a story that spans over 3,000 years and involves exploration, colonialism, scientific innovation, and industrial revolution.</p><p>The story of chocolate begins with the cacao tree, Theobroma cacao, which is native to the tropical regions of Central and South America. The word Theobroma literally means 'food of the gods' in Greek, reflecting the reverence in which cacao was held by ancient civilizations. Archaeological evidence suggests that the Olmec people of southern Mexico were the first to cultivate cacao and process its beans into a drink, as early as 1500 BC. The Maya and Aztec civilizations later adopted and refined these practices, creating elaborate preparation rituals for what they called xocolatl, meaning 'bitter water.'</p><p>For the Aztecs, cacao was a luxury item of immense cultural and economic significance. It was used as currency, with a single turkey costing about 100 cacao beans, and a rabbit about 30 beans. The emperor Montezuma II was reported to drink up to 50 cups of xocolatl per day, served in golden goblets. The drink was typically flavored with vanilla, chili peppers, and achiote, and was quite different from modern hot chocolate. It was served cold, often frothy, and was extremely bitter by today's standards.</p><p>Chocolate arrived in Europe in the early 16th century following the Spanish conquest of the Aztec Empire. The Spanish explorer Hernan Cortes is widely credited with introducing cacao to the Spanish court, though it was initially met with skepticism due to its unfamiliar taste. The Spanish began adding sugar and cinnamon to make it more palatable to European tastes, and by the late 16th century, chocolate drinking had become fashionable among the Spanish aristocracy. Over the following century, the trend spread to France, Italy, and eventually England, where the first chocolate house opened in London in 1657.</p><p>The industrialization of chocolate production in the 19th century transformed it from an expensive luxury into an affordable treat for the masses. In 1828, Dutch chemist Coenraad van Houten invented a hydraulic press that could extract cocoa butter from roasted cacao beans, leaving behind a dry powder that could be mixed with water to create a smoother drink. This process, known as 'Dutching,' also reduced the bitterness of the chocolate. More significantly, the separation of cocoa butter enabled the creation of solid chocolate. In 1847, the British company J.S. Fry and Sons produced the first modern chocolate bar by combining cocoa powder, sugar, and melted cocoa butter.</p><p>The Swiss made further breakthroughs in chocolate production. In 1875, Daniel Peter added condensed milk to chocolate to create milk chocolate. Three years later, his neighbor Henri Nestle helped him establish a company to mass-produce the product. Meanwhile, Rodolphe Lindt developed the conching machine in 1879, a device that agitated chocolate for hours or even days to produce a smoother, more refined texture. These innovations laid the foundation for the modern chocolate industry, which is now worth over 130 billion dollars globally and employs an estimated 50 million people along its supply chain.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "What does 'Theobroma' mean in Greek?",
+              "zh": "'Theobroma'在希腊语中是什么意思？"
+            },
+            "options": [
+              {"en": "Sweet tree", "zh": "甜蜜之树"},
+              {"en": "Food of the gods", "zh": "众神的食物"},
+              {"en": "Bitter water", "zh": "苦水"},
+              {"en": "Sacred bean", "zh": "神圣豆子"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "Which civilization is believed to have first cultivated cacao?",
+              "zh": "哪个文明被认为最早种植可可？"
+            },
+            "options": [
+              {"en": "The Maya", "zh": "玛雅人"},
+              {"en": "The Aztec", "zh": "阿兹特克人"},
+              {"en": "The Olmec", "zh": "奥尔梅克人"},
+              {"en": "The Inca", "zh": "印加人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How much could a turkey cost in cacao beans in Aztec society?",
+              "zh": "在阿兹特克社会，一只火鸡值多少可可豆？"
+            },
+            "options": [
+              {"en": "About 30 beans", "zh": "约30颗豆"},
+              {"en": "About 50 beans", "zh": "约50颗豆"},
+              {"en": "About 100 beans", "zh": "约100颗豆"},
+              {"en": "About 200 beans", "zh": "约200颗豆"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "How many cups of xocolatl did Montezuma II reportedly drink per day?",
+              "zh": "据报道蒙特祖马二世每天喝多少杯xocolatl？"
+            },
+            "options": [
+              {"en": "Up to 20 cups", "zh": "最多20杯"},
+              {"en": "Up to 30 cups", "zh": "最多30杯"},
+              {"en": "Up to 50 cups", "zh": "最多50杯"},
+              {"en": "Up to 100 cups", "zh": "最多100杯"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "When did the first chocolate house open in London?",
+              "zh": "伦敦第一家巧克力屋是什么时候开业的？"
+            },
+            "options": [
+              {"en": "1557", "zh": "1557年"},
+              {"en": "1607", "zh": "1607年"},
+              {"en": "1657", "zh": "1657年"},
+              {"en": "1707", "zh": "1707年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Who invented the hydraulic press for extracting cocoa butter?",
+              "zh": "谁发明了提取可可脂的液压机？"
+            },
+            "options": [
+              {"en": "Daniel Peter", "zh": "丹尼尔·彼得"},
+              {"en": "Henri Nestle", "zh": "亨利·雀巢"},
+              {"en": "Coenraad van Houten", "zh": "范豪滕"},
+              {"en": "Rodolphe Lindt", "zh": "鲁道夫·莲特"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "When was the first modern chocolate bar produced?",
+              "zh": "第一块现代巧克力棒是何时生产的？"
+            },
+            "options": [
+              {"en": "1828", "zh": "1828年"},
+              {"en": "1837", "zh": "1837年"},
+              {"en": "1847", "zh": "1847年"},
+              {"en": "1857", "zh": "1857年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "Who developed the first milk chocolate?",
+              "zh": "谁开发了第一种牛奶巧克力？"
+            },
+            "options": [
+              {"en": "Rodolphe Lindt", "zh": "鲁道夫·莲特"},
+              {"en": "Daniel Peter", "zh": "丹尼尔·彼得"},
+              {"en": "Coenraad van Houten", "zh": "范豪滕"},
+              {"en": "J.S. Fry", "zh": "J.S.弗莱"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What did the conching machine do?",
+              "zh": "精炼机的作用是什么？"
+            },
+            "options": [
+              {"en": "Roasted cacao beans", "zh": "烘焙可可豆"},
+              {"en": "Added sugar to chocolate", "zh": "在巧克力中加入糖"},
+              {"en": "Agitated chocolate to create a smoother texture", "zh": "搅拌巧克力使其口感更细腻"},
+              {"en": "Separated cocoa butter from beans", "zh": "将可可脂从豆中分离"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What is the current global value of the chocolate industry?",
+              "zh": "巧克力行业的全球价值目前是多少？"
+            },
+            "options": [
+              {"en": "Over 50 billion dollars", "zh": "超过500亿美元"},
+              {"en": "Over 80 billion dollars", "zh": "超过800亿美元"},
+              {"en": "Over 130 billion dollars", "zh": "超过1300亿美元"},
+              {"en": "Over 200 billion dollars", "zh": "超过2000亿美元"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - Let's Go Bats",
+          "zh": "文章1 - 让我们了解蝙蝠"
+        },
+        "passage": "<p>Bats have a problem: how to find their way around in the dark. They hunt at night, and cannot use light to help them find prey and avoid obstacles. You might say that this is a problem of their own making, one that they could avoid simply by changing their habits and hunting by day. But the daytime economy is already heavily exploited by other creatures such as birds. Given that there is a choice, it is better to use a sense that works at night than to use one that works during the day and not at night. So bats have evolved a system of sonar, using sound rather than light, to navigate and hunt in complete darkness.</p><p>This system, known as echolocation, was first described by the Italian biologist Lazzaro Spallanzani in the 18th century. Spallanzani conducted a series of experiments in which he showed that bats could navigate perfectly well even when he blinded them, but became disoriented when he blocked their ears. He concluded that bats used their hearing to orient themselves, though he was unable to explain exactly how the system worked. It was not until the development of ultrasonic detection equipment in the early 20th century that scientists were able to confirm that bats emit high-frequency sound waves and use the returning echoes to build a detailed picture of their surroundings.</p><p>Modern research has revealed that echolocation is an extraordinarily sophisticated system. A hunting bat can emit up to 200 ultrasonic pulses per second and process the returning echoes in real time to detect and track insects in flight. Some species can detect objects as thin as a human hair and can distinguish between different types of insects based on the characteristics of the returning echo. The accuracy of bat echolocation is remarkable: bats can detect and catch prey in complete darkness, navigate through complex environments at high speed, and even detect water surfaces by recognizing the unique acoustic signature of a flat, reflective surface.</p><p>The principles of bat echolocation have inspired numerous human technologies. Sonar, the underwater detection system used by submarines and ships, was directly inspired by research into bat navigation. Radar, used for aircraft detection and air traffic control, operates on similar principles, though it uses radio waves rather than sound. More recently, engineers have developed ultrasonic navigation aids for blind and visually impaired people that work on echolocation principles. Researchers at the University of Bristol have created a handheld device that emits ultrasonic pulses and translates the returning echoes into tactile feedback, enabling users to detect obstacles and navigate unfamiliar environments.</p><p>Despite their remarkable abilities, bats face increasing threats from human activity. Habitat destruction, pesticide use, and climate change are all contributing to declining bat populations worldwide. In the UK alone, bat populations have declined by an estimated 70 percent since the 1970s. All British bat species are now legally protected, and it is an offense to deliberately kill, injure, or disturb bats or to damage their roosting sites. Conservation efforts include the installation of bat boxes in parks and gardens, the preservation of hedgerows and woodland corridors, and the creation of wildlife-friendly farming practices that reduce pesticide use and maintain insect populations on which bats depend.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What problem do bats face according to the passage?",
+              "zh": "根据文章，蝙蝠面临什么问题？"
+            },
+            "options": [
+              {"en": "Finding food during the day", "zh": "白天寻找食物"},
+              {"en": "Finding their way around in the dark", "zh": "在黑暗中找到出路"},
+              {"en": "Competing with birds for territory", "zh": "与鸟类争夺领地"},
+              {"en": "Avoiding predators", "zh": "避开天敌"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "Who first described bat echolocation?",
+              "zh": "谁首次描述了蝙蝠的回声定位？"
+            },
+            "options": [
+              {"en": "Charles Darwin", "zh": "查尔斯·达尔文"},
+              {"en": "Lazzaro Spallanzani", "zh": "拉扎罗·斯帕兰扎尼"},
+              {"en": "Isaac Newton", "zh": "艾萨克·牛顿"},
+              {"en": "Alexander Fleming", "zh": "亚历山大·弗莱明"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What happened when Spallanzani blocked the bats' ears?",
+              "zh": "当斯帕兰扎尼堵住蝙蝠的耳朵时发生了什么？"
+            },
+            "options": [
+              {"en": "They could still navigate normally", "zh": "它们仍然能正常导航"},
+              {"en": "They became disoriented", "zh": "它们迷失了方向"},
+              {"en": "They stopped hunting", "zh": "它们停止了捕猎"},
+              {"en": "They began using light", "zh": "它们开始使用光线"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "How many ultrasonic pulses can a hunting bat emit per second?",
+              "zh": "一只捕猎中的蝙蝠每秒能发出多少超声波脉冲？"
+            },
+            "options": [
+              {"en": "Up to 50", "zh": "最多50个"},
+              {"en": "Up to 100", "zh": "最多100个"},
+              {"en": "Up to 200", "zh": "最多200个"},
+              {"en": "Up to 500", "zh": "最多500个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What inspired the development of sonar?",
+              "zh": "什么启发了声纳的发展？"
+            },
+            "options": [
+              {"en": "Research into dolphin communication", "zh": "对海豚交流的研究"},
+              {"en": "Research into bat navigation", "zh": "对蝙蝠导航的研究"},
+              {"en": "Military weapons research", "zh": "军事武器研究"},
+              {"en": "Submarine engine design", "zh": "潜艇引擎设计"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What device have University of Bristol researchers created for blind people?",
+              "zh": "布里斯托大学的研究人员为盲人创造了什么设备？"
+            },
+            "options": [
+              {"en": "A hearing aid using sound waves", "zh": "使用声波的助听器"},
+              {"en": "A handheld device with tactile feedback", "zh": "带触觉反馈的手持设备"},
+              {"en": "Special glasses with sonar", "zh": "带声纳的特殊眼镜"},
+              {"en": "A wearable GPS system", "zh": "可穿戴GPS系统"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "By how much have UK bat populations declined since the 1970s?",
+              "zh": "自20世纪70年代以来，英国蝙蝠数量下降了多少？"
+            },
+            "options": [
+              {"en": "About 50 percent", "zh": "约50%"},
+              {"en": "About 60 percent", "zh": "约60%"},
+              {"en": "About 70 percent", "zh": "约70%"},
+              {"en": "About 80 percent", "zh": "约80%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "Which of the following is NOT mentioned as a threat to bat populations?",
+              "zh": "以下哪项未被提到是对蝙蝠种群的威胁？"
+            },
+            "options": [
+              {"en": "Habitat destruction", "zh": "栖息地破坏"},
+              {"en": "Pesticide use", "zh": "杀虫剂使用"},
+              {"en": "Climate change", "zh": "气候变化"},
+              {"en": "Natural predators", "zh": "天敌"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What is an offense under British law regarding bats?",
+              "zh": "根据英国法律，关于蝙蝠的什么行为是违法的？"
+            },
+            "options": [
+              {"en": "Feeding wild bats", "zh": "喂野生蝙蝠"},
+              {"en": "Photographing bats", "zh": "拍摄蝙蝠"},
+              {"en": "Deliberately killing, injuring, or disturbing bats", "zh": "故意杀死、伤害或打扰蝙蝠"},
+              {"en": "Studying bats without a license", "zh": "无证研究蝙蝠"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "Bats can detect water surfaces by recognizing:",
+              "zh": "蝙蝠通过识别什么来探测水面？"
+            },
+            "options": [
+              {"en": "The sound of moving water", "zh": "流水的声音"},
+              {"en": "The unique acoustic signature of a flat reflective surface", "zh": "平坦反射面的独特声学特征"},
+              {"en": "The temperature difference of water", "zh": "水的温度差异"},
+              {"en": "The smell of water molecules", "zh": "水分子的气味"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "What conservation measures are mentioned for bats?",
+              "zh": "文章提到了哪些蝙蝠保护措施？"
+            },
+            "options": [
+              {"en": "Bat boxes, hedgerow preservation, and wildlife-friendly farming", "zh": "蝙蝠箱、树篱保护和野生动物友好型农业"},
+              {"en": "Breeding programs in zoos", "zh": "动物园的繁殖计划"},
+              {"en": "Reducing light pollution only", "zh": "仅减少光污染"},
+              {"en": "Moving bats to protected reserves", "zh": "将蝙蝠转移到保护区"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "Why do bats use sound rather than light?",
+              "zh": "蝙蝠为什么使用声音而非光线？"
+            },
+            "options": [
+              {"en": "They are physiologically unable to see", "zh": "它们在生理上无法看见"},
+              {"en": "Their sense works at night when they hunt", "zh": "它们的感知在夜间捕猎时有效"},
+              {"en": "Sound travels further than light", "zh": "声音比光线传播更远"},
+              {"en": "Other animals forced them to adapt", "zh": "其他动物迫使它们适应"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "When was ultrasonic detection equipment developed?",
+              "zh": "超声波探测设备是什么时候开发的？"
+            },
+            "options": [
+              {"en": "The 17th century", "zh": "17世纪"},
+              {"en": "The 18th century", "zh": "18世纪"},
+              {"en": "The early 20th century", "zh": "20世纪初"},
+              {"en": "The mid-20th century", "zh": "20世纪中期"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The True Cost of Food",
+          "zh": "文章2 - 食品的真实成本"
+        },
+        "passage": "<p>A growing number of economists, environmentalists, and food policy experts argue that the price we pay for food in shops does not reflect its true cost. When we factor in the environmental damage caused by modern agriculture, the health costs of diet-related diseases, and the subsidies paid to farmers by taxpayers, the real price of food is significantly higher than what appears on the supermarket shelf. This concept, known as the 'true cost' of food, has profound implications for how we produce, distribute, and consume food.</p><p>Environmental costs represent perhaps the largest hidden component of food prices. Modern industrial agriculture relies heavily on chemical fertilizers and pesticides, which contaminate waterways, degrade soil quality, and reduce biodiversity. A study by the UK's Environment Agency estimated that agricultural pollution costs the British economy approximately 1.5 billion pounds per year in water treatment and environmental remediation. Additionally, food production accounts for approximately 26 percent of global greenhouse gas emissions, with livestock farming alone responsible for about 14.5 percent. These climate costs are externalized, meaning they are not reflected in the price consumers pay for food.</p><p>Health costs represent another significant hidden expense. The World Health Organization estimates that poor diet contributes to approximately 11 million deaths annually worldwide, making it a bigger killer than tobacco. In the UK, the National Health Service spends an estimated 6.1 billion pounds per year treating obesity-related conditions, and a further 2.3 billion pounds on treating type 2 diabetes. Many of these conditions are directly linked to the overconsumption of cheap, processed foods that are high in sugar, salt, and saturated fat. If the health costs of unhealthy food were included in its price, a typical fast-food meal would cost significantly more.</p><p>Agricultural subsidies further distort food prices. In the European Union, the Common Agricultural Policy distributes approximately 58 billion euros per year to farmers, with the majority going to large-scale producers of staple crops such as wheat, corn, and sugar. Critics argue that these subsidies encourage overproduction, depress global food prices, and disadvantage farmers in developing countries who cannot compete with subsidized European exports. In the United States, farm subsidies total approximately 20 billion dollars per year, with similar patterns of distribution favoring large agribusiness corporations over small family farms.</p><p>Several countries are beginning to experiment with policies that account for the true cost of food. Denmark has introduced a tax on saturated fat, and Mexico has imposed a levy on sugary drinks. In the UK, the government's National Food Strategy, published in 2021, recommended a sugar and salt reformulation tax, the expansion of free school meals, and the introduction of mandatory reporting of food waste by large food companies. These measures aim to shift the burden of food's hidden costs from society at large back onto the producers and consumers of unhealthy and unsustainable food products.</p><p>However, implementing true-cost food pricing raises serious concerns about social equity. Higher food prices would disproportionately affect low-income households, for whom food already represents a much larger share of total spending. Any policy reform must therefore include measures to protect vulnerable populations, such as increased welfare payments, subsidized healthy food programs, and improved access to affordable fresh produce in underserved communities. The challenge is to create a food system that accurately reflects costs while ensuring that nutritious food remains accessible to all.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "What does 'true cost' of food refer to?",
+              "zh": "食品的'真实成本'指的是什么？"
+            },
+            "options": [
+              {"en": "The production cost only", "zh": "仅生产成本"},
+              {"en": "The retail price plus profit margin", "zh": "零售价加利润率"},
+              {"en": "Environmental damage, health costs, and subsidies beyond the shop price", "zh": "超出商店价格的环境损害、健康成本和补贴"},
+              {"en": "The cost of organic versus conventional food", "zh": "有机食品与传统食品的成本"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How much does agricultural pollution cost the UK economy per year?",
+              "zh": "农业污染每年给英国经济造成多少损失？"
+            },
+            "options": [
+              {"en": "About 500 million pounds", "zh": "约5亿英镑"},
+              {"en": "About 1 billion pounds", "zh": "约10亿英镑"},
+              {"en": "About 1.5 billion pounds", "zh": "约15亿英镑"},
+              {"en": "About 2 billion pounds", "zh": "约20亿英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What percentage of global greenhouse gas emissions does food production account for?",
+              "zh": "食品生产占全球温室气体排放量的百分比是多少？"
+            },
+            "options": [
+              {"en": "About 16 percent", "zh": "约16%"},
+              {"en": "About 21 percent", "zh": "约21%"},
+              {"en": "About 26 percent", "zh": "约26%"},
+              {"en": "About 36 percent", "zh": "约36%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "According to the WHO, how many deaths does poor diet contribute to annually?",
+              "zh": "根据世界卫生组织，不良饮食每年导致多少人死亡？"
+            },
+            "options": [
+              {"en": "About 5 million", "zh": "约500万"},
+              {"en": "About 8 million", "zh": "约800万"},
+              {"en": "About 11 million", "zh": "约1100万"},
+              {"en": "About 15 million", "zh": "约1500万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How much does the NHS spend per year on obesity-related conditions?",
+              "zh": "英国国民健康服务每年在肥胖相关疾病上花费多少？"
+            },
+            "options": [
+              {"en": "About 3.1 billion pounds", "zh": "约31亿英镑"},
+              {"en": "About 4.6 billion pounds", "zh": "约46亿英镑"},
+              {"en": "About 6.1 billion pounds", "zh": "约61亿英镑"},
+              {"en": "About 8.4 billion pounds", "zh": "约84亿英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How much does the EU Common Agricultural Policy distribute per year?",
+              "zh": "欧盟共同农业政策每年分配多少？"
+            },
+            "options": [
+              {"en": "Approximately 38 billion euros", "zh": "约380亿欧元"},
+              {"en": "Approximately 48 billion euros", "zh": "约480亿欧元"},
+              {"en": "Approximately 58 billion euros", "zh": "约580亿欧元"},
+              {"en": "Approximately 78 billion euros", "zh": "约780亿欧元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "Which country has introduced a tax on saturated fat?",
+              "zh": "哪个国家对饱和脂肪征税？"
+            },
+            "options": [
+              {"en": "The UK", "zh": "英国"},
+              {"en": "Mexico", "zh": "墨西哥"},
+              {"en": "Denmark", "zh": "丹麦"},
+              {"en": "France", "zh": "法国"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "What does the UK National Food Strategy recommend?",
+              "zh": "英国国家食品战略建议了什么？"
+            },
+            "options": [
+              {"en": "Banning all processed food", "zh": "禁止所有加工食品"},
+              {"en": "A sugar and salt reformulation tax", "zh": "糖盐配方改良税"},
+              {"en": "Reducing all food prices", "zh": "降低所有食品价格"},
+              {"en": "Eliminating all farm subsidies", "zh": "取消所有农业补贴"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What concern is raised about true-cost food pricing?",
+              "zh": "关于真实成本食品定价提出了什么担忧？"
+            },
+            "options": [
+              {"en": "It would benefit large corporations", "zh": "它将使大公司受益"},
+              {"en": "It would disproportionately affect low-income households", "zh": "它将不成比例地影响低收入家庭"},
+              {"en": "It would reduce food quality", "zh": "它会降低食品质量"},
+              {"en": "It would increase unemployment", "zh": "它会增加失业率"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What percentage of global greenhouse gas emissions comes from livestock farming?",
+              "zh": "畜牧业占全球温室气体排放量的百分比是多少？"
+            },
+            "options": [
+              {"en": "About 7.5 percent", "zh": "约7.5%"},
+              {"en": "About 10 percent", "zh": "约10%"},
+              {"en": "About 14.5 percent", "zh": "约14.5%"},
+              {"en": "About 20 percent", "zh": "约20%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What do critics say about EU agricultural subsidies?",
+              "zh": "批评者对欧盟农业补贴说了什么？"
+            },
+            "options": [
+              {"en": "They are too small to make a difference", "zh": "它们太小，不会产生影响"},
+              {"en": "They encourage overproduction and disadvantage developing countries", "zh": "它们鼓励过度生产并使发展中国家处于不利地位"},
+              {"en": "They primarily benefit small family farms", "zh": "它们主要惠及小型家庭农场"},
+              {"en": "They are distributed fairly", "zh": "它们的分配是公平的"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "Which country has imposed a levy on sugary drinks?",
+              "zh": "哪个国家对含糖饮料征收了税？"
+            },
+            "options": [
+              {"en": "Denmark", "zh": "丹麦"},
+              {"en": "The UK", "zh": "英国"},
+              {"en": "Mexico", "zh": "墨西哥"},
+              {"en": "Germany", "zh": "德国"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What is described as a bigger killer than tobacco?",
+              "zh": "什么被描述为比烟草更大的杀手？"
+            },
+            "options": [
+              {"en": "Air pollution", "zh": "空气污染"},
+              {"en": "Poor diet", "zh": "不良饮食"},
+              {"en": "Alcohol consumption", "zh": "饮酒"},
+              {"en": "Lack of exercise", "zh": "缺乏运动"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "When was the UK National Food Strategy published?",
+              "zh": "英国国家食品战略是什么时候发布的？"
+            },
+            "options": [
+              {"en": "2019", "zh": "2019年"},
+              {"en": "2020", "zh": "2020年"},
+              {"en": "2021", "zh": "2021年"},
+              {"en": "2022", "zh": "2022年"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - Educating Psyche",
+          "zh": "文章3 - 心灵教育"
+        },
+        "passage": "<p>Educating Psyche by Bernie Neville is a book which looks at radical new approaches to learning, discussing the impact of emotions, imagination, and the unconscious on the learning process. The book draws on a wide range of research in psychology and neuroscience to argue that traditional educational methods, which emphasize rational thought and logical analysis, fail to engage the full spectrum of human cognitive abilities.</p><p>One of the central ideas in the book is that learning is not simply an intellectual activity but an holistic experience involving the whole person. Neville argues that effective learning requires the engagement of what he calls the 'four dimensions' of human experience: the somatic dimension (the body and physical sensations), the cognitive dimension (thought and analysis), the affective dimension (emotions and feelings), and the imaginal dimension (images, dreams, and fantasies). Traditional education, he suggests, focuses almost exclusively on the cognitive dimension while neglecting the other three.</p><p>The concept of 'suggestopedia,' developed by the Bulgarian psychiatrist Georgi Lozanov, is one of the approaches Neville examines in detail. Suggestopedia is based on the principle that learning can be dramatically accelerated when the learner is in a state of deep relaxation. In a typical suggestopedic lesson, students recline in comfortable chairs while listening to baroque music. The teacher reads the learning material in a specific rhythm, varying the tone and volume of their voice. Students are encouraged to let the material wash over them without making a conscious effort to memorize it. Lozanov claimed that this method could enable students to learn a foreign language in just one month, compared to the several years typically required.</p><p>While Lozanov's claims have been difficult to verify independently, research into the role of the unconscious in learning has produced some compelling findings. Studies at the University of California found that students who were exposed to information while sleeping showed improved recall of that information the following day, suggesting that the brain continues to process and consolidate learning during sleep. Similarly, research on 'incidental learning' has shown that people absorb information more effectively when they are not consciously trying to learn, which supports the idea that conscious effort can sometimes interfere with the learning process.</p><p>Neville also discusses the role of imagination in learning, arguing that the ability to form vivid mental images is a powerful tool for understanding and retaining information. Research has consistently shown that students who visualize concepts and create mental stories about what they are learning outperform those who rely on rote memorization and repetition. The technique of creating a 'memory palace,' in which information is associated with specific locations in an imagined physical space, dates back to ancient Greek orators and has been shown to be remarkably effective in modern experimental studies.</p><p>The practical implications of these ideas are significant. If Neville and the researchers he draws on are correct, then the traditional classroom environment may be fundamentally at odds with how the brain naturally learns. Rearranging classrooms to include comfortable seating, background music, and opportunities for movement and creative expression could, according to this view, lead to dramatic improvements in learning outcomes. Some progressive schools have already begun experimenting with these ideas, creating learning environments that are designed to engage all four of Neville's dimensions of human experience.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "What does Bernie Neville's book Educating Psyche focus on?",
+              "zh": "Bernie Neville的《心灵教育》一书关注什么？"
+            },
+            "options": [
+              {"en": "Traditional teaching methods", "zh": "传统教学方法"},
+              {"en": "Radical new approaches to learning", "zh": "激进的学习新方法"},
+              {"en": "The history of education", "zh": "教育的历史"},
+              {"en": "Educational technology", "zh": "教育技术"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How many dimensions of human experience does Neville identify?",
+              "zh": "Neville确定了多少个人类体验维度？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两个"},
+              {"en": "Three", "zh": "三个"},
+              {"en": "Four", "zh": "四个"},
+              {"en": "Five", "zh": "五个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "Who developed the concept of suggestopedia?",
+              "zh": "谁提出了暗示教学法的概念？"
+            },
+            "options": [
+              {"en": "Bernie Neville", "zh": "Bernie Neville"},
+              {"en": "Georgi Lozanov", "zh": "Georgi Lozanov"},
+              {"en": "Sigmund Freud", "zh": "西格蒙德·弗洛伊德"},
+              {"en": "Ivan Pavlov", "zh": "伊凡·巴甫洛夫"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What type of music is used in suggestopedic lessons?",
+              "zh": "暗示教学法课程使用什么类型的音乐？"
+            },
+            "options": [
+              {"en": "Classical romantic music", "zh": "古典浪漫音乐"},
+              {"en": "Baroque music", "zh": "巴洛克音乐"},
+              {"en": "Modern pop music", "zh": "现代流行音乐"},
+              {"en": "Nature sounds only", "zh": "仅自然声音"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "How long did Lozanov claim his method could teach a foreign language?",
+              "zh": "Lozanov声称他的方法能在多长时间内教会一门外语？"
+            },
+            "options": [
+              {"en": "One week", "zh": "一周"},
+              {"en": "One month", "zh": "一个月"},
+              {"en": "Three months", "zh": "三个月"},
+              {"en": "Six months", "zh": "六个月"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What did research at the University of California find about sleeping and learning?",
+              "zh": "加利福尼亚大学关于睡眠和学习的研究发现了什么？"
+            },
+            "options": [
+              {"en": "Sleep has no effect on learning", "zh": "睡眠对学习没有影响"},
+              {"en": "Sleeping before studying is most effective", "zh": "学习前睡觉最有效"},
+              {"en": "The brain continues to process information during sleep", "zh": "大脑在睡眠期间继续处理信息"},
+              {"en": "Students should study immediately before sleeping", "zh": "学生应该在睡前立即学习"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What does research on incidental learning suggest?",
+              "zh": "关于附带学习的研究表明了什么？"
+            },
+            "options": [
+              {"en": "Conscious effort always improves learning", "zh": "有意识的努力总是改善学习"},
+              {"en": "People absorb information better when not consciously trying to learn", "zh": "人们在不刻意学习时吸收信息更好"},
+              {"en": "Memorization is the best learning strategy", "zh": "记忆是最好的学习策略"},
+              {"en": "Background noise helps concentration", "zh": "背景噪音有助于集中注意力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What is a 'memory palace'?",
+              "zh": "什么是'记忆宫殿'？"
+            },
+            "options": [
+              {"en": "A type of learning software", "zh": "一种学习软件"},
+              {"en": "A technique associating information with locations in an imagined space", "zh": "一种将信息与想象空间中的位置相关联的技术"},
+              {"en": "A physical classroom design", "zh": "一种物理教室设计"},
+              {"en": "A meditation practice", "zh": "一种冥想练习"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "When does the memory palace technique date back to?",
+              "zh": "记忆宫殿技术可以追溯到什么时候？"
+            },
+            "options": [
+              {"en": "The Middle Ages", "zh": "中世纪"},
+              {"en": "The Renaissance", "zh": "文艺复兴时期"},
+              {"en": "Ancient Greece", "zh": "古希腊"},
+              {"en": "The 19th century", "zh": "19世纪"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "According to Neville, what may the traditional classroom be at odds with?",
+              "zh": "根据Neville的观点，传统教室可能与什么相矛盾？"
+            },
+            "options": [
+              {"en": "Government education policies", "zh": "政府教育政策"},
+              {"en": "How the brain naturally learns", "zh": "大脑自然学习的方式"},
+              {"en": "Parental expectations", "zh": "家长的期望"},
+              {"en": "Teacher training standards", "zh": "教师培训标准"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "Which dimension do traditional education methods primarily focus on?",
+              "zh": "传统教育方法主要关注哪个维度？"
+            },
+            "options": [
+              {"en": "The somatic dimension", "zh": "身体维度"},
+              {"en": "The cognitive dimension", "zh": "认知维度"},
+              {"en": "The affective dimension", "zh": "情感维度"},
+              {"en": "The imaginal dimension", "zh": "想象维度"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What do students who visualize concepts outperform?",
+              "zh": "将概念形象化的学生会超越哪些人？"
+            },
+            "options": [
+              {"en": "Students who use technology", "zh": "使用技术的学生"},
+              {"en": "Students who rely on rote memorization", "zh": "依赖死记硬背的学生"},
+              {"en": "Students who study in groups", "zh": "小组学习的学生"},
+              {"en": "Students who take detailed notes", "zh": "做详细笔记的学生"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What does Neville argue effective learning requires?",
+              "zh": "Neville认为有效的学习需要什么？"
+            },
+            "options": [
+              {"en": "Strict discipline and routine", "zh": "严格的纪律和常规"},
+              {"en": "Engagement of all four dimensions of human experience", "zh": "人类体验四个维度的参与"},
+              {"en": "Individual study in silence", "zh": "安静的个人学习"},
+              {"en": "Advanced technology in the classroom", "zh": "课堂中的先进技术"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The table below gives information about changes in modes of travel in England between 1985 and 2000. Summarize the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的表格提供了1985年至2000年间英格兰出行方式变化的信息。通过选择和报告主要特征来总结信息，并在相关处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "It is generally believed that some people are born with certain talents, for instance for sport or music, and others are not. However, it is sometimes claimed that any child can be taught to become a good sports person or musician. Discuss both these views and give your own opinion. Write at least 250 words.",
+          "zh": "人们普遍认为有些人生来就具有某些天赋，比如体育或音乐方面，而有些人则没有。然而，有时有人声称任何孩子都可以被教导成为优秀的运动员或音乐家。讨论这两种观点并给出你自己的看法。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

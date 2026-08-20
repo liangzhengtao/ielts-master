@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-10-test1",
+  "title": {
+    "en": "Cambridge IELTS 10 - Test 1",
+    "zh": "剑桥雅思10 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Booking a Holiday Apartment",
+          "zh": "第一部分 - 预订度假公寓"
+        },
+        "passage": "<p>A man calls a holiday rental company to book an apartment for a family holiday. The booking agent, Sophie, assists him with the reservation.</p><p>The man explains that he wants to book an apartment for a week in August for his family of four, including himself, his wife, and their two teenage children. They are looking for a property in the coastal town of Santa Marina. Sophie checks the available properties and finds three options that match their requirements.</p><p>The first option is Apartment 4B in the Marina Complex, which is a two-bedroom apartment on the third floor with a balcony overlooking the sea. It has a fully equipped kitchen, air conditioning, and Wi-Fi. The weekly rate in August is 850 euros. However, it only has one bathroom, which Sophie notes might be inconvenient for a family of four.</p><p>The second option is Apartment 7A in the same complex, which is a three-bedroom apartment on the fifth floor. It has two bathrooms, a large living area, a kitchen with a dishwasher, and a rooftop terrace with panoramic views. The weekly rate is 1,100 euros, which includes cleaning service twice a week. The man thinks this sounds ideal but wants to confirm the cost.</p><p>The third option is a ground-floor apartment in the Villa Rosa building, located 200 meters from the beach. It has three bedrooms, two bathrooms, a private garden, and a shared swimming pool. The weekly rate is 950 euros, but there is an additional charge of 60 euros for the final cleaning.</p><p>The man decides to book Apartment 7A. Sophie asks for his details to complete the booking. His name is David Thompson, and his email is d.thompson@email.com. His phone number is 07903 456712. Sophie confirms that a 30 percent deposit of 330 euros is required now, with the balance of 770 euros due four weeks before arrival. The company accepts payment by credit card or bank transfer. David chooses to pay by credit card. Sophie sends a confirmation email with all the booking details and arrival instructions.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "How many people are in the man's family?",
+              "zh": "男士家里有几口人？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两人"},
+              {"en": "Three", "zh": "三人"},
+              {"en": "Four", "zh": "四人"},
+              {"en": "Five", "zh": "五人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When does the man want to go on holiday?",
+              "zh": "男士想什么时候去度假？"
+            },
+            "options": [
+              {"en": "July", "zh": "七月"},
+              {"en": "August", "zh": "八月"},
+              {"en": "September", "zh": "九月"},
+              {"en": "October", "zh": "十月"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How many bedrooms does Apartment 4B have?",
+              "zh": "4B公寓有几间卧室？"
+            },
+            "options": [
+              {"en": "One", "zh": "一间"},
+              {"en": "Two", "zh": "两间"},
+              {"en": "Three", "zh": "三间"},
+              {"en": "Four", "zh": "四间"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What is the weekly rate for Apartment 7A?",
+              "zh": "7A公寓的周租金是多少？"
+            },
+            "options": [
+              {"en": "850 euros", "zh": "850欧元"},
+              {"en": "950 euros", "zh": "950欧元"},
+              {"en": "1,000 euros", "zh": "1000欧元"},
+              {"en": "1,100 euros", "zh": "1100欧元"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What special feature does Apartment 7A have?",
+              "zh": "7A公寓有什么特殊设施？"
+            },
+            "options": [
+              {"en": "A private garden", "zh": "私人花园"},
+              {"en": "A rooftop terrace", "zh": "屋顶露台"},
+              {"en": "A swimming pool", "zh": "游泳池"},
+              {"en": "A garage", "zh": "车库"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "How often does the cleaning service come for Apartment 7A?",
+              "zh": "7A公寓的清洁服务多久来一次？"
+            },
+            "options": [
+              {"en": "Once a week", "zh": "每周一次"},
+              {"en": "Twice a week", "zh": "每周两次"},
+              {"en": "Three times a week", "zh": "每周三次"},
+              {"en": "Daily", "zh": "每天"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "Which apartment does the man decide to book?",
+              "zh": "男士决定预订哪间公寓？"
+            },
+            "options": [
+              {"en": "Apartment 4B", "zh": "4B公寓"},
+              {"en": "Apartment 7A", "zh": "7A公寓"},
+              {"en": "Villa Rosa ground floor", "zh": "罗莎别墅一楼"},
+              {"en": "None of the above", "zh": "以上都不是"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What is the deposit amount?",
+              "zh": "押金金额是多少？"
+            },
+            "options": [
+              {"en": "250 euros", "zh": "250欧元"},
+              {"en": "300 euros", "zh": "300欧元"},
+              {"en": "330 euros", "zh": "330欧元"},
+              {"en": "400 euros", "zh": "400欧元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What is the man's email address?",
+              "zh": "男士的电子邮件地址是什么？"
+            },
+            "options": [
+              {"en": "d.thompson@gmail.com", "zh": "d.thompson@gmail.com"},
+              {"en": "d.thompson@email.com", "zh": "d.thompson@email.com"},
+              {"en": "david.t@email.com", "zh": "david.t@email.com"},
+              {"en": "thompson.d@email.com", "zh": "thompson.d@email.com"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How does the man choose to pay?",
+              "zh": "男士选择什么方式付款？"
+            },
+            "options": [
+              {"en": "By cash", "zh": "现金"},
+              {"en": "By bank transfer", "zh": "银行转账"},
+              {"en": "By credit card", "zh": "信用卡"},
+              {"en": "By cheque", "zh": "支票"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Introduction to a City Walking Tour",
+          "zh": "第二部分 - 城市步行游览介绍"
+        },
+        "passage": "<p>Good morning and welcome to the Heritage City Walking Tour. My name is Robert, and I'll be your guide this morning. Before we set off, I'd like to give you an overview of what we'll be seeing and some important practical information.</p><p>Our tour covers approximately 3 kilometers and will take about two and a half hours, including two comfort stops. We'll be walking at a leisurely pace, so don't worry about keeping up. The route is mostly flat, but there is one steep hill near the end, so wear comfortable shoes. The tour operates rain or shine, and we have complimentary umbrellas available if needed.</p><p>Our first stop will be the Old Town Hall, which was built in 1785 and is considered one of the finest examples of Georgian architecture in the country. It served as the seat of local government until 1962 and is now a museum of local history. We'll spend about fifteen minutes here, during which you can explore the council chamber and the exhibition of historical photographs.</p><p>From there, we'll walk through the Merchant's Quarter, a collection of narrow medieval streets that once housed the shops and workshops of the city's wealthiest traders. The oldest building in this area dates back to 1320. Several of these buildings have been converted into independent shops, galleries, and cafes, and I'd recommend coming back to explore them at your leisure after the tour.</p><p>We'll then cross the Old Bridge, which was originally built in 1480 and has been widened twice, in 1820 and 1965. The bridge offers excellent views of the cathedral and the river. After the bridge, we'll visit the cathedral, which was constructed between 1180 and 1420. The cathedral's famous stained glass windows, dating from the 13th century, are considered among the finest in Europe.</p><p>Our final stop will be the Castle Gardens, a beautifully landscaped park that surrounds the ruins of the medieval castle. The castle was built in 1068 by William the Conqueror and was largely destroyed during the English Civil War in 1648. The gardens were redesigned in the Victorian era and feature a bandstand, a lake, and a collection of rare trees. We'll finish the tour at the Castle Gardens cafe, where you can enjoy refreshments.</p><p>Tickets for the tour cost 12 pounds for adults, 8 pounds for seniors and students, and children under 12 go free. Family tickets for two adults and up to three children are available at 28 pounds. All tickets include admission to the Old Town Hall museum. You can book tickets at our website or at the tourist information center on Market Square.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "How long is the walking tour?",
+              "zh": "步行游览有多长？"
+            },
+            "options": [
+              {"en": "About 1.5 hours", "zh": "约1.5小时"},
+              {"en": "About 2 hours", "zh": "约2小时"},
+              {"en": "About 2.5 hours", "zh": "约2.5小时"},
+              {"en": "About 3 hours", "zh": "约3小时"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How many comfort stops are included?",
+              "zh": "包括多少次休息停留？"
+            },
+            "options": [
+              {"en": "One", "zh": "一次"},
+              {"en": "Two", "zh": "两次"},
+              {"en": "Three", "zh": "三次"},
+              {"en": "Four", "zh": "四次"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "When was the Old Town Hall built?",
+              "zh": "旧市政厅是什么时候建造的？"
+            },
+            "options": [
+              {"en": "1685", "zh": "1685年"},
+              {"en": "1735", "zh": "1735年"},
+              {"en": "1785", "zh": "1785年"},
+              {"en": "1835", "zh": "1835年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "When did the Old Town Hall stop serving as the seat of government?",
+              "zh": "旧市政厅什么时候不再作为政府所在地？"
+            },
+            "options": [
+              {"en": "1942", "zh": "1942年"},
+              {"en": "1952", "zh": "1952年"},
+              {"en": "1962", "zh": "1962年"},
+              {"en": "1972", "zh": "1972年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What is the oldest date of buildings in the Merchant's Quarter?",
+              "zh": "商人区最古老的建筑可以追溯到什么年代？"
+            },
+            "options": [
+              {"en": "1120", "zh": "1120年"},
+              {"en": "1220", "zh": "1220年"},
+              {"en": "1320", "zh": "1320年"},
+              {"en": "1420", "zh": "1420年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "When was the Old Bridge originally built?",
+              "zh": "旧桥最初是什么时候建造的？"
+            },
+            "options": [
+              {"en": "1380", "zh": "1380年"},
+              {"en": "1420", "zh": "1420年"},
+              {"en": "1480", "zh": "1480年"},
+              {"en": "1580", "zh": "1580年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How many times has the Old Bridge been widened?",
+              "zh": "旧桥被拓宽了几次？"
+            },
+            "options": [
+              {"en": "Once", "zh": "一次"},
+              {"en": "Twice", "zh": "两次"},
+              {"en": "Three times", "zh": "三次"},
+              {"en": "Four times", "zh": "四次"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "When was the cathedral constructed?",
+              "zh": "大教堂是什么时候建造的？"
+            },
+            "options": [
+              {"en": "Between 1080 and 1320", "zh": "1080年至1320年间"},
+              {"en": "Between 1180 and 1420", "zh": "1180年至1420年间"},
+              {"en": "Between 1280 and 1520", "zh": "1280年至1520年间"},
+              {"en": "Between 1380 and 1620", "zh": "1380年至1620年间"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "Who built the medieval castle?",
+              "zh": "谁建造了中世纪城堡？"
+            },
+            "options": [
+              {"en": "Henry VIII", "zh": "亨利八世"},
+              {"en": "Richard the Lionheart", "zh": "狮心王理查德"},
+              {"en": "William the Conqueror", "zh": "征服者威廉"},
+              {"en": "Edward I", "zh": "爱德华一世"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "How much does an adult ticket cost?",
+              "zh": "成人票多少钱？"
+            },
+            "options": [
+              {"en": "8 pounds", "zh": "8英镑"},
+              {"en": "10 pounds", "zh": "10英镑"},
+              {"en": "12 pounds", "zh": "12英镑"},
+              {"en": "15 pounds", "zh": "15英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Two Students Planning a Geology Field Trip",
+          "zh": "第三部分 - 两名学生规划地质实地考察"
+        },
+        "passage": "<p>Emma and Jack are second-year geology students planning a field trip to Dorset for their coursework assignment. They meet in the library to discuss their plans.</p><p>Emma has been researching the Dorset coastline, which is famous for its geological significance. The Jurassic Coast, stretching 154 kilometers from Exmouth in Devon to Old Harry Rocks in Dorset, was designated a UNESCO World Heritage Site in 2001. It is one of the most important geological sites in the world, with rocks spanning 185 million years of Earth's history, from the Triassic through the Jurassic to the Cretaceous periods.</p><p>They plan to focus their field trip on three specific sites along the coast. The first site is Lulworth Cove, a spectacular horseshoe-shaped bay formed by the erosion of softer rocks behind a harder limestone band. Here they will examine the exposed rock layers and collect samples of limestone, chalk, and clay. They need to bring geological hammers, sample bags, and field notebooks. Emma suggests they also bring a hand lens for examining mineral crystals and a dilute hydrochloric acid bottle for testing carbonate rocks.</p><p>The second site is Durdle Door, a natural limestone arch located about one kilometer west of Lulworth Cove. This site is particularly valuable for studying the processes of coastal erosion and the formation of arches, stacks, and stumps. Jack has found a research paper by Dr. Collins at Bournemouth University that provides detailed measurements of the arch's dimensions and the rate of erosion over the past 50 years, which will be useful for their analysis.</p><p>The third site is the fossil-rich beach at Lyme Regis, famous as the location where Mary Anning discovered the first complete Ichthyosaurus skeleton in 1811. They hope to find ammonite and belemnite fossils, which are abundant in the Jurassic limestone cliffs. Emma mentions that the best time to search for fossils is after winter storms, which erode the cliff face and expose new specimens. Since they are visiting in spring, they may need to be patient and search carefully among the shingle.</p><p>Regarding logistics, they plan to travel by train to Wareham, then take a local bus to Lulworth. The total travel time from the university is approximately three hours. They will need to arrange accommodation for two nights, and Jack has found a youth hostel in Wareham that charges 22 pounds per person per night. They need to submit their field trip proposal to Dr. Harrison by Friday and can begin their fieldwork from the following Monday.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "When was the Jurassic Coast designated a UNESCO World Heritage Site?",
+              "zh": "侏罗纪海岸是什么时候被指定为联合国教科文组织世界遗产的？"
+            },
+            "options": [
+              {"en": "1995", "zh": "1995年"},
+              {"en": "1998", "zh": "1998年"},
+              {"en": "2001", "zh": "2001年"},
+              {"en": "2005", "zh": "2005年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "How long is the Jurassic Coast?",
+              "zh": "侏罗纪海岸有多长？"
+            },
+            "options": [
+              {"en": "104 kilometers", "zh": "104公里"},
+              {"en": "124 kilometers", "zh": "124公里"},
+              {"en": "154 kilometers", "zh": "154公里"},
+              {"en": "184 kilometers", "zh": "184公里"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many million years of Earth's history do the rocks span?",
+              "zh": "岩石跨越了多少百万年的地球历史？"
+            },
+            "options": [
+              {"en": "125 million years", "zh": "1.25亿年"},
+              {"en": "155 million years", "zh": "1.55亿年"},
+              {"en": "185 million years", "zh": "1.85亿年"},
+              {"en": "215 million years", "zh": "2.15亿年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What shape is Lulworth Cove?",
+              "zh": "勒尔沃斯湾是什么形状？"
+            },
+            "options": [
+              {"en": "Circular", "zh": "圆形"},
+              {"en": "Horseshoe-shaped", "zh": "马蹄形"},
+              {"en": "Triangular", "zh": "三角形"},
+              {"en": "Rectangular", "zh": "矩形"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What equipment does Emma suggest bringing for testing carbonate rocks?",
+              "zh": "Emma建议带什么设备来测试碳酸盐岩？"
+            },
+            "options": [
+              {"en": "A magnifying glass", "zh": "放大镜"},
+              {"en": "A GPS device", "zh": "GPS设备"},
+              {"en": "A dilute hydrochloric acid bottle", "zh": "一瓶稀盐酸"},
+              {"en": "A thermometer", "zh": "温度计"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How far is Durdle Door from Lulworth Cove?",
+              "zh": "杜德尔门离勒尔沃斯湾有多远？"
+            },
+            "options": [
+              {"en": "About 500 meters", "zh": "约500米"},
+              {"en": "About one kilometer", "zh": "约一公里"},
+              {"en": "About two kilometers", "zh": "约两公里"},
+              {"en": "About five kilometers", "zh": "约五公里"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What did Mary Anning discover at Lyme Regis in 1811?",
+              "zh": "玛丽·安宁1811年在莱姆里吉斯发现了什么？"
+            },
+            "options": [
+              {"en": "A complete T-Rex skeleton", "zh": "一具完整的霸王龙骨架"},
+              {"en": "The first complete Ichthyosaurus skeleton", "zh": "第一具完整的鱼龙骨架"},
+              {"en": "A mammoth skeleton", "zh": "一具猛犸象骨架"},
+              {"en": "A pterodactyl skeleton", "zh": "一具翼龙骨架"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What fossils do they hope to find at Lyme Regis?",
+              "zh": "他们希望在莱姆里吉斯找到什么化石？"
+            },
+            "options": [
+              {"en": "Trilobites and brachiopods", "zh": "三叶虫和腕足动物"},
+              {"en": "Ammonites and belemnites", "zh": "菊石和箭石"},
+              {"en": "Dinosaur teeth and bones", "zh": "恐龙牙齿和骨骼"},
+              {"en": "Plant fossils and amber", "zh": "植物化石和琥珀"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How much does the youth hostel cost per person per night?",
+              "zh": "青年旅社每人每晚多少钱？"
+            },
+            "options": [
+              {"en": "18 pounds", "zh": "18英镑"},
+              {"en": "20 pounds", "zh": "20英镑"},
+              {"en": "22 pounds", "zh": "22英镑"},
+              {"en": "25 pounds", "zh": "25英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "When must they submit their field trip proposal?",
+              "zh": "他们必须什么时候提交实地考察提案？"
+            },
+            "options": [
+              {"en": "By Wednesday", "zh": "周三前"},
+              {"en": "By Thursday", "zh": "周四前"},
+              {"en": "By Friday", "zh": "周五前"},
+              {"en": "By Monday", "zh": "周前"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Lecture on the History of Glass Manufacturing",
+          "zh": "第四部分 - 关于玻璃制造历史的讲座"
+        },
+        "passage": "<p>Good afternoon, everyone. Today's lecture continues our series on materials science by examining the remarkable history of glass, one of the most versatile and widely used materials in the modern world. Glass is all around us, from the windows in our homes to the screens on our smartphones, yet few people appreciate the extraordinary technical achievements that have made modern glass products possible.</p><p>Glass-making is an ancient craft, with the earliest known glass objects dating back to around 3500 BC in Mesopotamia and Egypt. These early glass items were small decorative beads and vessels, produced by wrapping molten glass around a core of sand. The technique of glass blowing, which revolutionized the industry by making it possible to produce hollow vessels quickly and cheaply, was invented by craftsmen in the Syro-Palestinian region around 50 BC. This innovation made glass containers accessible to ordinary households for the first time, replacing the ceramic pots and metal vessels that had previously been used for storing liquids.</p><p>For the next 2,000 years, glass-making techniques improved gradually but remained essentially a manual craft. The Industrial Revolution brought the first major mechanization of glass production. In 1903, Michael Owens of the Owens Bottle Machine Company in Toledo, Ohio, patented an automatic bottle-making machine that could produce 2,500 bottles per hour, compared to the 150 per hour achievable by a skilled human glassblower. This machine transformed the bottle industry and led to dramatic reductions in the cost of bottled goods.</p><p>The development of flat glass production has been equally revolutionary. As we discussed in last week's lecture, the float glass process, developed by Sir Alastair Pilkington in 1959, made it possible to produce large sheets of perfectly flat glass at a fraction of the cost of earlier methods. Today, the global glass industry produces approximately 130 million tonnes of glass per year, with flat glass accounting for about 40 percent of total production.</p><p>One of the most exciting areas of modern glass research is the development of ultra-thin flexible glass. Corning Incorporated, the American specialty glass manufacturer, has developed a product called Willow Glass that is just 0.1 millimeters thick and can be rolled up like a sheet of paper. This material has enormous potential for use in flexible displays, solar panels, and wearable technology. Samsung and LG have already demonstrated prototype smartphones with flexible glass screens that can be folded in half without breaking.</p><p>Another frontier is self-healing glass, which researchers at the University of Tokyo have demonstrated in the laboratory. This material, made from a low-weight polymer called polyether-thiourea, can repair itself at room temperature when cracked, simply by pressing the broken edges together for about 30 seconds. While still in the early stages of development, self-healing glass could eventually be used in smartphone screens, car windscreens, and building windows, potentially saving billions of pounds in replacement costs and reducing glass waste.</p><p>The glass industry also faces significant environmental challenges. Glass production is highly energy-intensive, requiring temperatures of over 1,500 degrees Celsius to melt the raw materials. The industry accounts for approximately 1 percent of global industrial carbon emissions. However, glass is one of the most recyclable materials available, and recycling it uses only about 25 percent of the energy needed to produce new glass from raw materials. In some European countries, glass recycling rates exceed 90 percent, demonstrating the potential for significant environmental improvements through better waste management.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "When do the earliest known glass objects date back to?",
+              "zh": "已知最早的玻璃制品可以追溯到什么时候？"
+            },
+            "options": [
+              {"en": "Around 2500 BC", "zh": "约公元前2500年"},
+              {"en": "Around 3000 BC", "zh": "约公元前3000年"},
+              {"en": "Around 3500 BC", "zh": "约公元前3500年"},
+              {"en": "Around 4000 BC", "zh": "约公元前4000年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "When was glass blowing invented?",
+              "zh": "吹制玻璃是什么时候发明的？"
+            },
+            "options": [
+              {"en": "Around 150 BC", "zh": "约公元前150年"},
+              {"en": "Around 50 BC", "zh": "约公元前50年"},
+              {"en": "Around 50 AD", "zh": "约公元50年"},
+              {"en": "Around 150 AD", "zh": "约公元150年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How many bottles per hour could Michael Owens' machine produce?",
+              "zh": "迈克尔·欧文斯的机器每小时能生产多少个瓶子？"
+            },
+            "options": [
+              {"en": "500", "zh": "500个"},
+              {"en": "1,500", "zh": "1500个"},
+              {"en": "2,500", "zh": "2500个"},
+              {"en": "5,000", "zh": "5000个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "How many bottles per hour could a skilled human glassblower produce?",
+              "zh": "一个熟练的人工吹玻璃工每小时能生产多少个瓶子？"
+            },
+            "options": [
+              {"en": "50", "zh": "50个"},
+              {"en": "100", "zh": "100个"},
+              {"en": "150", "zh": "150个"},
+              {"en": "250", "zh": "250个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How much glass does the global industry produce per year?",
+              "zh": "全球玻璃行业每年生产多少玻璃？"
+            },
+            "options": [
+              {"en": "About 50 million tonnes", "zh": "约5000万吨"},
+              {"en": "About 90 million tonnes", "zh": "约9000万吨"},
+              {"en": "About 130 million tonnes", "zh": "约1.3亿吨"},
+              {"en": "About 200 million tonnes", "zh": "约2亿吨"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "How thin is Corning's Willow Glass?",
+              "zh": "康宁的柳叶玻璃有多薄？"
+            },
+            "options": [
+              {"en": "0.01 millimeters", "zh": "0.01毫米"},
+              {"en": "0.05 millimeters", "zh": "0.05毫米"},
+              {"en": "0.1 millimeters", "zh": "0.1毫米"},
+              {"en": "0.5 millimeters", "zh": "0.5毫米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What is self-healing glass made from?",
+              "zh": "自修复玻璃是由什么制成的？"
+            },
+            "options": [
+              {"en": "A special type of silicon", "zh": "一种特殊类型的硅"},
+              {"en": "A low-weight polymer called polyether-thiourea", "zh": "一种叫聚醚硫脲的轻量聚合物"},
+              {"en": "Modified ordinary glass", "zh": "改良的普通玻璃"},
+              {"en": "Carbon nanotubes", "zh": "碳纳米管"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "How long does it take for self-healing glass to repair itself?",
+              "zh": "自修复玻璃需要多长时间才能自行修复？"
+            },
+            "options": [
+              {"en": "About 5 seconds", "zh": "约5秒"},
+              {"en": "About 15 seconds", "zh": "约15秒"},
+              {"en": "About 30 seconds", "zh": "约30秒"},
+              {"en": "About 60 seconds", "zh": "约60秒"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What percentage of global industrial carbon emissions does the glass industry account for?",
+              "zh": "玻璃工业占全球工业碳排放量的百分比是多少？"
+            },
+            "options": [
+              {"en": "About 0.5 percent", "zh": "约0.5%"},
+              {"en": "About 1 percent", "zh": "约1%"},
+              {"en": "About 2 percent", "zh": "约2%"},
+              {"en": "About 5 percent", "zh": "约5%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "How much energy does recycling glass use compared to making new glass?",
+              "zh": "回收玻璃与生产新玻璃相比使用多少能源？"
+            },
+            "options": [
+              {"en": "About 10 percent of the energy", "zh": "约10%的能源"},
+              {"en": "About 25 percent of the energy", "zh": "约25%的能源"},
+              {"en": "About 50 percent of the energy", "zh": "约50%的能源"},
+              {"en": "About 75 percent of the energy", "zh": "约75%的能源"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - Stepwells of India",
+          "zh": "文章1 - 印度阶梯井"
+        },
+        "passage": "<p>Millions of wells are found across the Indian subcontinent, but only a small proportion are stepwells, structures that combine a well with a series of steps leading down to the water level. Stepwells are a distinctive feature of the arid and semi-arid regions of western India, particularly the states of Gujarat and Rajasthan, where water scarcity has been a recurring challenge for thousands of years.</p><p>The earliest known stepwells date from around 600 AD, though the tradition may be considerably older. The construction of stepwells reached its peak between the 11th and 16th centuries, when hundreds of elaborate structures were built by wealthy patrons, including kings, merchants, and religious leaders. Stepwells served multiple purposes: they were practical water sources, particularly during the dry season when surface water was scarce; they were social gathering places where women in particular could meet and socialize away from the restrictions of everyday life; and they were religious and architectural monuments that demonstrated the wealth and piety of their builders.</p><p>The construction of a stepwell was a major engineering undertaking. Workers had to dig deep into the earth, sometimes to depths of over 100 feet, to reach the water table. The walls of the stepwell were lined with precisely cut stone blocks, fitted together without mortar, and the steps were carefully graded to allow easy access to the water at any level. Many stepwells included elaborate architectural features such as carved pillars, ornate archways, and sculptured niches depicting gods, animals, and scenes from daily life. The most impressive stepwells, such as the Rani ki Vav in Patan, Gujarat, which is now a UNESCO World Heritage Site, are essentially inverted temples descending into the earth.</p><p>The decline of stepwells began during the British colonial period. The British regarded traditional water management systems as primitive and introduced modern piped water systems and concrete dams as replacements. Many stepwells fell into disrepair as a result, and some were deliberately filled in to prevent the spread of disease, as stagnant water in abandoned wells was thought to harbor mosquitoes and other disease carriers. By the mid-20th century, most stepwells had ceased to function as water sources and were being used, if at all, as garbage dumps or latrines.</p><p>In recent years, there has been a growing movement to restore and preserve India's stepwells. Conservation groups, academic researchers, and local communities have joined forces to document and restore these remarkable structures. The organization Stepwell.in has catalogued over 2,000 stepwells across India and advocates for their recognition as significant cultural heritage sites. Some restored stepwells have been brought back into use as water sources, providing a sustainable alternative to deep bore wells, which have been depleting groundwater reserves across the region.</p><p>The renewed interest in stepwells is part of a broader recognition that traditional water management systems in India and other developing countries often represent sophisticated and sustainable approaches to water scarcity that modern engineering has overlooked. By studying and reviving these ancient techniques, researchers hope to develop new strategies for managing water resources in an era of increasing climate uncertainty and growing water demand.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Where are stepwells mainly found in India?",
+              "zh": "印度的阶梯井主要分布在哪里？"
+            },
+            "options": [
+              {"en": "Northern India", "zh": "印度北部"},
+              {"en": "Southern India", "zh": "印度南部"},
+              {"en": "Arid and semi-arid regions of western India", "zh": "印度西部干旱和半干旱地区"},
+              {"en": "Eastern coastal regions", "zh": "东部沿海地区"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When do the earliest known stepwells date from?",
+              "zh": "已知最早的阶梯井可以追溯到什么时候？"
+            },
+            "options": [
+              {"en": "Around 200 AD", "zh": "约公元200年"},
+              {"en": "Around 400 AD", "zh": "约公元400年"},
+              {"en": "Around 600 AD", "zh": "约公元600年"},
+              {"en": "Around 800 AD", "zh": "约公元800年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "When did stepwell construction reach its peak?",
+              "zh": "阶梯井建设在什么时候达到顶峰？"
+            },
+            "options": [
+              {"en": "Between the 7th and 10th centuries", "zh": "7至10世纪之间"},
+              {"en": "Between the 11th and 16th centuries", "zh": "11至16世纪之间"},
+              {"en": "Between the 14th and 18th centuries", "zh": "14至18世纪之间"},
+              {"en": "Between the 16th and 19th centuries", "zh": "16至19世纪之间"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "How deep could stepwells be?",
+              "zh": "阶梯井可以有多深？"
+            },
+            "options": [
+              {"en": "Up to 30 feet", "zh": "最多30英尺"},
+              {"en": "Up to 50 feet", "zh": "最多50英尺"},
+              {"en": "Over 100 feet", "zh": "超过100英尺"},
+              {"en": "Over 200 feet", "zh": "超过200英尺"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What is Rani ki Vav now recognized as?",
+              "zh": "王后阶梯井现在被认定为什么？"
+            },
+            "options": [
+              {"en": "A national park", "zh": "国家公园"},
+              {"en": "A UNESCO World Heritage Site", "zh": "联合国教科文组织世界遗产"},
+              {"en": "A museum", "zh": "博物馆"},
+              {"en": "A religious temple", "zh": "宗教寺庙"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What caused the decline of stepwells?",
+              "zh": "什么导致了阶梯井的衰落？"
+            },
+            "options": [
+              {"en": "Natural disasters", "zh": "自然灾害"},
+              {"en": "British colonial policies introducing piped water", "zh": "英国殖民政策引入管道供水"},
+              {"en": "Religious prohibitions", "zh": "宗教禁令"},
+              {"en": "Lack of skilled workers", "zh": "缺乏熟练工人"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How many stepwells has Stepwell.in catalogued?",
+              "zh": "Stepwell.in已经记录了多少个阶梯井？"
+            },
+            "options": [
+              {"en": "Over 500", "zh": "超过500个"},
+              {"en": "Over 1,000", "zh": "超过1000个"},
+              {"en": "Over 2,000", "zh": "超过2000个"},
+              {"en": "Over 3,000", "zh": "超过3000个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What social function did stepwells serve for women?",
+              "zh": "阶梯井为妇女提供了什么社交功能？"
+            },
+            "options": [
+              {"en": "They were used as schools", "zh": "它们被用作学校"},
+              {"en": "They were gathering places to socialize", "zh": "它们是社交聚会场所"},
+              {"en": "They were used as marketplaces", "zh": "它们被用作市场"},
+              {"en": "They were used as temples", "zh": "它们被用作寺庙"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What were abandoned stepwells sometimes used as?",
+              "zh": "废弃的阶梯井有时被用来做什么？"
+            },
+            "options": [
+              {"en": "Storage facilities", "zh": "存储设施"},
+              {"en": "Garbage dumps or latrines", "zh": "垃圾场或厕所"},
+              {"en": "Animal shelters", "zh": "动物收容所"},
+              {"en": "Mining sites", "zh": "采矿场"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What modern problem are restored stepwells helping to address?",
+              "zh": "修复的阶梯井正在帮助解决什么现代问题？"
+            },
+            "options": [
+              {"en": "Air pollution", "zh": "空气污染"},
+              {"en": "Traffic congestion", "zh": "交通拥堵"},
+              {"en": "Groundwater depletion from deep bore wells", "zh": "深井造成的地下水枯竭"},
+              {"en": "Deforestation", "zh": "森林砍伐"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "How were the stone blocks in stepwells fitted together?",
+              "zh": "阶梯井中的石块是如何拼接的？"
+            },
+            "options": [
+              {"en": "With cement", "zh": "用水泥"},
+              {"en": "With mortar", "zh": "用灰浆"},
+              {"en": "Without mortar", "zh": "不用灰浆"},
+              {"en": "With metal clamps", "zh": "用金属夹具"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "Why did the British fill in some stepwells?",
+              "zh": "英国人为什么填平了一些阶梯井？"
+            },
+            "options": [
+              {"en": "To build roads", "zh": "为了修建道路"},
+              {"en": "To prevent the spread of disease", "zh": "为了防止疾病传播"},
+              {"en": "To reclaim the land for farming", "zh": "为了将土地用于农业"},
+              {"en": "To make room for new buildings", "zh": "为了腾出空间建新建筑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "What is the broader recognition that interest in stepwells reflects?",
+              "zh": "对阶梯井的兴趣反映了什么更广泛的认识？"
+            },
+            "options": [
+              {"en": "That modern technology is always superior", "zh": "现代技术总是优越的"},
+              {"en": "That traditional water management systems often represent sophisticated approaches", "zh": "传统水资源管理系统往往代表了复杂的方法"},
+              {"en": "That India has too much water", "zh": "印度有太多水"},
+              {"en": "That wells should never be restored", "zh": "水井不应该被修复"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "What period are stepwells particularly associated with historically?",
+              "zh": "阶梯井在历史上与什么时期特别相关？"
+            },
+            "options": [
+              {"en": "The Mughal Empire", "zh": "莫卧儿帝国"},
+              {"en": "The British Raj", "zh": "英属印度时期"},
+              {"en": "The colonial period", "zh": "殖民时期"},
+              {"en": "Pre-colonial patronage by kings and merchants", "zh": "国王和商人的殖民前赞助时期"}
+            ],
+            "answer": 3
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - European Transport Systems 1990-2010",
+          "zh": "文章2 - 1990-2010年欧洲交通系统"
+        },
+        "passage": "<p>Sustainable transport policies have been a growing concern for European governments since the early 1990s. The European Union has been particularly active in developing transport policies that aim to balance economic growth with environmental protection and social equity. The period from 1990 to 2010 saw significant changes in European transport systems, driven by EU policy, technological innovation, and changing consumer behavior.</p><p>Road transport has consistently been the dominant mode of freight and passenger transport in Europe. In 2010, road vehicles accounted for approximately 73 percent of all inland freight transport in the EU and about 80 percent of passenger travel. Despite repeated policy commitments to shift freight from road to rail and waterway, the share of road transport has remained stubbornly high. This is partly because road transport offers greater flexibility and door-to-door convenience than other modes, and partly because the infrastructure costs of road transport are not fully reflected in the prices that users pay.</p><p>Rail transport, by contrast, has seen its share of both freight and passenger transport decline over the period. In 1990, rail accounted for approximately 15 percent of inland freight transport; by 2010, this had fallen to about 10 percent. For passenger transport, rail's share remained relatively stable at around 6 to 8 percent. However, high-speed rail services have grown significantly, with the total network expanding from about 1,200 kilometers in 1990 to over 7,000 kilometers by 2010. France's TGV, Spain's AVE, and Germany's ICE services have attracted millions of passengers from both airlines and conventional rail services on routes where high-speed trains offer competitive journey times.</p><p>Air transport experienced the most dramatic growth during this period. Passenger numbers at EU airports increased from approximately 400 million in 1990 to over 800 million in 2010, driven partly by the liberalization of the European aviation market and the rise of low-cost carriers such as Ryanair and easyJet. The number of routes served by low-cost carriers increased from fewer than 50 in 1990 to over 2,000 by 2010. However, this growth has come at a significant environmental cost, as aviation is one of the most carbon-intensive forms of transport. A single return flight from London to New York generates approximately 1.2 tonnes of carbon dioxide per passenger, which is roughly equivalent to the annual emissions from driving a car in Europe.</p><p>Cycling and walking, the most sustainable forms of transport, have received increasing policy attention over the period. Several European cities have invested heavily in cycling infrastructure, with Copenhagen and Amsterdam leading the way. However, the overall share of cycling and walking in total urban trips has declined in most EU countries, from approximately 40 percent in 1990 to about 30 percent in 2010, as car ownership has increased and urban sprawl has made distances between destinations longer.</p><p>The European Commission has set ambitious targets for reducing transport emissions. The 2011 Transport White Paper aims to reduce transport greenhouse gas emissions by 60 percent by 2050 compared to 1990 levels. Achieving this target will require a combination of technological solutions, including more efficient vehicles and alternative fuels, behavioral changes such as reduced car dependency and increased use of public transport, and policy measures such as carbon pricing and congestion charging.</p>",
+        "questions": [
+          {
+            "id": 15,
+            "text": {
+              "en": "What percentage of inland freight transport in the EU was carried by road in 2010?",
+              "zh": "2010年欧盟内陆货运中有多少百分比由公路运输？"
+            },
+            "options": [
+              {"en": "About 53 percent", "zh": "约53%"},
+              {"en": "About 63 percent", "zh": "约63%"},
+              {"en": "About 73 percent", "zh": "约73%"},
+              {"en": "About 83 percent", "zh": "约83%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What was rail's share of inland freight transport in 1990?",
+              "zh": "1990年铁路在内陆货运中的份额是多少？"
+            },
+            "options": [
+              {"en": "About 10 percent", "zh": "约10%"},
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 20 percent", "zh": "约20%"},
+              {"en": "About 25 percent", "zh": "约25%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How much did the high-speed rail network grow from 1990 to 2010?",
+              "zh": "从1990年到2010年，高速铁路网络增长了多少？"
+            },
+            "options": [
+              {"en": "From 1,200 to 3,000 kilometers", "zh": "从1200公里增长到3000公里"},
+              {"en": "From 1,200 to 5,000 kilometers", "zh": "从1200公里增长到5000公里"},
+              {"en": "From 1,200 to over 7,000 kilometers", "zh": "从1200公里增长到超过7000公里"},
+              {"en": "From 1,200 to over 10,000 kilometers", "zh": "从1200公里增长到超过10000公里"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How many passengers did EU airports handle in 2010?",
+              "zh": "2010年欧盟机场运送了多少旅客？"
+            },
+            "options": [
+              {"en": "Over 400 million", "zh": "超过4亿"},
+              {"en": "Over 600 million", "zh": "超过6亿"},
+              {"en": "Over 800 million", "zh": "超过8亿"},
+              {"en": "Over 1 billion", "zh": "超过10亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How many routes did low-cost carriers serve by 2010?",
+              "zh": "到2010年，低成本航空公司运营了多少条航线？"
+            },
+            "options": [
+              {"en": "Over 500", "zh": "超过500条"},
+              {"en": "Over 1,000", "zh": "超过1000条"},
+              {"en": "Over 2,000", "zh": "超过2000条"},
+              {"en": "Over 3,000", "zh": "超过3000条"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "How much CO2 does a London-New York return flight generate per passenger?",
+              "zh": "伦敦-纽约往返航班每位乘客产生多少二氧化碳？"
+            },
+            "options": [
+              {"en": "About 0.5 tonnes", "zh": "约0.5吨"},
+              {"en": "About 0.8 tonnes", "zh": "约0.8吨"},
+              {"en": "About 1.2 tonnes", "zh": "约1.2吨"},
+              {"en": "About 2.0 tonnes", "zh": "约2.0吨"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "By how much does the 2011 White Paper aim to reduce transport emissions by 2050?",
+              "zh": "2011年白皮书的目标是到2050年减少多少交通排放？"
+            },
+            "options": [
+              {"en": "40 percent compared to 1990 levels", "zh": "比1990年水平减少40%"},
+              {"en": "50 percent compared to 1990 levels", "zh": "比1990年水平减少50%"},
+              {"en": "60 percent compared to 1990 levels", "zh": "比1990年水平减少60%"},
+              {"en": "80 percent compared to 1990 levels", "zh": "比1990年水平减少80%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What happened to the share of cycling and walking from 1990 to 2010?",
+              "zh": "从1990年到2010年，骑自行车和步行的份额发生了什么变化？"
+            },
+            "options": [
+              {"en": "It increased from 30 to 40 percent", "zh": "从30%增加到40%"},
+              {"en": "It remained stable at 40 percent", "zh": "保持在40%不变"},
+              {"en": "It declined from about 40 to about 30 percent", "zh": "从约40%下降到约30%"},
+              {"en": "It declined from 40 to 15 percent", "zh": "从40%下降到15%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What is one reason road transport has remained dominant?",
+              "zh": "公路交通保持主导地位的原因之一是什么？"
+            },
+            "options": [
+              {"en": "Government subsidies", "zh": "政府补贴"},
+              {"en": "Greater flexibility and door-to-door convenience", "zh": "更大的灵活性和门到门便利性"},
+              {"en": "Lack of alternatives", "zh": "缺乏替代方案"},
+              {"en": "Lower fuel costs", "zh": "更低的燃料成本"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "Which two cities are cited as leading cycling investment?",
+              "zh": "哪两个城市被引用为领先的自行车投资城市？"
+            },
+            "options": [
+              {"en": "London and Paris", "zh": "伦敦和巴黎"},
+              {"en": "Berlin and Rome", "zh": "柏林和罗马"},
+              {"en": "Copenhagen and Amsterdam", "zh": "哥本哈根和阿姆斯特丹"},
+              {"en": "Stockholm and Oslo", "zh": "斯德哥尔摩和奥斯陆"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What drove the growth of air transport in Europe?",
+              "zh": "什么推动了欧洲航空运输的增长？"
+            },
+            "options": [
+              {"en": "Government investment only", "zh": "仅政府投资"},
+              {"en": "Market liberalization and rise of low-cost carriers", "zh": "市场自由化和低成本航空公司的兴起"},
+              {"en": "Decline in rail services", "zh": "铁路服务的衰退"},
+              {"en": "Tourism industry pressure", "zh": "旅游业的压力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What percentage of passenger travel in the EU was by road in 2010?",
+              "zh": "2010年欧盟旅客出行中有多少百分比通过公路？"
+            },
+            "options": [
+              {"en": "About 60 percent", "zh": "约60%"},
+              {"en": "About 70 percent", "zh": "约70%"},
+              {"en": "About 80 percent", "zh": "约80%"},
+              {"en": "About 90 percent", "zh": "约90%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What is rail's approximate share of passenger transport?",
+              "zh": "铁路在旅客运输中的大约份额是多少？"
+            },
+            "options": [
+              {"en": "About 3 to 5 percent", "zh": "约3%到5%"},
+              {"en": "About 6 to 8 percent", "zh": "约6%到8%"},
+              {"en": "About 10 to 12 percent", "zh": "约10%到12%"},
+              {"en": "About 15 to 20 percent", "zh": "约15%到20%"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Psychology of Innovation",
+          "zh": "文章3 - 创新心理学"
+        },
+        "passage": "<p>Innovation is widely recognized as a key driver of economic growth and competitive advantage. Yet despite its importance, innovation remains poorly understood. Why do some individuals and organizations consistently produce groundbreaking ideas while others, despite having access to similar resources and talent, fail to innovate? Research in cognitive psychology and organizational behavior suggests that the answer lies not in intelligence or technical expertise, but in the way people think and in the organizational cultures that either encourage or suppress creative thinking.</p><p>One of the most important cognitive traits associated with innovation is what psychologists call 'associative thinking,' the ability to connect ideas from different domains that are not obviously related. The late Steve Jobs famously described this ability when he said, 'Creativity is just connecting things.' Research by Professor Dean Keith Simonton at the University of California has shown that the most creative individuals tend to have broad interests and diverse knowledge bases, rather than deep expertise in a single field. They read widely, travel extensively, and expose themselves to a variety of cultures and perspectives.</p><p>Another key factor is tolerance of ambiguity and uncertainty. Innovative thinkers are comfortable with not having all the answers and are willing to pursue ideas whose outcomes are uncertain. Psychologist Abraham Maslow observed that creative individuals have a unusual capacity to tolerate disorder, confusion, and apparent chaos. They can hold contradictory ideas in their minds simultaneously and are not troubled by the tension this creates. This is in contrast to more conventional thinkers, who tend to resolve ambiguity quickly by choosing the most familiar or comfortable option.</p><p>The role of failure in innovation has been extensively studied. Research consistently shows that highly innovative individuals and organizations experience high rates of failure, but they treat failure as a learning opportunity rather than a disaster. Thomas Edison, who held over 1,000 patents, reportedly said, 'I have not failed. I've just found 10,000 ways that won't work.' Companies like Google and 3M famously encourage employees to spend a portion of their time on projects that may fail, recognizing that breakthrough innovations often emerge from unexpected experiments.</p><p>Organizational culture plays a crucial role in fostering or inhibiting innovation. Research by Harvard Business School professor Teresa Amabile has identified several key features of innovative organizations. These include giving employees autonomy to pursue their own ideas, providing adequate resources and time for experimentation, creating a psychologically safe environment where people can propose unconventional ideas without fear of ridicule or punishment, and ensuring that ideas are evaluated on their merits rather than on the status of the person who proposed them. Organizations that are highly hierarchical, risk-averse, or focused exclusively on short-term results tend to be less innovative.</p><p>The physical environment can also influence creative thinking. A study by the University of Minnesota found that people in rooms with higher ceilings performed better on creative tasks than those in rooms with lower ceilings, suggesting that physical space affects mental space. Similarly, research has shown that exposure to nature, even through a window view or photographs, can enhance creative performance. Companies like Apple, Google, and Pixar have invested heavily in designing office spaces that encourage spontaneous interaction and creative collaboration, with features such as open-plan layouts, communal areas, and recreational facilities.</p><p>Understanding the psychology of innovation has practical implications for education, business, and public policy. Educational systems that emphasize rote memorization and standardized testing may inadvertently suppress the creative thinking skills that are essential for innovation. Businesses that want to become more innovative need to think carefully about how their organizational structures, cultures, and physical environments affect the way their employees think and work. And governments seeking to promote innovation should consider investing not just in science and technology, but also in arts education, cross-cultural exchange, and other activities that broaden people's perspectives and develop their capacity for associative thinking.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "What cognitive trait is most associated with innovation?",
+              "zh": "与创新最相关的认知特征是什么？"
+            },
+            "options": [
+              {"en": "High intelligence", "zh": "高智商"},
+              {"en": "Associative thinking", "zh": "联想思维"},
+              {"en": "Technical expertise", "zh": "技术专长"},
+              {"en": "Memory capacity", "zh": "记忆能力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What does Steve Jobs say creativity is?",
+              "zh": "史蒂夫·乔布斯说创造力是什么？"
+            },
+            "options": [
+              {"en": "A natural talent", "zh": "一种天赋"},
+              {"en": "Just connecting things", "zh": "只是连接事物"},
+              {"en": "Years of practice", "zh": "多年的练习"},
+              {"en": "Pure imagination", "zh": "纯粹的想象力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What did Professor Simonton find about creative individuals?",
+              "zh": "Simonton教授关于有创造力的个人发现了什么？"
+            },
+            "options": [
+              {"en": "They have deep expertise in one field", "zh": "他们在某一领域有深厚的专业知识"},
+              {"en": "They have broad interests and diverse knowledge bases", "zh": "他们有广泛的兴趣和多元的知识基础"},
+              {"en": "They are primarily introverts", "zh": "他们主要是内向的人"},
+              {"en": "They work alone most of the time", "zh": "他们大部分时间独自工作"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What did Abraham Maslow observe about creative individuals?",
+              "zh": "Abraham Maslow观察到有创造力的人有什么特点？"
+            },
+            "options": [
+              {"en": "They avoid all uncertainty", "zh": "他们避免所有不确定性"},
+              {"en": "They have an unusual capacity to tolerate disorder and confusion", "zh": "他们有非凡的能力来容忍混乱和困惑"},
+              {"en": "They always need clear direction", "zh": "他们总是需要明确的方向"},
+              {"en": "They prefer routine tasks", "zh": "他们更喜欢常规任务"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "How many patents did Thomas Edison hold?",
+              "zh": "托马斯·爱迪生拥有多少项专利？"
+            },
+            "options": [
+              {"en": "Over 500", "zh": "超过500项"},
+              {"en": "Over 750", "zh": "超过750项"},
+              {"en": "Over 1,000", "zh": "超过1000项"},
+              {"en": "Over 2,000", "zh": "超过2000项"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What does Teresa Amabile's research identify as important for innovative organizations?",
+              "zh": "Teresa Amabile的研究确定了创新型组织的哪些重要特征？"
+            },
+            "options": [
+              {"en": "Strict hierarchies and clear rules", "zh": "严格的等级制度和明确的规则"},
+              {"en": "Employee autonomy and psychological safety", "zh": "员工自主权和心理安全"},
+              {"en": "Focus on short-term results", "zh": "专注于短期成果"},
+              {"en": "Individual rather than team work", "zh": "个人而非团队工作"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What did the University of Minnesota study find about ceiling height?",
+              "zh": "明尼苏达大学关于天花板高度的研究发现了什么？"
+            },
+            "options": [
+              {"en": "Higher ceilings improved focus on detail", "zh": "较高的天花板提高了对细节的专注"},
+              {"en": "Higher ceilings enhanced creative task performance", "zh": "较高的天花板增强了创造性任务表现"},
+              {"en": "Ceiling height had no effect", "zh": "天花板高度没有影响"},
+              {"en": "Lower ceilings were better for creativity", "zh": "较低的天花板对创造力更好"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "Which companies are mentioned as investing in innovative office spaces?",
+              "zh": "哪些公司被提到在创新办公空间方面进行了投资？"
+            },
+            "options": [
+              {"en": "Apple, Google, and Pixar", "zh": "苹果、谷歌和皮克斯"},
+              {"en": "Microsoft, Amazon, and Facebook", "zh": "微软、亚马逊和脸书"},
+              {"en": "Tesla, SpaceX, and SolarCity", "zh": "特斯拉、SpaceX和SolarCity"},
+              {"en": "IBM, Intel, and Cisco", "zh": "IBM、英特尔和思科"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What does the passage suggest about educational systems and innovation?",
+              "zh": "文章对教育系统和创新提出了什么看法？"
+            },
+            "options": [
+              {"en": "They effectively promote innovation", "zh": "它们有效地促进了创新"},
+              {"en": "Emphasis on rote memorization may suppress creative thinking", "zh": "强调死记硬背可能抑制创造性思维"},
+              {"en": "They are the primary driver of innovation", "zh": "它们是创新的主要驱动力"},
+              {"en": "They have no impact on innovation", "zh": "它们对创新没有影响"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "How do innovative organizations treat failure?",
+              "zh": "创新型组织如何看待失败？"
+            },
+            "options": [
+              {"en": "As a disaster to be avoided", "zh": "作为需要避免的灾难"},
+              {"en": "As a learning opportunity", "zh": "作为学习机会"},
+              {"en": "As irrelevant to success", "zh": "与成功无关"},
+              {"en": "As grounds for termination", "zh": "作为解雇的理由"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What can enhance creative performance according to the passage?",
+              "zh": "根据文章，什么可以增强创造性表现？"
+            },
+            "options": [
+              {"en": "Exposure to nature", "zh": "接触自然"},
+              {"en": "Working in isolation", "zh": "在隔离中工作"},
+              {"en": "Strict deadlines", "zh": "严格的截止日期"},
+              {"en": "Financial incentives only", "zh": "仅经济激励"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What kind of thinker tends to resolve ambiguity quickly?",
+              "zh": "什么样的思考者倾向于快速消除歧义？"
+            },
+            "options": [
+              {"en": "Creative thinkers", "zh": "创造性思考者"},
+              {"en": "Innovative thinkers", "zh": "创新型思考者"},
+              {"en": "Conventional thinkers", "zh": "传统型思考者"},
+              {"en": "Associative thinkers", "zh": "联想型思考者"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What should governments invest in to promote innovation, according to the passage?",
+              "zh": "根据文章，政府应该投资什么来促进创新？"
+            },
+            "options": [
+              {"en": "Only science and technology", "zh": "仅科学和技术"},
+              {"en": "Arts education and cross-cultural exchange", "zh": "艺术教育和跨文化交流"},
+              {"en": "Military research", "zh": "军事研究"},
+              {"en": "Infrastructure only", "zh": "仅基础设施"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The three pie charts below show the changes in annual spending by a particular UK school in 1981, 1991, and 2001. Summarize the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的三个饼图显示了英国某学校在1981年、1991年和2001年年度支出的变化。通过选择和报告主要特征来总结信息，并在相关处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "A growing number of people feel that animals should not be exploited by people and that they should have the same rights as humans, while others argue that humans must employ animals to satisfy their various needs, including uses for food and research. Discuss both views and give your opinion. Write at least 250 words.",
+          "zh": "越来越多的人认为动物不应该被人类剥削，它们应该拥有与人类相同的权利，而另一些人则认为人类必须利用动物来满足各种需求，包括食品和研究用途。讨论两种观点并给出你的看法。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

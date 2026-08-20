@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-12-test1",
+  "title": {
+    "en": "Cambridge IELTS 12 - Test 1",
+    "zh": "剑桥雅思12 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - A conversation about joining a sports club",
+          "zh": "第一部分 - 关于加入体育俱乐部的对话"
+        },
+        "passage": "<p>A conversation between a receptionist, Lisa, and a new member, Michael, who wants to join the Riverside Sports and Fitness Club. Michael has recently moved to the area and is looking for a gym that offers a variety of activities. Lisa explains that the club has three membership categories: Standard, Premium, and VIP. The Standard membership costs 45 pounds per month and includes access to the gym, swimming pool, and group fitness classes. The Premium membership costs 75 pounds per month and adds access to the tennis courts, squash courts, and sauna facilities. The VIP membership costs 120 pounds per month and includes everything plus personal training sessions and priority booking for all facilities. Michael is interested in the Premium membership because he enjoys playing tennis. Lisa mentions that there is currently a special offer where new members receive the first month free if they sign a twelve-month contract. Michael asks about the opening hours, and Lisa tells him the gym is open from 5:30 AM to 10:30 PM on weekdays and 7:00 AM to 9:00 PM on weekends. She also mentions that the swimming pool has separate times for lane swimming and casual swimming. Michael needs to complete a health questionnaire and provide a passport-sized photograph for his membership card. Lisa offers to show him around the facilities that afternoon, and Michael agrees to come back at 3 PM.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Why has Michael moved to the area?",
+              "zh": "Michael 为什么搬到这个地区？"
+            },
+            "options": [
+              {"en": "For a new job", "zh": "因为新工作"},
+              {"en": "For university", "zh": "因为上大学"},
+              {"en": "He recently moved to the area", "zh": "他最近搬到这个地区"},
+              {"en": "To be closer to family", "zh": "为了离家人更近"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How much does the Standard membership cost per month?",
+              "zh": "标准会员每月费用是多少？"
+            },
+            "options": [
+              {"en": "35 pounds", "zh": "35英镑"},
+              {"en": "45 pounds", "zh": "45英镑"},
+              {"en": "55 pounds", "zh": "55英镑"},
+              {"en": "75 pounds", "zh": "75英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "Which membership does Michael choose?",
+              "zh": "Michael 选择了哪种会员？"
+            },
+            "options": [
+              {"en": "Standard", "zh": "标准"},
+              {"en": "Premium", "zh": "高级"},
+              {"en": "VIP", "zh": "贵宾"},
+              {"en": "None yet", "zh": "还没有选择"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What sport does Michael particularly enjoy?",
+              "zh": "Michael 特别喜欢什么运动？"
+            },
+            "options": [
+              {"en": "Swimming", "zh": "游泳"},
+              {"en": "Squash", "zh": "壁球"},
+              {"en": "Tennis", "zh": "网球"},
+              {"en": "Running", "zh": "跑步"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What special offer is currently available?",
+              "zh": "目前有什么特别优惠？"
+            },
+            "options": [
+              {"en": "50 percent discount for three months", "zh": "三个月五折优惠"},
+              {"en": "First month free with a twelve-month contract", "zh": "签订12个月合同首月免费"},
+              {"en": "Free personal training sessions", "zh": "免费私人训练课程"},
+              {"en": "No joining fee", "zh": "免入会费"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What time does the gym close on weekdays?",
+              "zh": "健身房工作日几点关门？"
+            },
+            "options": [
+              {"en": "9:30 PM", "zh": "晚上9:30"},
+              {"en": "10:00 PM", "zh": "晚上10:00"},
+              {"en": "10:30 PM", "zh": "晚上10:30"},
+              {"en": "11:00 PM", "zh": "晚上11:00"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What time does the gym open on weekends?",
+              "zh": "健身房周末几点开门？"
+            },
+            "options": [
+              {"en": "5:30 AM", "zh": "早上5:30"},
+              {"en": "6:00 AM", "zh": "早上6:00"},
+              {"en": "7:00 AM", "zh": "早上7:00"},
+              {"en": "8:00 AM", "zh": "早上8:00"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What does Michael need to provide for his membership card?",
+              "zh": "Michael 需要提供什么来制作会员卡？"
+            },
+            "options": [
+              {"en": "A driving licence", "zh": "驾照"},
+              {"en": "A passport-sized photograph", "zh": "一张护照尺寸的照片"},
+              {"en": "A bank statement", "zh": "银行对账单"},
+              {"en": "A letter from his doctor", "zh": "医生的证明信"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What document does Michael need to complete?",
+              "zh": "Michael 需要填写什么文件？"
+            },
+            "options": [
+              {"en": "An insurance form", "zh": "保险表格"},
+              {"en": "A health questionnaire", "zh": "健康问卷"},
+              {"en": "A liability waiver", "zh": "责任豁免书"},
+              {"en": "A payment authorization", "zh": "付款授权书"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What time will Michael return for a tour of the facilities?",
+              "zh": "Michael 几点回来参观设施？"
+            },
+            "options": [
+              {"en": "1 PM", "zh": "下午1点"},
+              {"en": "2 PM", "zh": "下午2点"},
+              {"en": "3 PM", "zh": "下午3点"},
+              {"en": "4 PM", "zh": "下午4点"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - A guided tour of a historical building",
+          "zh": "第二部分 - 历史建筑的导览参观"
+        },
+        "passage": "<p>A tour guide, Margaret, is leading a group of visitors through Whitmore Manor, a historic country house that was built in 1685. The house was originally owned by the Whitmore family, who were wealthy landowners and prominent members of the local community for over three centuries. The main house contains 42 rooms, including a grand ballroom, a library with over 15,000 books, and a chapel that was added in 1720. The gardens, which cover approximately 12 acres, were designed by the famous landscape architect Capability Brown in 1762. Margaret explains that the house was donated to the National Trust in 1953 by the last surviving member of the Whitmore family, Sir Edward Whitmore, who had no children. Since then, the house has undergone extensive restoration work, costing over 3 million pounds. The most recent restoration project, completed in 2019, focused on the east wing, which had suffered significant water damage. Visitors can see the original 17th-century kitchen, which has been preserved with its large stone fireplace and copper cooking pots. The first floor contains the family bedrooms, each decorated in a different historical period, from the Stuart era to the Victorian age. Margaret points out a particularly valuable painting by Thomas Gainsborough, which hangs in the drawing room and is estimated to be worth over 2 million pounds. Photography is allowed in the gardens but not inside the house. The tour concludes at the gift shop, where visitors can purchase souvenirs and locally produced goods.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "When was Whitmore Manor built?",
+              "zh": "惠特莫尔庄园是什么时候建造的？"
+            },
+            "options": [
+              {"en": "1625", "zh": "1625年"},
+              {"en": "1685", "zh": "1685年"},
+              {"en": "1720", "zh": "1720年"},
+              {"en": "1762", "zh": "1762年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How many rooms does the main house contain?",
+              "zh": "主屋有多少间房间？"
+            },
+            "options": [
+              {"en": "32", "zh": "32间"},
+              {"en": "42", "zh": "42间"},
+              {"en": "52", "zh": "52间"},
+              {"en": "62", "zh": "62间"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many books are in the library?",
+              "zh": "图书馆有多少本书？"
+            },
+            "options": [
+              {"en": "Over 10,000", "zh": "超过10,000本"},
+              {"en": "Over 12,000", "zh": "超过12,000本"},
+              {"en": "Over 15,000", "zh": "超过15,000本"},
+              {"en": "Over 20,000", "zh": "超过20,000本"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "Who designed the gardens?",
+              "zh": "花园是谁设计的？"
+            },
+            "options": [
+              {"en": "The Whitmore family", "zh": "惠特莫尔家族"},
+              {"en": "Capability Brown", "zh": "能力布朗"},
+              {"en": "Sir Edward Whitmore", "zh": "爱德华·惠特莫尔爵士"},
+              {"en": "The National Trust", "zh": "国民信托"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "When was the house donated to the National Trust?",
+              "zh": "房子是什么时候捐给国民信托的？"
+            },
+            "options": [
+              {"en": "1935", "zh": "1935年"},
+              {"en": "1945", "zh": "1945年"},
+              {"en": "1953", "zh": "1953年"},
+              {"en": "1962", "zh": "1962年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How much has restoration work cost?",
+              "zh": "修复工作花了多少钱？"
+            },
+            "options": [
+              {"en": "Over 1 million pounds", "zh": "超过100万英镑"},
+              {"en": "Over 2 million pounds", "zh": "超过200万英镑"},
+              {"en": "Over 3 million pounds", "zh": "超过300万英镑"},
+              {"en": "Over 5 million pounds", "zh": "超过500万英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What caused damage to the east wing?",
+              "zh": "是什么导致了东翼的损坏？"
+            },
+            "options": [
+              {"en": "Fire damage", "zh": "火灾"},
+              {"en": "Structural collapse", "zh": "结构坍塌"},
+              {"en": "Water damage", "zh": "水损"},
+              {"en": "Vandalism", "zh": "人为破坏"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How large are the gardens?",
+              "zh": "花园有多大？"
+            },
+            "options": [
+              {"en": "About 8 acres", "zh": "约8英亩"},
+              {"en": "About 10 acres", "zh": "约10英亩"},
+              {"en": "About 12 acres", "zh": "约12英亩"},
+              {"en": "About 15 acres", "zh": "约15英亩"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "Which artist painted the valuable painting in the drawing room?",
+              "zh": "客厅里那幅珍贵画作是哪位艺术家画的？"
+            },
+            "options": [
+              {"en": "William Turner", "zh": "威廉·透纳"},
+              {"en": "Thomas Gainsborough", "zh": "托马斯·庚斯博罗"},
+              {"en": "John Constable", "zh": "约翰·康斯太勃尔"},
+              {"en": "Joshua Reynolds", "zh": "约书亚·雷诺兹"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "Where is photography NOT allowed?",
+              "zh": "哪里不允许拍照？"
+            },
+            "options": [
+              {"en": "In the gardens", "zh": "在花园里"},
+              {"en": "Inside the house", "zh": "在房子里"},
+              {"en": "At the gift shop", "zh": "在礼品店"},
+              {"en": "In the chapel", "zh": "在教堂里"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Two students discussing a research project",
+          "zh": "第三部分 - 两名学生讨论研究项目"
+        },
+        "passage": "<p>Two students, Sophie and Ryan, are discussing their research project on the effectiveness of different study techniques. They are required to design and conduct an experiment for their Psychology course. Sophie suggests investigating the testing effect, which is the finding that practising retrieval of information from memory is more effective for long-term retention than simply re-reading notes. Ryan agrees and proposes comparing three study methods: re-reading notes, completing practice tests, and teaching the material to someone else. They plan to recruit 60 participants from their university, dividing them into three groups of 20. Each group will study the same material on the topic of cognitive psychology using their assigned method for one week. After the study period, all participants will take the same test to measure their retention. Sophie wants to use multiple-choice questions for the test because they are easier to score objectively. Ryan argues that a combination of multiple-choice and short-answer questions would provide a more comprehensive assessment. They compromise by using both question types. They need to submit their research proposal to their supervisor, Dr. Patterson, by the end of next week. Sophie mentions that she has found several relevant academic papers, including a meta-analysis published in Psychological Bulletin that examined over 200 studies on the testing effect. Ryan suggests they should also include a control group that receives no study materials, but Sophie points out that this would be unethical as it could disadvantage those participants in their actual coursework. They decide to present their preliminary findings at the departmental research conference in March.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What topic are Sophie and Ryan researching?",
+              "zh": "Sophie 和 Ryan 在研究什么课题？"
+            },
+            "options": [
+              {"en": "Memory disorders in elderly patients", "zh": "老年患者的记忆障碍"},
+              {"en": "Effectiveness of different study techniques", "zh": "不同学习技巧的有效性"},
+              {"en": "The impact of sleep on learning", "zh": "睡眠对学习的影响"},
+              {"en": "Group versus individual learning", "zh": "小组学习与个人学习"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What is the testing effect?",
+              "zh": "测试效应是什么？"
+            },
+            "options": [
+              {"en": "The stress caused by taking exams", "zh": "参加考试造成的压力"},
+              {"en": "Practising retrieval is better for retention than re-reading", "zh": "练习检索比重读更有利于记忆保持"},
+              {"en": "Students perform better under time pressure", "zh": "学生在时间压力下表现更好"},
+              {"en": "Testing reveals true ability levels", "zh": "测试揭示真实能力水平"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many study methods will they compare?",
+              "zh": "他们将比较多少种学习方法？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两种"},
+              {"en": "Three", "zh": "三种"},
+              {"en": "Four", "zh": "四种"},
+              {"en": "Five", "zh": "五种"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How many participants will they recruit?",
+              "zh": "他们将招募多少参与者？"
+            },
+            "options": [
+              {"en": "30", "zh": "30人"},
+              {"en": "40", "zh": "40人"},
+              {"en": "50", "zh": "50人"},
+              {"en": "60", "zh": "60人"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How long will participants study the material?",
+              "zh": "参与者将学习材料多长时间？"
+            },
+            "options": [
+              {"en": "Three days", "zh": "三天"},
+              {"en": "One week", "zh": "一周"},
+              {"en": "Two weeks", "zh": "两周"},
+              {"en": "One month", "zh": "一个月"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What type of questions does Sophie initially prefer for the test?",
+              "zh": "Sophie 最初偏好什么类型的测试题？"
+            },
+            "options": [
+              {"en": "Essay questions", "zh": "论述题"},
+              {"en": "Multiple-choice questions", "zh": "选择题"},
+              {"en": "Short-answer questions", "zh": "简答题"},
+              {"en": "True or false questions", "zh": "判断题"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What compromise do they reach on the test format?",
+              "zh": "他们在测试形式上达成了什么妥协？"
+            },
+            "options": [
+              {"en": "Only multiple-choice", "zh": "仅选择题"},
+              {"en": "Only short-answer", "zh": "仅简答题"},
+              {"en": "Both multiple-choice and short-answer", "zh": "选择题和简答题都有"},
+              {"en": "Only essay questions", "zh": "仅论述题"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "When must they submit their research proposal?",
+              "zh": "他们必须在什么时候提交研究提案？"
+            },
+            "options": [
+              {"en": "By the end of this week", "zh": "本周末"},
+              {"en": "By the end of next week", "zh": "下周末"},
+              {"en": "By the end of the month", "zh": "月底"},
+              {"en": "By the end of the semester", "zh": "学期末"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How many studies did the meta-analysis examine?",
+              "zh": "该元分析研究了多少项研究？"
+            },
+            "options": [
+              {"en": "Over 100", "zh": "超过100项"},
+              {"en": "Over 200", "zh": "超过200项"},
+              {"en": "Over 300", "zh": "超过300项"},
+              {"en": "Over 400", "zh": "超过400项"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "Why did Sophie reject the idea of a control group?",
+              "zh": "Sophie 为什么反对设立对照组？"
+            },
+            "options": [
+              {"en": "It would make the study too complicated", "zh": "会使研究太复杂"},
+              {"en": "It would be unethical and disadvantage participants", "zh": "这是不道德的，会对参与者不利"},
+              {"en": "There were not enough participants", "zh": "参与者不够"},
+              {"en": "Their supervisor disapproved", "zh": "导师不同意"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - A lecture on marine biology",
+          "zh": "第四部分 - 关于海洋生物学的讲座"
+        },
+        "passage": "<p>A university lecture by Dr. Helen Foster on the topic of coral reef ecosystems and the threats they face. Dr. Foster begins by explaining that coral reefs are among the most biodiverse ecosystems on Earth, supporting approximately 25 percent of all marine species despite covering less than 1 percent of the ocean floor. She describes the symbiotic relationship between coral polyps and zooxanthellae, microscopic algae that live within the coral tissue and provide up to 90 percent of the coral's energy through photosynthesis. In return, the coral provides the algae with shelter and the compounds they need for photosynthesis. The lecture then focuses on coral bleaching, which occurs when environmental stress, primarily rising sea temperatures, causes corals to expel their zooxanthellae. Without these algae, the coral turns white and, if the stress continues for more than about four to eight weeks, the coral dies. Dr. Foster presents data showing that global sea surface temperatures have risen by approximately 0.9 degrees Celsius since 1900, and that mass bleaching events have become five times more frequent since 1980. The Great Barrier Reef in Australia has experienced three major bleaching events in the last five years alone. She also discusses ocean acidification, which is caused by the ocean absorbing excess carbon dioxide from the atmosphere. As the ocean becomes more acidic, it becomes harder for corals to build their calcium carbonate skeletons. Dr. Foster estimates that ocean acidity has increased by approximately 30 percent since the Industrial Revolution. She concludes by presenting several conservation strategies, including the establishment of marine protected areas, the development of heat-resistant coral strains through selective breeding, and the use of artificial reef structures to provide new habitats for marine organisms.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "What percentage of marine species do coral reefs support?",
+              "zh": "珊瑚礁养活了多大比例的海洋物种？"
+            },
+            "options": [
+              {"en": "About 10 percent", "zh": "约10%"},
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 35 percent", "zh": "约35%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What percentage of the ocean floor do coral reefs cover?",
+              "zh": "珊瑚礁覆盖了多大面积的海底？"
+            },
+            "options": [
+              {"en": "Less than 1 percent", "zh": "不到1%"},
+              {"en": "About 3 percent", "zh": "约3%"},
+              {"en": "About 5 percent", "zh": "约5%"},
+              {"en": "About 10 percent", "zh": "约10%"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How much of the coral's energy do zooxanthellae provide?",
+              "zh": "虫黄藻提供珊瑚多少比例的能量？"
+            },
+            "options": [
+              {"en": "About 50 percent", "zh": "约50%"},
+              {"en": "About 70 percent", "zh": "约70%"},
+              {"en": "About 80 percent", "zh": "约80%"},
+              {"en": "Up to 90 percent", "zh": "高达90%"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What causes coral bleaching?",
+              "zh": "什么导致珊瑚白化？"
+            },
+            "options": [
+              {"en": "Chemical pollution", "zh": "化学污染"},
+              {"en": "Rising sea temperatures", "zh": "海水温度上升"},
+              {"en": "Overfishing", "zh": "过度捕捞"},
+              {"en": "Plastic waste", "zh": "塑料垃圾"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How long can coral survive bleaching before dying?",
+              "zh": "珊瑚在白化后多久会死亡？"
+            },
+            "options": [
+              {"en": "About 1 to 2 weeks", "zh": "约1到2周"},
+              {"en": "About 4 to 8 weeks", "zh": "约4到8周"},
+              {"en": "About 3 to 6 months", "zh": "约3到6个月"},
+              {"en": "About one year", "zh": "约一年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "By how much have global sea surface temperatures risen since 1900?",
+              "zh": "自1900年以来全球海表温度上升了多少？"
+            },
+            "options": [
+              {"en": "About 0.5 degrees Celsius", "zh": "约0.5摄氏度"},
+              {"en": "About 0.9 degrees Celsius", "zh": "约0.9摄氏度"},
+              {"en": "About 1.2 degrees Celsius", "zh": "约1.2摄氏度"},
+              {"en": "About 1.5 degrees Celsius", "zh": "约1.5摄氏度"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "How much more frequent have mass bleaching events become since 1980?",
+              "zh": "自1980年以来大规模白化事件的频率增加了多少？"
+            },
+            "options": [
+              {"en": "Three times more frequent", "zh": "频率增加了三倍"},
+              {"en": "Four times more frequent", "zh": "频率增加了四倍"},
+              {"en": "Five times more frequent", "zh": "频率增加了五倍"},
+              {"en": "Ten times more frequent", "zh": "频率增加了十倍"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "How many major bleaching events has the Great Barrier Reef experienced in five years?",
+              "zh": "大堡礁在五年内经历了多少次大规模白化事件？"
+            },
+            "options": [
+              {"en": "One", "zh": "一次"},
+              {"en": "Two", "zh": "两次"},
+              {"en": "Three", "zh": "三次"},
+              {"en": "Four", "zh": "四次"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "By how much has ocean acidity increased since the Industrial Revolution?",
+              "zh": "自工业革命以来海洋酸度增加了多少？"
+            },
+            "options": [
+              {"en": "About 20 percent", "zh": "约20%"},
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 30 percent", "zh": "约30%"},
+              {"en": "About 40 percent", "zh": "约40%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "Which conservation strategy is NOT mentioned by Dr. Foster?",
+              "zh": "Foster博士没有提到以下哪种保护策略？"
+            },
+            "options": [
+              {"en": "Marine protected areas", "zh": "海洋保护区"},
+              {"en": "Heat-resistant coral breeding", "zh": "耐热珊瑚培育"},
+              {"en": "Reducing carbon emissions", "zh": "减少碳排放"},
+              {"en": "Artificial reef structures", "zh": "人工珊瑚礁结构"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The Life Cycle of Salmon",
+          "zh": "文章1 - 鲑鱼的生命周期"
+        },
+        "passage": "<p>Salmon are among the most remarkable creatures in the natural world, known for their extraordinary ability to navigate thousands of miles across open ocean and return to the exact river where they were born to spawn and die. This journey, known as the salmon run, is one of nature's most dramatic events. The life cycle of a salmon begins when a female deposits her eggs, known as roe, in a shallow depression called a redd, which she has excavated in the gravel bed of a freshwater stream. A single female can lay between 2,500 and 7,000 eggs depending on the species. After the male fertilises the eggs, the female covers them with gravel to protect them from predators. The eggs incubate for several months, typically hatching in the spring when water temperatures begin to rise. The newly hatched salmon, called alevins, carry a yolk sac attached to their bodies that provides nourishment for the first few weeks of life. Once the yolk sac is absorbed, the young salmon, now called fry, begin to feed independently on insects and small invertebrates. Over the following months, the fry develop into parr, identifiable by the distinctive dark vertical bars on their sides. Parr typically spend one to three years in freshwater before undergoing a dramatic physiological transformation known as smoltification. During this process, their bodies adapt to life in salt water by producing special proteins that help regulate the balance of salt and water in their cells. The young salmon, now called smolts, migrate downstream to the ocean, where they will spend between one and five years feeding and growing to adult size. In the ocean, salmon feed voraciously on smaller fish, squid, and crustaceans, growing rapidly and accumulating the energy reserves they will need for their return journey. When the time comes to spawn, adult salmon stop eating entirely and begin their upstream migration, often travelling hundreds of miles and leaping up waterfalls to reach their natal stream. After spawning, most Pacific salmon species die within a few days, their bodies providing essential nutrients to the surrounding ecosystem. Atlantic salmon, however, can survive to spawn multiple times.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What is the shallow depression where salmon lay eggs called?",
+              "zh": "鲑鱼产卵的浅坑叫什么？"
+            },
+            "options": [
+              {"en": "A nest", "zh": "巢"},
+              {"en": "A redd", "zh": "产卵巢"},
+              {"en": "A burrow", "zh": "洞穴"},
+              {"en": "A hollow", "zh": "凹坑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How many eggs can a single female salmon lay?",
+              "zh": "一条雌性鲑鱼能产多少卵？"
+            },
+            "options": [
+              {"en": "Between 500 and 1,500", "zh": "500到1,500颗"},
+              {"en": "Between 1,000 and 3,000", "zh": "1,000到3,000颗"},
+              {"en": "Between 2,500 and 7,000", "zh": "2,500到7,000颗"},
+              {"en": "Between 5,000 and 10,000", "zh": "5,000到10,000颗"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What are newly hatched salmon called?",
+              "zh": "刚孵化的鲑鱼叫什么？"
+            },
+            "options": [
+              {"en": "Fry", "zh": "鱼苗"},
+              {"en": "Parr", "zh": "幼鲑"},
+              {"en": "Alevins", "zh": "仔鱼"},
+              {"en": "Smolts", "zh": "降海鲑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What provides nourishment for alevins in their first weeks?",
+              "zh": "仔鱼在最初几周靠什么提供营养？"
+            },
+            "options": [
+              {"en": "Plankton", "zh": "浮游生物"},
+              {"en": "Insects", "zh": "昆虫"},
+              {"en": "A yolk sac", "zh": "卵黄囊"},
+              {"en": "Algae", "zh": "藻类"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "How can parr be identified?",
+              "zh": "如何辨认幼鲑？"
+            },
+            "options": [
+              {"en": "By their silver colour", "zh": "银色的外观"},
+              {"en": "By dark vertical bars on their sides", "zh": "体侧的深色竖条纹"},
+              {"en": "By their large size", "zh": "较大的体型"},
+              {"en": "By their red spots", "zh": "红色斑点"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "How long do parr typically spend in freshwater?",
+              "zh": "幼鲑通常在淡水中待多久？"
+            },
+            "options": [
+              {"en": "A few months", "zh": "几个月"},
+              {"en": "Six months to one year", "zh": "六个月到一年"},
+              {"en": "One to three years", "zh": "一到三年"},
+              {"en": "Three to five years", "zh": "三到五年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What is smoltification?",
+              "zh": "降海变态是什么？"
+            },
+            "options": [
+              {"en": "The process of laying eggs", "zh": "产卵过程"},
+              {"en": "A physiological transformation to adapt to salt water", "zh": "适应海水的生理转变"},
+              {"en": "The migration upstream", "zh": "逆流迁徙"},
+              {"en": "A change in diet", "zh": "饮食变化"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "How long do salmon spend in the ocean?",
+              "zh": "鲑鱼在海中待多久？"
+            },
+            "options": [
+              {"en": "A few months", "zh": "几个月"},
+              {"en": "About one year", "zh": "约一年"},
+              {"en": "Between one and five years", "zh": "一到五年"},
+              {"en": "More than ten years", "zh": "超过十年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What do salmon feed on in the ocean?",
+              "zh": "鲑鱼在海中以什么为食？"
+            },
+            "options": [
+              {"en": "Plankton and algae", "zh": "浮游生物和藻类"},
+              {"en": "Smaller fish, squid, and crustaceans", "zh": "小鱼、鱿鱼和甲壳类动物"},
+              {"en": "Seaweed and coral", "zh": "海草和珊瑚"},
+              {"en": "Insects and worms", "zh": "昆虫和蠕虫"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What happens to salmon when they begin their upstream migration?",
+              "zh": "鲑鱼开始逆流迁徙时会发生什么？"
+            },
+            "options": [
+              {"en": "They eat more to build energy", "zh": "它们吃得更多以储备能量"},
+              {"en": "They stop eating entirely", "zh": "它们完全停止进食"},
+              {"en": "They change colour immediately", "zh": "它们立即改变颜色"},
+              {"en": "They travel in larger groups", "zh": "它们以更大的群体旅行"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "What happens to most Pacific salmon after spawning?",
+              "zh": "大多数太平洋鲑鱼产卵后会怎样？"
+            },
+            "options": [
+              {"en": "They return to the ocean", "zh": "它们回到大海"},
+              {"en": "They migrate to a different river", "zh": "它们迁移到另一条河流"},
+              {"en": "They die within a few days", "zh": "它们在几天内死亡"},
+              {"en": "They spawn again the following year", "zh": "它们第二年再次产卵"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How do Atlantic salmon differ from Pacific salmon?",
+              "zh": "大西洋鲑鱼与太平洋鲑鱼有什么不同？"
+            },
+            "options": [
+              {"en": "They are larger in size", "zh": "它们体型更大"},
+              {"en": "They can survive to spawn multiple times", "zh": "它们可以存活并多次产卵"},
+              {"en": "They migrate further distances", "zh": "它们迁徙更远"},
+              {"en": "They live in warmer waters", "zh": "它们生活在更温暖的水域"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "What benefit do dead salmon provide to the ecosystem?",
+              "zh": "死去的鲑鱼为生态系统提供了什么好处？"
+            },
+            "options": [
+              {"en": "They attract tourists", "zh": "吸引游客"},
+              {"en": "They provide essential nutrients", "zh": "提供必要的营养物质"},
+              {"en": "They create habitats for other fish", "zh": "为其他鱼类创造栖息地"},
+              {"en": "They help clean the water", "zh": "帮助净化水质"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The History of the London Underground",
+          "zh": "文章2 - 伦敦地铁的历史"
+        },
+        "passage": "<p>The London Underground, affectionately known as the Tube, is the world's oldest underground railway system. Its first section, the Metropolitan Railway, opened on 10 January 1863, running between Paddington and Farringdon Street. The idea for an underground railway had been proposed as early as the 1830s, as London's streets were becoming increasingly congested with horse-drawn carriages, omnibuses, and pedestrians. Charles Pearson, a solicitor and campaigner, was one of the earliest advocates for underground rail travel and played a crucial role in promoting the concept. The original Metropolitan Railway used gas-lit wooden carriages hauled by steam locomotives. Despite initial concerns about ventilation and safety, the railway proved enormously popular, carrying 38,000 passengers on its opening day. The success of the Metropolitan Railway led to the construction of additional underground lines. The District Railway, which later became the District line, opened in 1868, connecting the western and southern parts of central London. The development of electric traction in the 1890s revolutionised underground travel, eliminating the smoke and steam that had plagued earlier lines. The City and South London Railway, which opened in 1890, was the world's first deep-level electric railway. The iconic Tube map, which has become one of the most recognisable designs in the world, was created in 1931 by Harry Beck, an engineering draftsman who worked for London Transport. Beck's revolutionary design abandoned geographical accuracy in favour of a simplified schematic diagram that used only horizontal, vertical, and 45-degree lines. His design was initially rejected by London Transport's management as too radical, but after a successful trial run as a pocket map in 1933, it was quickly adopted as the standard. Today, the London Underground serves 272 stations across 11 lines, carrying approximately 5 million passenger journeys per day. The system covers 402 kilometres of track, making it one of the most extensive metro networks in the world.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "When did the first section of the London Underground open?",
+              "zh": "伦敦地铁的第一段是什么时候开通的？"
+            },
+            "options": [
+              {"en": "1836", "zh": "1836年"},
+              {"en": "1863", "zh": "1863年"},
+              {"en": "1868", "zh": "1868年"},
+              {"en": "1890", "zh": "1890年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What was the route of the first underground railway?",
+              "zh": "第一条地铁的路线是什么？"
+            },
+            "options": [
+              {"en": "Victoria to Waterloo", "zh": "维多利亚到滑铁卢"},
+              {"en": "Paddington to Farringdon Street", "zh": "帕丁顿到法灵顿街"},
+              {"en": "King's Cross to Bank", "zh": "国王十字到银行"},
+              {"en": "Baker Street to Westminster", "zh": "贝克街到威斯敏斯特"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "Who was an early advocate for underground rail travel?",
+              "zh": "谁是地铁出行的早期倡导者？"
+            },
+            "options": [
+              {"en": "Harry Beck", "zh": "哈里·贝克"},
+              {"en": "Isambard Kingdom Brunel", "zh": "伊桑巴德·金德姆·布鲁内尔"},
+              {"en": "Charles Pearson", "zh": "查尔斯·皮尔森"},
+              {"en": "George Stephenson", "zh": "乔治·斯蒂芬森"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How many passengers did the railway carry on its opening day?",
+              "zh": "开通当天铁路运送了多少乘客？"
+            },
+            "options": [
+              {"en": "15,000", "zh": "15,000"},
+              {"en": "25,000", "zh": "25,000"},
+              {"en": "38,000", "zh": "38,000"},
+              {"en": "50,000", "zh": "50,000"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "When did the District Railway open?",
+              "zh": "区域铁路是什么时候开通的？"
+            },
+            "options": [
+              {"en": "1863", "zh": "1863年"},
+              {"en": "1868", "zh": "1868年"},
+              {"en": "1875", "zh": "1875年"},
+              {"en": "1890", "zh": "1890年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What was the City and South London Railway?",
+              "zh": "城市和南伦敦铁路是什么？"
+            },
+            "options": [
+              {"en": "The first underground railway", "zh": "第一条地铁"},
+              {"en": "The world's first deep-level electric railway", "zh": "世界上第一条深层电气铁路"},
+              {"en": "The longest underground line", "zh": "最长的地铁线"},
+              {"en": "The first line to use the Tube map", "zh": "第一条使用地铁图的线路"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "When was the Tube map created?",
+              "zh": "地铁图是什么时候创建的？"
+            },
+            "options": [
+              {"en": "1908", "zh": "1908年"},
+              {"en": "1921", "zh": "1921年"},
+              {"en": "1931", "zh": "1931年"},
+              {"en": "1941", "zh": "1941年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "Who designed the Tube map?",
+              "zh": "谁设计了地铁图？"
+            },
+            "options": [
+              {"en": "Charles Pearson", "zh": "查尔斯·皮尔森"},
+              {"en": "Harry Beck", "zh": "哈里·贝克"},
+              {"en": "Edward Johnston", "zh": "爱德华·约翰斯顿"},
+              {"en": "Frank Pick", "zh": "弗兰克·皮克"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What was unique about Beck's map design?",
+              "zh": "贝克的地图设计有什么独特之处？"
+            },
+            "options": [
+              {"en": "It was the first map to use colour", "zh": "它是第一个使用颜色的地图"},
+              {"en": "It used a simplified schematic rather than geographical accuracy", "zh": "它使用简化的示意而非地理精确"},
+              {"en": "It showed all of London's landmarks", "zh": "它展示了伦敦所有地标"},
+              {"en": "It was the largest map ever created", "zh": "它是有史以来最大的地图"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "When was the Tube map first used as a pocket map?",
+              "zh": "地铁图什么时候首次作为袖珍地图使用？"
+            },
+            "options": [
+              {"en": "1931", "zh": "1931年"},
+              {"en": "1933", "zh": "1933年"},
+              {"en": "1935", "zh": "1935年"},
+              {"en": "1937", "zh": "1937年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How many stations does the London Underground serve today?",
+              "zh": "伦敦地铁现在有多少个车站？"
+            },
+            "options": [
+              {"en": "242", "zh": "242个"},
+              {"en": "262", "zh": "262个"},
+              {"en": "272", "zh": "272个"},
+              {"en": "302", "zh": "302个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How many passenger journeys does the Tube make per day?",
+              "zh": "地铁每天运送多少乘客？"
+            },
+            "options": [
+              {"en": "About 3 million", "zh": "约300万"},
+              {"en": "About 4 million", "zh": "约400万"},
+              {"en": "About 5 million", "zh": "约500万"},
+              {"en": "About 7 million", "zh": "约700万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How many kilometres of track does the system cover?",
+              "zh": "整个系统覆盖了多少公里的轨道？"
+            },
+            "options": [
+              {"en": "280 kilometres", "zh": "280公里"},
+              {"en": "340 kilometres", "zh": "340公里"},
+              {"en": "402 kilometres", "zh": "402公里"},
+              {"en": "450 kilometres", "zh": "450公里"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What powered the original Metropolitan Railway?",
+              "zh": "最初的都市铁路用什么动力？"
+            },
+            "options": [
+              {"en": "Electric motors", "zh": "电动机"},
+              {"en": "Diesel engines", "zh": "柴油发动机"},
+              {"en": "Steam locomotives", "zh": "蒸汽机车"},
+              {"en": "Horse power", "zh": "马力"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Science of Sleep",
+          "zh": "文章3 - 睡眠科学"
+        },
+        "passage": "<p>Sleep is one of the most fundamental biological processes, yet for centuries it was largely misunderstood and undervalued by scientists. It was not until the invention of the electroencephalogram in the 1920s that researchers were able to measure brain activity during sleep and discover that the sleeping brain is far from inactive. We now know that sleep is a complex, dynamic process that plays a critical role in physical health, cognitive function, and emotional regulation. Human sleep is divided into two main types: non-rapid eye movement sleep and rapid eye movement sleep. NREM sleep is further divided into three stages, each progressively deeper. Stage 1 is a light transitional phase between wakefulness and sleep, lasting only a few minutes. Stage 2 is a deeper form of sleep, during which heart rate and body temperature decrease and the brain produces characteristic bursts of activity called sleep spindles. Stage 3, also known as slow-wave sleep or deep sleep, is the most restorative phase, during which the body repairs tissues, strengthens the immune system, and consolidates declarative memories, which are facts and events. REM sleep, which was first identified by researchers at the University of Chicago in 1953, is characterised by rapid eye movements, vivid dreaming, and near-complete muscle paralysis. During REM sleep, the brain is almost as active as during waking hours, and this phase is believed to be essential for emotional processing and the consolidation of procedural memories, which are skills and habits. Adults typically cycle through all stages of sleep four to six times per night, with each cycle lasting approximately 90 minutes. The proportion of time spent in each stage changes throughout the night, with more deep sleep occurring in the first half and more REM sleep in the second half. Chronic sleep deprivation, defined as regularly getting fewer than seven hours of sleep per night, has been linked to a wide range of health problems, including obesity, diabetes, cardiovascular disease, and weakened immune function. Research has also shown that even one night of poor sleep can impair cognitive performance to a degree comparable to alcohol intoxication.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "When was the electroencephalogram invented?",
+              "zh": "脑电图是什么时候发明的？"
+            },
+            "options": [
+              {"en": "The 1900s", "zh": "20世纪初"},
+              {"en": "The 1920s", "zh": "20世纪20年代"},
+              {"en": "The 1940s", "zh": "20世纪40年代"},
+              {"en": "The 1950s", "zh": "20世纪50年代"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How many stages does NREM sleep have?",
+              "zh": "非快速眼动睡眠有几个阶段？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两个"},
+              {"en": "Three", "zh": "三个"},
+              {"en": "Four", "zh": "四个"},
+              {"en": "Five", "zh": "五个"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What are 'sleep spindles'?",
+              "zh": "'睡眠纺锤波'是什么？"
+            },
+            "options": [
+              {"en": "A type of sleep disorder", "zh": "一种睡眠障碍"},
+              {"en": "Characteristic bursts of brain activity in Stage 2", "zh": "第二阶段大脑活动的特征性爆发"},
+              {"en": "The rotation of eyes during REM sleep", "zh": "快速眼动睡眠期间的眼球转动"},
+              {"en": "Muscle contractions during deep sleep", "zh": "深度睡眠期间的肌肉收缩"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What happens during Stage 3 sleep?",
+              "zh": "第三阶段睡眠期间会发生什么？"
+            },
+            "options": [
+              {"en": "Vivid dreaming occurs", "zh": "出现生动的梦境"},
+              {"en": "The body repairs tissues and strengthens the immune system", "zh": "身体修复组织并增强免疫系统"},
+              {"en": "Heart rate increases", "zh": "心率加快"},
+              {"en": "Muscle paralysis occurs", "zh": "出现肌肉麻痹"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What type of memory is consolidated during deep sleep?",
+              "zh": "深度睡眠期间巩固什么类型的记忆？"
+            },
+            "options": [
+              {"en": "Procedural memories", "zh": "程序性记忆"},
+              {"en": "Emotional memories", "zh": "情绪记忆"},
+              {"en": "Declarative memories", "zh": "陈述性记忆"},
+              {"en": "Sensory memories", "zh": "感觉记忆"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "When was REM sleep first identified?",
+              "zh": "快速眼动睡眠是什么时候首次被发现的？"
+            },
+            "options": [
+              {"en": "1923", "zh": "1923年"},
+              {"en": "1933", "zh": "1933年"},
+              {"en": "1943", "zh": "1943年"},
+              {"en": "1953", "zh": "1953年"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What characterises REM sleep?",
+              "zh": "快速眼动睡眠的特征是什么？"
+            },
+            "options": [
+              {"en": "Slow heart rate and low brain activity", "zh": "心率慢，大脑活动低"},
+              {"en": "Rapid eye movements, vivid dreaming, and muscle paralysis", "zh": "快速眼球运动、生动梦境和肌肉麻痹"},
+              {"en": "Deep, dreamless rest", "zh": "深度无梦休息"},
+              {"en": "Frequent waking throughout the night", "zh": "夜间频繁醒来"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many sleep cycles do adults typically have per night?",
+              "zh": "成年人每晚通常有多少个睡眠周期？"
+            },
+            "options": [
+              {"en": "Two to three", "zh": "两到三个"},
+              {"en": "Three to four", "zh": "三到四个"},
+              {"en": "Four to six", "zh": "四到六个"},
+              {"en": "Seven to eight", "zh": "七到八个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "How long does each sleep cycle last?",
+              "zh": "每个睡眠周期持续多长时间？"
+            },
+            "options": [
+              {"en": "About 60 minutes", "zh": "约60分钟"},
+              {"en": "About 90 minutes", "zh": "约90分钟"},
+              {"en": "About 120 minutes", "zh": "约120分钟"},
+              {"en": "About 150 minutes", "zh": "约150分钟"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "When does more deep sleep occur?",
+              "zh": "深度睡眠主要发生在什么时候？"
+            },
+            "options": [
+              {"en": "The first half of the night", "zh": "上半夜"},
+              {"en": "The second half of the night", "zh": "下半夜"},
+              {"en": "Equally throughout the night", "zh": "整晚均匀分布"},
+              {"en": "Only during naps", "zh": "仅在午睡时"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What is chronic sleep deprivation defined as?",
+              "zh": "慢性睡眠不足的定义是什么？"
+            },
+            "options": [
+              {"en": "Getting fewer than five hours regularly", "zh": "经常少于五小时"},
+              {"en": "Getting fewer than six hours regularly", "zh": "经常少于六小时"},
+              {"en": "Getting fewer than seven hours regularly", "zh": "经常少于七小时"},
+              {"en": "Getting fewer than eight hours regularly", "zh": "经常少于八小时"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Which of the following health problems is NOT linked to sleep deprivation?",
+              "zh": "以下哪种健康问题与睡眠不足无关？"
+            },
+            "options": [
+              {"en": "Obesity", "zh": "肥胖"},
+              {"en": "Diabetes", "zh": "糖尿病"},
+              {"en": "Arthritis", "zh": "关节炎"},
+              {"en": "Cardiovascular disease", "zh": "心血管疾病"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What can one night of poor sleep impair cognitive performance to?",
+              "zh": "一晚的糟糕睡眠能将认知表现降低到什么程度？"
+            },
+            "options": [
+              {"en": "The level of mild fatigue", "zh": "轻度疲劳的程度"},
+              {"en": "A degree comparable to alcohol intoxication", "zh": "与酒精中毒相当的程度"},
+              {"en": "The level of a minor illness", "zh": "轻度疾病的程度"},
+              {"en": "No significant impairment", "zh": "没有明显损害"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The chart below shows the amount of money spent on four consumer goods in five European countries in 2012. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的图表显示了2012年五个欧洲国家在四种消费品上的花费金额。通过选择和报告主要特征来总结信息，并在相关之处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "Some people believe that allowing children to make their own choices on everyday matters such as food, clothes, and entertainment is likely to result in a society of individuals who only think about their own wishes. Other people believe that it is important for children to make decisions about things that affect them. Discuss both views and give your own opinion. Write at least 250 words.",
+          "zh": "一些人认为，允许孩子在食物、衣服和娱乐等日常事务上自己做选择，可能会导致一个只考虑自己愿望的个体组成的社会。另一些人认为，让孩子对影响他们的事情做决定很重要。讨论两种观点并给出你自己的看法。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

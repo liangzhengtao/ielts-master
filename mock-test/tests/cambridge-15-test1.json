@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-15-test1",
+  "title": {
+    "en": "Cambridge IELTS 15 - Test 1",
+    "zh": "剑桥雅思15 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - A conversation about renting a flat",
+          "zh": "第一部分 - 关于租房的对话"
+        },
+        "passage": "<p>A conversation between a letting agent, Anna, and a potential tenant, James, who is looking for a flat to rent in the city centre. James has recently accepted a job at a law firm and needs to move within the next two weeks. Anna describes three available properties. The first is a one-bedroom flat on Oak Street, located on the third floor of a modern apartment building. It has an open-plan kitchen and living area, a small balcony, and is fully furnished. The rent is 850 pounds per month, and the building has a secure entry system and a shared laundry room. The second property is a two-bedroom flat on Elm Road, on the ground floor of a converted Victorian house. It has a larger living space, a separate kitchen, and a small garden. The rent is 1,100 pounds per month, and it comes partially furnished. The third option is a studio apartment on Maple Lane, which is the most affordable at 650 pounds per month but is only 25 square metres and has no separate bedroom. James is most interested in the one-bedroom flat on Oak Street because it is close to his workplace and within his budget. Anna explains that the tenancy agreement is for a minimum of twelve months, with a security deposit of one month's rent required upfront. The tenant is responsible for paying council tax and utility bills, while the landlord covers building insurance and maintenance. James asks about the move-in date, and Anna says the flat will be available from the first of next month. He arranges to view the property the following afternoon at 2 PM.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Why does James need to move?",
+              "zh": "James 为什么需要搬家？"
+            },
+            "options": [
+              {"en": "He has accepted a new job", "zh": "他接受了新工作"},
+              {"en": "His current lease is ending", "zh": "他目前的租约到期"},
+              {"en": "He wants to be closer to family", "zh": "他想离家人更近"},
+              {"en": "His current flat is too expensive", "zh": "他目前的公寓太贵了"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How soon does James need to move?",
+              "zh": "James 需要多快搬进去？"
+            },
+            "options": [
+              {"en": "Within one week", "zh": "一周内"},
+              {"en": "Within two weeks", "zh": "两周内"},
+              {"en": "Within one month", "zh": "一个月内"},
+              {"en": "Within two months", "zh": "两个月内"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What floor is the Oak Street flat on?",
+              "zh": "橡树街的公寓在几楼？"
+            },
+            "options": [
+              {"en": "First floor", "zh": "一楼"},
+              {"en": "Second floor", "zh": "二楼"},
+              {"en": "Third floor", "zh": "三楼"},
+              {"en": "Fourth floor", "zh": "四楼"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "How much is the Oak Street flat per month?",
+              "zh": "橡树街的公寓每月多少租金？"
+            },
+            "options": [
+              {"en": "650 pounds", "zh": "650英镑"},
+              {"en": "750 pounds", "zh": "750英镑"},
+              {"en": "850 pounds", "zh": "850英镑"},
+              {"en": "1,100 pounds", "zh": "1,100英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What is the Elm Road flat like?",
+              "zh": "榆树路的公寓是什么样的？"
+            },
+            "options": [
+              {"en": "A one-bedroom modern flat", "zh": "一间卧室的现代公寓"},
+              {"en": "A two-bedroom flat in a converted Victorian house", "zh": "维多利亚风格改建房中的两居室公寓"},
+              {"en": "A studio apartment", "zh": "一间单间公寓"},
+              {"en": "A three-bedroom penthouse", "zh": "三居室顶层公寓"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "How large is the Maple Lane studio?",
+              "zh": "枫树巷的单间公寓有多大？"
+            },
+            "options": [
+              {"en": "20 square metres", "zh": "20平方米"},
+              {"en": "25 square metres", "zh": "25平方米"},
+              {"en": "30 square metres", "zh": "30平方米"},
+              {"en": "35 square metres", "zh": "35平方米"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "Which flat does James prefer?",
+              "zh": "James 偏好哪个公寓？"
+            },
+            "options": [
+              {"en": "Oak Street", "zh": "橡树街"},
+              {"en": "Elm Road", "zh": "榆树路"},
+              {"en": "Maple Lane", "zh": "枫树巷"},
+              {"en": "None yet", "zh": "还没有选择"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What is the minimum tenancy period?",
+              "zh": "最短租期是多长？"
+            },
+            "options": [
+              {"en": "Six months", "zh": "六个月"},
+              {"en": "Nine months", "zh": "九个月"},
+              {"en": "Twelve months", "zh": "十二个月"},
+              {"en": "Eighteen months", "zh": "十八个月"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What does the landlord pay for?",
+              "zh": "房东支付什么费用？"
+            },
+            "options": [
+              {"en": "Council tax and utilities", "zh": "市政税和水电费"},
+              {"en": "Building insurance and maintenance", "zh": "建筑保险和维护"},
+              {"en": "Internet and cable TV", "zh": "网络和有线电视"},
+              {"en": "All expenses", "zh": "所有费用"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "When will the flat be available?",
+              "zh": "公寓什么时候可以入住？"
+            },
+            "options": [
+              {"en": "Immediately", "zh": "立即"},
+              {"en": "From the first of next month", "zh": "下个月一号起"},
+              {"en": "In two weeks", "zh": "两周后"},
+              {"en": "In three months", "zh": "三个月后"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - A talk about a local museum",
+          "zh": "第二部分 - 关于当地博物馆的介绍"
+        },
+        "passage": "<p>A presentation by the director of the Riverside Museum, Dr. Peter Williams, about the museum's new exhibition and upcoming events. The museum, which was originally built in 1890 as a cotton mill, was converted into a museum in 1985 and now attracts approximately 250,000 visitors per year. Dr. Williams explains that the new temporary exhibition, which opens next month and runs for six months, is called 'Voices of the Industrial Revolution' and focuses on the experiences of ordinary workers during Britain's industrial transformation in the eighteenth and nineteenth centuries. The exhibition features over 300 original artefacts, including tools, clothing, photographs, and personal letters, many of which have been donated by local families. A highlight of the exhibition is a recreated cotton mill workshop where visitors can experience the working conditions of the era, including the noise, heat, and long hours that factory workers endured. The museum has also developed an interactive digital experience using augmented reality technology, which allows visitors to see historical scenes overlaid on the current museum space through their smartphones. In addition to the exhibition, Dr. Williams describes the museum's programme of public events, including a series of evening lectures by academic historians, a children's workshop programme during school holidays, and a special heritage open day in October when admission will be free. He mentions that the museum recently received a grant of 500,000 pounds from the Heritage Lottery Fund, which will be used to renovate the ground floor galleries and improve accessibility for visitors with disabilities. The museum shop has been expanded and now stocks a wider range of books, locally made crafts, and educational materials.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "When was the museum building originally built?",
+              "zh": "博物馆建筑最初是什么时候建造的？"
+            },
+            "options": [
+              {"en": "1870", "zh": "1870年"},
+              {"en": "1885", "zh": "1885年"},
+              {"en": "1890", "zh": "1890年"},
+              {"en": "1900", "zh": "1900年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What was the building originally used as?",
+              "zh": "这座建筑最初是做什么用的？"
+            },
+            "options": [
+              {"en": "A cotton mill", "zh": "棉纺厂"},
+              {"en": "A warehouse", "zh": "仓库"},
+              {"en": "A railway station", "zh": "火车站"},
+              {"en": "A school", "zh": "学校"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many visitors does the museum attract per year?",
+              "zh": "博物馆每年吸引多少游客？"
+            },
+            "options": [
+              {"en": "About 150,000", "zh": "约15万"},
+              {"en": "About 200,000", "zh": "约20万"},
+              {"en": "About 250,000", "zh": "约25万"},
+              {"en": "About 300,000", "zh": "约30万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "What is the new exhibition about?",
+              "zh": "新展览是关于什么的？"
+            },
+            "options": [
+              {"en": "Ancient Egyptian artefacts", "zh": "古埃及文物"},
+              {"en": "The experiences of workers during the Industrial Revolution", "zh": "工业革命期间工人的经历"},
+              {"en": "Modern British art", "zh": "现代英国艺术"},
+              {"en": "World War II history", "zh": "二战历史"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How long will the exhibition run?",
+              "zh": "展览将持续多长时间？"
+            },
+            "options": [
+              {"en": "Three months", "zh": "三个月"},
+              {"en": "Six months", "zh": "六个月"},
+              {"en": "Nine months", "zh": "九个月"},
+              {"en": "One year", "zh": "一年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How many artefacts does the exhibition feature?",
+              "zh": "展览展出了多少件文物？"
+            },
+            "options": [
+              {"en": "Over 200", "zh": "超过200件"},
+              {"en": "Over 250", "zh": "超过250件"},
+              {"en": "Over 300", "zh": "超过300件"},
+              {"en": "Over 400", "zh": "超过400件"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What technology does the museum use for the interactive experience?",
+              "zh": "博物馆使用什么技术进行互动体验？"
+            },
+            "options": [
+              {"en": "Virtual reality", "zh": "虚拟现实"},
+              {"en": "Augmented reality", "zh": "增强现实"},
+              {"en": "3D printing", "zh": "3D打印"},
+              {"en": "Holographic projection", "zh": "全息投影"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "When will admission be free?",
+              "zh": "什么时候免费入场？"
+            },
+            "options": [
+              {"en": "During the opening weekend", "zh": "开幕周末期间"},
+              {"en": "Every Sunday in October", "zh": "十月的每个周日"},
+              {"en": "During a heritage open day in October", "zh": "十月的遗产开放日"},
+              {"en": "During the school holidays", "zh": "学校假期期间"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How much was the Heritage Lottery Fund grant?",
+              "zh": "遗产彩票基金的资助是多少？"
+            },
+            "options": [
+              {"en": "250,000 pounds", "zh": "250,000英镑"},
+              {"en": "350,000 pounds", "zh": "350,000英镑"},
+              {"en": "500,000 pounds", "zh": "500,000英镑"},
+              {"en": "750,000 pounds", "zh": "750,000英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What will the grant be used for?",
+              "zh": "这笔资助将用于什么？"
+            },
+            "options": [
+              {"en": "Building a new wing", "zh": "建造新翼楼"},
+              {"en": "Renovating galleries and improving accessibility", "zh": "翻新展厅和改善无障碍设施"},
+              {"en": "Hiring more staff", "zh": "招聘更多员工"},
+              {"en": "Creating a new website", "zh": "创建新网站"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - A conversation about a science experiment",
+          "zh": "第三部分 - 关于科学实验的讨论"
+        },
+        "passage": "<p>A conversation between two students, Mia and Lucas, who are planning an experiment for their Biology class. They need to investigate the effect of different light conditions on plant growth. They plan to use bean plants as their test subject because they grow quickly and are easy to measure. Their experiment will test four conditions: natural sunlight, artificial white light, red light only, and complete darkness. They will grow ten plants under each condition, using seeds from the same batch to ensure consistency. The experiment will run for four weeks, and they will measure the height of each plant and count the number of leaves every three days. Mia suggests using a light meter to record the exact intensity of light each plant receives, which will make their results more precise. Lucas agrees and also proposes recording the temperature and humidity in each growing environment, as these factors could affect the results. They need to control these variables to ensure a fair test. For watering, they decide to give each plant exactly 100 millilitres of water every two days. Their teacher, Ms. Roberts, has asked them to present their findings as a scientific report with the following sections: hypothesis, method, results, discussion, and conclusion. Lucas is concerned that four weeks might not be long enough to see significant differences, but Mia points out that previous studies have shown measurable differences in bean plant growth within two to three weeks under different light conditions. They also discuss potential sources of error, such as the fact that some seeds might be more viable than others, and they decide to start with 15 seeds per condition and remove the five weakest seedlings after the first week.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What are they investigating?",
+              "zh": "他们在研究什么？"
+            },
+            "options": [
+              {"en": "The effect of temperature on growth", "zh": "温度对生长的影响"},
+              {"en": "The effect of different light conditions on plant growth", "zh": "不同光照条件对植物生长的影响"},
+              {"en": "The effect of soil type on germination", "zh": "土壤类型对发芽的影响"},
+              {"en": "The effect of water quantity on flowering", "zh": "水量对开花的影响"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What plant are they using for the experiment?",
+              "zh": "他们用什么植物做实验？"
+            },
+            "options": [
+              {"en": "Tomato plants", "zh": "番茄"},
+              {"en": "Sunflowers", "zh": "向日葵"},
+              {"en": "Bean plants", "zh": "豆类植物"},
+              {"en": "Wheat seedlings", "zh": "小麦幼苗"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many light conditions will they test?",
+              "zh": "他们将测试多少种光照条件？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两种"},
+              {"en": "Three", "zh": "三种"},
+              {"en": "Four", "zh": "四种"},
+              {"en": "Five", "zh": "五种"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How many plants will they grow under each condition?",
+              "zh": "每种条件下他们将种植多少株植物？"
+            },
+            "options": [
+              {"en": "Five", "zh": "五株"},
+              {"en": "Eight", "zh": "八株"},
+              {"en": "Ten", "zh": "十株"},
+              {"en": "Fifteen", "zh": "十五株"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How long will the experiment run?",
+              "zh": "实验将持续多长时间？"
+            },
+            "options": [
+              {"en": "Two weeks", "zh": "两周"},
+              {"en": "Three weeks", "zh": "三周"},
+              {"en": "Four weeks", "zh": "四周"},
+              {"en": "Six weeks", "zh": "六周"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How often will they measure the plants?",
+              "zh": "他们多久测量一次植物？"
+            },
+            "options": [
+              {"en": "Every day", "zh": "每天"},
+              {"en": "Every two days", "zh": "每两天"},
+              {"en": "Every three days", "zh": "每三天"},
+              {"en": "Every week", "zh": "每周"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What does Mia suggest using to make results more precise?",
+              "zh": "Mia 建议使用什么来使结果更精确？"
+            },
+            "options": [
+              {"en": "A thermometer", "zh": "温度计"},
+              {"en": "A light meter", "zh": "照度计"},
+              {"en": "A microscope", "zh": "显微镜"},
+              {"en": "A humidity gauge", "zh": "湿度计"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "How much water will each plant receive?",
+              "zh": "每株植物将获得多少水？"
+            },
+            "options": [
+              {"en": "50 millilitres every day", "zh": "每天50毫升"},
+              {"en": "100 millilitres every two days", "zh": "每两天100毫升"},
+              {"en": "150 millilitres every three days", "zh": "每三天150毫升"},
+              {"en": "200 millilitres every week", "zh": "每周200毫升"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What sections must their scientific report include?",
+              "zh": "他们的科学报告必须包含哪些部分？"
+            },
+            "options": [
+              {"en": "Introduction, body, conclusion", "zh": "引言、正文、结论"},
+              {"en": "Hypothesis, method, results, discussion, conclusion", "zh": "假设、方法、结果、讨论、结论"},
+              {"en": "Abstract, literature review, analysis, summary", "zh": "摘要、文献综述、分析、总结"},
+              {"en": "Background, experiment, data, recommendation", "zh": "背景、实验、数据、建议"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "How many seeds will they start with per condition?",
+              "zh": "每种条件下他们将从多少颗种子开始？"
+            },
+            "options": [
+              {"en": "10", "zh": "10颗"},
+              {"en": "12", "zh": "12颗"},
+              {"en": "15", "zh": "15颗"},
+              {"en": "20", "zh": "20颗"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - A lecture on the psychology of persuasion",
+          "zh": "第四部分 - 关于说服心理学的讲座"
+        },
+        "passage": "<p>A university lecture by Professor Robert Chen on the psychology of persuasion and its applications in marketing and public policy. Professor Chen begins by explaining that persuasion is one of the most studied topics in social psychology, and that researchers have identified six fundamental principles of influence. The first principle is reciprocity, which states that people feel obligated to return favours. Professor Chen gives the example of a study in which restaurant tips increased by 3 percent when customers were given a free mint with their bill. The second principle is commitment and consistency, which describes the tendency for people to behave consistently with their previous actions and statements. Once someone makes a small commitment, they are more likely to agree to a larger request. This technique, known as the foot-in-the-door method, has been shown to increase compliance rates by up to 50 percent in various studies. The third principle is social proof, which means that people are more likely to do something if they see others doing it. Hotels that display cards saying 'the majority of guests reuse their towels' see a significant increase in towel reuse compared to those that simply ask guests to be environmentally responsible. The fourth principle is authority, which demonstrates that people are more likely to follow the advice of perceived experts. This is why advertisements frequently feature doctors, scientists, or other authority figures. The fifth principle is liking, which shows that people are more easily persuaded by those they find attractive or similar to themselves. The sixth principle is scarcity, which suggests that people assign more value to things that are rare or becoming unavailable. Limited-time offers and exclusive deals exploit this psychological tendency. Professor Chen then discusses how these principles have been applied in public health campaigns, such as encouraging vaccination and promoting healthy eating, and in political campaigns to influence voter behaviour.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "How many principles of influence does Professor Chen identify?",
+              "zh": "陈教授定义了几种影响力原则？"
+            },
+            "options": [
+              {"en": "Four", "zh": "四种"},
+              {"en": "Five", "zh": "五种"},
+              {"en": "Six", "zh": "六种"},
+              {"en": "Eight", "zh": "八种"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "By how much did tips increase when customers received a free mint?",
+              "zh": "当顾客收到免费薄荷糖时，小费增加了多少？"
+            },
+            "options": [
+              {"en": "3 percent", "zh": "3%"},
+              {"en": "5 percent", "zh": "5%"},
+              {"en": "8 percent", "zh": "8%"},
+              {"en": "10 percent", "zh": "10%"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What is the 'foot-in-the-door' technique?",
+              "zh": "'登门槛'技术是什么？"
+            },
+            "options": [
+              {"en": "Making a large request first, then a smaller one", "zh": "先提大要求，再提小要求"},
+              {"en": "Making a small commitment first, then a larger request", "zh": "先做出小承诺，再提大要求"},
+              {"en": "Offering a discount before asking for a purchase", "zh": "在要求购买前提供折扣"},
+              {"en": "Building rapport before making any request", "zh": "在提任何要求前先建立关系"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "By how much can the foot-in-the-door method increase compliance?",
+              "zh": "'登门槛'方法能增加多少服从率？"
+            },
+            "options": [
+              {"en": "Up to 25 percent", "zh": "最多25%"},
+              {"en": "Up to 35 percent", "zh": "最多35%"},
+              {"en": "Up to 50 percent", "zh": "最多50%"},
+              {"en": "Up to 75 percent", "zh": "最多75%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What does the principle of social proof mean?",
+              "zh": "社会认同原则是什么意思？"
+            },
+            "options": [
+              {"en": "People trust professional qualifications", "zh": "人们信任专业资格"},
+              {"en": "People are more likely to do something if they see others doing it", "zh": "如果看到别人做某事，人们更可能也去做"},
+              {"en": "People prefer to follow rules", "zh": "人们更喜欢遵守规则"},
+              {"en": "People need social approval for decisions", "zh": "人们做决定需要社会认可"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What example is given for social proof in hotels?",
+              "zh": "酒店中社会认同的例子是什么？"
+            },
+            "options": [
+              {"en": "Offering discounts for returning guests", "zh": "为回头客提供折扣"},
+              {"en": "Showing that most guests reuse towels", "zh": "显示大多数客人重复使用毛巾"},
+              {"en": "Providing rewards for positive reviews", "zh": "为好评提供奖励"},
+              {"en": "Displaying celebrity endorsements", "zh": "展示名人代言"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "Why do advertisements feature doctors and scientists?",
+              "zh": "为什么广告中会出现医生和科学家？"
+            },
+            "options": [
+              {"en": "Because they are attractive", "zh": "因为他们有吸引力"},
+              {"en": "To demonstrate the principle of authority", "zh": "为了展示权威原则"},
+              {"en": "Because they work for the company", "zh": "因为他们在公司工作"},
+              {"en": "To make the product seem expensive", "zh": "为了使产品看起来昂贵"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What does the principle of liking state?",
+              "zh": "喜好原则说明了什么？"
+            },
+            "options": [
+              {"en": "People like expensive products more", "zh": "人们更喜欢昂贵的产品"},
+              {"en": "People are more easily persuaded by those they find attractive or similar", "zh": "人们更容易被他们觉得有吸引力或相似的人说服"},
+              {"en": "People prefer familiar brands", "zh": "人们偏好熟悉的品牌"},
+              {"en": "People trust friends more than strangers", "zh": "人们更信任朋友而非陌生人"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What does the principle of scarcity suggest?",
+              "zh": "稀缺原则表明了什么？"
+            },
+            "options": [
+              {"en": "People prefer common items", "zh": "人们偏好常见物品"},
+              {"en": "People assign more value to rare or unavailable things", "zh": "人们给稀有或不可获得的东西赋予更高价值"},
+              {"en": "People buy more when stock is high", "zh": "库存充足时人们买得更多"},
+              {"en": "People avoid limited edition products", "zh": "人们避免限量版产品"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "In which fields have these principles been applied?",
+              "zh": "这些原则已被应用于哪些领域？"
+            },
+            "options": [
+              {"en": "Education and technology", "zh": "教育和技术"},
+              {"en": "Public health campaigns and political campaigns", "zh": "公共卫生活动和政治竞选"},
+              {"en": "Sports and entertainment", "zh": "体育和娱乐"},
+              {"en": "Science and engineering", "zh": "科学和工程"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The History of Glassmaking",
+          "zh": "文章1 - 玻璃制造的历史"
+        },
+        "passage": "<p>Glass is one of the oldest and most versatile materials known to humanity, with a history stretching back nearly 5,000 years. The earliest known glass objects were decorative beads, which were produced in Mesopotamia and Egypt around 3500 BC. These early glass items were made by coating a core of sand or clay with molten glass, and the technique was closely related to pottery glazing. The first true glass vessels appeared around 1500 BC in Egypt, where craftsmen developed a technique called core forming, in which molten glass was wound around a removable core to create small containers for perfumes and oils. The art of glassblowing, which revolutionised glass production, was invented in the Roman-controlled region of Syria around 50 BC. This technique involved inflating a blob of molten glass at the end of a blowpipe, which allowed craftsmen to create hollow vessels much more quickly and cheaply than previous methods. Glassblowing spread rapidly throughout the Roman Empire, and glass objects that had previously been luxury items available only to the wealthy became accessible to ordinary people. Roman glassmakers produced a wide variety of objects, including bottles, cups, bowls, and window glass. The Roman author Pliny the Elder attributed the discovery of glass to Phoenician sailors who, according to legend, accidentally created glass when they used blocks of natron, a natural soda compound, to support their cooking fire on a sandy beach. While this story is almost certainly a myth, it does highlight the essential raw materials of glassmaking: silica sand, soda ash, and limestone. During the medieval period, Venice became the centre of European glassmaking, and Venetian glassmakers, known as cristalleri, were renowned for their skill and artistry. In 1291, the Venetian government ordered all glassmakers to relocate to the island of Murano, ostensibly to reduce the risk of fire but also to help protect their trade secrets. Murano glassmakers developed numerous innovations, including cristallo, a remarkably clear glass that resembled rock crystal, and millefiori, a technique involving the fusion of coloured glass canes into intricate patterns.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "When were the earliest glass objects produced?",
+              "zh": "最早的玻璃物品是什么时候生产的？"
+            },
+            "options": [
+              {"en": "Around 5000 BC", "zh": "约公元前5000年"},
+              {"en": "Around 3500 BC", "zh": "约公元前3500年"},
+              {"en": "Around 2000 BC", "zh": "约公元前2000年"},
+              {"en": "Around 1000 BC", "zh": "约公元前1000年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What were the earliest glass objects?",
+              "zh": "最早的玻璃物品是什么？"
+            },
+            "options": [
+              {"en": "Window panes", "zh": "窗玻璃"},
+              {"en": "Drinking vessels", "zh": "饮用器皿"},
+              {"en": "Decorative beads", "zh": "装饰珠子"},
+              {"en": "Mirrors", "zh": "镜子"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "When were the first true glass vessels produced?",
+              "zh": "第一批真正的玻璃器皿是什么时候生产的？"
+            },
+            "options": [
+              {"en": "Around 3500 BC", "zh": "约公元前3500年"},
+              {"en": "Around 2500 BC", "zh": "约公元前2500年"},
+              {"en": "Around 1500 BC", "zh": "约公元前1500年"},
+              {"en": "Around 500 BC", "zh": "约公元前500年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "When and where was glassblowing invented?",
+              "zh": "玻璃吹制技术是在何时何地发明的？"
+            },
+            "options": [
+              {"en": "Around 100 BC in Egypt", "zh": "约公元前100年在埃及"},
+              {"en": "Around 50 BC in Syria", "zh": "约公元前50年在叙利亚"},
+              {"en": "Around 50 AD in Rome", "zh": "约公元50年在罗马"},
+              {"en": "Around 100 AD in Greece", "zh": "约公元100年在希腊"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What effect did glassblowing have on glass production?",
+              "zh": "玻璃吹制技术对玻璃生产有什么影响？"
+            },
+            "options": [
+              {"en": "It made glass production slower and more expensive", "zh": "它使玻璃生产变得更慢更贵"},
+              {"en": "It allowed faster and cheaper production of hollow vessels", "zh": "它使中空器皿的生产更快更便宜"},
+              {"en": "It limited glass production to small items", "zh": "它将玻璃生产限制在小物件"},
+              {"en": "It had no significant effect", "zh": "没有显著影响"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Who did Pliny attribute the discovery of glass to?",
+              "zh": "普林尼将玻璃的发现归功于谁？"
+            },
+            "options": [
+              {"en": "Roman soldiers", "zh": "罗马士兵"},
+              {"en": "Egyptian pharaohs", "zh": "埃及法老"},
+              {"en": "Phoenician sailors", "zh": "腓尼基水手"},
+              {"en": "Greek philosophers", "zh": "希腊哲学家"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What are the essential raw materials of glassmaking?",
+              "zh": "玻璃制造的基本原材料是什么？"
+            },
+            "options": [
+              {"en": "Iron, copper, and tin", "zh": "铁、铜和锡"},
+              {"en": "Silica sand, soda ash, and limestone", "zh": "硅砂、纯碱和石灰石"},
+              {"en": "Clay, water, and charcoal", "zh": "粘土、水和木炭"},
+              {"en": "Gold, silver, and quartz", "zh": "金、银和石英"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "Which city became the centre of European glassmaking in the medieval period?",
+              "zh": "中世纪哪个城市成为欧洲玻璃制造的中心？"
+            },
+            "options": [
+              {"en": "Rome", "zh": "罗马"},
+              {"en": "Paris", "zh": "巴黎"},
+              {"en": "Venice", "zh": "威尼斯"},
+              {"en": "London", "zh": "伦敦"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "Why were glassmakers moved to Murano in 1291?",
+              "zh": "1291年玻璃制造商为什么被搬到穆拉诺岛？"
+            },
+            "options": [
+              {"en": "To punish them for poor quality work", "zh": "因为工作质量差而惩罚他们"},
+              {"en": "To reduce fire risk and protect trade secrets", "zh": "减少火灾风险和保护商业秘密"},
+              {"en": "Because the mainland was overcrowded", "zh": "因为大陆太拥挤了"},
+              {"en": "To be closer to the raw materials", "zh": "为了更靠近原材料"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What is millefiori?",
+              "zh": "千花工艺是什么？"
+            },
+            "options": [
+              {"en": "A type of clear glass", "zh": "一种透明玻璃"},
+              {"en": "A technique fusing coloured glass canes into patterns", "zh": "将彩色玻璃棒融合成图案的技术"},
+              {"en": "A method of painting on glass", "zh": "在玻璃上绘画的方法"},
+              {"en": "A way of cutting glass into shapes", "zh": "将玻璃切割成形状的方法"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "What is cristallo?",
+              "zh": "水晶玻璃是什么？"
+            },
+            "options": [
+              {"en": "A coloured glass used for decoration", "zh": "用于装饰的彩色玻璃"},
+              {"en": "A remarkably clear glass resembling rock crystal", "zh": "一种非常清澈的、类似水晶的玻璃"},
+              {"en": "A type of stained glass for windows", "zh": "一种用于窗户的彩色玻璃"},
+              {"en": "A frosted glass for privacy", "zh": "一种用于隐私的磨砂玻璃"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What were Venetian glassmakers known as?",
+              "zh": "威尼斯玻璃制造商被称为什么？"
+            },
+            "options": [
+              {"en": "Muranesi", "zh": "穆拉诺人"},
+              {"en": "Cristalleri", "zh": "水晶匠"},
+              {"en": "Vetrai", "zh": "玻璃匠"},
+              {"en": "Maestri", "zh": "大师"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How did glassblowing change the accessibility of glass objects?",
+              "zh": "玻璃吹制如何改变了玻璃物品的可及性？"
+            },
+            "options": [
+              {"en": "Glass objects became more expensive", "zh": "玻璃物品变得更贵"},
+              {"en": "Glass objects became available to ordinary people", "zh": "普通人都能获得玻璃物品"},
+              {"en": "Glass production was limited to the wealthy", "zh": "玻璃生产仅限于富人"},
+              {"en": "Glass was replaced by other materials", "zh": "玻璃被其他材料替代"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Benefits of Bilingualism",
+          "zh": "文章2 - 双语能力的好处"
+        },
+        "passage": "<p>For much of the twentieth century, researchers believed that bilingualism was a disadvantage for children's cognitive development. It was thought that trying to process two languages simultaneously placed excessive demands on the brain, leading to confusion, slower language development, and lower academic performance. However, research conducted over the past three decades has completely overturned this view, revealing that bilingualism confers a range of significant cognitive advantages. One of the most well-documented benefits is enhanced executive function. Executive function refers to a set of mental processes that include attention control, cognitive flexibility, and working memory. Studies have shown that bilingual individuals consistently outperform monolinguals on tasks that require the inhibition of distracting information, switching between different tasks, and holding multiple pieces of information in mind simultaneously. This advantage is believed to arise because bilinguals must constantly manage two active language systems, selecting the appropriate language for a given context while suppressing the other. This ongoing mental exercise strengthens the brain's executive control networks. Research has also shown that bilingualism may delay the onset of dementia. A landmark study conducted at the University of Toronto found that bilingual patients were diagnosed with dementia an average of 4.5 years later than monolingual patients, even when both groups showed equivalent levels of brain damage. This suggests that the cognitive reserve built up through years of managing two languages provides a buffer against age-related cognitive decline. Furthermore, bilingual individuals have been shown to have enhanced metalinguistic awareness, which is the ability to reflect on and manipulate language as a system. This heightened awareness can facilitate the learning of additional languages and improve overall literacy skills. Studies have also demonstrated that bilingual children develop better perspective-taking abilities, as managing two languages requires them to consider what their listener knows and which language is appropriate for a given situation. Despite these advantages, it is important to note that the degree of cognitive benefit depends on the level of bilingual proficiency and the frequency of language use. Passive knowledge of a second language is unlikely to produce the same cognitive advantages as active, regular use of both languages.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "What was the traditional view of bilingualism in the twentieth century?",
+              "zh": "20世纪对双语能力的传统看法是什么？"
+            },
+            "options": [
+              {"en": "It was beneficial for cognitive development", "zh": "它对认知发展有益"},
+              {"en": "It was considered a disadvantage", "zh": "它被认为是一种劣势"},
+              {"en": "It had no measurable effect", "zh": "没有可衡量的影响"},
+              {"en": "It only affected language skills", "zh": "只影响语言技能"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What cognitive advantage do bilinguals show?",
+              "zh": "双语者表现出什么认知优势？"
+            },
+            "options": [
+              {"en": "Better physical coordination", "zh": "更好的身体协调"},
+              {"en": "Enhanced executive function", "zh": "增强的执行功能"},
+              {"en": "Higher IQ scores", "zh": "更高的智商分数"},
+              {"en": "Improved musical ability", "zh": "提高的音乐能力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What does executive function include?",
+              "zh": "执行功能包括什么？"
+            },
+            "options": [
+              {"en": "Language, memory, and emotion", "zh": "语言、记忆和情感"},
+              {"en": "Attention control, cognitive flexibility, and working memory", "zh": "注意力控制、认知灵活性和工作记忆"},
+              {"en": "Creativity, logic, and reasoning", "zh": "创造力、逻辑和推理"},
+              {"en": "Perception, motor skills, and vision", "zh": "感知、运动技能和视觉"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Why do bilinguals have better executive function?",
+              "zh": "为什么双语者的执行功能更好？"
+            },
+            "options": [
+              {"en": "Because they read more books", "zh": "因为他们读更多的书"},
+              {"en": "Because they constantly manage two language systems", "zh": "因为他们不断管理两个语言系统"},
+              {"en": "Because they have larger brains", "zh": "因为他们大脑更大"},
+              {"en": "Because they exercise more", "zh": "因为他们运动更多"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "By how many years was dementia delayed in bilingual patients?",
+              "zh": "双语患者的痴呆症延迟了多少年？"
+            },
+            "options": [
+              {"en": "2.5 years", "zh": "2.5年"},
+              {"en": "3.5 years", "zh": "3.5年"},
+              {"en": "4.5 years", "zh": "4.5年"},
+              {"en": "5.5 years", "zh": "5.5年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "Which university conducted the dementia study?",
+              "zh": "哪所大学进行了痴呆症研究？"
+            },
+            "options": [
+              {"en": "University of Oxford", "zh": "牛津大学"},
+              {"en": "University of Cambridge", "zh": "剑桥大学"},
+              {"en": "University of Toronto", "zh": "多伦多大学"},
+              {"en": "Harvard University", "zh": "哈佛大学"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What is metalinguistic awareness?",
+              "zh": "元语言意识是什么？"
+            },
+            "options": [
+              {"en": "The ability to speak multiple languages fluently", "zh": "流利地说多种语言的能力"},
+              {"en": "The ability to reflect on and manipulate language as a system", "zh": "将语言作为一种系统进行反思和操控的能力"},
+              {"en": "The ability to learn new vocabulary quickly", "zh": "快速学习新词汇的能力"},
+              {"en": "The ability to understand foreign accents", "zh": "理解外国口音的能力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "What additional benefit do bilingual children show?",
+              "zh": "双语儿童还表现出什么额外好处？"
+            },
+            "options": [
+              {"en": "Better athletic performance", "zh": "更好的运动表现"},
+              {"en": "Better perspective-taking abilities", "zh": "更好的换位思考能力"},
+              {"en": "Higher mathematical skills", "zh": "更高的数学技能"},
+              {"en": "Improved musical talent", "zh": "提高的音乐天赋"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What factor affects the degree of cognitive benefit from bilingualism?",
+              "zh": "什么因素影响双语认知优势的程度？"
+            },
+            "options": [
+              {"en": "The age at which the second language was learned", "zh": "学习第二语言的年龄"},
+              {"en": "The level of proficiency and frequency of use", "zh": "熟练程度和使用频率"},
+              {"en": "The similarity between the two languages", "zh": "两种语言的相似程度"},
+              {"en": "The socioeconomic status of the speaker", "zh": "说话者的社会经济地位"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What was believed about bilingual children's language development?",
+              "zh": "过去对双语儿童的语言发展有什么看法？"
+            },
+            "options": [
+              {"en": "They developed language faster", "zh": "他们语言发展更快"},
+              {"en": "They had slower language development", "zh": "他们语言发展更慢"},
+              {"en": "They had no language problems", "zh": "他们没有语言问题"},
+              {"en": "They learned to read earlier", "zh": "他们更早学会阅读"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What does 'cognitive reserve' refer to in the passage?",
+              "zh": "文章中'认知储备'指的是什么？"
+            },
+            "options": [
+              {"en": "The brain's physical size", "zh": "大脑的物理大小"},
+              {"en": "A buffer built through managing two languages against cognitive decline", "zh": "通过管理两种语言建立的对抗认知衰退的缓冲"},
+              {"en": "The amount of education received", "zh": "接受的教育量"},
+              {"en": "The number of languages spoken", "zh": "会说的语言数量"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "Is passive knowledge of a second language likely to produce cognitive advantages?",
+              "zh": "被动的第二语言知识能产生认知优势吗？"
+            },
+            "options": [
+              {"en": "Yes, equally as active use", "zh": "是的，与主动使用相同"},
+              {"en": "Yes, but to a lesser degree", "zh": "是的，但程度较低"},
+              {"en": "No, it is unlikely to produce the same advantages", "zh": "不，不太可能产生同样的优势"},
+              {"en": "It depends on the language", "zh": "取决于语言"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What must bilinguals constantly do when managing two languages?",
+              "zh": "双语者在管理两种语言时必须不断做什么？"
+            },
+            "options": [
+              {"en": "Translate everything word by word", "zh": "逐字翻译一切"},
+              {"en": "Select the appropriate language while suppressing the other", "zh": "选择合适的语言同时抑制另一种"},
+              {"en": "Speak both languages at the same time", "zh": "同时说两种语言"},
+              {"en": "Avoid mixing the two languages", "zh": "避免混合两种语言"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "How long has research been overturning the traditional view?",
+              "zh": "研究已经推翻传统观点多长时间了？"
+            },
+            "options": [
+              {"en": "About a decade", "zh": "约十年"},
+              {"en": "About two decades", "zh": "约二十年"},
+              {"en": "About three decades", "zh": "约三十年"},
+              {"en": "About five decades", "zh": "约五十年"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Ethics of Autonomous Vehicles",
+          "zh": "文章3 - 自动驾驶汽车的伦理"
+        },
+        "passage": "<p>The development of autonomous vehicles promises to transform transportation, potentially reducing the approximately 1.35 million deaths that occur in road traffic accidents worldwide each year. However, the widespread adoption of self-driving cars raises profound ethical questions that go far beyond the technical challenges of engineering. The most prominent ethical dilemma facing autonomous vehicle developers is often called the trolley problem, a philosophical thought experiment that asks how an autonomous vehicle should respond when a collision is unavoidable. Should the vehicle be programmed to minimise total harm, even if that means sacrificing its passengers? Or should it prioritise the safety of its occupants at all costs? Researchers at the Massachusetts Institute of Technology created an online platform called the Moral Machine, which presented millions of people worldwide with scenarios involving autonomous vehicles and asked them to make difficult choices. The results revealed significant cultural differences in ethical preferences. For example, respondents from collectivist cultures, such as those in East Asia, were more likely to favour saving elderly people, while those from individualist cultures, such as the United States and Europe, tended to prefer saving younger people. These cultural variations make it extremely difficult to create a universal ethical framework for autonomous vehicles. Beyond the trolley problem, there are numerous other ethical considerations. Questions of legal liability arise when autonomous vehicles are involved in accidents. Who is responsible: the manufacturer, the software developer, the vehicle owner, or the occupant? Current legal frameworks are not equipped to handle these questions, and lawmakers in many countries are struggling to develop appropriate regulations. Privacy is another major concern, as autonomous vehicles generate vast amounts of data about their passengers' movements, habits, and destinations. There are also concerns about the potential for surveillance and the risk that this data could be hacked or misused. The impact on employment must also be considered, as the automation of driving could displace millions of professional drivers worldwide, including taxi drivers, truck drivers, and delivery workers. Some experts predict that up to 5 million driving jobs could be lost in the United States alone within the next two decades.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "How many road traffic deaths occur worldwide each year?",
+              "zh": "全球每年有多少道路交通事故死亡？"
+            },
+            "options": [
+              {"en": "About 500,000", "zh": "约50万"},
+              {"en": "About 850,000", "zh": "约85万"},
+              {"en": "About 1.35 million", "zh": "约135万"},
+              {"en": "About 2 million", "zh": "约200万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What is the main ethical dilemma facing autonomous vehicles called?",
+              "zh": "自动驾驶汽车面临的主要伦理困境叫什么？"
+            },
+            "options": [
+              {"en": "The prisoner's dilemma", "zh": "囚徒困境"},
+              {"en": "The trolley problem", "zh": "电车难题"},
+              {"en": "The paradox of choice", "zh": "选择悖论"},
+              {"en": "The moral hazard", "zh": "道德风险"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What is the Moral Machine?",
+              "zh": "道德机器是什么？"
+            },
+            "options": [
+              {"en": "A type of autonomous vehicle", "zh": "一种自动驾驶汽车"},
+              {"en": "An ethical code for car manufacturers", "zh": "汽车制造商的道德准则"},
+              {"en": "An MIT platform presenting ethical scenarios to millions", "zh": "麻省理工学院向数百万人展示伦理场景的平台"},
+              {"en": "A government regulation framework", "zh": "政府监管框架"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What did the Moral Machine results reveal?",
+              "zh": "道德机器的结果揭示了什么？"
+            },
+            "options": [
+              {"en": "Universal agreement on ethical choices", "zh": "对伦理选择的普遍共识"},
+              {"en": "Significant cultural differences in ethical preferences", "zh": "伦理偏好中存在显著的文化差异"},
+              {"en": "No preference for saving any particular group", "zh": "对拯救任何特定群体没有偏好"},
+              {"en": "That most people chose to save themselves", "zh": "大多数人选择救自己"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What did collectivist culture respondents prefer?",
+              "zh": "集体主义文化受访者偏好什么？"
+            },
+            "options": [
+              {"en": "Saving younger people", "zh": "拯救年轻人"},
+              {"en": "Saving elderly people", "zh": "拯救老年人"},
+              {"en": "Saving the most people possible", "zh": "尽可能多地拯救人"},
+              {"en": "Saving pedestrians over passengers", "zh": "拯救行人而非乘客"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "Who could be held liable in an autonomous vehicle accident?",
+              "zh": "自动驾驶汽车事故中谁可能承担责任？"
+            },
+            "options": [
+              {"en": "Only the manufacturer", "zh": "仅制造商"},
+              {"en": "Only the vehicle owner", "zh": "仅车主"},
+              {"en": "The manufacturer, software developer, owner, or occupant", "zh": "制造商、软件开发者、车主或乘客"},
+              {"en": "The government", "zh": "政府"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What privacy concern is mentioned?",
+              "zh": "提到了什么隐私问题？"
+            },
+            "options": [
+              {"en": "Vehicles recording conversations", "zh": "车辆录制对话"},
+              {"en": "Vehicles generating data about movements and habits", "zh": "车辆生成关于行动和习惯的数据"},
+              {"en": "Vehicles sharing data with advertisers", "zh": "车辆与广告商共享数据"},
+              {"en": "Vehicles tracking health information", "zh": "车辆追踪健康信息"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many driving jobs could be lost in the US within two decades?",
+              "zh": "美国在二十年内可能失去多少驾驶工作岗位？"
+            },
+            "options": [
+              {"en": "About 2 million", "zh": "约200万"},
+              {"en": "About 3 million", "zh": "约300万"},
+              {"en": "About 5 million", "zh": "约500万"},
+              {"en": "About 8 million", "zh": "约800万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What is the trolley problem about?",
+              "zh": "电车难题是关于什么的？"
+            },
+            "options": [
+              {"en": "How to reduce traffic congestion", "zh": "如何减少交通拥堵"},
+              {"en": "How a vehicle should respond when a collision is unavoidable", "zh": "当碰撞不可避免时车辆应如何应对"},
+              {"en": "How to program vehicles to follow traffic laws", "zh": "如何编程车辆遵守交通法规"},
+              {"en": "How to make vehicles more fuel efficient", "zh": "如何使车辆更省油"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What did individualist culture respondents tend to prefer?",
+              "zh": "个人主义文化受访者倾向于偏好什么？"
+            },
+            "options": [
+              {"en": "Saving elderly people", "zh": "拯救老年人"},
+              {"en": "Saving younger people", "zh": "拯救年轻人"},
+              {"en": "Saving passengers over pedestrians", "zh": "拯救乘客而非行人"},
+              {"en": "No particular preference", "zh": "没有特别偏好"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What data-related risk is mentioned?",
+              "zh": "提到了什么数据相关风险？"
+            },
+            "options": [
+              {"en": "Data being lost during updates", "zh": "更新期间数据丢失"},
+              {"en": "Data being hacked or misused", "zh": "数据被黑客攻击或滥用"},
+              {"en": "Data being too expensive to store", "zh": "存储数据太贵"},
+              {"en": "Data being inaccurate", "zh": "数据不准确"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Which types of professional drivers are mentioned?",
+              "zh": "提到了哪些类型的职业司机？"
+            },
+            "options": [
+              {"en": "Taxi drivers, truck drivers, and delivery workers", "zh": "出租车司机、卡车司机和快递员"},
+              {"en": "Bus drivers, train drivers, and pilots", "zh": "公交车司机、火车司机和飞行员"},
+              {"en": "Racing drivers and driving instructors", "zh": "赛车手和驾驶教练"},
+              {"en": "Chauffeurs and limousine drivers", "zh": "私人司机和豪华轿车司机"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "Why is it difficult to create a universal ethical framework?",
+              "zh": "为什么很难创建一个通用的伦理框架？"
+            },
+            "options": [
+              {"en": "Because the technology is too new", "zh": "因为技术太新"},
+              {"en": "Because of cultural variations in ethical preferences", "zh": "因为伦理偏好的文化差异"},
+              {"en": "Because car companies disagree", "zh": "因为汽车公司意见不一"},
+              {"en": "Because there is no philosophical basis", "zh": "因为没有哲学基础"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The charts below show the results of a survey conducted to find out what people in different age groups thought were the most important things in life. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的图表展示了一项调查的结果，旨在了解不同年龄段的人认为生活中最重要的事情是什么。通过选择和报告主要特征来总结信息，并在相关之处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "Some people think that instead of preventing climate change, we need to find a way to live with it. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些人认为，与其阻止气候变化，我们需要找到一种与之共存的方式。你在多大程度上同意或不同意？给出你的理由，并包括你自己的知识或经验中的任何相关例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-13-test1",
+  "title": {
+    "en": "Cambridge IELTS 13 - Test 1",
+    "zh": "剑桥雅思13 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - A conversation about arranging a birthday party",
+          "zh": "第一部分 - 关于安排生日派对的对话"
+        },
+        "passage": "<p>A conversation between a customer, Karen, and a party organiser, Paul, about arranging a surprise birthday party for Karen's husband. Karen calls the Event Centre to book a venue and discuss the arrangements. She wants to hold the party on Saturday, November 15th, for approximately 40 guests. Paul explains that they have two main function rooms available: the Garden Room, which holds up to 30 people, and the Grand Hall, which can accommodate up to 80 people. Since Karen expects around 40 guests, the Grand Hall would be more suitable. The hire cost for the Grand Hall is 350 pounds for the evening, which includes basic decorations, tables, and chairs. Karen asks about catering options. Paul explains that they work with three local catering companies and can offer buffet-style meals starting at 18 pounds per person, which includes a selection of hot and cold dishes, or a sit-down three-course dinner at 30 pounds per person. Karen decides on the buffet option to keep costs down. Paul mentions that they also offer a DJ service for 200 pounds and a photographer for 150 pounds for three hours. Karen is interested in the DJ but not the photographer, as her sister will take photos. Paul says they can arrange a special birthday cake through a local bakery for an additional 45 pounds. Karen provides her contact details and asks Paul to send her a written quotation by email. She pays a non-refundable deposit of 100 pounds to secure the booking.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What is the party for?",
+              "zh": "派对是为什么举办的？"
+            },
+            "options": [
+              {"en": "Karen's birthday", "zh": "Karen的生日"},
+              {"en": "Karen's husband's birthday", "zh": "Karen丈夫的生日"},
+              {"en": "Their wedding anniversary", "zh": "他们的结婚纪念日"},
+              {"en": "Their child's birthday", "zh": "他们孩子的生日"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When does Karen want to hold the party?",
+              "zh": "Karen 想在什么时候举办派对？"
+            },
+            "options": [
+              {"en": "Saturday, November 8th", "zh": "11月8日星期六"},
+              {"en": "Saturday, November 15th", "zh": "11月15日星期六"},
+              {"en": "Sunday, November 16th", "zh": "11月16日星期日"},
+              {"en": "Saturday, November 22nd", "zh": "11月22日星期六"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How many guests does Karen expect?",
+              "zh": "Karen 预计有多少位客人？"
+            },
+            "options": [
+              {"en": "About 30", "zh": "约30位"},
+              {"en": "About 40", "zh": "约40位"},
+              {"en": "About 50", "zh": "约50位"},
+              {"en": "About 60", "zh": "约60位"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "Which room does Karen book?",
+              "zh": "Karen 预订了哪个房间？"
+            },
+            "options": [
+              {"en": "The Garden Room", "zh": "花园厅"},
+              {"en": "The Grand Hall", "zh": "大宴会厅"},
+              {"en": "The Conference Room", "zh": "会议室"},
+              {"en": "The Terrace Room", "zh": "露台厅"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "How much does the Grand Hall cost to hire?",
+              "zh": "大宴会厅的租赁费用是多少？"
+            },
+            "options": [
+              {"en": "250 pounds", "zh": "250英镑"},
+              {"en": "300 pounds", "zh": "300英镑"},
+              {"en": "350 pounds", "zh": "350英镑"},
+              {"en": "400 pounds", "zh": "400英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What catering option does Karen choose?",
+              "zh": "Karen 选择了哪种餐饮方案？"
+            },
+            "options": [
+              {"en": "Sit-down three-course dinner", "zh": "三道菜的正餐"},
+              {"en": "Buffet-style meal", "zh": "自助餐"},
+              {"en": "Afternoon tea", "zh": "下午茶"},
+              {"en": "Canapes and drinks", "zh": "开胃小食和饮料"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How much does the buffet cost per person?",
+              "zh": "自助餐每人费用是多少？"
+            },
+            "options": [
+              {"en": "15 pounds", "zh": "15英镑"},
+              {"en": "18 pounds", "zh": "18英镑"},
+              {"en": "22 pounds", "zh": "22英镑"},
+              {"en": "30 pounds", "zh": "30英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "Which additional service does Karen NOT want?",
+              "zh": "Karen 不想要哪个额外服务？"
+            },
+            "options": [
+              {"en": "DJ service", "zh": "DJ服务"},
+              {"en": "Photographer", "zh": "摄影师"},
+              {"en": "Birthday cake", "zh": "生日蛋糕"},
+              {"en": "Decorations", "zh": "装饰"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "How much does the birthday cake cost?",
+              "zh": "生日蛋糕多少钱？"
+            },
+            "options": [
+              {"en": "35 pounds", "zh": "35英镑"},
+              {"en": "40 pounds", "zh": "40英镑"},
+              {"en": "45 pounds", "zh": "45英镑"},
+              {"en": "50 pounds", "zh": "50英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How much deposit does Karen pay?",
+              "zh": "Karen 支付了多少定金？"
+            },
+            "options": [
+              {"en": "50 pounds", "zh": "50英镑"},
+              {"en": "75 pounds", "zh": "75英镑"},
+              {"en": "100 pounds", "zh": "100英镑"},
+              {"en": "150 pounds", "zh": "150英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - A talk about a wildlife conservation project",
+          "zh": "第二部分 - 关于野生动物保护项目的介绍"
+        },
+        "passage": "<p>A presentation by Dr. Laura Chen about a wildlife conservation project in the Scottish Highlands. The project, called Highland Rewilding, was established five years ago with the aim of restoring native habitats and reintroducing species that had been driven to extinction in the region. Dr. Chen explains that the project covers an area of approximately 10,000 hectares of land, which was formerly used for sheep farming and deer stalking. The first phase of the project focused on planting native trees, particularly Scots pine, birch, and rowan. Over the past five years, volunteers have planted more than 500,000 trees across the site. The second phase involved the reintroduction of the Eurasian beaver, which had been absent from Scotland for over 400 years. Twenty beavers were initially released, and the population has since grown to approximately 65 individuals. Dr. Chen explains that beavers are considered a keystone species because their dam-building activities create wetland habitats that benefit many other species, including otters, water voles, and various bird species. The project's third phase, which is currently underway, focuses on the reintroduction of wildcats, one of Britain's most endangered mammals. Dr. Chen notes that fewer than 300 pure wildcats remain in the wild, making conservation efforts critical. The project has faced some opposition from local farmers concerned about crop damage and livestock predation, but the team has worked closely with the farming community to address these concerns through compensation schemes and fencing solutions. The project also operates an education programme, hosting school visits and community workshops to raise awareness about biodiversity and conservation.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "How long has the Highland Rewilding project been running?",
+              "zh": "高地野化项目运行了多长时间？"
+            },
+            "options": [
+              {"en": "Three years", "zh": "三年"},
+              {"en": "Five years", "zh": "五年"},
+              {"en": "Seven years", "zh": "七年"},
+              {"en": "Ten years", "zh": "十年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How large is the project area?",
+              "zh": "项目面积有多大？"
+            },
+            "options": [
+              {"en": "About 5,000 hectares", "zh": "约5,000公顷"},
+              {"en": "About 8,000 hectares", "zh": "约8,000公顷"},
+              {"en": "About 10,000 hectares", "zh": "约10,000公顷"},
+              {"en": "About 15,000 hectares", "zh": "约15,000公顷"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many trees have been planted?",
+              "zh": "已经种了多少棵树？"
+            },
+            "options": [
+              {"en": "More than 200,000", "zh": "超过200,000棵"},
+              {"en": "More than 350,000", "zh": "超过350,000棵"},
+              {"en": "More than 500,000", "zh": "超过500,000棵"},
+              {"en": "More than 750,000", "zh": "超过750,000棵"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How long had beavers been absent from Scotland?",
+              "zh": "海狸在苏格兰消失了多长时间？"
+            },
+            "options": [
+              {"en": "Over 200 years", "zh": "超过200年"},
+              {"en": "Over 300 years", "zh": "超过300年"},
+              {"en": "Over 400 years", "zh": "超过400年"},
+              {"en": "Over 500 years", "zh": "超过500年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How many beavers were initially released?",
+              "zh": "最初放归了多少只海狸？"
+            },
+            "options": [
+              {"en": "10", "zh": "10只"},
+              {"en": "15", "zh": "15只"},
+              {"en": "20", "zh": "20只"},
+              {"en": "30", "zh": "30只"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What is the current beaver population?",
+              "zh": "目前海狸的数量是多少？"
+            },
+            "options": [
+              {"en": "About 45", "zh": "约45只"},
+              {"en": "About 55", "zh": "约55只"},
+              {"en": "About 65", "zh": "约65只"},
+              {"en": "About 80", "zh": "约80只"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Why are beavers considered a keystone species?",
+              "zh": "为什么海狸被认为是关键物种？"
+            },
+            "options": [
+              {"en": "They control insect populations", "zh": "它们控制昆虫种群"},
+              {"en": "Their dams create wetland habitats for other species", "zh": "它们的水坝为其他物种创造湿地栖息地"},
+              {"en": "They are the largest rodents in Europe", "zh": "它们是欧洲最大的啮齿动物"},
+              {"en": "They eat invasive plant species", "zh": "它们吃入侵植物物种"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How many pure wildcats remain in the wild?",
+              "zh": "野生纯种野猫还剩多少？"
+            },
+            "options": [
+              {"en": "Fewer than 100", "zh": "不到100只"},
+              {"en": "Fewer than 200", "zh": "不到200只"},
+              {"en": "Fewer than 300", "zh": "不到300只"},
+              {"en": "Fewer than 500", "zh": "不到500只"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What opposition has the project faced?",
+              "zh": "项目面临什么反对意见？"
+            },
+            "options": [
+              {"en": "Environmental groups opposing tree planting", "zh": "环保组织反对植树"},
+              {"en": "Local farmers concerned about crop damage and livestock", "zh": "当地农民担心作物损失和牲畜安全"},
+              {"en": "Government cutting funding", "zh": "政府削减资金"},
+              {"en": "Tourism operators opposing restrictions", "zh": "旅游经营者反对限制"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What type of programme does the project operate for the community?",
+              "zh": "项目为社区运营什么类型的计划？"
+            },
+            "options": [
+              {"en": "A volunteer tree-planting programme", "zh": "志愿者植树计划"},
+              {"en": "An education programme with school visits and workshops", "zh": "包含学校参观和研讨会的教育计划"},
+              {"en": "A wildlife photography competition", "zh": "野生动物摄影比赛"},
+              {"en": "A fundraising programme", "zh": "筹款计划"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Two students discussing a presentation on renewable energy",
+          "zh": "第三部分 - 两名学生讨论关于可再生能源的演讲"
+        },
+        "passage": "<p>A conversation between two postgraduate students, Tom and Priya, who are preparing a joint presentation on renewable energy sources for their Environmental Engineering seminar. They have been asked to compare three types of renewable energy: solar, wind, and hydroelectric power. Tom has been researching solar energy and has found that the cost of solar panels has decreased by approximately 89 percent over the past decade, making it one of the cheapest forms of new electricity generation in many parts of the world. He mentions that the largest solar farm in the world, the Bhadla Solar Park in India, has a capacity of 2,245 megawatts and covers an area of 14,000 acres. However, Tom points out that solar energy has the limitation of intermittency, meaning it can only generate electricity when the sun is shining. Priya has been focusing on wind energy. She explains that modern wind turbines can generate up to 12 megawatts of power each, and that the global wind energy capacity exceeded 800 gigawatts by the end of 2022. She highlights that offshore wind farms are becoming increasingly important because winds at sea tend to be stronger and more consistent than on land. The Hornsea Wind Farm off the coast of Yorkshire is currently the largest in the world, with a capacity of 2.8 gigawatts. They discuss hydroelectric power together and agree that while it provides reliable, consistent energy and accounts for approximately 16 percent of global electricity production, it has significant environmental impacts, including the displacement of communities and disruption of river ecosystems. They decide to present their findings using a comparative framework that evaluates each energy source in terms of cost, reliability, environmental impact, and scalability. Tom suggests they include a case study of Denmark, which generates over 50 percent of its electricity from wind power.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the presentation about?",
+              "zh": "演讲是关于什么的？"
+            },
+            "options": [
+              {"en": "Climate change policy", "zh": "气候变化政策"},
+              {"en": "Renewable energy sources", "zh": "可再生能源"},
+              {"en": "Nuclear power safety", "zh": "核能安全"},
+              {"en": "Fossil fuel alternatives", "zh": "化石燃料替代品"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "By how much has the cost of solar panels decreased?",
+              "zh": "太阳能电池板的成本下降了多少？"
+            },
+            "options": [
+              {"en": "About 69 percent", "zh": "约69%"},
+              {"en": "About 79 percent", "zh": "约79%"},
+              {"en": "About 89 percent", "zh": "约89%"},
+              {"en": "About 95 percent", "zh": "约95%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What is the capacity of the Bhadla Solar Park?",
+              "zh": "巴德拉太阳能园区的装机容量是多少？"
+            },
+            "options": [
+              {"en": "1,500 megawatts", "zh": "1,500兆瓦"},
+              {"en": "2,245 megawatts", "zh": "2,245兆瓦"},
+              {"en": "3,000 megawatts", "zh": "3,000兆瓦"},
+              {"en": "4,200 megawatts", "zh": "4,200兆瓦"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What limitation of solar energy does Tom mention?",
+              "zh": "Tom 提到了太阳能的什么局限性？"
+            },
+            "options": [
+              {"en": "High installation cost", "zh": "安装成本高"},
+              {"en": "Intermittency", "zh": "间歇性"},
+              {"en": "Land requirements", "zh": "土地需求"},
+              {"en": "Pollution from manufacturing", "zh": "制造污染"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How much power can modern wind turbines generate each?",
+              "zh": "现代风力涡轮机每台能产生多少电力？"
+            },
+            "options": [
+              {"en": "Up to 5 megawatts", "zh": "最多5兆瓦"},
+              {"en": "Up to 8 megawatts", "zh": "最多8兆瓦"},
+              {"en": "Up to 12 megawatts", "zh": "最多12兆瓦"},
+              {"en": "Up to 15 megawatts", "zh": "最多15兆瓦"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What was global wind energy capacity by the end of 2022?",
+              "zh": "到2022年底全球风能装机容量是多少？"
+            },
+            "options": [
+              {"en": "Over 500 gigawatts", "zh": "超过500吉瓦"},
+              {"en": "Over 650 gigawatts", "zh": "超过650吉瓦"},
+              {"en": "Over 800 gigawatts", "zh": "超过800吉瓦"},
+              {"en": "Over 1,000 gigawatts", "zh": "超过1,000吉瓦"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What is the capacity of the Hornsea Wind Farm?",
+              "zh": "霍恩西风电场的装机容量是多少？"
+            },
+            "options": [
+              {"en": "1.2 gigawatts", "zh": "1.2吉瓦"},
+              {"en": "2.0 gigawatts", "zh": "2.0吉瓦"},
+              {"en": "2.8 gigawatts", "zh": "2.8吉瓦"},
+              {"en": "3.5 gigawatts", "zh": "3.5吉瓦"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What percentage of global electricity does hydroelectric power account for?",
+              "zh": "水电占全球电力的百分比是多少？"
+            },
+            "options": [
+              {"en": "About 10 percent", "zh": "约10%"},
+              {"en": "About 13 percent", "zh": "约13%"},
+              {"en": "About 16 percent", "zh": "约16%"},
+              {"en": "About 20 percent", "zh": "约20%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How will they structure their comparison?",
+              "zh": "他们将如何构建比较框架？"
+            },
+            "options": [
+              {"en": "By geographical region", "zh": "按地理区域"},
+              {"en": "By cost, reliability, environmental impact, and scalability", "zh": "按成本、可靠性、环境影响和可扩展性"},
+              {"en": "By historical development", "zh": "按历史发展"},
+              {"en": "By government policy", "zh": "按政府政策"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What percentage of electricity does Denmark generate from wind?",
+              "zh": "丹麦有多少百分比的电力来自风能？"
+            },
+            "options": [
+              {"en": "Over 30 percent", "zh": "超过30%"},
+              {"en": "Over 40 percent", "zh": "超过40%"},
+              {"en": "Over 50 percent", "zh": "超过50%"},
+              {"en": "Over 60 percent", "zh": "超过60%"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - A lecture on the history of cartography",
+          "zh": "第四部分 - 关于制图学历史的讲座"
+        },
+        "passage": "<p>A university lecture by Professor David Armstrong on the history of cartography, the science and art of map-making. Professor Armstrong begins by explaining that the earliest known maps date back to ancient Babylon, around 2300 BC, where maps were drawn on clay tablets. The Babylonians depicted their world as a flat disc surrounded by water, with Babylon at the centre. The ancient Greeks made significant advances in cartography. Eratosthenes, who lived in the third century BC, calculated the circumference of the Earth with remarkable accuracy by measuring the angle of the sun's shadow at two different locations in Egypt. His estimate of approximately 40,000 kilometres was remarkably close to the modern measurement of 40,075 kilometres. Ptolemy, a Greek-Roman scholar writing in the second century AD, created a comprehensive guide to geography that included coordinates for approximately 8,000 locations. His work remained influential for over a thousand years. During the medieval period in Europe, map-making was dominated by religious perspectives. The most common type of map was the mappa mundi, which placed Jerusalem at the centre of the world and emphasised biblical events and locations rather than geographical accuracy. The most famous surviving example is the Hereford Mappa Mundi, created around 1300, which is displayed in Hereford Cathedral in England. The Age of Exploration in the 15th and 16th centuries revolutionised cartography. The development of the magnetic compass, the astrolabe, and later the sextant enabled navigators to determine their position at sea with increasing accuracy. Gerardus Mercator's world map of 1569, which used a cylindrical projection that allowed sailors to plot straight-line courses, became the standard for nautical navigation and remains the basis for most world maps used today. The lecture concludes by discussing modern cartography, including satellite-based Global Positioning Systems and digital mapping technologies that have transformed how we create and use maps.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "When do the earliest known maps date back to?",
+              "zh": "已知最早的地图可以追溯到什么时候？"
+            },
+            "options": [
+              {"en": "Around 3500 BC", "zh": "约公元前3500年"},
+              {"en": "Around 2300 BC", "zh": "约公元前2300年"},
+              {"en": "Around 1500 BC", "zh": "约公元前1500年"},
+              {"en": "Around 500 BC", "zh": "约公元前500年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What did the Babylonians depict their world as?",
+              "zh": "巴比伦人将世界描绘成什么样子？"
+            },
+            "options": [
+              {"en": "A sphere surrounded by stars", "zh": "被星星环绕的球体"},
+              {"en": "A flat disc surrounded by water", "zh": "被水环绕的圆盘"},
+              {"en": "A series of connected islands", "zh": "一系列相连的岛屿"},
+              {"en": "A pyramid with four sides", "zh": "四面金字塔"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How did Eratosthenes calculate the Earth's circumference?",
+              "zh": "埃拉托斯特尼如何计算地球周长？"
+            },
+            "options": [
+              {"en": "By sailing around the world", "zh": "通过环球航行"},
+              {"en": "By measuring the sun's shadow at two locations", "zh": "通过在两个地点测量太阳阴影"},
+              {"en": "By studying ancient Babylonian maps", "zh": "通过研究古巴比伦地图"},
+              {"en": "By calculating the distance between stars", "zh": "通过计算恒星之间的距离"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "How accurate was Eratosthenes' estimate?",
+              "zh": "埃拉托斯特尼的估计有多准确？"
+            },
+            "options": [
+              {"en": "Off by about 5,000 kilometres", "zh": "偏差约5,000公里"},
+              {"en": "Off by about 2,000 kilometres", "zh": "偏差约2,000公里"},
+              {"en": "Off by only about 75 kilometres", "zh": "仅偏差约75公里"},
+              {"en": "Exactly correct", "zh": "完全正确"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many locations did Ptolemy include coordinates for?",
+              "zh": "托勒密包含了多少个地点的坐标？"
+            },
+            "options": [
+              {"en": "About 2,000", "zh": "约2,000个"},
+              {"en": "About 4,000", "zh": "约4,000个"},
+              {"en": "About 8,000", "zh": "约8,000个"},
+              {"en": "About 12,000", "zh": "约12,000个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What was a mappa mundi?",
+              "zh": "中世纪世界地图是什么？"
+            },
+            "options": [
+              {"en": "An accurate geographical map", "zh": "一幅精确的地理地图"},
+              {"en": "A religious map placing Jerusalem at the centre", "zh": "以耶路撒冷为中心的宗教地图"},
+              {"en": "A nautical navigation chart", "zh": "航海导航图"},
+              {"en": "A military strategic map", "zh": "军事战略地图"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "When was the Hereford Mappa Mundi created?",
+              "zh": "赫里福德世界地图是什么时候创建的？"
+            },
+            "options": [
+              {"en": "Around 1100", "zh": "约1100年"},
+              {"en": "Around 1200", "zh": "约1200年"},
+              {"en": "Around 1300", "zh": "约1300年"},
+              {"en": "Around 1400", "zh": "约1400年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What invention helped navigators determine their position at sea?",
+              "zh": "什么发明帮助航海者确定他们在海上的位置？"
+            },
+            "options": [
+              {"en": "The telescope", "zh": "望远镜"},
+              {"en": "The magnetic compass", "zh": "指南针"},
+              {"en": "The printing press", "zh": "印刷机"},
+              {"en": "The barometer", "zh": "气压计"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "When did Mercator create his world map?",
+              "zh": "墨卡托什么时候创造了他的世界地图？"
+            },
+            "options": [
+              {"en": "1469", "zh": "1469年"},
+              {"en": "1519", "zh": "1519年"},
+              {"en": "1569", "zh": "1569年"},
+              {"en": "1609", "zh": "1609年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What modern technology does the lecturer mention at the end?",
+              "zh": "讲师最后提到了什么现代技术？"
+            },
+            "options": [
+              {"en": "3D printing and virtual reality", "zh": "3D打印和虚拟现实"},
+              {"en": "GPS and digital mapping", "zh": "GPS和数字地图"},
+              {"en": "Artificial intelligence and drones", "zh": "人工智能和无人机"},
+              {"en": "Blockchain and augmented reality", "zh": "区块链和增强现实"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The Development of the Bicycle",
+          "zh": "文章1 - 自行车的发展"
+        },
+        "passage": "<p>The bicycle is one of the most efficient and widely used forms of transportation in human history, yet its development spans nearly two centuries of innovation, experimentation, and refinement. The earliest precursor to the modern bicycle was the 'running machine' or 'draisine', invented by the German Baron Karl von Drais in 1817. This device had two wheels in line, connected by a wooden frame, and was propelled by the rider pushing their feet against the ground. It had no pedals, brakes, or chain drive, and was made almost entirely of wood. Despite its limitations, the draisine created considerable excitement in Europe and America, though it was soon banned from sidewalks in many cities due to the danger it posed to pedestrians. The next major breakthrough came in the 1860s, when Pierre Michaux, a French blacksmith, is credited with attaching pedals directly to the front wheel of a velocipede, creating the first true pedal-driven bicycle. These early pedal bicycles, sometimes called 'boneshakers' because of their uncomfortable ride on iron-rimmed wheels and rough roads, became hugely popular despite their drawbacks. The high bicycle, or penny-farthing, appeared in the 1870s and featured a very large front wheel and a much smaller rear wheel. The large front wheel allowed for greater speed with each pedal rotation, but the high seating position made it extremely dangerous, as riders could easily be thrown over the handlebars. The modern safety bicycle, which closely resembles the bicycles we ride today, was developed in the 1880s. John Kemp Starley's Rover safety bicycle, produced in 1885, featured two wheels of equal size, a chain-driven rear wheel, and a diamond-shaped frame. This design was far more stable and accessible than its predecessors, and it quickly made the penny-farthing obsolete. The pneumatic tyre, invented by John Boyd Dunlop in 1888, further improved comfort and performance. By the 1890s, the bicycle had become a symbol of personal freedom and independence, particularly for women, who found that cycling gave them unprecedented mobility and contributed to the growing movement for social reform.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Who invented the draisine?",
+              "zh": "谁发明了早期的两轮车？"
+            },
+            "options": [
+              {"en": "Pierre Michaux", "zh": "皮埃尔·米肖"},
+              {"en": "Karl von Drais", "zh": "卡尔·冯·德莱斯"},
+              {"en": "John Kemp Starley", "zh": "约翰·肯普·斯塔利"},
+              {"en": "John Boyd Dunlop", "zh": "约翰·博伊德·邓禄普"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When was the draisine invented?",
+              "zh": "早期两轮车是什么时候发明的？"
+            },
+            "options": [
+              {"en": "1797", "zh": "1797年"},
+              {"en": "1817", "zh": "1817年"},
+              {"en": "1837", "zh": "1837年"},
+              {"en": "1857", "zh": "1857年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What was the draisine made of?",
+              "zh": "早期两轮车是由什么制成的？"
+            },
+            "options": [
+              {"en": "Metal and rubber", "zh": "金属和橡胶"},
+              {"en": "Wood", "zh": "木头"},
+              {"en": "Bamboo and leather", "zh": "竹子和皮革"},
+              {"en": "Iron and steel", "zh": "铁和钢"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "Why was the draisine banned from sidewalks?",
+              "zh": "早期两轮车为什么被禁止在人行道上行驶？"
+            },
+            "options": [
+              {"en": "It was too noisy", "zh": "噪音太大"},
+              {"en": "It was dangerous to pedestrians", "zh": "对行人构成危险"},
+              {"en": "It damaged the surface", "zh": "损坏路面"},
+              {"en": "It was considered immoral", "zh": "被认为是不道德的"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "Who is credited with attaching pedals to the velocipede?",
+              "zh": "谁被认为在脚踏车上安装了踏板？"
+            },
+            "options": [
+              {"en": "Karl von Drais", "zh": "卡尔·冯·德莱斯"},
+              {"en": "John Kemp Starley", "zh": "约翰·肯普·斯塔利"},
+              {"en": "Pierre Michaux", "zh": "皮埃尔·米肖"},
+              {"en": "James Starley", "zh": "詹姆斯·斯塔利"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Why were early pedal bicycles called 'boneshakers'?",
+              "zh": "早期踏板自行车为什么被称为'震骨器'？"
+            },
+            "options": [
+              {"en": "Because they were made of bone-like material", "zh": "因为它们由骨状材料制成"},
+              {"en": "Because of the uncomfortable ride on iron wheels", "zh": "因为铁轮子骑行不舒适"},
+              {"en": "Because they made a loud noise", "zh": "因为它们发出很大的噪音"},
+              {"en": "Because they could cause bone fractures", "zh": "因为它们可能导致骨折"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What was the advantage of the penny-farthing's large front wheel?",
+              "zh": "便士法辛大前轮的优势是什么？"
+            },
+            "options": [
+              {"en": "Better stability", "zh": "更好的稳定性"},
+              {"en": "Greater speed per pedal rotation", "zh": "每次踏板转动获得更高速度"},
+              {"en": "Easier to mount", "zh": "更容易骑上"},
+              {"en": "Lighter weight", "zh": "更轻的重量"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "When was the Rover safety bicycle produced?",
+              "zh": "罗孚安全自行车是什么时候生产的？"
+            },
+            "options": [
+              {"en": "1875", "zh": "1875年"},
+              {"en": "1880", "zh": "1880年"},
+              {"en": "1885", "zh": "1885年"},
+              {"en": "1890", "zh": "1890年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What feature did the Rover safety bicycle have?",
+              "zh": "罗孚安全自行车有什么特点？"
+            },
+            "options": [
+              {"en": "A very large front wheel", "zh": "一个非常大的前轮"},
+              {"en": "Two wheels of equal size with chain drive", "zh": "两个相同大小的轮子和链条驱动"},
+              {"en": "Pedals on the front wheel", "zh": "前轮上的踏板"},
+              {"en": "A wooden frame", "zh": "木质框架"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "When was the pneumatic tyre invented?",
+              "zh": "充气轮胎是什么时候发明的？"
+            },
+            "options": [
+              {"en": "1878", "zh": "1878年"},
+              {"en": "1888", "zh": "1888年"},
+              {"en": "1898", "zh": "1898年"},
+              {"en": "1908", "zh": "1908年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "What did the bicycle become a symbol of by the 1890s?",
+              "zh": "到19世纪90年代，自行车成为了什么的象征？"
+            },
+            "options": [
+              {"en": "Wealth and status", "zh": "财富和地位"},
+              {"en": "Personal freedom and independence", "zh": "个人自由和独立"},
+              {"en": "Technological progress", "zh": "技术进步"},
+              {"en": "Sport and competition", "zh": "运动和竞争"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "Who invented the pneumatic tyre?",
+              "zh": "谁发明了充气轮胎？"
+            },
+            "options": [
+              {"en": "John Kemp Starley", "zh": "约翰·肯普·斯塔利"},
+              {"en": "Pierre Michaux", "zh": "皮埃尔·米肖"},
+              {"en": "John Boyd Dunlop", "zh": "约翰·博伊德·邓禄普"},
+              {"en": "Karl von Drais", "zh": "卡尔·冯·德莱斯"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "Why was the penny-farthing considered dangerous?",
+              "zh": "便士法辛为什么被认为很危险？"
+            },
+            "options": [
+              {"en": "It had no brakes", "zh": "它没有刹车"},
+              {"en": "Riders could be thrown over the handlebars", "zh": "骑手可能被甩过车把"},
+              {"en": "It was too heavy to control", "zh": "它太重了不好控制"},
+              {"en": "The wheels were likely to collapse", "zh": "轮子容易塌陷"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Impact of Noise Pollution on Health",
+          "zh": "文章2 - 噪音污染对健康的影响"
+        },
+        "passage": "<p>Noise pollution is an increasingly serious environmental problem that affects millions of people worldwide, yet it receives far less attention than air or water pollution. The World Health Organisation has described noise pollution as a modern plague, estimating that in Europe alone, long-term exposure to environmental noise causes approximately 12,000 premature deaths and 48,000 new cases of ischaemic heart disease every year. Sound is measured in decibels, and prolonged exposure to noise levels above 85 decibels can cause permanent hearing damage. For reference, normal conversation typically registers at around 60 decibels, heavy traffic at 85 decibels, a rock concert at 110 decibels, and a jet engine at close range at 140 decibels. Research has consistently shown that chronic exposure to noise pollution has wide-ranging health effects beyond hearing loss. A major study conducted by the London School of Hygiene and Tropical Medicine found that for every 10-decibel increase in nighttime noise levels, the risk of cardiovascular events increased by 14 percent. This is because noise triggers the body's stress response, releasing hormones such as cortisol and adrenaline, which raise blood pressure and heart rate. Over time, this chronic stress response can lead to hypertension, heart disease, and stroke. Noise pollution also has significant effects on mental health and cognitive performance. Studies have shown that children who attend schools near airports or busy roads perform worse on standardised reading tests and have difficulty concentrating. A landmark study in Germany found that children living near Cologne airport showed measurable improvements in reading comprehension and long-term memory after the airport relocated. In adults, chronic noise exposure has been linked to increased rates of anxiety, depression, and sleep disturbance. Addressing noise pollution requires a multi-faceted approach, including urban planning that separates residential areas from noise sources, the development of quieter transportation technologies, better sound insulation in buildings, and the creation of quiet zones in urban areas where people can escape the constant bombardment of noise.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "How does the WHO describe noise pollution?",
+              "zh": "世界卫生组织如何描述噪音污染？"
+            },
+            "options": [
+              {"en": "A minor inconvenience", "zh": "一个小麻烦"},
+              {"en": "A modern plague", "zh": "现代瘟疫"},
+              {"en": "An unavoidable byproduct", "zh": "不可避免的副产品"},
+              {"en": "A temporary problem", "zh": "一个暂时性问题"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How many premature deaths does noise cause annually in Europe?",
+              "zh": "噪音每年在欧洲导致多少早逝？"
+            },
+            "options": [
+              {"en": "About 6,000", "zh": "约6,000"},
+              {"en": "About 9,000", "zh": "约9,000"},
+              {"en": "About 12,000", "zh": "约12,000"},
+              {"en": "About 15,000", "zh": "约15,000"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "At what decibel level can permanent hearing damage occur?",
+              "zh": "在什么分贝水平会导致永久性听力损伤？"
+            },
+            "options": [
+              {"en": "Above 70 decibels", "zh": "超过70分贝"},
+              {"en": "Above 85 decibels", "zh": "超过85分贝"},
+              {"en": "Above 100 decibels", "zh": "超过100分贝"},
+              {"en": "Above 120 decibels", "zh": "超过120分贝"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How many decibels does normal conversation register at?",
+              "zh": "正常对话大约是多少分贝？"
+            },
+            "options": [
+              {"en": "About 40 decibels", "zh": "约40分贝"},
+              {"en": "About 50 decibels", "zh": "约50分贝"},
+              {"en": "About 60 decibels", "zh": "约60分贝"},
+              {"en": "About 70 decibels", "zh": "约70分贝"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "By how much does cardiovascular risk increase per 10-decibel nighttime noise increase?",
+              "zh": "夜间噪音每增加10分贝，心血管风险增加多少？"
+            },
+            "options": [
+              {"en": "8 percent", "zh": "8%"},
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "14 percent", "zh": "14%"},
+              {"en": "20 percent", "zh": "20%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "Which hormones does noise trigger the release of?",
+              "zh": "噪音会触发哪些激素的释放？"
+            },
+            "options": [
+              {"en": "Serotonin and dopamine", "zh": "血清素和多巴胺"},
+              {"en": "Cortisol and adrenaline", "zh": "皮质醇和肾上腺素"},
+              {"en": "Melatonin and oxytocin", "zh": "褪黑素和催产素"},
+              {"en": "Insulin and endorphins", "zh": "胰岛素和内啡肽"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What did the German study near Cologne airport find?",
+              "zh": "德国科隆机场附近的研究发现了什么？"
+            },
+            "options": [
+              {"en": "Children's hearing was permanently damaged", "zh": "儿童的听力受到永久性损伤"},
+              {"en": "Children's reading and memory improved after the airport relocated", "zh": "机场搬迁后儿童的阅读和记忆能力有所改善"},
+              {"en": "Noise had no measurable effect on children", "zh": "噪音对儿童没有可衡量的影响"},
+              {"en": "Children became more active outdoors", "zh": "儿童变得更加活跃"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "How many new cases of heart disease are attributed to noise in Europe annually?",
+              "zh": "噪音每年在欧洲导致多少新发心脏病病例？"
+            },
+            "options": [
+              {"en": "24,000", "zh": "24,000"},
+              {"en": "36,000", "zh": "36,000"},
+              {"en": "48,000", "zh": "48,000"},
+              {"en": "60,000", "zh": "60,000"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What health effects are mentioned for adults exposed to chronic noise?",
+              "zh": "成年人长期暴露于噪音会产生哪些健康影响？"
+            },
+            "options": [
+              {"en": "Anxiety, depression, and sleep disturbance", "zh": "焦虑、抑郁和睡眠障碍"},
+              {"en": "Memory loss and confusion", "zh": "记忆丧失和精神混乱"},
+              {"en": "Obesity and diabetes", "zh": "肥胖和糖尿病"},
+              {"en": "Skin conditions and allergies", "zh": "皮肤疾病和过敏"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many decibels does a rock concert reach?",
+              "zh": "摇滚音乐会有多少分贝？"
+            },
+            "options": [
+              {"en": "95 decibels", "zh": "95分贝"},
+              {"en": "100 decibels", "zh": "100分贝"},
+              {"en": "110 decibels", "zh": "110分贝"},
+              {"en": "120 decibels", "zh": "120分贝"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What approach does the passage suggest for addressing noise pollution?",
+              "zh": "文章建议如何解决噪音污染？"
+            },
+            "options": [
+              {"en": "Banning all motor vehicles", "zh": "禁止所有机动车辆"},
+              {"en": "A multi-faceted approach including urban planning and quiet zones", "zh": "多方面的方法，包括城市规划和安静区"},
+              {"en": "Only building better walls", "zh": "只建造更好的隔音墙"},
+              {"en": "Moving all factories to rural areas", "zh": "将所有工厂搬到农村"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What does noise pollution cause in children near airports?",
+              "zh": "噪音污染对机场附近的儿童造成什么影响？"
+            },
+            "options": [
+              {"en": "Better concentration", "zh": "注意力更集中"},
+              {"en": "Worse reading performance and difficulty concentrating", "zh": "阅读表现更差，注意力难以集中"},
+              {"en": "No measurable effect", "zh": "没有可衡量的影响"},
+              {"en": "Improved hearing ability", "zh": "听力能力提高"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How loud is a jet engine at close range?",
+              "zh": "近距离的喷气发动机有多响？"
+            },
+            "options": [
+              {"en": "About 120 decibels", "zh": "约120分贝"},
+              {"en": "About 130 decibels", "zh": "约130分贝"},
+              {"en": "About 140 decibels", "zh": "约140分贝"},
+              {"en": "About 150 decibels", "zh": "约150分贝"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "Which institution conducted the major cardiovascular study?",
+              "zh": "哪个机构进行了这项心血管研究？"
+            },
+            "options": [
+              {"en": "University of Oxford", "zh": "牛津大学"},
+              {"en": "London School of Hygiene and Tropical Medicine", "zh": "伦敦卫生与热带医学院"},
+              {"en": "University of Cambridge", "zh": "剑桥大学"},
+              {"en": "Imperial College London", "zh": "帝国理工学院"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Future of Food Production",
+          "zh": "文章3 - 食品生产的未来"
+        },
+        "passage": "<p>As the global population approaches 10 billion by 2050, the challenge of feeding humanity sustainably has become one of the most pressing issues of our time. Current food production systems are already under enormous strain, with agriculture responsible for approximately 25 percent of global greenhouse gas emissions, 70 percent of freshwater withdrawals, and significant deforestation and biodiversity loss. Finding ways to produce more food with fewer environmental impacts will require fundamental changes in how we grow, process, and consume food. One promising approach is vertical farming, which involves growing crops in stacked layers within controlled indoor environments. Vertical farms can produce up to 350 times more food per square metre than conventional agriculture, while using up to 95 percent less water through recirculating irrigation systems. Because the growing environment is fully controlled, vertical farms can operate year-round regardless of weather conditions and do not require pesticides or herbicides. Companies such as AeroFarms in the United States and Infarm in Germany have built large-scale vertical farms that supply fresh produce to major supermarket chains. However, vertical farming currently remains limited to leafy greens and herbs, as the energy costs of growing calorie-dense crops such as wheat and rice indoors remain prohibitively high. Another revolutionary development is cellular agriculture, which involves producing animal products such as meat, milk, and eggs from cell cultures rather than from whole animals. In 2013, the first laboratory-grown burger was produced at Maastricht University in the Netherlands at a cost of approximately 250,000 pounds. By 2023, the cost of cultivated meat had fallen to approximately 10 dollars per pound, and several companies have received regulatory approval to sell cultivated chicken and beef in certain markets. Proponents argue that cultivated meat could reduce greenhouse gas emissions associated with meat production by up to 92 percent while using 95 percent less land and 78 percent less water. Precision agriculture, which uses technologies such as GPS, drones, artificial intelligence, and satellite imagery to optimise farming practices, represents another important avenue for improving food production efficiency. These technologies allow farmers to apply fertilisers, pesticides, and water precisely where and when they are needed, reducing waste and environmental impact while increasing yields.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "What population is the world expected to reach by 2050?",
+              "zh": "到2050年世界人口预计将达到多少？"
+            },
+            "options": [
+              {"en": "8 billion", "zh": "80亿"},
+              {"en": "9 billion", "zh": "90亿"},
+              {"en": "10 billion", "zh": "100亿"},
+              {"en": "12 billion", "zh": "120亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What percentage of global greenhouse gas emissions does agriculture produce?",
+              "zh": "农业产生多少百分比的全球温室气体排放？"
+            },
+            "options": [
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 20 percent", "zh": "约20%"},
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 30 percent", "zh": "约30%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "How much more food can vertical farms produce per square metre?",
+              "zh": "垂直农场每平方米能多生产多少食物？"
+            },
+            "options": [
+              {"en": "Up to 50 times more", "zh": "多达50倍"},
+              {"en": "Up to 150 times more", "zh": "多达150倍"},
+              {"en": "Up to 350 times more", "zh": "多达350倍"},
+              {"en": "Up to 500 times more", "zh": "多达500倍"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "How much less water do vertical farms use?",
+              "zh": "垂直农场少用多少水？"
+            },
+            "options": [
+              {"en": "Up to 70 percent less", "zh": "少用70%"},
+              {"en": "Up to 85 percent less", "zh": "少用85%"},
+              {"en": "Up to 95 percent less", "zh": "少用95%"},
+              {"en": "Up to 99 percent less", "zh": "少用99%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What is vertical farming currently limited to growing?",
+              "zh": "垂直农场目前仅限于种植什么？"
+            },
+            "options": [
+              {"en": "All types of crops", "zh": "所有类型的作物"},
+              {"en": "Leafy greens and herbs", "zh": "叶菜和草本植物"},
+              {"en": "Fruits and vegetables", "zh": "水果和蔬菜"},
+              {"en": "Wheat and rice", "zh": "小麦和大米"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "When was the first laboratory-grown burger produced?",
+              "zh": "第一个实验室培育的汉堡是什么时候生产的？"
+            },
+            "options": [
+              {"en": "2008", "zh": "2008年"},
+              {"en": "2010", "zh": "2010年"},
+              {"en": "2013", "zh": "2013年"},
+              {"en": "2016", "zh": "2016年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "How much did the first lab-grown burger cost?",
+              "zh": "第一个实验室培育的汉堡花了多少钱？"
+            },
+            "options": [
+              {"en": "About 50,000 pounds", "zh": "约50,000英镑"},
+              {"en": "About 100,000 pounds", "zh": "约100,000英镑"},
+              {"en": "About 250,000 pounds", "zh": "约250,000英镑"},
+              {"en": "About 500,000 pounds", "zh": "约500,000英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What was the cost of cultivated meat by 2023?",
+              "zh": "到2023年培育肉的成本是多少？"
+            },
+            "options": [
+              {"en": "About 5 dollars per pound", "zh": "约每磅5美元"},
+              {"en": "About 10 dollars per pound", "zh": "约每磅10美元"},
+              {"en": "About 20 dollars per pound", "zh": "约每磅20美元"},
+              {"en": "About 50 dollars per pound", "zh": "约每磅50美元"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "By how much could cultivated meat reduce greenhouse gas emissions?",
+              "zh": "培育肉能减少多少温室气体排放？"
+            },
+            "options": [
+              {"en": "Up to 72 percent", "zh": "最多72%"},
+              {"en": "Up to 82 percent", "zh": "最多82%"},
+              {"en": "Up to 92 percent", "zh": "最多92%"},
+              {"en": "Up to 97 percent", "zh": "最多97%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "How much less land could cultivated meat use?",
+              "zh": "培育肉能少用多少土地？"
+            },
+            "options": [
+              {"en": "75 percent less", "zh": "少用75%"},
+              {"en": "85 percent less", "zh": "少用85%"},
+              {"en": "90 percent less", "zh": "少用90%"},
+              {"en": "95 percent less", "zh": "少用95%"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What is precision agriculture?",
+              "zh": "精准农业是什么？"
+            },
+            "options": [
+              {"en": "Growing only organic crops", "zh": "只种植有机作物"},
+              {"en": "Using technology to optimise farming practices", "zh": "使用技术优化农业实践"},
+              {"en": "Farming without any chemicals", "zh": "不使用任何化学物质的农业"},
+              {"en": "Traditional hand-farming methods", "zh": "传统的手工耕作方法"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Which technology is NOT mentioned as part of precision agriculture?",
+              "zh": "以下哪项技术没有被提及为精准农业的一部分？"
+            },
+            "options": [
+              {"en": "GPS", "zh": "GPS"},
+              {"en": "Drones", "zh": "无人机"},
+              {"en": "Blockchain", "zh": "区块链"},
+              {"en": "Artificial intelligence", "zh": "人工智能"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "Which companies are mentioned as running large-scale vertical farms?",
+              "zh": "哪些公司被提及运营大型垂直农场？"
+            },
+            "options": [
+              {"en": "AeroFarms and Infarm", "zh": "AeroFarms 和 Infarm"},
+              {"en": "Google and Amazon", "zh": "谷歌和亚马逊"},
+              {"en": "Monsanto and Bayer", "zh": "孟山都和拜耳"},
+              {"en": "Nestle and Unilever", "zh": "雀巢和联合利华"}
+            ],
+            "answer": 0
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The diagram below shows the process of recycling plastic bottles. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的图表展示了回收塑料瓶的过程。通过选择和报告主要特征来总结信息，并在相关之处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "In many countries, the gap between the rich and the poor is increasing. What problems does this cause, and what solutions can you suggest? Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "在许多国家，贫富差距正在扩大。这会导致什么问题，你能提出什么解决方案？给出你的理由，并包括你自己的知识或经验中的任何相关例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

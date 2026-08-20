@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-14-test1",
+  "title": {
+    "en": "Cambridge IELTS 14 - Test 1",
+    "zh": "剑桥雅思14 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - A conversation about enrolling in a cooking class",
+          "zh": "第一部分 - 关于报名烹饪课程的对话"
+        },
+        "passage": "<p>A conversation between a prospective student, Rachel, and the administrator of the Culinary Arts School, Mark. Rachel is interested in enrolling in a cooking course to improve her skills before she opens her own restaurant. Mark explains that the school offers several courses at different levels. The Beginners' Course runs for six weeks on Tuesday evenings from 6 PM to 9 PM and costs 300 pounds. The Intermediate Course runs for eight weeks on Wednesday evenings and costs 450 pounds. The Advanced Professional Course, which is a full-time programme running for twelve weeks, Monday to Friday, costs 3,500 pounds. Rachel is most interested in the Advanced Professional Course because she wants to develop her skills quickly. The course covers a wide range of cuisines including French, Italian, Japanese, and Thai cooking, as well as pastry and baking techniques. Students also learn about menu planning, food hygiene, and kitchen management. Mark explains that the next intake begins on September 3rd and that places are limited to 16 students per class to ensure personalised attention. Each student has their own fully equipped cooking station. Rachel asks about the qualifications she will receive upon completion. Mark tells her that she will receive a Level 3 Diploma in Professional Cookery, which is recognised by the Craft Guild of Chefs. She will also have the opportunity to complete a two-week work placement at a local restaurant. To apply, Rachel needs to fill out an application form, provide two references, and attend a short interview. The application deadline is August 15th, and a deposit of 500 pounds is required to secure a place.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Why does Rachel want to take a cooking course?",
+              "zh": "Rachel 为什么要上烹饪课？"
+            },
+            "options": [
+              {"en": "As a hobby", "zh": "作为爱好"},
+              {"en": "To improve her skills before opening a restaurant", "zh": "在开餐厅前提高技能"},
+              {"en": "To change her career", "zh": "换职业"},
+              {"en": "To impress her family", "zh": "给家人留下好印象"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How long does the Beginners' Course run?",
+              "zh": "初级课程多长时间？"
+            },
+            "options": [
+              {"en": "Four weeks", "zh": "四周"},
+              {"en": "Six weeks", "zh": "六周"},
+              {"en": "Eight weeks", "zh": "八周"},
+              {"en": "Twelve weeks", "zh": "十二周"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How much does the Intermediate Course cost?",
+              "zh": "中级课程费用是多少？"
+            },
+            "options": [
+              {"en": "300 pounds", "zh": "300英镑"},
+              {"en": "400 pounds", "zh": "400英镑"},
+              {"en": "450 pounds", "zh": "450英镑"},
+              {"en": "500 pounds", "zh": "500英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "Which course does Rachel choose?",
+              "zh": "Rachel 选择了哪个课程？"
+            },
+            "options": [
+              {"en": "Beginners' Course", "zh": "初级课程"},
+              {"en": "Intermediate Course", "zh": "中级课程"},
+              {"en": "Advanced Professional Course", "zh": "高级专业课程"},
+              {"en": "Weekend Workshop", "zh": "周末工作坊"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "Which cuisine is NOT mentioned as being covered in the course?",
+              "zh": "课程中没有提到以下哪种菜系？"
+            },
+            "options": [
+              {"en": "French", "zh": "法国菜"},
+              {"en": "Japanese", "zh": "日本菜"},
+              {"en": "Mexican", "zh": "墨西哥菜"},
+              {"en": "Thai", "zh": "泰国菜"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "How many students are allowed per class?",
+              "zh": "每个班级允许多少名学生？"
+            },
+            "options": [
+              {"en": "12", "zh": "12名"},
+              {"en": "14", "zh": "14名"},
+              {"en": "16", "zh": "16名"},
+              {"en": "20", "zh": "20名"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What qualification will Rachel receive?",
+              "zh": "Rachel 将获得什么资格证书？"
+            },
+            "options": [
+              {"en": "Certificate in Basic Cooking", "zh": "基础烹饪证书"},
+              {"en": "Level 3 Diploma in Professional Cookery", "zh": "三级专业烹饪文凭"},
+              {"en": "Bachelor's Degree in Culinary Arts", "zh": "烹饪艺术学士学位"},
+              {"en": "Master Chef Certificate", "zh": "大厨证书"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "How long is the work placement?",
+              "zh": "实习期有多长？"
+            },
+            "options": [
+              {"en": "One week", "zh": "一周"},
+              {"en": "Two weeks", "zh": "两周"},
+              {"en": "One month", "zh": "一个月"},
+              {"en": "Three months", "zh": "三个月"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What does Rachel need to provide to apply?",
+              "zh": "Rachel 需要提供什么来申请？"
+            },
+            "options": [
+              {"en": "A portfolio of cooking experience", "zh": "烹饪经验作品集"},
+              {"en": "An application form, two references, and an interview", "zh": "申请表、两份推荐信和面试"},
+              {"en": "A letter from her employer", "zh": "雇主的推荐信"},
+              {"en": "A medical certificate", "zh": "健康证明"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "When is the application deadline?",
+              "zh": "申请截止日期是什么时候？"
+            },
+            "options": [
+              {"en": "August 1st", "zh": "8月1日"},
+              {"en": "August 15th", "zh": "8月15日"},
+              {"en": "September 1st", "zh": "9月1日"},
+              {"en": "September 3rd", "zh": "9月3日"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - A talk about a community garden project",
+          "zh": "第二部分 - 关于社区花园项目的介绍"
+        },
+        "passage": "<p>A presentation by Claire Thompson about the Greenfield Community Garden, a volunteer-run project that was established three years ago on a disused industrial site in the city centre. Claire, who is the project coordinator, explains that the garden covers approximately 2,000 square metres and includes 80 individual allotments, a communal herb garden, a children's growing area, and a small orchard with 30 fruit trees. The project currently has 120 active members who pay an annual membership fee of 30 pounds, which covers the cost of seeds, tools, and water. The garden is open every day from dawn until dusk, and members can access their allotments at any time during these hours. Claire describes the community events that take place throughout the year, including a spring planting festival in April, a summer barbecue in July, a harvest celebration in September, and a Christmas market in December. She highlights that the garden won the Green City Award last year for its contribution to urban greening and community wellbeing. Claire also discusses the educational workshops offered at the garden, which cover topics such as organic gardening techniques, composting, and wildlife-friendly planting. These workshops are open to both members and non-members, with non-members paying a small fee of 5 pounds per session. Claire mentions that the garden is looking for new volunteers to help with maintenance, particularly for watering during the summer months and general upkeep during the winter. She encourages interested individuals to visit the garden's website or speak to her directly after the presentation.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "When was the community garden established?",
+              "zh": "社区花园是什么时候建立的？"
+            },
+            "options": [
+              {"en": "One year ago", "zh": "一年前"},
+              {"en": "Two years ago", "zh": "两年前"},
+              {"en": "Three years ago", "zh": "三年前"},
+              {"en": "Five years ago", "zh": "五年前"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How large is the garden?",
+              "zh": "花园有多大？"
+            },
+            "options": [
+              {"en": "About 1,000 square metres", "zh": "约1,000平方米"},
+              {"en": "About 1,500 square metres", "zh": "约1,500平方米"},
+              {"en": "About 2,000 square metres", "zh": "约2,000平方米"},
+              {"en": "About 3,000 square metres", "zh": "约3,000平方米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many individual allotments does the garden have?",
+              "zh": "花园有多少个个人分配地？"
+            },
+            "options": [
+              {"en": "50", "zh": "50个"},
+              {"en": "60", "zh": "60个"},
+              {"en": "70", "zh": "70个"},
+              {"en": "80", "zh": "80个"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How many fruit trees are in the orchard?",
+              "zh": "果园里有多少棵果树？"
+            },
+            "options": [
+              {"en": "20", "zh": "20棵"},
+              {"en": "25", "zh": "25棵"},
+              {"en": "30", "zh": "30棵"},
+              {"en": "40", "zh": "40棵"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How much is the annual membership fee?",
+              "zh": "年费是多少？"
+            },
+            "options": [
+              {"en": "20 pounds", "zh": "20英镑"},
+              {"en": "25 pounds", "zh": "25英镑"},
+              {"en": "30 pounds", "zh": "30英镑"},
+              {"en": "40 pounds", "zh": "40英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "When does the summer barbecue take place?",
+              "zh": "夏季烧烤在什么时候举行？"
+            },
+            "options": [
+              {"en": "June", "zh": "六月"},
+              {"en": "July", "zh": "七月"},
+              {"en": "August", "zh": "八月"},
+              {"en": "September", "zh": "九月"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What award did the garden win?",
+              "zh": "花园赢得了什么奖项？"
+            },
+            "options": [
+              {"en": "Community Spirit Award", "zh": "社区精神奖"},
+              {"en": "Green City Award", "zh": "绿色城市奖"},
+              {"en": "Volunteer Excellence Award", "zh": "志愿者卓越奖"},
+              {"en": "Environmental Innovation Award", "zh": "环境创新奖"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "Which workshop topic is NOT mentioned?",
+              "zh": "以下哪个工作坊主题没有被提及？"
+            },
+            "options": [
+              {"en": "Organic gardening techniques", "zh": "有机种植技术"},
+              {"en": "Composting", "zh": "堆肥"},
+              {"en": "Hydroponics", "zh": "水培"},
+              {"en": "Wildlife-friendly planting", "zh": "对野生动物友好的种植"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How much do non-members pay for workshops?",
+              "zh": "非会员参加工作坊需要支付多少？"
+            },
+            "options": [
+              {"en": "3 pounds", "zh": "3英镑"},
+              {"en": "5 pounds", "zh": "5英镑"},
+              {"en": "8 pounds", "zh": "8英镑"},
+              {"en": "10 pounds", "zh": "10英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "When does the garden need the most volunteer help with watering?",
+              "zh": "花园在什么时候最需要志愿者帮忙浇水？"
+            },
+            "options": [
+              {"en": "Spring", "zh": "春天"},
+              {"en": "Summer", "zh": "夏天"},
+              {"en": "Autumn", "zh": "秋天"},
+              {"en": "Winter", "zh": "冬天"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Two students discussing their coursework on urban planning",
+          "zh": "第三部分 - 两名学生讨论城市规划课程作业"
+        },
+        "passage": "<p>A conversation between two undergraduate students, Olivia and Daniel, who are working on a joint assignment for their Urban Planning module. They have been asked to evaluate the success of a pedestrianisation scheme in a European city. They have chosen to study the case of Copenhagen, Denmark, which has progressively pedestrianised parts of its city centre since the 1960s. Olivia has gathered data showing that Copenhagen's main shopping street, Stroget, was one of the first major streets in Europe to be pedestrianised in 1962. Since then, the pedestrianised area has expanded significantly, and the city now has over 20 kilometres of car-free streets in its centre. Daniel has found research showing that pedestrianisation has had positive effects on both retail sales and property values. Shops in pedestrianised areas of Copenhagen have seen revenue increases of 25 to 40 percent compared to those on streets that remain open to traffic. Olivia mentions that the environmental benefits are also significant. Air quality in the pedestrianised zones has improved substantially, with nitrogen dioxide levels falling by approximately 40 percent. The number of cyclists in Copenhagen has also increased dramatically, with 62 percent of residents now commuting to work or school by bicycle. They discuss some of the challenges associated with pedestrianisation, including the need for reliable public transport alternatives and concerns from businesses about reduced accessibility for customers who drive. Daniel suggests they compare Copenhagen's approach with the pedestrianisation of Times Square in New York, which was initially controversial but has been widely regarded as a success. They decide to structure their report with an introduction, a literature review, case study analysis, and recommendations. They need to submit the assignment in three weeks, with a maximum word count of 3,000 words.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What city are they studying?",
+              "zh": "他们在研究哪个城市？"
+            },
+            "options": [
+              {"en": "Amsterdam", "zh": "阿姆斯特丹"},
+              {"en": "Stockholm", "zh": "斯德哥尔摩"},
+              {"en": "Copenhagen", "zh": "哥本哈根"},
+              {"en": "Helsinki", "zh": "赫尔辛基"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "When was Stroget first pedestrianised?",
+              "zh": "斯特罗格街什么时候首次被步行化？"
+            },
+            "options": [
+              {"en": "1952", "zh": "1952年"},
+              {"en": "1962", "zh": "1962年"},
+              {"en": "1972", "zh": "1972年"},
+              {"en": "1982", "zh": "1982年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many kilometres of car-free streets does Copenhagen have?",
+              "zh": "哥本哈根有多少公里的无车街道？"
+            },
+            "options": [
+              {"en": "Over 10 kilometres", "zh": "超过10公里"},
+              {"en": "Over 15 kilometres", "zh": "超过15公里"},
+              {"en": "Over 20 kilometres", "zh": "超过20公里"},
+              {"en": "Over 30 kilometres", "zh": "超过30公里"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "By how much have retail sales increased in pedestrianised areas?",
+              "zh": "步行区的零售额增加了多少？"
+            },
+            "options": [
+              {"en": "10 to 20 percent", "zh": "10%到20%"},
+              {"en": "15 to 30 percent", "zh": "15%到30%"},
+              {"en": "25 to 40 percent", "zh": "25%到40%"},
+              {"en": "35 to 50 percent", "zh": "35%到50%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "By how much have nitrogen dioxide levels fallen in pedestrianised zones?",
+              "zh": "步行区的二氧化氮水平下降了多少？"
+            },
+            "options": [
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 30 percent", "zh": "约30%"},
+              {"en": "About 40 percent", "zh": "约40%"},
+              {"en": "About 50 percent", "zh": "约50%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What percentage of Copenhagen residents commute by bicycle?",
+              "zh": "哥本哈根有多少百分比的居民骑自行车通勤？"
+            },
+            "options": [
+              {"en": "42 percent", "zh": "42%"},
+              {"en": "52 percent", "zh": "52%"},
+              {"en": "62 percent", "zh": "62%"},
+              {"en": "72 percent", "zh": "72%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What other city do they plan to compare Copenhagen with?",
+              "zh": "他们计划将哥本哈根与哪个城市进行比较？"
+            },
+            "options": [
+              {"en": "London", "zh": "伦敦"},
+              {"en": "Paris", "zh": "巴黎"},
+              {"en": "Times Square, New York", "zh": "纽约时代广场"},
+              {"en": "Barcelona", "zh": "巴塞罗那"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What structure will their report follow?",
+              "zh": "他们的报告将遵循什么结构？"
+            },
+            "options": [
+              {"en": "Introduction, methods, results, discussion", "zh": "引言、方法、结果、讨论"},
+              {"en": "Introduction, literature review, case study analysis, recommendations", "zh": "引言、文献综述、案例分析、建议"},
+              {"en": "Abstract, body, conclusion, bibliography", "zh": "摘要、正文、结论、参考文献"},
+              {"en": "Summary, analysis, comparison, conclusion", "zh": "总结、分析、比较、结论"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When do they need to submit the assignment?",
+              "zh": "他们需要在什么时候提交作业？"
+            },
+            "options": [
+              {"en": "In one week", "zh": "一周内"},
+              {"en": "In two weeks", "zh": "两周内"},
+              {"en": "In three weeks", "zh": "三周内"},
+              {"en": "In one month", "zh": "一个月内"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What is the maximum word count for the assignment?",
+              "zh": "作业的最大字数是多少？"
+            },
+            "options": [
+              {"en": "2,000 words", "zh": "2,000词"},
+              {"en": "2,500 words", "zh": "2,500词"},
+              {"en": "3,000 words", "zh": "3,000词"},
+              {"en": "4,000 words", "zh": "4,000词"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - A lecture on the history of antibiotics",
+          "zh": "第四部分 - 关于抗生素历史的讲座"
+        },
+        "passage": "<p>A university lecture by Professor Sarah Collins on the history and development of antibiotics. Professor Collins begins by explaining that the discovery of antibiotics is considered one of the most significant medical breakthroughs in history, saving an estimated 200 million lives since their introduction. The story begins in 1928, when Alexander Fleming, a Scottish bacteriologist working at St Mary's Hospital in London, noticed that a mould called Penicillium notatum had contaminated one of his petri dishes and was killing the bacteria around it. He published his findings in 1929, but it was not until 1940 that Howard Florey and Ernst Boris Chain at Oxford University successfully purified penicillin for medical use. Mass production of penicillin began during World War II, and it is estimated that the drug saved approximately 100,000 lives during the D-Day landings alone. The success of penicillin led to a golden age of antibiotic discovery between the 1940s and 1960s, during which most of the antibiotic classes still used today were discovered, including streptomycin, tetracycline, and erythromycin. However, Professor Collins explains that this golden age came to an end as pharmaceutical companies found it increasingly difficult to discover new classes of antibiotics. Since 1987, no entirely new class of antibiotics has been approved for use in humans. She then discusses the growing problem of antibiotic resistance, which occurs when bacteria evolve mechanisms to survive exposure to antibiotics. The WHO has warned that antibiotic resistance is one of the greatest threats to global health, with an estimated 1.27 million deaths directly attributable to drug-resistant infections in 2019. Professor Collins identifies the overuse and misuse of antibiotics in both human medicine and agriculture as the primary drivers of resistance. She concludes by discussing potential solutions, including the development of new antibiotics, the use of bacteriophages, which are viruses that infect and kill bacteria, and improved diagnostic techniques that can identify infections more quickly and accurately, reducing unnecessary antibiotic prescriptions.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "How many lives have antibiotics saved since their introduction?",
+              "zh": "抗生素自引入以来拯救了多少生命？"
+            },
+            "options": [
+              {"en": "About 50 million", "zh": "约5,000万"},
+              {"en": "About 100 million", "zh": "约1亿"},
+              {"en": "About 200 million", "zh": "约2亿"},
+              {"en": "About 500 million", "zh": "约5亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "When did Fleming discover penicillin?",
+              "zh": "弗莱明什么时候发现了青霉素？"
+            },
+            "options": [
+              {"en": "1918", "zh": "1918年"},
+              {"en": "1928", "zh": "1928年"},
+              {"en": "1938", "zh": "1938年"},
+              {"en": "1948", "zh": "1948年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What was the name of the mould Fleming discovered?",
+              "zh": "弗莱明发现的霉菌叫什么名字？"
+            },
+            "options": [
+              {"en": "Aspergillus niger", "zh": "黑曲霉"},
+              {"en": "Penicillium notatum", "zh": "青霉菌"},
+              {"en": "Candida albicans", "zh": "白色念珠菌"},
+              {"en": "Staphylococcus aureus", "zh": "金黄色葡萄球菌"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "When was penicillin successfully purified for medical use?",
+              "zh": "青霉素什么时候被成功提纯用于医疗？"
+            },
+            "options": [
+              {"en": "1928", "zh": "1928年"},
+              {"en": "1935", "zh": "1935年"},
+              {"en": "1940", "zh": "1940年"},
+              {"en": "1945", "zh": "1945年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many lives did penicillin save during the D-Day landings?",
+              "zh": "青霉素在诺曼底登陆期间拯救了多少生命？"
+            },
+            "options": [
+              {"en": "About 25,000", "zh": "约25,000"},
+              {"en": "About 50,000", "zh": "约50,000"},
+              {"en": "About 100,000", "zh": "约100,000"},
+              {"en": "About 200,000", "zh": "约200,000"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "When did the golden age of antibiotic discovery occur?",
+              "zh": "抗生素发现的黄金时代在什么时候？"
+            },
+            "options": [
+              {"en": "The 1920s to 1940s", "zh": "20世纪20年代到40年代"},
+              {"en": "The 1940s to 1960s", "zh": "20世纪40年代到60年代"},
+              {"en": "The 1960s to 1980s", "zh": "20世纪60年代到80年代"},
+              {"en": "The 1980s to 2000s", "zh": "20世纪80年代到21世纪初"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "Since when has no new class of antibiotics been approved?",
+              "zh": "自什么时候起没有新的抗生素类别被批准？"
+            },
+            "options": [
+              {"en": "Since 1977", "zh": "自1977年以来"},
+              {"en": "Since 1987", "zh": "自1987年以来"},
+              {"en": "Since 1997", "zh": "自1997年以来"},
+              {"en": "Since 2007", "zh": "自2007年以来"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "How many deaths were attributable to drug-resistant infections in 2019?",
+              "zh": "2019年有多少死亡归因于耐药感染？"
+            },
+            "options": [
+              {"en": "About 500,000", "zh": "约50万"},
+              {"en": "About 800,000", "zh": "约80万"},
+              {"en": "About 1.27 million", "zh": "约127万"},
+              {"en": "About 2 million", "zh": "约200万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What are bacteriophages?",
+              "zh": "噬菌体是什么？"
+            },
+            "options": [
+              {"en": "A type of antibiotic", "zh": "一种抗生素"},
+              {"en": "Viruses that infect and kill bacteria", "zh": "感染并杀死细菌的病毒"},
+              {"en": "White blood cells", "zh": "白细胞"},
+              {"en": "Chemical disinfectants", "zh": "化学消毒剂"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What does Professor Collins identify as the primary drivers of antibiotic resistance?",
+              "zh": "Collins教授认为抗生素耐药性的主要驱动因素是什么？"
+            },
+            "options": [
+              {"en": "Climate change and pollution", "zh": "气候变化和污染"},
+              {"en": "Overuse and misuse of antibiotics", "zh": "抗生素的过度使用和误用"},
+              {"en": "Natural bacterial evolution", "zh": "细菌的自然进化"},
+              {"en": "Lack of new drug development", "zh": "缺乏新药开发"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The Origins of Tea",
+          "zh": "文章1 - 茶的起源"
+        },
+        "passage": "<p>Tea is the most widely consumed beverage in the world after water, with an estimated 3 billion cups drunk every day across the globe. The origins of tea can be traced back to ancient China, where legend has it that the Emperor Shen Nung discovered the drink in 2737 BC when tea leaves accidentally blew into his pot of boiling water. While this story is almost certainly mythical, archaeological evidence suggests that tea was consumed in China as early as the Han Dynasty, around 200 BC. Initially, tea was used primarily for medicinal purposes, valued for its stimulating properties and believed to aid digestion and improve concentration. During the Tang Dynasty, which ruled from 618 to 907 AD, tea drinking became a widespread social practice, and the first known book about tea, 'The Classic of Tea' by Lu Yu, was published around 760 AD. This comprehensive guide covered everything from the cultivation of tea plants to the proper methods of preparation and served. The practice of tea drinking spread from China to Japan in the ninth century, carried by Buddhist monks who had studied in China. The Japanese developed their own elaborate tea ceremony, known as chanoyu, which emphasised harmony, respect, purity, and tranquillity. Tea did not arrive in Europe until the early seventeenth century, when the Dutch East India Company began importing it from China. It quickly became fashionable among the wealthy classes, and by the mid-seventeenth century, tea houses had begun to appear in major European cities. In Britain, tea was initially an expensive luxury, but its popularity grew rapidly, and by the eighteenth century, it had become the national drink. The British East India Company played a central role in the global tea trade, and the company's attempts to maintain its monopoly on tea imports to Britain contributed to events such as the Boston Tea Party of 1773, which was a key moment in the lead-up to the American Revolution. In the nineteenth century, the British began cultivating tea in India and Ceylon, now Sri Lanka, to reduce their dependence on Chinese imports. Today, the largest tea-producing countries are China, India, Kenya, and Sri Lanka, which together account for approximately 75 percent of global production.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What is the most consumed beverage in the world after water?",
+              "zh": "世界上仅次于水的最广泛消费的饮料是什么？"
+            },
+            "options": [
+              {"en": "Coffee", "zh": "咖啡"},
+              {"en": "Tea", "zh": "茶"},
+              {"en": "Milk", "zh": "牛奶"},
+              {"en": "Juice", "zh": "果汁"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When is tea believed to have been discovered according to legend?",
+              "zh": "根据传说，茶被认为是在什么时候被发现的？"
+            },
+            "options": [
+              {"en": "3500 BC", "zh": "公元前3500年"},
+              {"en": "2737 BC", "zh": "公元前2737年"},
+              {"en": "2000 BC", "zh": "公元前2000年"},
+              {"en": "500 BC", "zh": "公元前500年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "When does archaeological evidence suggest tea was first consumed?",
+              "zh": "考古证据表明茶最早是在什么时候被饮用的？"
+            },
+            "options": [
+              {"en": "Around 200 BC during the Han Dynasty", "zh": "约公元前200年汉朝时期"},
+              {"en": "Around 500 AD during the Sui Dynasty", "zh": "约公元500年隋朝时期"},
+              {"en": "Around 618 AD during the Tang Dynasty", "zh": "约公元618年唐朝时期"},
+              {"en": "Around 1000 AD during the Song Dynasty", "zh": "约公元1000年宋朝时期"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What was tea initially used for in China?",
+              "zh": "茶最初在中国是用来做什么的？"
+            },
+            "options": [
+              {"en": "Social ceremonies", "zh": "社交仪式"},
+              {"en": "Medicinal purposes", "zh": "药用"},
+              {"en": "Religious offerings", "zh": "宗教祭品"},
+              {"en": "Trade and commerce", "zh": "贸易和商业"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "Who wrote 'The Classic of Tea'?",
+              "zh": "谁写了《茶经》？"
+            },
+            "options": [
+              {"en": "Shen Nung", "zh": "神农"},
+              {"en": "Lu Yu", "zh": "陆羽"},
+              {"en": "Confucius", "zh": "孔子"},
+              {"en": "Lao Tzu", "zh": "老子"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "When was 'The Classic of Tea' published?",
+              "zh": "《茶经》是什么时候出版的？"
+            },
+            "options": [
+              {"en": "Around 560 AD", "zh": "约公元560年"},
+              {"en": "Around 660 AD", "zh": "约公元660年"},
+              {"en": "Around 760 AD", "zh": "约公元760年"},
+              {"en": "Around 860 AD", "zh": "约公元860年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "Who brought tea to Japan?",
+              "zh": "谁把茶带到了日本？"
+            },
+            "options": [
+              {"en": "Japanese traders", "zh": "日本商人"},
+              {"en": "Buddhist monks", "zh": "佛教僧侣"},
+              {"en": "Chinese diplomats", "zh": "中国外交官"},
+              {"en": "Portuguese explorers", "zh": "葡萄牙探险家"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What are the four principles of the Japanese tea ceremony?",
+              "zh": "日本茶道的四个原则是什么？"
+            },
+            "options": [
+              {"en": "Speed, efficiency, precision, elegance", "zh": "速度、效率、精确、优雅"},
+              {"en": "Harmony, respect, purity, tranquillity", "zh": "和谐、尊重、纯洁、宁静"},
+              {"en": "Patience, discipline, silence, gratitude", "zh": "耐心、纪律、沉默、感恩"},
+              {"en": "Beauty, simplicity, nature, peace", "zh": "美、简约、自然、和平"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "When did tea arrive in Europe?",
+              "zh": "茶什么时候到达欧洲？"
+            },
+            "options": [
+              {"en": "The late sixteenth century", "zh": "16世纪末"},
+              {"en": "The early seventeenth century", "zh": "17世纪初"},
+              {"en": "The mid-eighteenth century", "zh": "18世纪中叶"},
+              {"en": "The early nineteenth century", "zh": "19世纪初"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What event did the British tea monopoly contribute to?",
+              "zh": "英国茶叶垄断促成了什么事件？"
+            },
+            "options": [
+              {"en": "The French Revolution", "zh": "法国大革命"},
+              {"en": "The Boston Tea Party", "zh": "波士顿倾茶事件"},
+              {"en": "The Industrial Revolution", "zh": "工业革命"},
+              {"en": "The Great Fire of London", "zh": "伦敦大火"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "When did the British begin cultivating tea in India?",
+              "zh": "英国人什么时候开始在印度种植茶？"
+            },
+            "options": [
+              {"en": "The seventeenth century", "zh": "17世纪"},
+              {"en": "The eighteenth century", "zh": "18世纪"},
+              {"en": "The nineteenth century", "zh": "19世纪"},
+              {"en": "The twentieth century", "zh": "20世纪"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "Which countries are the largest tea producers today?",
+              "zh": "今天哪些国家是最大的茶叶生产国？"
+            },
+            "options": [
+              {"en": "China, India, Japan, and Sri Lanka", "zh": "中国、印度、日本和斯里兰卡"},
+              {"en": "China, India, Kenya, and Sri Lanka", "zh": "中国、印度、肯尼亚和斯里兰卡"},
+              {"en": "China, Japan, Turkey, and Kenya", "zh": "中国、日本、土耳其和肯尼亚"},
+              {"en": "India, Kenya, China, and Bangladesh", "zh": "印度、肯尼亚、中国和孟加拉国"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many cups of tea are consumed globally every day?",
+              "zh": "全球每天消费多少杯茶？"
+            },
+            "options": [
+              {"en": "About 1 billion", "zh": "约10亿"},
+              {"en": "About 2 billion", "zh": "约20亿"},
+              {"en": "About 3 billion", "zh": "约30亿"},
+              {"en": "About 5 billion", "zh": "约50亿"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Psychology of Colour in Marketing",
+          "zh": "文章2 - 营销中的色彩心理学"
+        },
+        "passage": "<p>Colour plays a crucial role in marketing and branding, influencing consumer perceptions, emotions, and purchasing decisions in ways that most people are not consciously aware of. Research in colour psychology has shown that up to 90 percent of snap judgements about products can be based on colour alone, making it one of the most powerful tools available to marketers. The relationship between colour and consumer behaviour is complex and varies significantly across cultures, but some general patterns have been identified through decades of research. Red is perhaps the most psychologically stimulating colour, associated with urgency, excitement, and passion. It has been shown to increase heart rate and create a sense of urgency, which is why it is commonly used in sale signs, clearance events, and call-to-action buttons on websites. Studies have found that red backgrounds can increase purchase intent by up to 20 percent for impulse buyers. Blue, on the other hand, is associated with trust, reliability, and calmness. It is the most popular colour for corporate brands, with over 50 percent of the world's top 100 companies using blue in their logos, including Facebook, Samsung, and Ford. Green is strongly associated with nature, health, and environmental consciousness. It has become the colour of choice for organic and eco-friendly brands, and research has shown that green packaging can increase consumers' perceptions of a product's healthiness by up to 30 percent. Yellow is used to grab attention and convey optimism and warmth, which is why it is commonly used in window displays and signage. However, excessive use of yellow can cause anxiety and visual fatigue. Black conveys sophistication, luxury, and exclusivity, which is why it is the dominant colour for premium brands such as Chanel, Prada, and Apple's product packaging. White suggests cleanliness, simplicity, and modernity, and has become increasingly popular in technology branding. The effectiveness of colour in marketing also depends on its context and appropriateness for the product category. Research has shown that the relationship between colour and product type is more important than the colour itself. For example, while warm colours such as red and orange tend to be more effective for food and beverage brands, cool colours such as blue and green are preferred for healthcare and financial services.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "What percentage of snap judgements about products can be based on colour?",
+              "zh": "对产品的即时判断有多少百分比可以基于颜色？"
+            },
+            "options": [
+              {"en": "Up to 60 percent", "zh": "高达60%"},
+              {"en": "Up to 75 percent", "zh": "高达75%"},
+              {"en": "Up to 85 percent", "zh": "高达85%"},
+              {"en": "Up to 90 percent", "zh": "高达90%"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What is red associated with in marketing?",
+              "zh": "在营销中红色与什么相关？"
+            },
+            "options": [
+              {"en": "Trust and reliability", "zh": "信任和可靠"},
+              {"en": "Nature and health", "zh": "自然和健康"},
+              {"en": "Urgency, excitement, and passion", "zh": "紧迫感、兴奋和激情"},
+              {"en": "Sophistication and luxury", "zh": "精致和奢华"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "By how much can red backgrounds increase purchase intent for impulse buyers?",
+              "zh": "红色背景能增加多少冲动型消费者的购买意愿？"
+            },
+            "options": [
+              {"en": "Up to 10 percent", "zh": "最多10%"},
+              {"en": "Up to 15 percent", "zh": "最多15%"},
+              {"en": "Up to 20 percent", "zh": "最多20%"},
+              {"en": "Up to 25 percent", "zh": "最多25%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What percentage of the top 100 companies use blue in their logos?",
+              "zh": "世界百强企业中有多少百分比使用蓝色标识？"
+            },
+            "options": [
+              {"en": "Over 30 percent", "zh": "超过30%"},
+              {"en": "Over 40 percent", "zh": "超过40%"},
+              {"en": "Over 50 percent", "zh": "超过50%"},
+              {"en": "Over 60 percent", "zh": "超过60%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "By how much can green packaging increase perceptions of healthiness?",
+              "zh": "绿色包装能增加多少对健康性的感知？"
+            },
+            "options": [
+              {"en": "Up to 15 percent", "zh": "最多15%"},
+              {"en": "Up to 20 percent", "zh": "最多20%"},
+              {"en": "Up to 30 percent", "zh": "最多30%"},
+              {"en": "Up to 40 percent", "zh": "最多40%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What negative effect can excessive yellow cause?",
+              "zh": "过度使用黄色会导致什么负面效果？"
+            },
+            "options": [
+              {"en": "Depression and sadness", "zh": "抑郁和悲伤"},
+              {"en": "Anxiety and visual fatigue", "zh": "焦虑和视觉疲劳"},
+              {"en": "Aggression and anger", "zh": "攻击性和愤怒"},
+              {"en": "Drowsiness and lethargy", "zh": "嗜睡和倦怠"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What does black convey in branding?",
+              "zh": "黑色在品牌中传达什么？"
+            },
+            "options": [
+              {"en": "Fun and playfulness", "zh": "趣味和活力"},
+              {"en": "Sophistication, luxury, and exclusivity", "zh": "精致、奢华和排他性"},
+              {"en": "Energy and enthusiasm", "zh": "活力和热情"},
+              {"en": "Safety and security", "zh": "安全和保障"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "Which brand is NOT mentioned as using blue in its logo?",
+              "zh": "以下哪个品牌没有被提到使用蓝色标识？"
+            },
+            "options": [
+              {"en": "Facebook", "zh": "Facebook"},
+              {"en": "Samsung", "zh": "三星"},
+              {"en": "Google", "zh": "谷歌"},
+              {"en": "Ford", "zh": "福特"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What colours are more effective for food brands?",
+              "zh": "什么颜色对食品品牌更有效？"
+            },
+            "options": [
+              {"en": "Cool colours like blue and green", "zh": "冷色调如蓝色和绿色"},
+              {"en": "Warm colours like red and orange", "zh": "暖色调如红色和橙色"},
+              {"en": "Neutral colours like grey and beige", "zh": "中性色如灰色和米色"},
+              {"en": "Dark colours like black and navy", "zh": "深色如黑色和海军蓝"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What colours are preferred for healthcare brands?",
+              "zh": "什么颜色是医疗保健品牌的首选？"
+            },
+            "options": [
+              {"en": "Red and yellow", "zh": "红色和黄色"},
+              {"en": "Blue and green", "zh": "蓝色和绿色"},
+              {"en": "Purple and gold", "zh": "紫色和金色"},
+              {"en": "Orange and pink", "zh": "橙色和粉色"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What does white suggest in branding?",
+              "zh": "白色在品牌中暗示什么？"
+            },
+            "options": [
+              {"en": "Warmth and friendliness", "zh": "温暖和友好"},
+              {"en": "Cleanliness, simplicity, and modernity", "zh": "干净、简约和现代"},
+              {"en": "Tradition and heritage", "zh": "传统和传承"},
+              {"en": "Adventure and excitement", "zh": "冒险和刺激"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What is more important than the colour itself according to the passage?",
+              "zh": "根据文章，什么比颜色本身更重要？"
+            },
+            "options": [
+              {"en": "The size of the logo", "zh": "标志的大小"},
+              {"en": "The relationship between colour and product type", "zh": "颜色与产品类型之间的关系"},
+              {"en": "The font used alongside the colour", "zh": "与颜色一起使用的字体"},
+              {"en": "The target audience's age", "zh": "目标受众的年龄"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "Which luxury brands are mentioned as using black?",
+              "zh": "哪些奢侈品牌被提到使用黑色？"
+            },
+            "options": [
+              {"en": "Gucci, Versace, and Dior", "zh": "古驰、范思哲和迪奥"},
+              {"en": "Chanel, Prada, and Apple", "zh": "香奈儿、普拉达和苹果"},
+              {"en": "Louis Vuitton, Rolex, and Tesla", "zh": "路易威登、劳力士和特斯拉"},
+              {"en": "Burberry, Hermes, and Sony", "zh": "巴宝莉、爱马仕和索尼"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What is yellow commonly used for in retail?",
+              "zh": "黄色在零售中通常用于什么？"
+            },
+            "options": [
+              {"en": "Background colours for websites", "zh": "网站背景色"},
+              {"en": "Window displays and signage", "zh": "橱窗展示和标牌"},
+              {"en": "Product packaging", "zh": "产品包装"},
+              {"en": "Employee uniforms", "zh": "员工制服"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - Artificial Intelligence and Creative Arts",
+          "zh": "文章3 - 人工智能与创意艺术"
+        },
+        "passage": "<p>The rapid advancement of artificial intelligence has raised profound questions about the nature of creativity and whether machines can truly be creative. In recent years, AI systems have demonstrated remarkable capabilities in fields previously thought to be exclusively human, including visual art, music composition, poetry, and even screenwriting. In 2018, an AI-generated portrait titled 'Portrait of Edmond de Belamy' sold at Christie's auction house for 432,500 dollars, far exceeding its estimated price of 7,000 to 10,000 dollars. The portrait was created by a collective called Obvious using a type of AI known as a Generative Adversarial Network, which consists of two neural networks that work together to produce increasingly realistic outputs. In music, AI systems have been used to compose pieces in the style of famous composers. In 2019, researchers at Sony's Computer Science Laboratories used an AI system called Flow Machines to create a song in the style of the Beatles, which was played to audiences who were unable to distinguish it from a genuine Beatles composition. Google's Magenta project has developed AI tools that can generate original music across multiple genres, while OpenAI's MuseNet can compose music in the style of Mozart, Chopin, or any of dozens of other composers. However, many artists and philosophers argue that AI-generated art lacks the intentionality and emotional depth that characterise true creativity. They contend that AI systems do not understand the meaning of what they produce; they simply identify patterns in existing data and generate new combinations based on those patterns. The philosopher Margaret Boden distinguishes between three types of creativity: combinational creativity, which involves producing unfamiliar combinations of familiar ideas; exploratory creativity, which involves exploring the possibilities within a conceptual space; and transformational creativity, which involves fundamentally changing the rules of a conceptual space. Current AI systems are generally considered capable of the first two types but struggle with the third. The debate about AI and creativity also raises important questions about copyright and intellectual property. If an AI system creates a work of art, who owns the rights to it? Current legal frameworks in most countries do not recognise AI as a legal person capable of holding copyright, which creates significant uncertainty for the growing AI art market.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "How much did the AI-generated portrait sell for?",
+              "zh": "AI生成的肖像画卖了多少钱？"
+            },
+            "options": [
+              {"en": "7,000 dollars", "zh": "7,000美元"},
+              {"en": "100,000 dollars", "zh": "100,000美元"},
+              {"en": "432,500 dollars", "zh": "432,500美元"},
+              {"en": "1,000,000 dollars", "zh": "1,000,000美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What type of AI created the portrait?",
+              "zh": "什么类型的AI创作了这幅肖像？"
+            },
+            "options": [
+              {"en": "Deep learning neural network", "zh": "深度学习神经网络"},
+              {"en": "Generative Adversarial Network", "zh": "生成对抗网络"},
+              {"en": "Reinforcement learning system", "zh": "强化学习系统"},
+              {"en": "Expert system", "zh": "专家系统"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What did Sony's Flow Machines create in 2019?",
+              "zh": "索尼的Flow Machines在2019年创造了什么？"
+            },
+            "options": [
+              {"en": "A painting in Van Gogh's style", "zh": "一幅梵高风格的画"},
+              {"en": "A song in the style of the Beatles", "zh": "一首披头士风格的歌"},
+              {"en": "A symphony in Mozart's style", "zh": "一首莫扎特风格的交响曲"},
+              {"en": "A poem in Shakespeare's style", "zh": "一首莎士比亚风格的诗"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "Who is Margaret Boden?",
+              "zh": "玛格丽特·博登是谁？"
+            },
+            "options": [
+              {"en": "An AI researcher", "zh": "AI研究员"},
+              {"en": "A computer scientist", "zh": "计算机科学家"},
+              {"en": "A philosopher", "zh": "哲学家"},
+              {"en": "An art critic", "zh": "艺术评论家"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "How many types of creativity does Boden identify?",
+              "zh": "博登定义了几种类型的创造力？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两种"},
+              {"en": "Three", "zh": "三种"},
+              {"en": "Four", "zh": "四种"},
+              {"en": "Five", "zh": "五种"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What type of creativity do current AI systems struggle with?",
+              "zh": "当前的AI系统在哪种创造力方面有困难？"
+            },
+            "options": [
+              {"en": "Combinational creativity", "zh": "组合创造力"},
+              {"en": "Exploratory creativity", "zh": "探索性创造力"},
+              {"en": "Transformational creativity", "zh": "变革性创造力"},
+              {"en": "All types", "zh": "所有类型"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What does combinational creativity involve?",
+              "zh": "组合创造力包含什么？"
+            },
+            "options": [
+              {"en": "Exploring possibilities within a conceptual space", "zh": "在概念空间中探索可能性"},
+              {"en": "Producing unfamiliar combinations of familiar ideas", "zh": "产生熟悉想法的不熟悉组合"},
+              {"en": "Changing the rules of a conceptual space", "zh": "改变概念空间的规则"},
+              {"en": "Copying existing art styles", "zh": "复制现有艺术风格"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What legal issue does AI-generated art raise?",
+              "zh": "AI生成的艺术引发了什么法律问题？"
+            },
+            "options": [
+              {"en": "Taxation of digital art", "zh": "数字艺术的征税"},
+              {"en": "Copyright and ownership", "zh": "版权和所有权"},
+              {"en": "Import and export regulations", "zh": "进出口法规"},
+              {"en": "Art authentication standards", "zh": "艺术品认证标准"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Which AI tool can generate music in multiple genres?",
+              "zh": "哪种AI工具可以生成多种风格的音乐？"
+            },
+            "options": [
+              {"en": "Flow Machines", "zh": "Flow Machines"},
+              {"en": "Google's Magenta", "zh": "谷歌的Magenta"},
+              {"en": "OpenAI's MuseNet", "zh": "OpenAI的MuseNet"},
+              {"en": "IBM Watson", "zh": "IBM Watson"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What was the estimated price of the AI portrait before auction?",
+              "zh": "AI肖像画拍卖前的估价是多少？"
+            },
+            "options": [
+              {"en": "1,000 to 5,000 dollars", "zh": "1,000到5,000美元"},
+              {"en": "7,000 to 10,000 dollars", "zh": "7,000到10,000美元"},
+              {"en": "50,000 to 100,000 dollars", "zh": "50,000到100,000美元"},
+              {"en": "200,000 to 300,000 dollars", "zh": "200,000到300,000美元"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What do critics say AI-generated art lacks?",
+              "zh": "批评者说AI生成的艺术缺少什么？"
+            },
+            "options": [
+              {"en": "Technical skill and precision", "zh": "技术技巧和精确度"},
+              {"en": "Intentionality and emotional depth", "zh": "意向性和情感深度"},
+              {"en": "Visual appeal and colour", "zh": "视觉吸引力和色彩"},
+              {"en": "Originality and novelty", "zh": "原创性和新颖性"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Where was the AI portrait sold?",
+              "zh": "AI肖像画在哪里售出？"
+            },
+            "options": [
+              {"en": "Sotheby's", "zh": "苏富比"},
+              {"en": "Christie's", "zh": "佳士得"},
+              {"en": "Bonhams", "zh": "邦瀚斯"},
+              {"en": "Phillips", "zh": "富艺斯"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "Can AI currently be recognised as a legal person for copyright?",
+              "zh": "AI目前能否被认定为享有版权的法律主体？"
+            },
+            "options": [
+              {"en": "Yes, in most countries", "zh": "是的，在大多数国家"},
+              {"en": "Yes, but only in the EU", "zh": "是的，但仅限欧盟"},
+              {"en": "No, in most countries", "zh": "不，在大多数国家"},
+              {"en": "It depends on the type of AI", "zh": "取决于AI的类型"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The maps below show a town before and after the construction of a new airport. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的地图显示了一个城镇在建造新机场前后的变化。通过选择和报告主要特征来总结信息，并在相关之处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "Many governments think that economic progress is their most important goal. Some people, however, think that other types of progress are equally important for a country. Discuss both these views and give your own opinion. Write at least 250 words.",
+          "zh": "许多政府认为经济发展是他们最重要的目标。然而，一些人认为其他类型的进步对一个国家同样重要。讨论这两种观点并给出你自己的看法。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-06-test1",
+  "title": {
+    "en": "Cambridge IELTS 6 - Test 1",
+    "zh": "剑桥雅思6 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Conversation at a Museum Information Desk",
+          "zh": "第一部分 - 博物馆咨询台的对话"
+        },
+        "passage": "<p>A visitor approaches the information desk at the National History Museum to inquire about membership options and upcoming exhibitions. The receptionist, Helen, greets the visitor and asks how she can help. The visitor explains that he recently moved to the area and is interested in becoming a regular visitor to the museum. Helen explains that the museum offers several membership tiers. The standard individual membership costs 45 pounds per year and includes unlimited free entry to all permanent galleries, a 10 percent discount at the museum shop, and a quarterly newsletter. The premium membership at 75 pounds per year adds priority booking for special exhibitions, invitations to members-only evening events, and free audio guides. There is also a family membership for 120 pounds that covers two adults and up to three children under 16.</p><p>The visitor asks about the current special exhibition on ancient Egyptian artifacts. Helen tells him it runs from March 15th through June 30th and features over 300 objects loaned from museums in Cairo, including items from the tomb of Tutankhamun that have never been displayed outside Egypt before. Standard admission to the special exhibition is 12 pounds for adults, but members receive a 50 percent discount. The visitor also inquires about the museum's opening hours. Helen explains that the museum is open Tuesday through Sunday from 10 AM to 5:30 PM, with extended hours until 8 PM on Fridays. The museum is closed on Mondays except during school holidays. Parking is available in the adjacent multi-story car park at a flat rate of 5 pounds per visit for museum visitors, which can be validated at the reception desk.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Why has the visitor come to the museum?",
+              "zh": "参观者为什么来到博物馆？"
+            },
+            "options": [
+              {"en": "To attend a specific exhibition", "zh": "参加某个特定展览"},
+              {"en": "To inquire about membership", "zh": "咨询会员资格"},
+              {"en": "To collect a pre-ordered ticket", "zh": "领取预订单的门票"},
+              {"en": "To ask about job vacancies", "zh": "询问职位空缺"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What is the cost of the standard individual membership?",
+              "zh": "标准个人会员的费用是多少？"
+            },
+            "options": [
+              {"en": "35 pounds per year", "zh": "每年35英镑"},
+              {"en": "45 pounds per year", "zh": "每年45英镑"},
+              {"en": "55 pounds per year", "zh": "每年55英镑"},
+              {"en": "75 pounds per year", "zh": "每年75英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "Which of the following is included in the standard membership?",
+              "zh": "以下哪项包含在标准会员中？"
+            },
+            "options": [
+              {"en": "Priority exhibition booking", "zh": "优先展览预约"},
+              {"en": "Free audio guides", "zh": "免费语音导览"},
+              {"en": "Quarterly newsletter", "zh": "季刊通讯"},
+              {"en": "Members-only evening events", "zh": "会员专属晚间活动"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What does the premium membership cost?",
+              "zh": "高级会员费用是多少？"
+            },
+            "options": [
+              {"en": "45 pounds per year", "zh": "每年45英镑"},
+              {"en": "60 pounds per year", "zh": "每年60英镑"},
+              {"en": "75 pounds per year", "zh": "每年75英镑"},
+              {"en": "120 pounds per year", "zh": "每年120英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "How many objects are featured in the Egyptian exhibition?",
+              "zh": "埃及展览展出了多少件物品？"
+            },
+            "options": [
+              {"en": "Over 100", "zh": "超过100件"},
+              {"en": "Over 200", "zh": "超过200件"},
+              {"en": "Over 300", "zh": "超过300件"},
+              {"en": "Over 500", "zh": "超过500件"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "The Egyptian exhibition items are loaned from museums in which city?",
+              "zh": "埃及展览的物品是从哪个城市的博物馆借来的？"
+            },
+            "options": [
+              {"en": "Athens", "zh": "雅典"},
+              {"en": "Cairo", "zh": "开罗"},
+              {"en": "Istanbul", "zh": "伊斯坦布尔"},
+              {"en": "Rome", "zh": "罗马"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "When does the Egyptian exhibition end?",
+              "zh": "埃及展览什么时候结束？"
+            },
+            "options": [
+              {"en": "March 15th", "zh": "3月15日"},
+              {"en": "May 31st", "zh": "5月31日"},
+              {"en": "June 30th", "zh": "6月30日"},
+              {"en": "July 15th", "zh": "7月15日"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "How much discount do members get for the special exhibition?",
+              "zh": "会员享受特别展览多少折扣？"
+            },
+            "options": [
+              {"en": "25 percent", "zh": "25%"},
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "50 percent", "zh": "50%"},
+              {"en": "Free entry", "zh": "免费入场"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What are the extended opening hours on Fridays?",
+              "zh": "星期五的延长开放时间是什么？"
+            },
+            "options": [
+              {"en": "Until 6 PM", "zh": "至下午6点"},
+              {"en": "Until 7 PM", "zh": "至晚上7点"},
+              {"en": "Until 8 PM", "zh": "至晚上8点"},
+              {"en": "Until 9 PM", "zh": "至晚上9点"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How much does parking cost for museum visitors?",
+              "zh": "博物馆参观者的停车费是多少？"
+            },
+            "options": [
+              {"en": "Free", "zh": "免费"},
+              {"en": "3 pounds per visit", "zh": "每次3英镑"},
+              {"en": "5 pounds per visit", "zh": "每次5英镑"},
+              {"en": "8 pounds per visit", "zh": "每次8英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Guided Tour of a Wildlife Park",
+          "zh": "第二部分 - 野生动物园导览"
+        },
+        "passage": "<p>Welcome to Thornfield Wildlife Park, one of the region's leading conservation centers. My name is James, and I'll be your guide for today's visit. Before we begin, I'd like to give you some important information about the park and its facilities.</p><p>The park covers 85 hectares of mixed woodland and open grassland, and is home to over 400 animals representing 85 different species. We are particularly proud of our breeding programs for endangered species, including the red panda, the snow leopard, and the African wild dog. Our most recent success has been the birth of two snow leopard cubs in January, which brings our total to six snow leopards here at the park.</p><p>Today's tour will take approximately two hours and covers a distance of about three kilometers. We'll start at the Education Center, where you can see our reptile collection and learn about local conservation efforts. From there, we'll walk through the woodland trail to the bird of prey arena, where we have a flying demonstration at 11:30 AM and again at 2:30 PM. After that, we'll visit the big cat enclosures and finish at the primate house.</p><p>I should mention that the park has two cafes. The Woodland Cafe is located near the main entrance and serves hot meals and snacks from 9 AM to 4 PM. The Lakeside Cafe, which is near the primate house, offers lighter refreshments and is open from 10 AM to 3:30 PM. We also have a gift shop near the exit, which stocks a range of educational toys, books, and souvenirs. All proceeds from the gift shop go directly to our conservation projects.</p><p>For safety reasons, please do not attempt to feed any of the animals. Flash photography is prohibited in the reptile house and the nocturnal animal section, as it can distress the animals. If you have any questions during the tour, please feel free to ask. We want you to have an enjoyable and educational experience.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "How large is Thornfield Wildlife Park?",
+              "zh": "索恩菲尔德野生动物园有多大？"
+            },
+            "options": [
+              {"en": "45 hectares", "zh": "45公顷"},
+              {"en": "65 hectares", "zh": "65公顷"},
+              {"en": "85 hectares", "zh": "85公顷"},
+              {"en": "100 hectares", "zh": "100公顷"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How many different species are housed in the park?",
+              "zh": "园内有多少个不同的物种？"
+            },
+            "options": [
+              {"en": "65 species", "zh": "65种"},
+              {"en": "75 species", "zh": "75种"},
+              {"en": "85 species", "zh": "85种"},
+              {"en": "95 species", "zh": "95种"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many snow leopards does the park now have?",
+              "zh": "园内现在有多少只雪豹？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两只"},
+              {"en": "Four", "zh": "四只"},
+              {"en": "Six", "zh": "六只"},
+              {"en": "Eight", "zh": "八只"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "Where does the tour begin?",
+              "zh": "游览从哪里开始？"
+            },
+            "options": [
+              {"en": "The gift shop", "zh": "礼品店"},
+              {"en": "The Education Center", "zh": "教育中心"},
+              {"en": "The main entrance cafe", "zh": "入口主餐厅"},
+              {"en": "The big cat enclosures", "zh": "大型猫科动物围场"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What time is the afternoon bird of prey flying demonstration?",
+              "zh": "下午的猛禽飞行表演是什么时候？"
+            },
+            "options": [
+              {"en": "1:30 PM", "zh": "下午1:30"},
+              {"en": "2:00 PM", "zh": "下午2:00"},
+              {"en": "2:30 PM", "zh": "下午2:30"},
+              {"en": "3:00 PM", "zh": "下午3:00"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "Approximately how long does the guided tour last?",
+              "zh": "导览大约持续多长时间？"
+            },
+            "options": [
+              {"en": "One hour", "zh": "一小时"},
+              {"en": "One and a half hours", "zh": "一个半小时"},
+              {"en": "Two hours", "zh": "两小时"},
+              {"en": "Three hours", "zh": "三小时"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "Where is the Woodland Cafe located?",
+              "zh": "林地咖啡馆在哪里？"
+            },
+            "options": [
+              {"en": "Near the primate house", "zh": "靠近灵长类动物馆"},
+              {"en": "Near the main entrance", "zh": "靠近正门入口"},
+              {"en": "Near the bird of prey arena", "zh": "靠近猛禽表演场"},
+              {"en": "Near the reptile house", "zh": "靠近爬行动物馆"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What happens to the proceeds from the gift shop?",
+              "zh": "礼品店的收入用于什么？"
+            },
+            "options": [
+              {"en": "They fund staff salaries", "zh": "用于支付员工工资"},
+              {"en": "They go to conservation projects", "zh": "用于保护项目"},
+              {"en": "They pay for animal food", "zh": "用于购买动物饲料"},
+              {"en": "They maintain park facilities", "zh": "用于维护园区设施"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "In which areas is flash photography prohibited?",
+              "zh": "哪些区域禁止使用闪光灯摄影？"
+            },
+            "options": [
+              {"en": "Throughout the entire park", "zh": "整个园区"},
+              {"en": "The reptile house and nocturnal section only", "zh": "仅爬行动物馆和夜行动物区"},
+              {"en": "All indoor enclosures", "zh": "所有室内围场"},
+              {"en": "The bird of prey arena only", "zh": "仅猛禽表演场"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What time does the Lakeside Cafe close?",
+              "zh": "湖畔咖啡馆几点关门？"
+            },
+            "options": [
+              {"en": "3:00 PM", "zh": "下午3:00"},
+              {"en": "3:30 PM", "zh": "下午3:30"},
+              {"en": "4:00 PM", "zh": "下午4:00"},
+              {"en": "4:30 PM", "zh": "下午4:30"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Discussion Between Two Students About a Research Project",
+          "zh": "第三部分 - 两名学生关于研究项目的讨论"
+        },
+        "passage": "<p>Sarah and Tom are final-year psychology students discussing their joint research project on the effects of social media usage on sleep quality among university students. They meet in the library to review their progress and plan the next phase of their research.</p><p>Sarah begins by summarizing their literature review findings. She has identified several key studies that demonstrate a correlation between excessive social media use and poor sleep outcomes. One particularly relevant study by Dr. Martinez at the University of Melbourne found that students who spent more than three hours per day on social media platforms reported significantly higher rates of insomnia and daytime fatigue. However, Sarah notes that most existing studies rely on self-reported data, which may not be entirely reliable.</p><p>Tom suggests that they should incorporate both quantitative and qualitative methods in their research. For the quantitative component, they plan to distribute an online survey to 200 undergraduate students across three faculties: Arts, Science, and Business. The survey will include standardized questionnaires measuring social media addiction, sleep quality using the Pittsburgh Sleep Quality Index, and general wellbeing. For the qualitative component, they intend to conduct semi-structured interviews with 20 selected participants who represent a range of social media usage patterns.</p><p>They discuss the ethical considerations of their study. Since they are collecting sensitive data about mental health and personal habits, they need to ensure full anonymity and obtain ethics approval from the university's Research Ethics Committee. Sarah mentions that their supervisor, Professor Williams, has already reviewed their ethics application and suggested some minor amendments, particularly regarding the informed consent form and data storage procedures. They need to use encrypted storage for all participant data and destroy raw data within twelve months of the project's completion.</p><p>Regarding the timeline, they agree that data collection should be completed by mid-March, allowing two months for analysis and write-up before the May deadline. Tom will handle the statistical analysis using SPSS software, while Sarah will code the interview transcripts using thematic analysis. They plan to meet weekly to discuss their findings and ensure consistency between the two data sets.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the topic of Sarah and Tom's research project?",
+              "zh": "Sarah和Tom的研究项目主题是什么？"
+            },
+            "options": [
+              {"en": "The impact of exercise on academic performance", "zh": "运动对学业表现的影响"},
+              {"en": "The effects of social media on sleep quality", "zh": "社交媒体对睡眠质量的影响"},
+              {"en": "The relationship between diet and mental health", "zh": "饮食与心理健康的关系"},
+              {"en": "University students' study habits", "zh": "大学生的学习习惯"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "According to Dr. Martinez's study, students spending over three hours on social media reported:",
+              "zh": "根据Martinez博士的研究，每天在社交媒体上花费超过三小时的学生报告了："
+            },
+            "options": [
+              {"en": "Improved social skills", "zh": "社交技能有所改善"},
+              {"en": "Higher academic grades", "zh": "学业成绩更高"},
+              {"en": "Higher rates of insomnia and fatigue", "zh": "更高的失眠和疲劳率"},
+              {"en": "Better time management", "zh": "更好的时间管理能力"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How many students will participate in the online survey?",
+              "zh": "有多少学生将参加在线调查？"
+            },
+            "options": [
+              {"en": "100", "zh": "100人"},
+              {"en": "150", "zh": "150人"},
+              {"en": "200", "zh": "200人"},
+              {"en": "300", "zh": "300人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "Which three faculties will the survey cover?",
+              "zh": "调查将涵盖哪三个学院？"
+            },
+            "options": [
+              {"en": "Arts, Science, and Medicine", "zh": "文科、理科和医学"},
+              {"en": "Arts, Science, and Business", "zh": "文科、理科和商科"},
+              {"en": "Science, Business, and Law", "zh": "理科、商科和法学"},
+              {"en": "Arts, Business, and Engineering", "zh": "文科、商科和工程"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What standardized tool will they use to measure sleep quality?",
+              "zh": "他们将使用什么标准化工具来衡量睡眠质量？"
+            },
+            "options": [
+              {"en": "The Epworth Sleepiness Scale", "zh": "Epworth嗜睡量表"},
+              {"en": "The Pittsburgh Sleep Quality Index", "zh": "匹兹堡睡眠质量指数"},
+              {"en": "The Athens Insomnia Scale", "zh": "雅典失眠量表"},
+              {"en": "The Stanford Sleepiness Scale", "zh": "斯坦福嗜睡量表"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How many participants will be selected for interviews?",
+              "zh": "将有多少参与者被选中进行访谈？"
+            },
+            "options": [
+              {"en": "10", "zh": "10人"},
+              {"en": "15", "zh": "15人"},
+              {"en": "20", "zh": "20人"},
+              {"en": "30", "zh": "30人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What concern does Sarah raise about existing studies?",
+              "zh": "Sarah对现有研究提出了什么担忧？"
+            },
+            "options": [
+              {"en": "They use outdated technology", "zh": "它们使用过时的技术"},
+              {"en": "They rely on self-reported data", "zh": "它们依赖自我报告的数据"},
+              {"en": "They have too few participants", "zh": "参与者太少"},
+              {"en": "They lack theoretical frameworks", "zh": "缺乏理论框架"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "Who reviewed their ethics application?",
+              "zh": "谁审阅了他们的伦理申请？"
+            },
+            "options": [
+              {"en": "Dr. Martinez", "zh": "Martinez博士"},
+              {"en": "The Research Ethics Committee", "zh": "研究伦理委员会"},
+              {"en": "Professor Williams", "zh": "Williams教授"},
+              {"en": "The faculty dean", "zh": "学院院长"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "When must raw data be destroyed after the project ends?",
+              "zh": "项目结束后原始数据必须在何时销毁？"
+            },
+            "options": [
+              {"en": "Within six months", "zh": "六个月内"},
+              {"en": "Within twelve months", "zh": "十二个月内"},
+              {"en": "Within two years", "zh": "两年内"},
+              {"en": "There is no requirement to destroy data", "zh": "没有销毁数据的要求"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What software will Tom use for statistical analysis?",
+              "zh": "Tom将使用什么软件进行统计分析？"
+            },
+            "options": [
+              {"en": "Excel", "zh": "Excel"},
+              {"en": "R", "zh": "R"},
+              {"en": "SPSS", "zh": "SPSS"},
+              {"en": "Python", "zh": "Python"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Lecture on Sustainable Urban Development",
+          "zh": "第四部分 - 关于可持续城市发展的讲座"
+        },
+        "passage": "<p>Good morning, everyone. Today's lecture is the third in our series on sustainable urban development, and I'll be focusing on the concept of green infrastructure and its role in creating livable cities for the future.</p><p>Green infrastructure refers to the network of natural and semi-natural areas, green spaces, and other environmental features within and around urban areas. Unlike traditional grey infrastructure, which relies on engineered solutions such as concrete drainage systems, green infrastructure uses natural processes to manage water, reduce pollution, and improve air quality. Examples include urban forests, green roofs, rain gardens, permeable pavements, and constructed wetlands.</p><p>Let me give you some concrete examples of successful green infrastructure projects. Singapore is widely regarded as a global leader in this field. The city-state's Gardens by the Bay project, completed in 2012, transformed 101 hectares of reclaimed land into a spectacular nature park featuring solar-powered supertrees, cloud forests, and extensive biodiversity gardens. The project has reduced ambient temperatures in the surrounding area by up to 4 degrees Celsius and attracts over 9 million visitors annually.</p><p>Copenhagen provides another excellent example. The city has invested heavily in cycling infrastructure and now has over 400 kilometers of dedicated cycle lanes. As a result, 62 percent of residents commute to work or school by bicycle, making it one of the most cycling-friendly cities in the world. This has led to a 30 percent reduction in carbon emissions from the transport sector since 2005. Additionally, Copenhagen has implemented a cloudburst management plan that uses green infrastructure to handle extreme rainfall events, which are becoming more frequent due to climate change.</p><p>Here in the UK, the city of Sheffield has undertaken an ambitious urban tree planting program, planting over 500,000 trees since 2015. Research conducted by the University of Sheffield has shown that these trees remove approximately 200 tonnes of air pollutants annually and provide a cooling effect equivalent to saving 2.5 million pounds in air conditioning costs. The program has also created over 200 green jobs and significantly increased property values in previously deprived neighborhoods.</p><p>However, implementing green infrastructure is not without challenges. Initial costs can be significantly higher than conventional approaches, and the benefits often take years or decades to fully materialize. There are also issues of maintenance, as green infrastructure requires ongoing care and management. Furthermore, there can be conflicts between different stakeholders, particularly when green spaces compete with development land in densely populated areas. Despite these challenges, the evidence overwhelmingly supports the long-term economic, environmental, and social benefits of investing in green infrastructure.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "What is the focus of today's lecture?",
+              "zh": "今天的讲座重点是什么？"
+            },
+            "options": [
+              {"en": "Traditional engineering solutions", "zh": "传统工程解决方案"},
+              {"en": "Green infrastructure in cities", "zh": "城市绿色基础设施"},
+              {"en": "Climate change policies", "zh": "气候变化政策"},
+              {"en": "Transport planning", "zh": "交通规划"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What is green infrastructure?",
+              "zh": "什么是绿色基础设施？"
+            },
+            "options": [
+              {"en": "Engineered concrete drainage systems", "zh": "工程化混凝土排水系统"},
+              {"en": "Natural and semi-natural environmental features in urban areas", "zh": "城市地区的自然和半自然环境特征"},
+              {"en": "Renewable energy installations", "zh": "可再生能源设施"},
+              {"en": "Smart technology for buildings", "zh": "建筑智能技术"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How much land does Singapore's Gardens by the Bay cover?",
+              "zh": "新加坡滨海湾花园占地多少？"
+            },
+            "options": [
+              {"en": "51 hectares", "zh": "51公顷"},
+              {"en": "75 hectares", "zh": "75公顷"},
+              {"en": "101 hectares", "zh": "101公顷"},
+              {"en": "150 hectares", "zh": "150公顷"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "By how much has the Gardens by the Bay project reduced local ambient temperatures?",
+              "zh": "滨海湾花园项目将当地环境温度降低了多少？"
+            },
+            "options": [
+              {"en": "Up to 2 degrees Celsius", "zh": "最多2摄氏度"},
+              {"en": "Up to 3 degrees Celsius", "zh": "最多3摄氏度"},
+              {"en": "Up to 4 degrees Celsius", "zh": "最多4摄氏度"},
+              {"en": "Up to 5 degrees Celsius", "zh": "最多5摄氏度"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What percentage of Copenhagen residents commute by bicycle?",
+              "zh": "哥本哈根有多少比例的居民骑自行车通勤？"
+            },
+            "options": [
+              {"en": "42 percent", "zh": "42%"},
+              {"en": "52 percent", "zh": "52%"},
+              {"en": "62 percent", "zh": "62%"},
+              {"en": "72 percent", "zh": "72%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "How many kilometers of cycle lanes does Copenhagen have?",
+              "zh": "哥本哈根有多少公里的自行车道？"
+            },
+            "options": [
+              {"en": "Over 200 kilometers", "zh": "超过200公里"},
+              {"en": "Over 300 kilometers", "zh": "超过300公里"},
+              {"en": "Over 400 kilometers", "zh": "超过400公里"},
+              {"en": "Over 500 kilometers", "zh": "超过500公里"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "How much have carbon emissions from transport in Copenhagen been reduced since 2005?",
+              "zh": "自2005年以来，哥本哈根交通领域的碳排放减少了多少？"
+            },
+            "options": [
+              {"en": "20 percent", "zh": "20%"},
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "40 percent", "zh": "40%"},
+              {"en": "50 percent", "zh": "50%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "How many trees has Sheffield planted since 2015?",
+              "zh": "自2015年以来，谢菲尔德种植了多少棵树？"
+            },
+            "options": [
+              {"en": "Over 200,000", "zh": "超过20万棵"},
+              {"en": "Over 350,000", "zh": "超过35万棵"},
+              {"en": "Over 500,000", "zh": "超过50万棵"},
+              {"en": "Over 750,000", "zh": "超过75万棵"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "Approximately how much air pollution do Sheffield's trees remove annually?",
+              "zh": "谢菲尔德的树木每年大约清除多少空气污染物？"
+            },
+            "options": [
+              {"en": "100 tonnes", "zh": "100吨"},
+              {"en": "200 tonnes", "zh": "200吨"},
+              {"en": "300 tonnes", "zh": "300吨"},
+              {"en": "400 tonnes", "zh": "400吨"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "Which of the following is mentioned as a challenge of green infrastructure?",
+              "zh": "以下哪项被提到是绿色基础设施的挑战？"
+            },
+            "options": [
+              {"en": "It causes flooding", "zh": "它会导致洪水"},
+              {"en": "It attracts unwanted wildlife", "zh": "它会吸引不受欢迎的野生动物"},
+              {"en": "Initial costs can be significantly higher", "zh": "初始成本可能显著更高"},
+              {"en": "It reduces property values", "zh": "它会降低房产价值"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - Australia's Sporting Success",
+          "zh": "文章1 - 澳大利亚的体育成就"
+        },
+        "passage": "<p>In the world of international sport, few countries can match the per capita success of Australia. With a population of just 23 million, Australia consistently ranks among the top medal-winning nations at the Olympic Games and performs exceptionally well across a wide range of sports including swimming, cricket, rugby, tennis, and cycling. What accounts for this remarkable sporting achievement?</p><p>Several factors contribute to Australia's sporting prowess. First, the country's climate and geography naturally encourage outdoor physical activity. With vast coastlines, warm temperatures for much of the year, and abundant open spaces, Australians grow up with opportunities to participate in sport from an early age. Swimming, surfing, and beach culture are deeply embedded in the national identity, and many of the country's Olympic champions began competitive swimming before the age of ten.</p><p>Second, Australia has developed a sophisticated system of sports funding and governance. The Australian Institute of Sport (AIS), established in 1981 in Canberra, has been instrumental in identifying and developing elite athletes. The AIS provides world-class coaching, sports science support, medical services, and training facilities across more than 35 sports. Athletes selected for AIS programs receive scholarships that cover living expenses, allowing them to train full-time without financial hardship. The institute's systematic approach to talent identification, involving nationwide testing programs in schools, has been particularly effective in sports such as swimming, rowing, and track cycling.</p><p>Third, Australia benefits from a strong sporting culture that permeates all levels of society. School sport is an integral part of the education system, with most schools offering a diverse range of competitive and recreational sports. Community sporting clubs are widespread and affordable, providing pathways from grassroots participation to elite competition. The visibility of successful athletes in the media creates role models who inspire the next generation of sporting talent.</p><p>However, Australia's sporting success is not without controversy. Critics point to the uneven distribution of funding, with so-called glamour sports such as swimming and athletics receiving disproportionate resources compared to less popular sports. There have also been concerns about the pressure placed on young athletes, with some arguing that the talent identification system can be overly aggressive, pushing children into intensive training regimes before they are physically or psychologically ready. Additionally, Australia has faced several doping scandals, most notably in cycling and rugby league, which have raised questions about the integrity of the country's sporting institutions.</p><p>Despite these challenges, Australia continues to punch above its weight on the international sporting stage. The country's investment in sports science research, its commitment to developing athletes from a young age, and its deep-rooted cultural love of sport ensure that it will remain a formidable force in world sport for the foreseeable future. The Australian government recently announced an additional 200 million dollars in funding for Olympic preparation ahead of the 2028 Games, signaling its continued commitment to sporting excellence.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "According to the passage, what is Australia's approximate population?",
+              "zh": "根据文章，澳大利亚的人口大约是多少？"
+            },
+            "options": [
+              {"en": "13 million", "zh": "1300万"},
+              {"en": "18 million", "zh": "1800万"},
+              {"en": "23 million", "zh": "2300万"},
+              {"en": "33 million", "zh": "3300万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When was the Australian Institute of Sport established?",
+              "zh": "澳大利亚体育学院是什么时候建立的？"
+            },
+            "options": [
+              {"en": "1971", "zh": "1971年"},
+              {"en": "1976", "zh": "1976年"},
+              {"en": "1981", "zh": "1981年"},
+              {"en": "1986", "zh": "1986年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How many sports does the AIS support?",
+              "zh": "澳大利亚体育学院支持多少个运动项目？"
+            },
+            "options": [
+              {"en": "More than 20", "zh": "超过20个"},
+              {"en": "More than 25", "zh": "超过25个"},
+              {"en": "More than 35", "zh": "超过35个"},
+              {"en": "More than 50", "zh": "超过50个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What do AIS scholarships provide to athletes?",
+              "zh": "澳大利亚体育学院的奖学金为运动员提供什么？"
+            },
+            "options": [
+              {"en": "Free university education", "zh": "免费大学教育"},
+              {"en": "Living expenses coverage", "zh": "生活费补助"},
+              {"en": "International travel costs", "zh": "国际旅行费用"},
+              {"en": "Retirement pensions", "zh": "退休金"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "The talent identification system is most effective in which sports?",
+              "zh": "人才识别系统在哪些运动中最为有效？"
+            },
+            "options": [
+              {"en": "Swimming, rowing, and track cycling", "zh": "游泳、赛跑和场地自行车"},
+              {"en": "Swimming, rugby, and tennis", "zh": "游泳、橄榄球和网球"},
+              {"en": "Cricket, athletics, and surfing", "zh": "板球、田径和冲浪"},
+              {"en": "Tennis, cycling, and basketball", "zh": "网球、自行车和篮球"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What criticism is made of sports funding distribution?",
+              "zh": "对体育资金分配有什么批评？"
+            },
+            "options": [
+              {"en": "Too much goes to grassroots sports", "zh": "太多资金用于草根体育"},
+              {"en": "Glamour sports receive disproportionate resources", "zh": "魅力运动获得了不成比例的资源"},
+              {"en": "Regional areas are ignored", "zh": "地区性运动被忽视"},
+              {"en": "Funding has decreased over time", "zh": "资金随时间减少"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What concern is raised about young athletes?",
+              "zh": "对年轻运动员提出了什么担忧？"
+            },
+            "options": [
+              {"en": "They are not paid enough", "zh": "他们的报酬不够"},
+              {"en": "They are pushed into intensive training too early", "zh": "他们过早被推入高强度训练"},
+              {"en": "They lack access to facilities", "zh": "他们缺乏设施使用机会"},
+              {"en": "They drop out of school too often", "zh": "他们太常辍学"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "Which sports have been affected by doping scandals?",
+              "zh": "哪些运动受到兴奋剂丑闻的影响？"
+            },
+            "options": [
+              {"en": "Swimming and athletics", "zh": "游泳和田径"},
+              {"en": "Cycling and rugby league", "zh": "自行车和橄榄球联赛"},
+              {"en": "Tennis and cricket", "zh": "网球和板球"},
+              {"en": "Rowing and surfing", "zh": "赛艇和冲浪"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "How much additional funding was announced for Olympic preparation?",
+              "zh": "宣布了多少额外资金用于奥运备战？"
+            },
+            "options": [
+              {"en": "100 million dollars", "zh": "1亿美元"},
+              {"en": "150 million dollars", "zh": "1.5亿美元"},
+              {"en": "200 million dollars", "zh": "2亿美元"},
+              {"en": "250 million dollars", "zh": "2.5亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "Which word best describes Australia's sporting performance relative to its size?",
+              "zh": "哪个词最能描述澳大利亚相对于其人口规模的体育表现？"
+            },
+            "options": [
+              {"en": "Disappointing", "zh": "令人失望的"},
+              {"en": "Adequate", "zh": "足够的"},
+              {"en": "Exceptional", "zh": "卓越的"},
+              {"en": "Predictable", "zh": "可预见的"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "What role does Australia's climate play in sporting success?",
+              "zh": "澳大利亚的气候在体育成功中扮演什么角色？"
+            },
+            "options": [
+              {"en": "It prevents outdoor activity", "zh": "它阻碍了户外活动"},
+              {"en": "It naturally encourages outdoor physical activity", "zh": "它自然鼓励户外体育活动"},
+              {"en": "It has no significant effect", "zh": "它没有显著影响"},
+              {"en": "It only benefits water sports", "zh": "它只对水上运动有利"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What is mentioned about community sporting clubs in Australia?",
+              "zh": "文章提到了澳大利亚社区体育俱乐部的什么特点？"
+            },
+            "options": [
+              {"en": "They are expensive and exclusive", "zh": "它们价格昂贵且排外"},
+              {"en": "They are widespread and affordable", "zh": "它们分布广泛且价格合理"},
+              {"en": "They only serve professional athletes", "zh": "它们只服务于职业运动员"},
+              {"en": "They are declining in number", "zh": "它们的数量在减少"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "Where is the AIS located?",
+              "zh": "澳大利亚体育学院位于哪里？"
+            },
+            "options": [
+              {"en": "Sydney", "zh": "悉尼"},
+              {"en": "Melbourne", "zh": "墨尔本"},
+              {"en": "Canberra", "zh": "堪培拉"},
+              {"en": "Brisbane", "zh": "布里斯班"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "The phrase 'punch above its weight' in the final paragraph means that Australia:",
+              "zh": "最后一段中'punch above its weight'这个短语的意思是澳大利亚："
+            },
+            "options": [
+              {"en": "Has very large athletes", "zh": "拥有非常高大的运动员"},
+              {"en": "Performs better than expected for its size", "zh": "表现优于其规模的预期"},
+              {"en": "Spend more on sport than other countries", "zh": "在体育上的支出超过其他国家"},
+              {"en": "Prefers combat sports", "zh": "更喜欢格斗类运动"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - Advantages of Public Transport",
+          "zh": "文章2 - 公共交通的优势"
+        },
+        "passage": "<p>A developed nation's transport infrastructure is a key indicator of its economic progress and quality of life. Countries that invest in efficient public transportation systems reap significant benefits in terms of reduced congestion, lower pollution levels, improved public health, and enhanced social equity. Yet many developed nations remain heavily dependent on private automobiles, a trend that carries substantial economic and environmental costs.</p><p>The economic case for public transport is compelling. A single bus can carry the equivalent of 40 to 80 cars' worth of passengers, depending on occupancy rates. This means that investing in bus rapid transit systems, light rail, or subway networks can dramatically reduce the number of vehicles on the road, thereby decreasing congestion and the associated costs of lost productivity. In the United States alone, traffic congestion is estimated to cost the economy over 87 billion dollars annually in wasted time and fuel. Cities with well-developed public transport systems, such as Tokyo, Hong Kong, and Zurich, consistently demonstrate that high-quality transit can support vibrant, productive economies.</p><p>Environmental benefits are equally significant. Transportation accounts for approximately 25 percent of global carbon dioxide emissions, with private vehicles being the largest single source in many countries. Public transport produces far fewer emissions per passenger kilometer than private cars. A full bus produces roughly one-tenth of the carbon dioxide per passenger compared to a single-occupancy vehicle. Electric trains and trams are even cleaner, particularly when powered by renewable electricity. Cities that have invested heavily in public transport, such as Copenhagen and Amsterdam, have achieved substantially lower per capita transport emissions than car-dependent cities of comparable size.</p><p>Public transport also promotes social equity by providing mobility to those who cannot drive or afford a car. Elderly people, young people, people with disabilities, and low-income households all depend on accessible and affordable public transit. Research consistently shows that access to reliable public transport is one of the strongest predictors of economic opportunity for disadvantaged communities. A study by the Brookings Institution found that the typical job in a major American metropolitan area is accessible by public transport from only 30 percent of the surrounding area, highlighting significant gaps in transit coverage that limit employment opportunities for many residents.</p><p>Health benefits provide another strong argument for public transport investment. Regular public transport users tend to walk more than car drivers, as they must travel to and from stops and stations. Studies have found that public transport users take an average of 19 minutes more physical activity per day than non-users, which contributes to lower rates of obesity, cardiovascular disease, and diabetes. Furthermore, reducing the number of cars on the road improves air quality, which in turn reduces respiratory illnesses and premature deaths caused by air pollution.</p><p>Despite these well-documented advantages, public transport faces persistent challenges. Funding is often inadequate, with many systems relying on subsidies that are vulnerable to political changes. Service quality can be inconsistent, and many suburban and rural areas remain poorly served. Overcoming the cultural preference for private cars remains perhaps the greatest challenge, particularly in countries like the United States and Australia where car ownership is deeply ingrained in the national psyche. Nevertheless, growing concerns about climate change, urban congestion, and energy security are driving renewed interest in public transport investment worldwide.</p>",
+        "questions": [
+          {
+            "id": 15,
+            "text": {
+              "en": "According to the passage, what percentage of global CO2 emissions does transport account for?",
+              "zh": "根据文章，交通占全球二氧化碳排放量的多少百分比？"
+            },
+            "options": [
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 20 percent", "zh": "约20%"},
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 35 percent", "zh": "约35%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How much does traffic congestion cost the US economy annually?",
+              "zh": "交通拥堵每年给美国经济造成多少损失？"
+            },
+            "options": [
+              {"en": "Over 57 billion dollars", "zh": "超过570亿美元"},
+              {"en": "Over 87 billion dollars", "zh": "超过870亿美元"},
+              {"en": "Over 107 billion dollars", "zh": "超过1070亿美元"},
+              {"en": "Over 127 billion dollars", "zh": "超过1270亿美元"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How much CO2 does a full bus produce per passenger compared to a single-occupancy car?",
+              "zh": "与单人驾驶的汽车相比，满载公交车每位乘客产生多少二氧化碳？"
+            },
+            "options": [
+              {"en": "About one-quarter", "zh": "大约四分之一"},
+              {"en": "About one-third", "zh": "大约三分之一"},
+              {"en": "About one-tenth", "zh": "大约十分之一"},
+              {"en": "About one-twentieth", "zh": "大约二十分之一"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What percentage of surrounding areas is a typical American job accessible from by public transport?",
+              "zh": "在美国，一个典型的工作岗位通过公共交通可从周围多少百分比的区域到达？"
+            },
+            "options": [
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "20 percent", "zh": "20%"},
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "40 percent", "zh": "40%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How much more physical activity do public transport users get per day compared to non-users?",
+              "zh": "与不使用公共交通的人相比，公共交通使用者每天多做多少体育活动？"
+            },
+            "options": [
+              {"en": "An average of 10 minutes more", "zh": "平均多10分钟"},
+              {"en": "An average of 15 minutes more", "zh": "平均多15分钟"},
+              {"en": "An average of 19 minutes more", "zh": "平均多19分钟"},
+              {"en": "An average of 25 minutes more", "zh": "平均多25分钟"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "Which of the following is NOT mentioned as a benefit of public transport?",
+              "zh": "以下哪项未被提到是公共交通的好处？"
+            },
+            "options": [
+              {"en": "Reduced congestion", "zh": "减少拥堵"},
+              {"en": "Lower pollution levels", "zh": "降低污染水平"},
+              {"en": "Increased car sales", "zh": "增加汽车销量"},
+              {"en": "Social equity", "zh": "社会公平"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "According to the Brookings Institution study, who conducted the research on job accessibility?",
+              "zh": "根据布鲁金斯学会的研究，谁进行了关于就业可达性的研究？"
+            },
+            "options": [
+              {"en": "The Brookings Institution", "zh": "布鲁金斯学会"},
+              {"en": "The World Health Organization", "zh": "世界卫生组织"},
+              {"en": "The US Department of Transport", "zh": "美国交通部"},
+              {"en": "The European Commission", "zh": "欧盟委员会"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "Which cities are cited as examples of successful public transport systems?",
+              "zh": "哪些城市被引用为成功公共交通系统的例子？"
+            },
+            "options": [
+              {"en": "London, Paris, and New York", "zh": "伦敦、巴黎和纽约"},
+              {"en": "Tokyo, Hong Kong, and Zurich", "zh": "东京、香港和苏黎世"},
+              {"en": "Berlin, Rome, and Madrid", "zh": "柏林、罗马和马德里"},
+              {"en": "Seoul, Bangkok, and Mumbai", "zh": "首尔、孟买和曼谷"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What is identified as perhaps the greatest challenge for public transport?",
+              "zh": "什么被认定为公共交通面临的最大挑战？"
+            },
+            "options": [
+              {"en": "Technological limitations", "zh": "技术限制"},
+              {"en": "Overcoming cultural preference for cars", "zh": "克服对汽车的文化偏好"},
+              {"en": "Lack of government support", "zh": "缺乏政府支持"},
+              {"en": "Insufficient demand", "zh": "需求不足"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What groups particularly benefit from public transport according to the passage?",
+              "zh": "根据文章，哪些群体特别受益于公共交通？"
+            },
+            "options": [
+              {"en": "Only business professionals", "zh": "仅商务人士"},
+              {"en": "Only tourists", "zh": "仅游客"},
+              {"en": "Elderly, young, disabled, and low-income people", "zh": "老年人、年轻人、残障人士和低收入人群"},
+              {"en": "Only urban residents", "zh": "仅城市居民"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "Which two countries are mentioned as having a deep cultural preference for cars?",
+              "zh": "哪两个国家被提到对汽车有深厚的文化偏好？"
+            },
+            "options": [
+              {"en": "Japan and South Korea", "zh": "日本和韩国"},
+              {"en": "Germany and France", "zh": "德国和法国"},
+              {"en": "The United States and Australia", "zh": "美国和澳大利亚"},
+              {"en": "Brazil and India", "zh": "巴西和印度"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What health conditions are associated with better public transport use?",
+              "zh": "使用公共交通与哪些健康状况改善有关？"
+            },
+            "options": [
+              {"en": "Obesity, cardiovascular disease, and diabetes", "zh": "肥胖、心血管疾病和糖尿病"},
+              {"en": "Cancer and kidney disease", "zh": "癌症和肾病"},
+              {"en": "Mental health disorders only", "zh": "仅心理健康障碍"},
+              {"en": "Allergies and skin conditions", "zh": "过敏和皮肤病"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What is one of the strongest predictors of economic opportunity for disadvantaged communities?",
+              "zh": "什么是对弱势社区经济机会最强的预测因素之一？"
+            },
+            "options": [
+              {"en": "Proximity to schools", "zh": "靠近学校"},
+              {"en": "Access to reliable public transport", "zh": "使用可靠公共交通的机会"},
+              {"en": "Availability of broadband internet", "zh": "宽带网络的可用性"},
+              {"en": "Local government funding", "zh": "地方政府资金"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Search for Anti-Aging Solutions",
+          "zh": "文章3 - 寻找抗衰老方案"
+        },
+        "passage": "<p>The quest to extend human lifespan has captivated scientists, philosophers, and ordinary people for centuries. In recent decades, however, advances in molecular biology and genetics have transformed the search for anti-aging interventions from speculative fiction into a legitimate area of scientific research. Today, a growing number of researchers believe that aging itself may be treatable, potentially allowing humans to live significantly longer and healthier lives.</p><p>One of the most promising areas of anti-aging research involves caloric restriction, the practice of reducing calorie intake by 20 to 40 percent below normal levels while maintaining adequate nutrition. Studies in animals ranging from yeast and worms to mice and primates have consistently shown that caloric restriction extends lifespan by 20 to 50 percent. In a landmark study conducted at the University of Wisconsin, rhesus monkeys on calorie-restricted diets showed dramatically lower rates of age-related diseases including cancer, diabetes, and cardiovascular disease compared to control groups eating normal diets. However, translating these findings to humans has proven challenging, as few people are willing or able to maintain such severe dietary restrictions over long periods.</p><p>Pharmaceutical approaches to anti-aging have shown considerable promise. Rapamycin, a drug originally developed to prevent organ transplant rejection, has been found to extend the lifespan of mice by 10 to 15 percent when administered in low doses. The drug works by inhibiting a protein called mTOR, which plays a key role in regulating cell growth and metabolism. Similarly, metformin, a widely used diabetes medication, has demonstrated anti-aging properties in laboratory studies and is now being tested in a major clinical trial called TAME (Targeting Aging with Metformin) involving 3,000 participants aged 65 to 79 across 14 research centers in the United States.</p><p>Perhaps the most revolutionary approach involves senolytics, a class of drugs designed to selectively eliminate senescent cells. These are cells that have stopped dividing but refuse to die, accumulating in tissues and releasing inflammatory chemicals that damage surrounding healthy cells. Researchers at the Mayo Clinic have shown that clearing senescent cells from mice extends their healthy lifespan by approximately 25 percent and reverses many age-related conditions, including cataracts, muscle weakness, and cognitive decline. Several senolytic drugs are now in early-stage human clinical trials.</p><p>Genetic research has also yielded fascinating insights into the biology of aging. Studies of centenarians, people who live to 100 or beyond, have identified several genetic variants associated with exceptional longevity, including variations in the APOE and FOXO3 genes. Meanwhile, researchers studying the telomeres, the protective caps on the ends of chromosomes that shorten with each cell division, have discovered that the enzyme telomerase can rebuild telomeres and effectively reverse cellular aging in laboratory settings. The 2009 Nobel Prize in Physiology or Medicine was awarded to three scientists for their discovery of how chromosomes are protected by telomeres and the enzyme telomerase.</p><p>Critics of anti-aging research raise important ethical and social concerns. If life-extending treatments become available, they will likely be expensive and accessible only to the wealthy, potentially creating a society divided between those who can afford to live longer and those who cannot. There are also concerns about the impact on population growth, pension systems, and intergenerational equity. Some bioethicists argue that resources would be better spent on improving healthcare for existing populations rather than extending lifespan for a privileged few. Despite these concerns, investment in anti-aging research continues to grow, with private foundations and technology billionaires pouring billions of dollars into the field.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "By how much can caloric restriction extend animal lifespan?",
+              "zh": "热量限制能将动物寿命延长多少？"
+            },
+            "options": [
+              {"en": "10 to 25 percent", "zh": "10%到25%"},
+              {"en": "20 to 50 percent", "zh": "20%到50%"},
+              {"en": "30 to 60 percent", "zh": "30%到60%"},
+              {"en": "40 to 70 percent", "zh": "40%到70%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What university conducted the rhesus monkey caloric restriction study?",
+              "zh": "哪所大学进行了恒河猴热量限制研究？"
+            },
+            "options": [
+              {"en": "Harvard University", "zh": "哈佛大学"},
+              {"en": "Stanford University", "zh": "斯坦福大学"},
+              {"en": "University of Wisconsin", "zh": "威斯康星大学"},
+              {"en": "MIT", "zh": "麻省理工学院"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "How much does rapamycin extend the lifespan of mice?",
+              "zh": "雷帕霉素能将小鼠的寿命延长多少？"
+            },
+            "options": [
+              {"en": "5 to 10 percent", "zh": "5%到10%"},
+              {"en": "10 to 15 percent", "zh": "10%到15%"},
+              {"en": "15 to 20 percent", "zh": "15%到20%"},
+              {"en": "20 to 25 percent", "zh": "20%到25%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What does rapamycin inhibit to extend lifespan?",
+              "zh": "雷帕霉素通过抑制什么来延长寿命？"
+            },
+            "options": [
+              {"en": "The APOE gene", "zh": "APOE基因"},
+              {"en": "The FOXO3 gene", "zh": "FOXO3基因"},
+              {"en": "The mTOR protein", "zh": "mTOR蛋白"},
+              {"en": "The telomerase enzyme", "zh": "端粒酶"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "How many participants are involved in the TAME clinical trial?",
+              "zh": "TAME临床试验有多少参与者？"
+            },
+            "options": [
+              {"en": "1,000", "zh": "1000人"},
+              {"en": "2,000", "zh": "2000人"},
+              {"en": "3,000", "zh": "3000人"},
+              {"en": "5,000", "zh": "5000人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What are senescent cells?",
+              "zh": "衰老细胞是什么？"
+            },
+            "options": [
+              {"en": "Cells that divide rapidly", "zh": "快速分裂的细胞"},
+              {"en": "Cells that have stopped dividing but refuse to die", "zh": "停止分裂但拒绝死亡的细胞"},
+              {"en": "Cells that only exist in older people", "zh": "只存在于老年人体内的细胞"},
+              {"en": "Cells that produce telomerase", "zh": "产生端粒酶的细胞"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "By how much does clearing senescent cells extend healthy lifespan in mice?",
+              "zh": "清除衰老细胞能将小鼠的健康寿命延长多少？"
+            },
+            "options": [
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 35 percent", "zh": "约35%"},
+              {"en": "About 45 percent", "zh": "约45%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "Which institution is researching senolytics?",
+              "zh": "哪个机构在研究衰老细胞清除药物？"
+            },
+            "options": [
+              {"en": "The National Institutes of Health", "zh": "美国国立卫生研究院"},
+              {"en": "The Mayo Clinic", "zh": "梅奥诊所"},
+              {"en": "The University of Wisconsin", "zh": "威斯康星大学"},
+              {"en": "The Max Planck Institute", "zh": "马克斯普朗克研究所"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What genetic variants are associated with exceptional longevity?",
+              "zh": "哪些基因变异与超常寿命相关？"
+            },
+            "options": [
+              {"en": "APOE and FOXO3", "zh": "APOE和FOXO3"},
+              {"en": "BRCA1 and BRCA2", "zh": "BRCA1和BRCA2"},
+              {"en": "TP53 and RAS", "zh": "TP53和RAS"},
+              {"en": "EGFR and HER2", "zh": "EGFR和HER2"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What happens to telomeres as cells divide?",
+              "zh": "细胞分裂时端粒会发生什么变化？"
+            },
+            "options": [
+              {"en": "They get longer", "zh": "它们变长"},
+              {"en": "They stay the same", "zh": "它们保持不变"},
+              {"en": "They shorten", "zh": "它们缩短"},
+              {"en": "They multiply", "zh": "它们倍增"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "When was the Nobel Prize awarded for telomere research?",
+              "zh": "端粒研究获得诺贝尔奖是在哪一年？"
+            },
+            "options": [
+              {"en": "2005", "zh": "2005年"},
+              {"en": "2007", "zh": "2007年"},
+              {"en": "2009", "zh": "2009年"},
+              {"en": "2012", "zh": "2012年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What ethical concern is raised about anti-aging treatments?",
+              "zh": "关于抗衰老治疗提出了什么伦理担忧？"
+            },
+            "options": [
+              {"en": "They may cause side effects", "zh": "它们可能引起副作用"},
+              {"en": "They may only be accessible to the wealthy", "zh": "它们可能只有富人才能获得"},
+              {"en": "They may be banned by governments", "zh": "它们可能被政府禁止"},
+              {"en": "They may reduce intelligence", "zh": "它们可能降低智力"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What is the name of the metformin clinical trial?",
+              "zh": "二甲双胍临床试验的名称是什么？"
+            },
+            "options": [
+              {"en": "TARGET", "zh": "TARGET"},
+              {"en": "TAME", "zh": "TAME"},
+              {"en": "RENEW", "zh": "RENEW"},
+              {"en": "LONGEVITY", "zh": "LONGEVITY"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The graph below shows the consumption of fish and some different kinds of meat in a European country between 1979 and 2004. Summarize the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的图表显示了1979年至2004年间一个欧洲国家鱼类和几种不同肉类的消费量。通过选择和报告主要特征来总结信息，并在相关处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "Some people think that instead of preventing climate change, we need to find a way to live with it. To what extent do you agree or disagree? Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些人认为，与其防止气候变化，不如想办法适应它。你在多大程度上同意或不同意？给出你回答的理由，并包括来自你自己的知识或经验的相关例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

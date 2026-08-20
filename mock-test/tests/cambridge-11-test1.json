@@ -1,0 +1,1224 @@
+{
+  "id": "cambridge-11-test1",
+  "title": {
+    "en": "Cambridge IELTS 11 - Test 1",
+    "zh": "剑桥雅思11 - 测试1"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - A conversation about booking a holiday",
+          "zh": "第一部分 - 关于预订假期的对话"
+        },
+        "passage": "<p>A conversation between a customer, Sarah, and a travel agent, Tom, about booking a holiday. Sarah calls the travel agency to arrange a trip to Bali, Indonesia. She wants to travel in mid-August for two weeks. Tom checks availability and finds that flights are available departing on August 14th and returning on August 28th. The flight departs from London Heathrow at 10:30 AM with a brief stopover in Singapore before arriving in Bali at 9:15 AM the following morning. Sarah asks about accommodation options. Tom recommends three hotels: the Beachfront Resort at 120 pounds per night with a sea view, the Garden Villas at 85 pounds per night with a pool view, and the City Centre Hotel at 65 pounds per night. Sarah prefers the Garden Villas because it offers a good balance of comfort and price. Tom mentions that the package includes breakfast but lunch and dinner are not included. However, the hotel has two restaurants on-site. Sarah also asks about airport transfers, and Tom says they are included in the package price. The total cost for the trip including flights and accommodation comes to 2,380 pounds for two people. Sarah asks about travel insurance, which is an additional 75 pounds per person. She decides to book the trip and provides her credit card details for a deposit of 500 pounds. Tom confirms the booking and says he will send a confirmation email with all the details within 24 hours.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "When does Sarah want to travel?",
+              "zh": "Sarah 想什么时候出行？"
+            },
+            "options": [
+              {"en": "Early August", "zh": "八月初"},
+              {"en": "Mid-August", "zh": "八月中旬"},
+              {"en": "Late August", "zh": "八月底"},
+              {"en": "Early September", "zh": "九月初"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How long does Sarah want to stay in Bali?",
+              "zh": "Sarah 想在巴厘岛待多久？"
+            },
+            "options": [
+              {"en": "One week", "zh": "一周"},
+              {"en": "Ten days", "zh": "十天"},
+              {"en": "Two weeks", "zh": "两周"},
+              {"en": "Three weeks", "zh": "三周"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "Where does the flight have a stopover?",
+              "zh": "航班在哪里中转？"
+            },
+            "options": [
+              {"en": "Hong Kong", "zh": "香港"},
+              {"en": "Bangkok", "zh": "曼谷"},
+              {"en": "Singapore", "zh": "新加坡"},
+              {"en": "Kuala Lumpur", "zh": "吉隆坡"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "Which hotel does Sarah choose?",
+              "zh": "Sarah 选择了哪家酒店？"
+            },
+            "options": [
+              {"en": "Beachfront Resort", "zh": "海滨度假村"},
+              {"en": "Garden Villas", "zh": "花园别墅"},
+              {"en": "City Centre Hotel", "zh": "市中心酒店"},
+              {"en": "Mountain Lodge", "zh": "山间旅馆"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "How much does the Garden Villas cost per night?",
+              "zh": "花园别墅每晚多少钱？"
+            },
+            "options": [
+              {"en": "65 pounds", "zh": "65英镑"},
+              {"en": "75 pounds", "zh": "75英镑"},
+              {"en": "85 pounds", "zh": "85英镑"},
+              {"en": "120 pounds", "zh": "120英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What meals are included in the package?",
+              "zh": "套餐包含哪些餐食？"
+            },
+            "options": [
+              {"en": "All meals", "zh": "所有餐食"},
+              {"en": "Breakfast and lunch", "zh": "早餐和午餐"},
+              {"en": "Breakfast only", "zh": "仅早餐"},
+              {"en": "No meals", "zh": "不含餐食"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What is included in the package price regarding transport?",
+              "zh": "套餐价格中包含什么交通服务？"
+            },
+            "options": [
+              {"en": "Rental car", "zh": "租车"},
+              {"en": "Airport transfers", "zh": "机场接送"},
+              {"en": "Local bus pass", "zh": "本地公交卡"},
+              {"en": "Bicycle hire", "zh": "自行车租赁"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What is the total cost for two people?",
+              "zh": "两个人的总费用是多少？"
+            },
+            "options": [
+              {"en": "1,880 pounds", "zh": "1,880英镑"},
+              {"en": "2,180 pounds", "zh": "2,180英镑"},
+              {"en": "2,380 pounds", "zh": "2,380英镑"},
+              {"en": "2,530 pounds", "zh": "2,530英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "How much is travel insurance per person?",
+              "zh": "每人旅行保险费是多少？"
+            },
+            "options": [
+              {"en": "50 pounds", "zh": "50英镑"},
+              {"en": "65 pounds", "zh": "65英镑"},
+              {"en": "75 pounds", "zh": "75英镑"},
+              {"en": "100 pounds", "zh": "100英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How much deposit does Sarah pay?",
+              "zh": "Sarah 支付了多少定金？"
+            },
+            "options": [
+              {"en": "250 pounds", "zh": "250英镑"},
+              {"en": "500 pounds", "zh": "500英镑"},
+              {"en": "750 pounds", "zh": "750英镑"},
+              {"en": "1,000 pounds", "zh": "1,000英镑"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - A talk about a new leisure centre",
+          "zh": "第二部分 - 关于新休闲中心的介绍"
+        },
+        "passage": "<p>A radio broadcast about the opening of a new community leisure centre in the town of Millfield. The presenter, Helen Grant, interviews the centre manager, James Wilson, about the facilities and services available. The leisure centre, which cost 12 million pounds to build, officially opens next Monday. It features a 50-metre Olympic-standard swimming pool, a fully equipped gym with over 200 pieces of exercise equipment, four indoor tennis courts, and a sports hall for basketball and badminton. There is also a dedicated children's area with a soft play zone and climbing walls. The centre will be open from 6 AM to 10 PM on weekdays and from 8 AM to 8 PM on weekends. Annual membership costs 450 pounds for adults, 300 pounds for students and senior citizens, and 200 pounds for children under 16. There is also a family membership option at 900 pounds which covers two adults and up to three children. Non-members can use the facilities on a pay-as-you-go basis, with swimming sessions costing 8 pounds and gym sessions costing 10 pounds. The centre also offers a range of fitness classes including yoga, pilates, spinning, and aqua aerobics, which are included in the membership fee. James mentions that they have hired 30 qualified staff members, including personal trainers who can create individual fitness programmes. A special opening promotion offers a 20 percent discount on annual memberships purchased before the end of the month.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "How much did the leisure centre cost to build?",
+              "zh": "休闲中心的建设费用是多少？"
+            },
+            "options": [
+              {"en": "8 million pounds", "zh": "800万英镑"},
+              {"en": "10 million pounds", "zh": "1,000万英镑"},
+              {"en": "12 million pounds", "zh": "1,200万英镑"},
+              {"en": "15 million pounds", "zh": "1,500万英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How long is the swimming pool?",
+              "zh": "游泳池有多长？"
+            },
+            "options": [
+              {"en": "25 metres", "zh": "25米"},
+              {"en": "30 metres", "zh": "30米"},
+              {"en": "40 metres", "zh": "40米"},
+              {"en": "50 metres", "zh": "50米"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many pieces of exercise equipment does the gym have?",
+              "zh": "健身房有多少件健身器材？"
+            },
+            "options": [
+              {"en": "Over 100", "zh": "超过100件"},
+              {"en": "Over 150", "zh": "超过150件"},
+              {"en": "Over 200", "zh": "超过200件"},
+              {"en": "Over 250", "zh": "超过250件"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "What are the opening hours on weekends?",
+              "zh": "周末的开放时间是什么？"
+            },
+            "options": [
+              {"en": "6 AM to 10 PM", "zh": "上午6点到晚上10点"},
+              {"en": "7 AM to 9 PM", "zh": "上午7点到晚上9点"},
+              {"en": "8 AM to 8 PM", "zh": "上午8点到晚上8点"},
+              {"en": "9 AM to 6 PM", "zh": "上午9点到下午6点"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What is the annual membership fee for students?",
+              "zh": "学生的年费是多少？"
+            },
+            "options": [
+              {"en": "200 pounds", "zh": "200英镑"},
+              {"en": "300 pounds", "zh": "300英镑"},
+              {"en": "400 pounds", "zh": "400英镑"},
+              {"en": "450 pounds", "zh": "450英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How many children can the family membership cover?",
+              "zh": "家庭会员可以覆盖几个孩子？"
+            },
+            "options": [
+              {"en": "Up to two", "zh": "最多两个"},
+              {"en": "Up to three", "zh": "最多三个"},
+              {"en": "Up to four", "zh": "最多四个"},
+              {"en": "Unlimited", "zh": "不限"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How much does a non-member pay for a swimming session?",
+              "zh": "非会员游泳一次需要支付多少？"
+            },
+            "options": [
+              {"en": "5 pounds", "zh": "5英镑"},
+              {"en": "6 pounds", "zh": "6英镑"},
+              {"en": "8 pounds", "zh": "8英镑"},
+              {"en": "10 pounds", "zh": "10英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "Which of the following fitness classes is NOT mentioned?",
+              "zh": "以下哪个健身课程没有被提到？"
+            },
+            "options": [
+              {"en": "Yoga", "zh": "瑜伽"},
+              {"en": "Pilates", "zh": "普拉提"},
+              {"en": "Boxing", "zh": "拳击"},
+              {"en": "Spinning", "zh": "动感单车"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How many staff members have been hired?",
+              "zh": "雇佣了多少名员工？"
+            },
+            "options": [
+              {"en": "20", "zh": "20名"},
+              {"en": "25", "zh": "25名"},
+              {"en": "30", "zh": "30名"},
+              {"en": "35", "zh": "35名"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What discount is offered during the opening promotion?",
+              "zh": "开业促销期间提供多少折扣？"
+            },
+            "options": [
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "20 percent", "zh": "20%"},
+              {"en": "25 percent", "zh": "25%"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - A discussion about a university assignment",
+          "zh": "第三部分 - 关于大学作业的讨论"
+        },
+        "passage": "<p>A conversation between two university students, Emma and Jack, discussing their upcoming group assignment for a Marine Biology course. They need to prepare a presentation on the impact of plastic pollution on marine ecosystems. Emma has been researching the Great Pacific Garbage Patch, which is the largest accumulation of ocean plastic in the world, located between Hawaii and California. She found that it covers an area of approximately 1.6 million square kilometres, which is roughly three times the size of France. Jack has been looking at the effects of microplastics on marine food chains. He discovered that microplastics, which are pieces smaller than 5 millimetres, are consumed by small fish and plankton, and then accumulate as they move up the food chain through a process called bioaccumulation. They decide to divide the presentation into three main sections: the sources and scale of ocean plastic pollution, the biological effects on marine organisms, and potential solutions. For the solutions section, Emma wants to focus on the Ocean Cleanup project, which uses floating barriers to collect plastic from the ocean surface. Jack suggests including information about biodegradable plastic alternatives made from seaweed, which are being developed by several research laboratories. They agree to meet in the library on Thursday afternoon to compile their research and create the presentation slides. Their professor, Dr. Mitchell, has asked them to keep the presentation to 15 minutes with 5 minutes for questions. Emma also mentions that they should include recent statistical data from the United Nations Environment Programme report published last year.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the topic of their presentation?",
+              "zh": "他们的演讲主题是什么？"
+            },
+            "options": [
+              {"en": "Climate change in the Arctic", "zh": "北极气候变化"},
+              {"en": "Plastic pollution in marine ecosystems", "zh": "海洋生态系统中的塑料污染"},
+              {"en": "Overfishing in the Pacific Ocean", "zh": "太平洋过度捕捞"},
+              {"en": "Coral reef conservation", "zh": "珊瑚礁保护"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "How large is the Great Pacific Garbage Patch?",
+              "zh": "太平洋垃圾带有多大？"
+            },
+            "options": [
+              {"en": "About 800,000 square kilometres", "zh": "约80万平方公里"},
+              {"en": "About 1.2 million square kilometres", "zh": "约120万平方公里"},
+              {"en": "About 1.6 million square kilometres", "zh": "约160万平方公里"},
+              {"en": "About 2 million square kilometres", "zh": "约200万平方公里"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What size are microplastics defined as?",
+              "zh": "微塑料的定义大小是多少？"
+            },
+            "options": [
+              {"en": "Smaller than 1 millimetre", "zh": "小于1毫米"},
+              {"en": "Smaller than 3 millimetres", "zh": "小于3毫米"},
+              {"en": "Smaller than 5 millimetres", "zh": "小于5毫米"},
+              {"en": "Smaller than 10 millimetres", "zh": "小于10毫米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What process describes the accumulation of plastics through the food chain?",
+              "zh": "什么过程描述了塑料在食物链中的积累？"
+            },
+            "options": [
+              {"en": "Biodegradation", "zh": "生物降解"},
+              {"en": "Bioaccumulation", "zh": "生物积累"},
+              {"en": "Biomagnification", "zh": "生物放大"},
+              {"en": "Photosynthesis", "zh": "光合作用"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How many main sections will the presentation have?",
+              "zh": "演讲将分为几个主要部分？"
+            },
+            "options": [
+              {"en": "Two", "zh": "两个"},
+              {"en": "Three", "zh": "三个"},
+              {"en": "Four", "zh": "四个"},
+              {"en": "Five", "zh": "五个"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What technology does the Ocean Cleanup project use?",
+              "zh": "海洋清理项目使用什么技术？"
+            },
+            "options": [
+              {"en": "Underwater drones", "zh": "水下无人机"},
+              {"en": "Floating barriers", "zh": "浮动屏障"},
+              {"en": "Chemical treatments", "zh": "化学处理"},
+              {"en": "Suction pumps", "zh": "吸水泵"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "What are the biodegradable plastic alternatives made from?",
+              "zh": "可生物降解的塑料替代品是由什么制成的？"
+            },
+            "options": [
+              {"en": "Corn starch", "zh": "玉米淀粉"},
+              {"en": "Bamboo fibre", "zh": "竹纤维"},
+              {"en": "Seaweed", "zh": "海藻"},
+              {"en": "Recycled paper", "zh": "再生纸"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "When do Emma and Jack plan to meet?",
+              "zh": "Emma 和 Jack 计划什么时候见面？"
+            },
+            "options": [
+              {"en": "Tuesday morning", "zh": "周二上午"},
+              {"en": "Wednesday evening", "zh": "周三晚上"},
+              {"en": "Thursday afternoon", "zh": "周四下午"},
+              {"en": "Friday morning", "zh": "周五上午"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How long should the presentation last?",
+              "zh": "演讲应该持续多长时间？"
+            },
+            "options": [
+              {"en": "10 minutes", "zh": "10分钟"},
+              {"en": "15 minutes", "zh": "15分钟"},
+              {"en": "20 minutes", "zh": "20分钟"},
+              {"en": "25 minutes", "zh": "25分钟"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "Which organisation published the report Emma wants to cite?",
+              "zh": "Emma 想引用的报告是哪个组织发布的？"
+            },
+            "options": [
+              {"en": "World Health Organisation", "zh": "世界卫生组织"},
+              {"en": "United Nations Environment Programme", "zh": "联合国环境规划署"},
+              {"en": "World Wildlife Fund", "zh": "世界自然基金会"},
+              {"en": "Greenpeace International", "zh": "国际绿色和平组织"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - A lecture on urban green spaces",
+          "zh": "第四部分 - 关于城市绿地的讲座"
+        },
+        "passage": "<p>A university lecture by Professor Anna Roberts on the importance of urban green spaces for sustainable city development. The professor begins by defining urban green spaces as any vegetated areas within cities, including parks, gardens, street trees, green roofs, and community gardens. She explains that these spaces provide multiple benefits known as ecosystem services. The first major benefit is temperature regulation. Cities with extensive green spaces can be up to 5 degrees Celsius cooler than those without, because vegetation absorbs sunlight and provides shade. This is particularly important as global temperatures continue to rise. The second benefit is air quality improvement. A single mature tree can absorb approximately 22 kilograms of carbon dioxide per year and produce enough oxygen for two people. Professor Roberts then discusses the psychological benefits of green spaces. Research conducted at the University of Exeter found that people who spend at least 120 minutes per week in natural environments report significantly higher levels of health and wellbeing. She also mentions a study from the Netherlands which showed that residents living within 300 metres of a green space had lower rates of anxiety and depression. The lecture moves on to discuss challenges facing urban green spaces, including land pressure from developers, maintenance costs, and the effects of climate change on urban vegetation. Professor Roberts presents the example of Singapore, which has successfully integrated green spaces into its urban planning through its City in a Garden initiative, achieving a green cover of approximately 47 percent despite being one of the most densely populated countries in the world. She concludes by arguing that cities must prioritise green infrastructure in their long-term planning strategies.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "What is the main topic of the lecture?",
+              "zh": "讲座的主要主题是什么？"
+            },
+            "options": [
+              {"en": "Climate change adaptation", "zh": "气候变化适应"},
+              {"en": "Urban green spaces", "zh": "城市绿地"},
+              {"en": "Building architecture", "zh": "建筑学"},
+              {"en": "Transport planning", "zh": "交通规划"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "How much cooler can cities with green spaces be?",
+              "zh": "有绿地的城市能比没有绿地的城市凉快多少？"
+            },
+            "options": [
+              {"en": "Up to 2 degrees Celsius", "zh": "最多2摄氏度"},
+              {"en": "Up to 3 degrees Celsius", "zh": "最多3摄氏度"},
+              {"en": "Up to 5 degrees Celsius", "zh": "最多5摄氏度"},
+              {"en": "Up to 8 degrees Celsius", "zh": "最多8摄氏度"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How much carbon dioxide can a mature tree absorb per year?",
+              "zh": "一棵成熟的树每年能吸收多少二氧化碳？"
+            },
+            "options": [
+              {"en": "About 15 kilograms", "zh": "约15公斤"},
+              {"en": "About 18 kilograms", "zh": "约18公斤"},
+              {"en": "About 22 kilograms", "zh": "约22公斤"},
+              {"en": "About 30 kilograms", "zh": "约30公斤"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "How much time per week in nature improves wellbeing, according to the Exeter study?",
+              "zh": "根据埃克塞特大学的研究，每周在自然环境中待多长时间能改善幸福感？"
+            },
+            "options": [
+              {"en": "At least 60 minutes", "zh": "至少60分钟"},
+              {"en": "At least 90 minutes", "zh": "至少90分钟"},
+              {"en": "At least 120 minutes", "zh": "至少120分钟"},
+              {"en": "At least 180 minutes", "zh": "至少180分钟"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "According to the Dutch study, residents near green spaces showed lower rates of:",
+              "zh": "根据荷兰的研究，绿地附近的居民以下哪种情况的发生率较低？"
+            },
+            "options": [
+              {"en": "Heart disease and diabetes", "zh": "心脏病和糖尿病"},
+              {"en": "Anxiety and depression", "zh": "焦虑和抑郁"},
+              {"en": "Obesity and asthma", "zh": "肥胖和哮喘"},
+              {"en": "Allergies and insomnia", "zh": "过敏和失眠"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Which of the following is NOT mentioned as a challenge for urban green spaces?",
+              "zh": "以下哪项没有被提及为城市绿地面临的挑战？"
+            },
+            "options": [
+              {"en": "Land pressure from developers", "zh": "开发商的土地压力"},
+              {"en": "Maintenance costs", "zh": "维护成本"},
+              {"en": "Water scarcity", "zh": "水资源短缺"},
+              {"en": "Effects of climate change", "zh": "气候变化的影响"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What is Singapore's initiative called?",
+              "zh": "新加坡的倡议叫什么？"
+            },
+            "options": [
+              {"en": "Garden City Project", "zh": "花园城市项目"},
+              {"en": "City in a Garden", "zh": "花园中的城市"},
+              {"en": "Green Singapore 2030", "zh": "绿色新加坡2030"},
+              {"en": "Urban Nature Plan", "zh": "城市自然计划"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What percentage of green cover has Singapore achieved?",
+              "zh": "新加坡实现了多少百分比的绿化覆盖率？"
+            },
+            "options": [
+              {"en": "About 37 percent", "zh": "约37%"},
+              {"en": "About 42 percent", "zh": "约42%"},
+              {"en": "About 47 percent", "zh": "约47%"},
+              {"en": "About 52 percent", "zh": "约52%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What does the professor argue cities must prioritise?",
+              "zh": "教授认为城市必须优先考虑什么？"
+            },
+            "options": [
+              {"en": "Economic development", "zh": "经济发展"},
+              {"en": "Public transport", "zh": "公共交通"},
+              {"en": "Green infrastructure", "zh": "绿色基础设施"},
+              {"en": "Housing construction", "zh": "住房建设"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What type of green space does the professor mention as an example?",
+              "zh": "教授提到了哪种类型的绿地作为例子？"
+            },
+            "options": [
+              {"en": "Community gardens", "zh": "社区花园"},
+              {"en": "Green roofs", "zh": "绿色屋顶"},
+              {"en": "Street trees", "zh": "行道树"},
+              {"en": "All of the above", "zh": "以上所有"}
+            ],
+            "answer": 3
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The History of Chocolate",
+          "zh": "文章1 - 巧克力的历史"
+        },
+        "passage": "<p>Chocolate is one of the most popular foods in the world, but its history stretches back thousands of years to the ancient civilizations of Central and South America. The cacao tree, from which chocolate is derived, is native to the tropical regions of the Americas, and its scientific name, Theobroma cacao, literally means 'food of the gods'. The earliest known use of cacao dates back to approximately 1900 BC, based on chemical analysis of ancient pottery vessels found in what is now Honduras. The Olmec civilization, which flourished in southern Mexico from around 1500 BC, is believed to have been the first to cultivate cacao plants and process the beans into a bitter drink. This practice was later adopted by the Maya and Aztec civilizations, who considered cacao to be a sacred gift from the gods. The Maya prepared a frothy beverage by mixing ground cacao beans with water, chilli peppers, and cornmeal, while the Aztecs added vanilla and other spices to create a drink called xocolatl, which means 'bitter water' in the Nahuatl language. Cacao beans were so valuable that the Aztecs used them as a form of currency. When the Spanish conquistador Hernan Cortes arrived in Mexico in 1519, he observed the Aztec emperor Montezuma drinking xocolatl and brought cacao beans back to Spain. The Spanish modified the recipe by adding sugar and honey to counteract the bitterness, creating a sweetened version that became popular among the European aristocracy. Over the next two centuries, chocolate drinking spread throughout Europe, and by the 17th century, chocolate houses had become fashionable social gathering places in London, similar to coffee houses. The invention of the chocolate bar in 1847 by Joseph Fry, a British chocolatier, marked a turning point in chocolate history. Fry discovered that by mixing cocoa powder, sugar, and cocoa butter, he could create a mouldable paste that could be shaped into solid bars. This innovation led to the establishment of numerous chocolate companies, including Cadbury, Lindt, and Nestle, which continue to dominate the global chocolate market today.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What does 'Theobroma cacao' mean?",
+              "zh": "'Theobroma cacao'是什么意思？"
+            },
+            "options": [
+              {"en": "Sacred plant", "zh": "神圣的植物"},
+              {"en": "Food of the gods", "zh": "众神的食物"},
+              {"en": "Bitter water", "zh": "苦水"},
+              {"en": "Golden bean", "zh": "金色豆子"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When does the earliest known use of cacao date back to?",
+              "zh": "已知最早的可可使用可以追溯到什么时候？"
+            },
+            "options": [
+              {"en": "Approximately 3000 BC", "zh": "约公元前3000年"},
+              {"en": "Approximately 1900 BC", "zh": "约公元前1900年"},
+              {"en": "Approximately 1500 BC", "zh": "约公元前1500年"},
+              {"en": "Approximately 500 BC", "zh": "约公元前500年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "Which civilization is believed to be the first to cultivate cacao?",
+              "zh": "哪个文明被认为是最早种植可可的？"
+            },
+            "options": [
+              {"en": "The Maya", "zh": "玛雅"},
+              {"en": "The Aztec", "zh": "阿兹特克"},
+              {"en": "The Olmec", "zh": "奥尔梅克"},
+              {"en": "The Inca", "zh": "印加"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What did the Aztecs use cacao beans for besides making drinks?",
+              "zh": "除了制作饮品，阿兹特克人还用可可豆做什么？"
+            },
+            "options": [
+              {"en": "Medicine", "zh": "药物"},
+              {"en": "Decoration", "zh": "装饰"},
+              {"en": "Currency", "zh": "货币"},
+              {"en": "Religious offerings", "zh": "宗教祭品"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What does 'xocolatl' mean?",
+              "zh": "'xocolatl'是什么意思？"
+            },
+            "options": [
+              {"en": "Sweet drink", "zh": "甜饮"},
+              {"en": "Bitter water", "zh": "苦水"},
+              {"en": "God's gift", "zh": "神的礼物"},
+              {"en": "Dark liquid", "zh": "黑色液体"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Who brought cacao beans to Spain?",
+              "zh": "谁把可可豆带到了西班牙？"
+            },
+            "options": [
+              {"en": "Christopher Columbus", "zh": "克里斯托弗·哥伦布"},
+              {"en": "Hernan Cortes", "zh": "埃尔南·科尔特斯"},
+              {"en": "Francisco Pizarro", "zh": "弗朗西斯科·皮萨罗"},
+              {"en": "Vasco Nunez de Balboa", "zh": "巴斯科·努涅斯·德·巴尔博亚"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How did the Spanish modify the cacao drink?",
+              "zh": "西班牙人如何改良了可可饮品？"
+            },
+            "options": [
+              {"en": "By adding milk", "zh": "添加牛奶"},
+              {"en": "By adding sugar and honey", "zh": "添加糖和蜂蜜"},
+              {"en": "By removing the chilli", "zh": "去除辣椒"},
+              {"en": "By roasting the beans longer", "zh": "延长烘焙时间"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What were 'chocolate houses' in 17th century London?",
+              "zh": "17世纪伦敦的'巧克力屋'是什么？"
+            },
+            "options": [
+              {"en": "Chocolate factories", "zh": "巧克力工厂"},
+              {"en": "Private residences", "zh": "私人住宅"},
+              {"en": "Social gathering places", "zh": "社交聚会场所"},
+              {"en": "Chocolate shops", "zh": "巧克力商店"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "When was the chocolate bar invented?",
+              "zh": "巧克力棒是什么时候发明的？"
+            },
+            "options": [
+              {"en": "1747", "zh": "1747年"},
+              {"en": "1827", "zh": "1827年"},
+              {"en": "1847", "zh": "1847年"},
+              {"en": "1867", "zh": "1867年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "Who invented the chocolate bar?",
+              "zh": "谁发明了巧克力棒？"
+            },
+            "options": [
+              {"en": "John Cadbury", "zh": "约翰·吉百利"},
+              {"en": "Daniel Peter", "zh": "丹尼尔·彼得"},
+              {"en": "Joseph Fry", "zh": "约瑟夫·弗莱"},
+              {"en": "Rodolphe Lindt", "zh": "鲁道夫·莲"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "Which of the following companies is NOT mentioned in the passage?",
+              "zh": "以下哪家公司没有在文章中被提及？"
+            },
+            "options": [
+              {"en": "Cadbury", "zh": "吉百利"},
+              {"en": "Lindt", "zh": "莲"},
+              {"en": "Hershey", "zh": "好时"},
+              {"en": "Nestle", "zh": "雀巢"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "Where was the earliest cacao use discovered?",
+              "zh": "最早的可可使用是在哪里发现的？"
+            },
+            "options": [
+              {"en": "In what is now Mexico", "zh": "在现在的墨西哥"},
+              {"en": "In what is now Honduras", "zh": "在现在的洪都拉斯"},
+              {"en": "In what is now Guatemala", "zh": "在现在的危地马拉"},
+              {"en": "In what is now Peru", "zh": "在现在的秘鲁"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "What three ingredients did Fry combine to create the chocolate bar?",
+              "zh": "弗莱将哪三种原料混合制成了巧克力棒？"
+            },
+            "options": [
+              {"en": "Cocoa powder, sugar, and milk", "zh": "可可粉、糖和牛奶"},
+              {"en": "Cocoa powder, sugar, and cocoa butter", "zh": "可可粉、糖和可可脂"},
+              {"en": "Cacao beans, sugar, and vanilla", "zh": "可可豆、糖和香草"},
+              {"en": "Cocoa powder, honey, and cocoa butter", "zh": "可可粉、蜂蜜和可可脂"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Rise of Electric Vehicles",
+          "zh": "文章2 - 电动汽车的崛起"
+        },
+        "passage": "<p>The global automotive industry is undergoing its most significant transformation since the introduction of the assembly line over a century ago. Electric vehicles, once dismissed as impractical novelties, are rapidly becoming the dominant force in personal transportation. In 2022, global electric vehicle sales exceeded 10 million units, representing approximately 14 percent of all new car sales worldwide. This figure is expected to rise dramatically over the coming decade as governments implement increasingly strict emissions regulations and battery technology continues to improve. The transition to electric vehicles is being driven by several interconnected factors. Environmental concerns are perhaps the most significant. The transportation sector accounts for approximately 25 percent of global carbon dioxide emissions, and passenger vehicles are responsible for roughly half of that figure. By switching from internal combustion engines to electric motors powered by renewable energy sources, it is possible to reduce the carbon footprint of personal transportation by up to 70 percent. The falling cost of lithium-ion batteries has also been a crucial factor. In 2010, the average cost of a lithium-ion battery pack was approximately 1,200 dollars per kilowatt-hour. By 2022, this figure had fallen to around 130 dollars per kilowatt-hour, making electric vehicles increasingly competitive with conventional petrol and diesel cars in terms of purchase price. Industry analysts predict that battery costs will continue to decline, reaching approximately 80 dollars per kilowatt-hour by 2026, which would make electric vehicles cheaper to manufacture than their fossil fuel equivalents. However, the transition to electric vehicles faces several challenges. The most commonly cited concern is range anxiety, which refers to the fear that a vehicle's battery will run out of power before reaching a destination or charging station. While early electric vehicles had ranges of less than 100 miles, modern models can typically travel between 200 and 350 miles on a single charge, and some premium models exceed 400 miles. Charging infrastructure remains a significant barrier to adoption, particularly in rural areas. Governments and private companies are investing heavily in expanding charging networks, with the European Union aiming to install one million public charging points by 2025. The environmental impact of battery production and disposal also raises concerns, as the mining of lithium, cobalt, and nickel required for battery manufacturing can cause significant ecological damage.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "What percentage of new car sales were electric vehicles in 2022?",
+              "zh": "2022年电动汽车占新车销售的百分比是多少？"
+            },
+            "options": [
+              {"en": "About 8 percent", "zh": "约8%"},
+              {"en": "About 14 percent", "zh": "约14%"},
+              {"en": "About 20 percent", "zh": "约20%"},
+              {"en": "About 25 percent", "zh": "约25%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "What percentage of global CO2 emissions does the transportation sector account for?",
+              "zh": "交通运输部门占全球二氧化碳排放量的百分比是多少？"
+            },
+            "options": [
+              {"en": "About 15 percent", "zh": "约15%"},
+              {"en": "About 20 percent", "zh": "约20%"},
+              {"en": "About 25 percent", "zh": "约25%"},
+              {"en": "About 30 percent", "zh": "约30%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "By how much can electric vehicles reduce carbon footprint?",
+              "zh": "电动汽车能减少多少碳足迹？"
+            },
+            "options": [
+              {"en": "Up to 50 percent", "zh": "最多50%"},
+              {"en": "Up to 60 percent", "zh": "最多60%"},
+              {"en": "Up to 70 percent", "zh": "最多70%"},
+              {"en": "Up to 80 percent", "zh": "最多80%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What was the average cost of a lithium-ion battery pack in 2010?",
+              "zh": "2010年锂离子电池组的平均成本是多少？"
+            },
+            "options": [
+              {"en": "About 800 dollars per kWh", "zh": "约每千瓦时800美元"},
+              {"en": "About 1,000 dollars per kWh", "zh": "约每千瓦时1,000美元"},
+              {"en": "About 1,200 dollars per kWh", "zh": "约每千瓦时1,200美元"},
+              {"en": "About 1,500 dollars per kWh", "zh": "约每千瓦时1,500美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What battery cost do analysts predict by 2026?",
+              "zh": "分析师预测2026年的电池成本是多少？"
+            },
+            "options": [
+              {"en": "About 50 dollars per kWh", "zh": "约每千瓦时50美元"},
+              {"en": "About 80 dollars per kWh", "zh": "约每千瓦时80美元"},
+              {"en": "About 100 dollars per kWh", "zh": "约每千瓦时100美元"},
+              {"en": "About 120 dollars per kWh", "zh": "约每千瓦时120美元"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What does 'range anxiety' refer to?",
+              "zh": "'里程焦虑'指的是什么？"
+            },
+            "options": [
+              {"en": "Fear of high fuel costs", "zh": "对高燃料成本的恐惧"},
+              {"en": "Fear of battery running out of power", "zh": "对电池耗尽的恐惧"},
+              {"en": "Fear of slow acceleration", "zh": "对加速缓慢的恐惧"},
+              {"en": "Fear of vehicle malfunction", "zh": "对车辆故障的恐惧"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What is the typical range of modern electric vehicles?",
+              "zh": "现代电动汽车的典型续航里程是多少？"
+            },
+            "options": [
+              {"en": "Between 50 and 150 miles", "zh": "50到150英里之间"},
+              {"en": "Between 100 and 200 miles", "zh": "100到200英里之间"},
+              {"en": "Between 200 and 350 miles", "zh": "200到350英里之间"},
+              {"en": "Between 300 and 500 miles", "zh": "300到500英里之间"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "How many public charging points does the EU aim to install by 2025?",
+              "zh": "欧盟计划到2025年安装多少个公共充电点？"
+            },
+            "options": [
+              {"en": "500,000", "zh": "50万"},
+              {"en": "One million", "zh": "100万"},
+              {"en": "Two million", "zh": "200万"},
+              {"en": "Five million", "zh": "500万"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "Which metals are mentioned as concerns for battery production?",
+              "zh": "文章提到了哪些金属在电池生产中令人担忧？"
+            },
+            "options": [
+              {"en": "Lithium, cobalt, and nickel", "zh": "锂、钴和镍"},
+              {"en": "Lithium, copper, and zinc", "zh": "锂、铜和锌"},
+              {"en": "Cobalt, iron, and aluminium", "zh": "钴、铁和铝"},
+              {"en": "Nickel, tin, and lead", "zh": "镍、锡和铅"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What happened to global EV sales in 2022?",
+              "zh": "2022年全球电动汽车销售情况如何？"
+            },
+            "options": [
+              {"en": "They exceeded 5 million units", "zh": "超过500万辆"},
+              {"en": "They exceeded 8 million units", "zh": "超过800万辆"},
+              {"en": "They exceeded 10 million units", "zh": "超过1000万辆"},
+              {"en": "They exceeded 15 million units", "zh": "超过1500万辆"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What comparison is used for the automotive transformation?",
+              "zh": "文章用什么来比较汽车行业的变革？"
+            },
+            "options": [
+              {"en": "The invention of the wheel", "zh": "轮子的发明"},
+              {"en": "The introduction of the assembly line", "zh": "装配线的引入"},
+              {"en": "The first motorway construction", "zh": "第一条高速公路的建设"},
+              {"en": "The invention of the diesel engine", "zh": "柴油发动机的发明"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "When was the cost of batteries approximately 130 dollars per kWh?",
+              "zh": "电池成本约为每千瓦时130美元是在哪一年？"
+            },
+            "options": [
+              {"en": "2018", "zh": "2018年"},
+              {"en": "2020", "zh": "2020年"},
+              {"en": "2022", "zh": "2022年"},
+              {"en": "2024", "zh": "2024年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What is the primary driver of the EV transition according to the passage?",
+              "zh": "根据文章，电动汽车转型的主要驱动力是什么？"
+            },
+            "options": [
+              {"en": "Consumer demand", "zh": "消费者需求"},
+              {"en": "Environmental concerns", "zh": "环境问题"},
+              {"en": "Government subsidies", "zh": "政府补贴"},
+              {"en": "Technological innovation", "zh": "技术创新"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "Some premium EV models can exceed what range?",
+              "zh": "一些高端电动汽车的续航里程可以超过多少？"
+            },
+            "options": [
+              {"en": "300 miles", "zh": "300英里"},
+              {"en": "350 miles", "zh": "350英里"},
+              {"en": "400 miles", "zh": "400英里"},
+              {"en": "500 miles", "zh": "500英里"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Psychology of Decision-Making",
+          "zh": "文章3 - 决策心理学"
+        },
+        "passage": "<p>Human beings like to think of themselves as rational creatures who carefully weigh up the pros and cons before making important decisions. However, decades of research in cognitive psychology and behavioural economics have revealed that our decision-making processes are far more complex and flawed than we might assume. One of the most influential contributions to this field was made by Daniel Kahneman and Amos Tversky in the 1970s, when they developed Prospect Theory, which describes how people make choices involving risk and uncertainty. Their research demonstrated that people tend to weigh losses more heavily than equivalent gains, a phenomenon known as loss aversion. For example, most people would find losing 100 pounds more painful than the pleasure they would gain from winning the same amount. This asymmetry in how we perceive gains and losses has profound implications for everything from personal finance to public policy. Another important concept in decision-making research is the anchoring effect. This occurs when people rely too heavily on the first piece of information they encounter when making decisions. In a famous experiment, Kahneman and Tversky asked participants to spin a wheel that would land on either 10 or 65, and then estimate the percentage of African countries that are members of the United Nations. Those who spun 10 gave significantly lower estimates than those who spun 65, even though the number on the wheel was entirely random and had no logical connection to the question. The availability heuristic is another cognitive bias that affects our judgement. This refers to the tendency to overestimate the likelihood of events that are easily recalled, typically because they are recent, dramatic, or emotionally charged. For instance, after hearing about a plane crash, many people become temporarily more fearful of flying, even though statistically, air travel remains far safer than driving. Confirmation bias, the tendency to seek out and favour information that confirms our existing beliefs while ignoring contradictory evidence, is perhaps the most pervasive cognitive bias. Research has shown that this bias affects not only everyday decisions but also professional judgements in fields such as medicine, law, and scientific research. Understanding these cognitive biases is essential for improving decision-making quality. Many organisations now incorporate debiasing techniques into their processes, such as using structured decision frameworks, encouraging devil's advocate perspectives, and implementing blind evaluation procedures.</p>",
+        "questions": [
+          {
+            "id": 28,
+            "text": {
+              "en": "Who developed Prospect Theory?",
+              "zh": "谁提出了前景理论？"
+            },
+            "options": [
+              {"en": "Freud and Jung", "zh": "弗洛伊德和荣格"},
+              {"en": "Kahneman and Tversky", "zh": "卡尼曼和特沃斯基"},
+              {"en": "Skinner and Pavlov", "zh": "斯金纳和巴甫洛夫"},
+              {"en": "Piaget and Vygotsky", "zh": "皮亚杰和维果茨基"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What does loss aversion describe?",
+              "zh": "损失厌恶描述了什么？"
+            },
+            "options": [
+              {"en": "People prefer sure gains over probable gains", "zh": "人们偏好确定收益而非可能收益"},
+              {"en": "People weigh losses more heavily than equivalent gains", "zh": "人们对损失的感受比等量收益更强烈"},
+              {"en": "People avoid all financial risks", "zh": "人们避免所有财务风险"},
+              {"en": "People forget past losses quickly", "zh": "人们很快忘记过去的损失"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "When was Prospect Theory developed?",
+              "zh": "前景理论是在什么时候提出的？"
+            },
+            "options": [
+              {"en": "The 1950s", "zh": "20世纪50年代"},
+              {"en": "The 1960s", "zh": "20世纪60年代"},
+              {"en": "The 1970s", "zh": "20世纪70年代"},
+              {"en": "The 1980s", "zh": "20世纪80年代"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What is the anchoring effect?",
+              "zh": "锚定效应是什么？"
+            },
+            "options": [
+              {"en": "The tendency to change opinions frequently", "zh": "频繁改变意见的倾向"},
+              {"en": "Over-reliance on the first piece of information encountered", "zh": "过度依赖最先遇到的信息"},
+              {"en": "The preference for familiar options", "zh": "偏好熟悉选项的倾向"},
+              {"en": "The habit of making impulsive decisions", "zh": "做出冲动决定的习惯"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "In the wheel experiment, what were participants asked to estimate?",
+              "zh": "在转盘实验中，参与者被要求估计什么？"
+            },
+            "options": [
+              {"en": "The population of Africa", "zh": "非洲的人口"},
+              {"en": "The percentage of African countries in the UN", "zh": "非洲国家在联合国中的百分比"},
+              {"en": "The number of countries in Africa", "zh": "非洲的国家数量"},
+              {"en": "The GDP of African countries", "zh": "非洲国家的GDP"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What is the availability heuristic?",
+              "zh": "可得性启发法是什么？"
+            },
+            "options": [
+              {"en": "Making decisions based on available budget", "zh": "根据可用预算做决定"},
+              {"en": "Overestimating the likelihood of easily recalled events", "zh": "高估容易回忆起的事件的可能性"},
+              {"en": "Choosing the most readily available option", "zh": "选择最容易获得的选项"},
+              {"en": "Relying on available scientific data", "zh": "依赖可用的科学数据"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What example is given for the availability heuristic?",
+              "zh": "文章为可得性启发法举了什么例子？"
+            },
+            "options": [
+              {"en": "Fear of driving after an accident", "zh": "事故后害怕开车"},
+              {"en": "Fear of flying after a plane crash", "zh": "飞机失事后害怕飞行"},
+              {"en": "Fear of swimming after a drowning", "zh": "溺水事件后害怕游泳"},
+              {"en": "Fear of trains after a derailment", "zh": "脱轨事故后害怕火车"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What is confirmation bias?",
+              "zh": "确认偏误是什么？"
+            },
+            "options": [
+              {"en": "The tendency to confirm all information with others", "zh": "与他人确认所有信息的倾向"},
+              {"en": "The tendency to seek information confirming existing beliefs", "zh": "寻求确认现有信念的信息的倾向"},
+              {"en": "The habit of double-checking decisions", "zh": "反复检查决定的习惯"},
+              {"en": "The preference for expert confirmation", "zh": "偏好专家确认的倾向"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Which fields are mentioned as being affected by confirmation bias?",
+              "zh": "文章提到了哪些领域受到确认偏误的影响？"
+            },
+            "options": [
+              {"en": "Medicine, law, and scientific research", "zh": "医学、法律和科学研究"},
+              {"en": "Education, marketing, and politics", "zh": "教育、营销和政治"},
+              {"en": "Finance, engineering, and journalism", "zh": "金融、工程和新闻"},
+              {"en": "Art, music, and literature", "zh": "艺术、音乐和文学"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What debiasing technique is mentioned?",
+              "zh": "文章提到了什么去偏见技术？"
+            },
+            "options": [
+              {"en": "Meditation and mindfulness", "zh": "冥想和正念"},
+              {"en": "Structured decision frameworks", "zh": "结构化决策框架"},
+              {"en": "Computer-aided analysis", "zh": "计算机辅助分析"},
+              {"en": "Statistical modelling", "zh": "统计建模"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What is described as the most pervasive cognitive bias?",
+              "zh": "什么被描述为最普遍的认知偏见？"
+            },
+            "options": [
+              {"en": "Loss aversion", "zh": "损失厌恶"},
+              {"en": "Anchoring effect", "zh": "锚定效应"},
+              {"en": "Availability heuristic", "zh": "可得性启发法"},
+              {"en": "Confirmation bias", "zh": "确认偏误"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "According to the passage, what do people assume about themselves?",
+              "zh": "根据文章，人们通常如何看待自己？"
+            },
+            "options": [
+              {"en": "That they are emotional beings", "zh": "认为自己是感性的"},
+              {"en": "That they are rational creatures", "zh": "认为自己是理性的"},
+              {"en": "That they are intuitive decision-makers", "zh": "认为自己靠直觉做决定"},
+              {"en": "That they are impulsive by nature", "zh": "认为自己天性冲动"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "In the wheel experiment, what numbers could the wheel land on?",
+              "zh": "在转盘实验中，转盘可以指向哪些数字？"
+            },
+            "options": [
+              {"en": "10 or 50", "zh": "10或50"},
+              {"en": "10 or 65", "zh": "10或65"},
+              {"en": "20 or 60", "zh": "20或60"},
+              {"en": "15 or 70", "zh": "15或70"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1",
+          "zh": "任务1"
+        },
+        "prompt": {
+          "en": "The bar chart below shows the percentage of households in different income groups that owned various consumer durables in a European country in 2015. Summarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的柱状图显示了2015年欧洲某国家不同收入群体家庭拥有各种耐用消费品的百分比。通过选择和报告主要特征来总结信息，并在相关之处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2",
+          "zh": "任务2"
+        },
+        "prompt": {
+          "en": "Some people believe that it is better for children to begin learning a foreign language at primary school rather than secondary school. Do the advantages of this outweigh the disadvantages? Give reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些人认为，儿童在小学开始学习外语比在中学开始更好。这样做的优点是否大于缺点？给出你的理由，并包括你自己的知识或经验中的任何相关例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}
