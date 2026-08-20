@@ -829,17 +829,27 @@
             if (stored) {
                 try {
                     currentTest = JSON.parse(stored);
+                    console.log('Loaded from sessionStorage');
                     return;
-                } catch (e) {}
+                } catch (e) {
+                    console.error('Failed to parse sessionStorage:', e);
+                }
             }
 
             // Fallback: fetch test1.json
             try {
+                console.log('Fetching test1.json...');
                 const resp = await fetch('tests/test1.json');
+                console.log('Fetch response:', resp.status, resp.ok);
                 if (resp.ok) {
                     currentTest = await resp.json();
+                    console.log('Loaded test:', currentTest.title);
+                } else {
+                    console.error('Failed to fetch:', resp.status);
                 }
-            } catch (e) {}
+            } catch (e) {
+                console.error('Fetch error:', e);
+            }
         }
 
         // Init - load data in background
@@ -847,15 +857,20 @@
 
         // ─── Start Exam ───
         async function startExam(mode) {
+            console.log('startExam called, currentTest:', currentTest ? 'loaded' : 'null');
+
             // Always try to load data first
             if (!currentTest) {
+                console.log('Loading test data...');
                 await loadTestData();
             }
+
             if (!currentTest) {
-                alert('Loading test data... Please try again in a moment.');
+                alert('Failed to load test data. Check console for errors.');
                 return;
             }
 
+            console.log('Starting exam with mode:', mode);
             document.getElementById('startScreen').style.display = 'none';
             document.getElementById('examScreen').style.display = 'block';
 
