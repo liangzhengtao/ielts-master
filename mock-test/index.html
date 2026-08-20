@@ -223,10 +223,10 @@
             document.getElementById('filterPractice').textContent = lang === 'zh' ? '模拟题' : 'Practice';
         }
 
-        // Load tests - only load practice tests
+        // Load tests - only load 2 initially for fast startup
         async function loadTests() {
             const tests = [];
-            for (let i = 1; i <= 6; i++) {
+            for (let i = 1; i <= 2; i++) {
                 try {
                     const resp = await fetch(`tests/test${i}.json`);
                     if (resp.ok) {
