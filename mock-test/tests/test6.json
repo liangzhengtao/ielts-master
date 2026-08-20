@@ -1,0 +1,1224 @@
+{
+  "id": 6,
+  "title": {
+    "en": "IELTS Practice Test 6",
+    "zh": "雅思模拟考试 6"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Conversation between two people in an everyday social context",
+          "zh": "第一部分 - 日常社交场景中的两人对话"
+        },
+        "passage": "<p>A conversation between a tourist and a travel agent at a tourism office. The tourist, Mrs. Chen, is visiting from Taiwan and wants to book a multi-day tour of the Scottish Highlands. The travel agent, Andrew, welcomes her and asks about her preferences and schedule. Mrs. Chen explains that she has five days available, from Monday the 15th to Friday the 19th of June, and she is particularly interested in scenic landscapes, historic castles, and traditional Scottish culture. Andrew recommends the Highland Explorer Tour, which is their most popular five-day itinerary. He explains that the tour departs daily from Edinburgh at 8 AM in a comfortable coach with a maximum of twenty passengers, ensuring a more personal experience. The tour includes visits to several iconic locations. On day one, the group travels to Stirling Castle and then through the Trossachs National Park, stopping at Loch Lomond for a photo opportunity. The overnight stay is at a three-star hotel in Fort William. Day two includes a visit to the Glenfinnan Viaduct, famous for its appearance in the Harry Potter films, followed by a trip to the Isle of Skye. The group stays overnight in Portree, the main town on the island. Day three is spent exploring the Isle of Skye, including the Old Man of Storr rock formation and the Fairy Pools, a series of crystal-clear rock pools at the foot of the Black Cuillin mountains. Day four involves travelling through the dramatic landscape of Glencoe, stopping at a traditional whisky distillery for a tasting session, before returning to Fort William. The final day includes a visit to the medieval town of Dunkeld and the Hermitage forest walk before returning to Edinburgh by 6 PM. Mrs. Chen asks about the cost. Andrew tells her that the standard package costs 695 pounds per person, which includes all accommodation, breakfast each morning, two evening meals, all transportation in the coach, and the services of an English-speaking guide. For an additional 85 pounds, she can upgrade to a single room supplement, as the standard price is based on twin-sharing accommodation. Mrs. Chen also asks about optional activities. Andrew mentions that on the Isle of Skye, there is an optional boat trip to see sea eagles and seals for 35 pounds, and on day four, there is an optional guided hike in Glencoe for 20 pounds. Mrs. Chen says she would like to book the tour with the single room supplement and both optional activities. Andrew calculates the total cost and confirms it comes to 835 pounds. He asks for a 20 percent deposit of 167 pounds to secure the booking, with the balance due two weeks before departure. Mrs. Chen pays by credit card and receives her booking confirmation by email.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "Where is Mrs. Chen visiting from?",
+              "zh": "Chen夫人从哪里来？"
+            },
+            "options": [
+              {"en": "China", "zh": "中国"},
+              {"en": "Taiwan", "zh": "台湾"},
+              {"en": "Japan", "zh": "日本"},
+              {"en": "South Korea", "zh": "韩国"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How many days does Mrs. Chen have available for the tour?",
+              "zh": "Chen夫人有多少天可以参加旅行？"
+            },
+            "options": [
+              {"en": "Three days", "zh": "三天"},
+              {"en": "Four days", "zh": "四天"},
+              {"en": "Five days", "zh": "五天"},
+              {"en": "Seven days", "zh": "七天"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What is the maximum number of passengers on the tour?",
+              "zh": "旅行团的最大乘客人数是多少？"
+            },
+            "options": [
+              {"en": "15", "zh": "15人"},
+              {"en": "20", "zh": "20人"},
+              {"en": "25", "zh": "25人"},
+              {"en": "30", "zh": "30人"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What is the Glenfinnan Viaduct famous for?",
+              "zh": "格伦芬南高架桥因什么而闻名？"
+            },
+            "options": [
+              {"en": "Being the longest bridge in Scotland", "zh": "是苏格兰最长的桥梁"},
+              {"en": "Its appearance in the Harry Potter films", "zh": "在哈利波特电影中的出现"},
+              {"en": "Being the oldest stone bridge in Britain", "zh": "是英国最古老的石桥"},
+              {"en": "Its annual Highland Games", "zh": "其年度高地运动会"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "Where does the group stay overnight on day two?",
+              "zh": "旅行团第二天晚上住在哪里？"
+            },
+            "options": [
+              {"en": "Fort William", "zh": "威廉堡"},
+              {"en": "Edinburgh", "zh": "爱丁堡"},
+              {"en": "Portree", "zh": "波特里"},
+              {"en": "Glencoe", "zh": "格伦科"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What activity takes place on day four before returning to Fort William?",
+              "zh": "第四天返回威廉堡之前有什么活动？"
+            },
+            "options": [
+              {"en": "A boat trip", "zh": "乘船旅行"},
+              {"en": "A whisky distillery visit and tasting", "zh": "参观威士忌酒厂并品尝"},
+              {"en": "A castle tour", "zh": "城堡参观"},
+              {"en": "A Highland Games event", "zh": "高地运动会活动"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What is the cost of the standard tour package?",
+              "zh": "标准旅行套餐的费用是多少？"
+            },
+            "options": [
+              {"en": "595 pounds", "zh": "595英镑"},
+              {"en": "650 pounds", "zh": "650英镑"},
+              {"en": "695 pounds", "zh": "695英镑"},
+              {"en": "750 pounds", "zh": "750英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "How much is the single room supplement?",
+              "zh": "单间补差价是多少？"
+            },
+            "options": [
+              {"en": "65 pounds", "zh": "65英镑"},
+              {"en": "75 pounds", "zh": "75英镑"},
+              {"en": "85 pounds", "zh": "85英镑"},
+              {"en": "95 pounds", "zh": "95英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What is the total cost for Mrs. Chen including all upgrades and optional activities?",
+              "zh": "Chen夫人包括所有升级和可选活动在内的总费用是多少？"
+            },
+            "options": [
+              {"en": "785 pounds", "zh": "785英镑"},
+              {"en": "815 pounds", "zh": "815英镑"},
+              {"en": "835 pounds", "zh": "835英镑"},
+              {"en": "855 pounds", "zh": "855英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How much deposit is required to secure the booking?",
+              "zh": "需要多少押金才能确保预订？"
+            },
+            "options": [
+              {"en": "147 pounds", "zh": "147英镑"},
+              {"en": "157 pounds", "zh": "157英镑"},
+              {"en": "167 pounds", "zh": "167英镑"},
+              {"en": "177 pounds", "zh": "177英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Monologue in an everyday social context",
+          "zh": "第二部分 - 日常社交场景中的独白"
+        },
+        "passage": "<p>A talk by the curator of a museum introducing a new exhibition on ancient Egyptian civilisation. Good morning, everyone. My name is Dr. Catherine Brooks, and I am the senior curator of the Ancient World Gallery here at the National Museum. I am thrilled to welcome you to the preview of our new exhibition, Treasures of the Nile: 3,000 Years of Egyptian Civilisation, which opens to the public this Saturday. This exhibition has been three years in the making and represents the largest collection of Egyptian artefacts ever displayed in this country. The exhibition is organised chronologically across eight galleries and features over 400 objects, many of which have never been displayed outside of Egypt before. We are particularly grateful to the Egyptian Ministry of Antiquities for their generous loan of these extraordinary pieces. Gallery One, titled Dawn of the Pharaohs, covers the Predynastic and Early Dynastic periods from approximately 5000 to 2700 BC. Here you will see some of the earliest examples of Egyptian art and craftsmanship, including beautifully carved stone vessels, ivory combs, and a remarkable ceremonial palette depicting the unification of Upper and Lower Egypt. Galleries Two through Four trace the development of Egyptian civilisation through the Old, Middle, and New Kingdoms. Highlights include a gilded funerary mask from the Eighteenth Dynasty, approximately 1350 BC, which weighs over 11 kilograms and is made of solid gold with inlays of lapis lazuli, carnelian, and turquoise. We also have a collection of twenty-three canopic jars, which were used to store the internal organs of the deceased during the mummification process, and a beautifully preserved Book of the Dead papyrus scroll measuring over twelve metres in length. Gallery Five is dedicated entirely to the discovery and legacy of Tutankhamun's tomb. Although the actual treasures from Tutankhamun's tomb remain in Egypt, this gallery features high-quality replicas alongside historical photographs and documents from Howard Carter's 1922 excavation. You can see a full-scale reproduction of the inner burial chamber and learn about the painstaking process of cataloguing and conserving the more than 5,000 objects found within the tomb. Galleries Six and Seven explore daily life in ancient Egypt, including sections on agriculture, medicine, writing, and religion. One of the most fascinating objects in this section is a complete set of surgical instruments dating from approximately 1500 BC, demonstrating the remarkable sophistication of ancient Egyptian medicine. We also have an extensive collection of shabti figurines, which were placed in tombs to serve the deceased in the afterlife. The final gallery, Gallery Eight, examines Egypt's influence on the modern world, from the Egyptomania that swept Europe in the early nineteenth century following Napoleon's Egyptian campaign to contemporary popular culture. This gallery includes early copies of the Rosetta Stone, Victorian-era archaeological equipment, and film posters from classic Egyptian-themed movies. The exhibition will run from this Saturday, the 12th of October, through to the 28th of February next year. Opening hours are Tuesday to Sunday, 10 AM to 5 PM, with late opening until 8 PM on Thursdays. The museum is closed on Mondays. Admission is twelve pounds for adults, eight pounds for students and seniors, and free for children under twelve. Audio guides are available in eight languages, including Mandarin, Japanese, Korean, and Arabic, for an additional four pounds. Guided tours led by our expert curators are available daily at 11 AM and 2 PM, and are included in the admission price.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "What is Dr. Catherine Brooks' role?",
+              "zh": "Catherine Brooks博士的职位是什么？"
+            },
+            "options": [
+              {"en": "Museum director", "zh": "博物馆馆长"},
+              {"en": "Senior curator of the Ancient World Gallery", "zh": "古代世界画廊高级策展人"},
+              {"en": "Professor of archaeology", "zh": "考古学教授"},
+              {"en": "Egyptian ambassador", "zh": "埃及大使"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "How long did the exhibition take to prepare?",
+              "zh": "展览准备了多长时间？"
+            },
+            "options": [
+              {"en": "One year", "zh": "一年"},
+              {"en": "Two years", "zh": "两年"},
+              {"en": "Three years", "zh": "三年"},
+              {"en": "Five years", "zh": "五年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How many objects are featured in the exhibition?",
+              "zh": "展览展出了多少件物品？"
+            },
+            "options": [
+              {"en": "Over 200", "zh": "超过200件"},
+              {"en": "Over 300", "zh": "超过300件"},
+              {"en": "Over 400", "zh": "超过400件"},
+              {"en": "Over 500", "zh": "超过500件"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How many galleries is the exhibition organised across?",
+              "zh": "展览分布在多少个展厅中？"
+            },
+            "options": [
+              {"en": "Six", "zh": "六个"},
+              {"en": "Seven", "zh": "七个"},
+              {"en": "Eight", "zh": "八个"},
+              {"en": "Ten", "zh": "十个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How much does the gilded funerary mask weigh?",
+              "zh": "镀金葬礼面具重多少？"
+            },
+            "options": [
+              {"en": "Over 7 kilograms", "zh": "超过7公斤"},
+              {"en": "Over 9 kilograms", "zh": "超过9公斤"},
+              {"en": "Over 11 kilograms", "zh": "超过11公斤"},
+              {"en": "Over 13 kilograms", "zh": "超过13公斤"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How long is the Book of the Dead papyrus scroll?",
+              "zh": "亡灵书纸莎草卷轴有多长？"
+            },
+            "options": [
+              {"en": "Over eight metres", "zh": "超过八米"},
+              {"en": "Over ten metres", "zh": "超过十米"},
+              {"en": "Over twelve metres", "zh": "超过十二米"},
+              {"en": "Over fifteen metres", "zh": "超过十五米"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "When was Tutankhamun's tomb discovered?",
+              "zh": "图坦卡蒙的墓穴是什么时候被发现的？"
+            },
+            "options": [
+              {"en": "1912", "zh": "1912年"},
+              {"en": "1917", "zh": "1917年"},
+              {"en": "1922", "zh": "1922年"},
+              {"en": "1927", "zh": "1927年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What is the admission price for adults?",
+              "zh": "成人门票价格是多少？"
+            },
+            "options": [
+              {"en": "8 pounds", "zh": "8英镑"},
+              {"en": "10 pounds", "zh": "10英镑"},
+              {"en": "12 pounds", "zh": "12英镑"},
+              {"en": "15 pounds", "zh": "15英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How many languages are available for the audio guide?",
+              "zh": "语音导览提供多少种语言？"
+            },
+            "options": [
+              {"en": "Five", "zh": "五种"},
+              {"en": "Six", "zh": "六种"},
+              {"en": "Eight", "zh": "八种"},
+              {"en": "Ten", "zh": "十种"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "When does the exhibition run until?",
+              "zh": "展览持续到什么时候？"
+            },
+            "options": [
+              {"en": "The 28th of December", "zh": "12月28日"},
+              {"en": "The 28th of January", "zh": "1月28日"},
+              {"en": "The 28th of February", "zh": "2月28日"},
+              {"en": "The 28th of March", "zh": "3月28日"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Conversation between two or more people in an educational context",
+          "zh": "第三部分 - 教育场景中的多人对话"
+        },
+        "passage": "<p>A discussion between two students, Hana and David, and their supervisor, Professor Williams, about their biology research project on marine ecosystems and coral reef degradation. Hana begins by presenting their research question: what are the primary factors contributing to coral bleaching events, and how effective are current conservation strategies in mitigating these effects? She explains that they have conducted a comprehensive literature review and gathered preliminary data from three research sites in the Indo-Pacific region. Professor Williams asks about their key findings from the literature review. David responds that the primary driver of coral bleaching is elevated sea surface temperature caused by climate change. He explains that corals have a symbiotic relationship with microscopic algae called zooxanthellae, which live within coral tissue and provide up to 90 percent of the coral's energy through photosynthesis. When water temperatures rise by just one to two degrees Celsius above the normal summer maximum for a period of several weeks, corals become stressed and expel the zooxanthellae, causing them to turn white, an event known as bleaching. Without the algae, the coral begins to starve and, if conditions do not improve within a few weeks, the coral dies. Hana adds that between 2014 and 2017, the world experienced the longest and most widespread coral bleaching event ever recorded, affecting approximately 75 percent of the world's tropical reefs. The Great Barrier Reef in Australia, the world's largest coral reef system, was particularly hard hit, with approximately 50 percent of its shallow-water corals dying during this period. Professor Williams acknowledges the severity of the problem and asks about other contributing factors. David explains that in addition to rising temperatures, coral reefs face multiple stressors including ocean acidification, which reduces the ability of corals to build their calcium carbonate skeletons, as well as pollution from agricultural runoff, overfishing that disrupts ecosystem balance, and physical damage from coastal development and tourism. He mentions that ocean pH has decreased by approximately 0.1 units since the pre-industrial era, representing a 26 percent increase in acidity, and is projected to decrease by a further 0.3 to 0.4 units by 2100 under current emission scenarios. The discussion then turns to conservation strategies. Hana describes three main approaches that have been implemented worldwide. The first is the establishment of Marine Protected Areas, or MPAs, where human activities are restricted to allow ecosystems to recover. She cites a 2022 meta-analysis of 150 MPAs globally that found coral cover within protected areas was on average 25 percent higher than in comparable unprotected areas. The second approach involves coral restoration programmes, where fragments of healthy coral are cultivated in underwater nurseries and then transplanted onto degraded reefs. She mentions a successful project in the Caribbean that has transplanted over 100,000 coral fragments across degraded reef sites, with a survival rate of approximately 75 percent after two years. The third approach focuses on reducing local stressors such as pollution and overfishing, thereby increasing the resilience of coral reefs to withstand climate-related bleaching events. Professor Williams raises the emerging field of assisted evolution, which involves selectively breeding corals for heat tolerance or exposing them to gradually increasing temperatures to enhance their thermal resilience. She mentions research being conducted at the Australian Institute of Marine Science, where scientists have successfully produced coral offspring that can tolerate temperatures one to two degrees higher than their parents. However, she cautions that this approach is still experimental and raises ethical questions about the genetic modification of wild ecosystems. The group agrees that their report should present a balanced assessment of these different strategies and conclude with evidence-based recommendations. They set a timeline with a preliminary report due in four weeks and the final paper due eight weeks from today. Professor Williams also suggests they attend a guest lecture next Thursday by Dr. Maria Santos, a leading coral reef ecologist from the University of Queensland, who will be speaking about her latest research findings.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the research question Hana and David are investigating?",
+              "zh": "Hana和David正在研究什么问题？"
+            },
+            "options": [
+              {"en": "The types of fish in coral reefs", "zh": "珊瑚礁中的鱼类种类"},
+              {"en": "Factors contributing to coral bleaching and effectiveness of conservation strategies", "zh": "导致珊瑚白化的因素和保护策略的有效性"},
+              {"en": "The economic value of marine ecosystems", "zh": "海洋生态系统的经济价值"},
+              {"en": "The history of ocean exploration", "zh": "海洋探索的历史"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What percentage of a coral's energy comes from zooxanthellae?",
+              "zh": "珊瑚多少百分比的能量来自虫黄藻？"
+            },
+            "options": [
+              {"en": "70 percent", "zh": "70%"},
+              {"en": "80 percent", "zh": "80%"},
+              {"en": "90 percent", "zh": "90%"},
+              {"en": "95 percent", "zh": "95%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What percentage of the world's tropical reefs were affected by the 2014-2017 bleaching event?",
+              "zh": "2014-2017年白化事件影响了全球多少百分比的热带珊瑚礁？"
+            },
+            "options": [
+              {"en": "50 percent", "zh": "50%"},
+              {"en": "65 percent", "zh": "65%"},
+              {"en": "75 percent", "zh": "75%"},
+              {"en": "85 percent", "zh": "85%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How much of the Great Barrier Reef's shallow-water corals died during the 2014-2017 event?",
+              "zh": "2014-2017年事件期间大堡礁多少浅水珊瑚死亡？"
+            },
+            "options": [
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "40 percent", "zh": "40%"},
+              {"en": "50 percent", "zh": "50%"},
+              {"en": "60 percent", "zh": "60%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "By how much has ocean pH decreased since the pre-industrial era?",
+              "zh": "自前工业化时代以来，海洋pH值下降了多少？"
+            },
+            "options": [
+              {"en": "0.05 units", "zh": "0.05个单位"},
+              {"en": "0.1 units", "zh": "0.1个单位"},
+              {"en": "0.15 units", "zh": "0.15个单位"},
+              {"en": "0.2 units", "zh": "0.2个单位"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How much higher was coral cover in Marine Protected Areas compared to unprotected areas?",
+              "zh": "海洋保护区内的珊瑚覆盖率比未保护区高多少？"
+            },
+            "options": [
+              {"en": "15 percent higher", "zh": "高15%"},
+              {"en": "20 percent higher", "zh": "高20%"},
+              {"en": "25 percent higher", "zh": "高25%"},
+              {"en": "30 percent higher", "zh": "高30%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "How many coral fragments has the Caribbean restoration project transplanted?",
+              "zh": "加勒比海修复项目移植了多少珊瑚碎片？"
+            },
+            "options": [
+              {"en": "Over 50,000", "zh": "超过50,000个"},
+              {"en": "Over 75,000", "zh": "超过75,000个"},
+              {"en": "Over 100,000", "zh": "超过100,000个"},
+              {"en": "Over 150,000", "zh": "超过150,000个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What is the survival rate of transplanted corals after two years?",
+              "zh": "移植珊瑚两年后的存活率是多少？"
+            },
+            "options": [
+              {"en": "65 percent", "zh": "65%"},
+              {"en": "70 percent", "zh": "70%"},
+              {"en": "75 percent", "zh": "75%"},
+              {"en": "80 percent", "zh": "80%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What does assisted evolution involve?",
+              "zh": "辅助进化涉及什么？"
+            },
+            "options": [
+              {"en": "Building artificial reefs", "zh": "建造人工珊瑚礁"},
+              {"en": "Selectively breeding corals for heat tolerance", "zh": "选择性繁殖耐热珊瑚"},
+              {"en": "Removing all bleached coral from reefs", "zh": "从珊瑚礁中清除所有白化的珊瑚"},
+              {"en": "Introducing new species to replace corals", "zh": "引入新物种来替代珊瑚"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "When is the final paper due?",
+              "zh": "最终论文截止日期是什么时候？"
+            },
+            "options": [
+              {"en": "In four weeks", "zh": "四周后"},
+              {"en": "In six weeks", "zh": "六周后"},
+              {"en": "In eight weeks", "zh": "八周后"},
+              {"en": "In ten weeks", "zh": "十周后"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Monologue on an academic subject",
+          "zh": "第四部分 - 学术主题的独白"
+        },
+        "passage": "<p>A university lecture on the psychology and anthropology of human migration and cultural adaptation. Good afternoon. Today's lecture explores the psychological and cultural dimensions of human migration, examining how individuals and communities adapt when they move from one cultural environment to another. This is a topic of increasing relevance in a world where an estimated 281 million people, approximately 3.6 percent of the global population, live outside their country of birth. Let us begin with the concept of culture shock, a term coined by the anthropologist Kalervo Oberg in 1960. Oberg described culture shock as a four-stage process that most people experience when they immerse themselves in an unfamiliar culture. The first stage, the honeymoon phase, is characterised by excitement and fascination with the new culture. Everything seems fresh and interesting, and differences between the home culture and the new culture are perceived positively. This phase typically lasts from a few weeks to several months. The second stage, the crisis or frustration phase, is when the differences between cultures begin to cause genuine difficulty. Language barriers, unfamiliar social customs, and feelings of isolation can lead to anxiety, homesickness, and frustration. This is the most challenging phase and typically occurs between three and six months after arrival. The third stage, adjustment, involves gradually developing coping strategies and a more balanced understanding of the new culture. Individuals begin to navigate cultural differences more effectively and may develop routines and social networks that provide stability. The final stage, adaptation, represents a state of relative comfort and competence in the new culture, though Oberg noted that most migrants never achieve complete cultural integration and instead develop a bicultural or multicultural identity. More recent research has refined and, in some cases, challenged Oberg's original model. The sociocultural adaptation model developed by Colleen Ward and colleagues proposes that successful adaptation involves two distinct but related dimensions: psychological adaptation, which relates to emotional wellbeing and life satisfaction, and sociocultural adaptation, which involves the ability to navigate daily life in the new culture, including understanding social norms, communicating effectively, and forming relationships. Ward's research found that while psychological adaptation tends to follow the U-shaped curve described by Oberg, sociocultural adaptation typically improves more steadily over time, with the most rapid gains occurring in the first year. Language acquisition is perhaps the most critical factor in cultural adaptation. Research consistently shows that proficiency in the host country's language is the strongest predictor of both psychological and sociocultural adaptation. A 2019 meta-analysis published in the Journal of Cross-Cultural Psychology, which examined 85 studies involving over 40,000 participants, found that language proficiency had a correlation coefficient of 0.48 with overall adaptation, significantly higher than any other variable studied, including length of residence, age, education level, and social support networks. The role of social identity in the migration experience is another important area of research. John Berry's acculturation framework identifies four strategies that migrants may adopt when navigating between their heritage culture and the host culture: integration, where individuals maintain their heritage culture while also adopting aspects of the host culture; assimilation, where individuals abandon their heritage culture and fully adopt the host culture; separation, where individuals maintain their heritage culture and avoid interaction with the host culture; and marginalisation, where individuals lose connection with both cultures. Berry's research across numerous countries has consistently found that integration is associated with the best psychological and sociocultural outcomes, while marginalisation is associated with the worst. The experiences of second-generation immigrants, those born in the host country to immigrant parents, present unique psychological challenges. These individuals often navigate what researchers call the acculturation gap, a discrepancy between their own cultural adaptation and that of their parents. While second-generation children typically adapt quickly to the host culture through schooling and peer interactions, their parents may retain stronger ties to the heritage culture. This gap can lead to intergenerational conflict and identity confusion, as young people feel caught between two sets of cultural expectations. A 2021 study across twelve European countries found that 62 percent of second-generation immigrants reported experiencing significant identity conflicts related to their dual cultural heritage. The economic dimension of migration also has profound psychological effects. Research shows that the psychological impact of migration depends heavily on whether the move was voluntary or forced. Voluntary migrants, who choose to move for economic opportunity or personal reasons, generally experience better psychological outcomes than refugees and asylum seekers, who have been forced to flee their homes due to conflict, persecution, or natural disaster. A 2022 meta-analysis by the United Nations High Commissioner for Refugees found that rates of post-traumatic stress disorder among refugee populations were approximately five times higher than among voluntary migrants, and rates of depression were approximately three times higher. Community-level factors also play crucial roles in migrant adaptation. Migrants who settle in areas with established diaspora communities from their home country tend to adapt more quickly, as these communities provide cultural familiarity, practical support, and emotional comfort during the transition period. However, over-reliance on diaspora communities can also slow cultural adaptation to the host society if it reduces incentives to learn the host language and engage with the broader community. The concept of transnationalism, the maintenance of active social, economic, and cultural connections with the home country while living abroad, has become increasingly prevalent in the age of digital communication. Migrants can now participate in family events via video call, consume media from their home country, and maintain political engagement in their country of origin through online platforms. This has led some researchers to argue that the traditional model of linear assimilation is being replaced by a more fluid, circular model of cultural engagement, where migrants move between cultural identities rather than transitioning from one to another.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "How many people live outside their country of birth globally?",
+              "zh": "全球有多少人生活在出生国以外？"
+            },
+            "options": [
+              {"en": "Approximately 181 million", "zh": "约1.81亿"},
+              {"en": "Approximately 231 million", "zh": "约2.31亿"},
+              {"en": "Approximately 281 million", "zh": "约2.81亿"},
+              {"en": "Approximately 331 million", "zh": "约3.31亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "Who coined the term 'culture shock'?",
+              "zh": "谁创造了"文化冲击"这个术语？"
+            },
+            "options": [
+              {"en": "Colleen Ward", "zh": "科琳·沃德"},
+              {"en": "John Berry", "zh": "约翰·贝里"},
+              {"en": "Kalervo Oberg", "zh": "卡尔韦罗·奥伯格"},
+              {"en": "Sigmund Freud", "zh": "西格蒙德·弗洛伊德"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "When does the frustration phase of culture shock typically occur?",
+              "zh": "文化冲击的挫折阶段通常在什么时候出现？"
+            },
+            "options": [
+              {"en": "Within the first month", "zh": "在第一个月内"},
+              {"en": "Between three and six months after arrival", "zh": "到达后三到六个月之间"},
+              {"en": "After one year", "zh": "一年后"},
+              {"en": "After two years", "zh": "两年后"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What two dimensions does Ward's sociocultural adaptation model propose?",
+              "zh": "沃德的社会文化适应模型提出了哪两个维度？"
+            },
+            "options": [
+              {"en": "Physical and mental adaptation", "zh": "身体和心理适应"},
+              {"en": "Psychological adaptation and sociocultural adaptation", "zh": "心理适应和社会文化适应"},
+              {"en": "Language and social skills", "zh": "语言和社交技能"},
+              {"en": "Economic and political integration", "zh": "经济和政治融合"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What correlation coefficient was found between language proficiency and overall adaptation?",
+              "zh": "语言能力与整体适应之间的相关系数是多少？"
+            },
+            "options": [
+              {"en": "0.38", "zh": "0.38"},
+              {"en": "0.43", "zh": "0.43"},
+              {"en": "0.48", "zh": "0.48"},
+              {"en": "0.53", "zh": "0.53"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Which acculturation strategy is associated with the best outcomes according to Berry's research?",
+              "zh": "根据贝里的研究，哪种文化适应策略与最佳结果相关？"
+            },
+            "options": [
+              {"en": "Assimilation", "zh": "同化"},
+              {"en": "Separation", "zh": "分离"},
+              {"en": "Integration", "zh": "整合"},
+              {"en": "Marginalisation", "zh": "边缘化"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What percentage of second-generation immigrants reported experiencing identity conflicts?",
+              "zh": "多少百分比的第二代移民报告经历了身份认同冲突？"
+            },
+            "options": [
+              {"en": "52 percent", "zh": "52%"},
+              {"en": "57 percent", "zh": "57%"},
+              {"en": "62 percent", "zh": "62%"},
+              {"en": "67 percent", "zh": "67%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "How much higher are PTSD rates among refugees compared to voluntary migrants?",
+              "zh": "难民中创伤后应激障碍的发生率比自愿移民高多少？"
+            },
+            "options": [
+              {"en": "Approximately three times higher", "zh": "约高三倍"},
+              {"en": "Approximately four times higher", "zh": "约高四倍"},
+              {"en": "Approximately five times higher", "zh": "约高五倍"},
+              {"en": "Approximately six times higher", "zh": "约高六倍"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "The word 'prevalent' in the final paragraph is closest in meaning to:",
+              "zh": "最后一段中的"prevalent"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Rare", "zh": "罕见的"},
+              {"en": "Declining", "zh": "下降的"},
+              {"en": "Common", "zh": "常见的"},
+              {"en": "Impossible", "zh": "不可能的"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What model is replacing traditional linear assimilation according to recent researchers?",
+              "zh": "根据近期研究者的观点，什么模型正在取代传统的线性同化？"
+            },
+            "options": [
+              {"en": "A return-to-origin model", "zh": "回归原籍模式"},
+              {"en": "A more fluid, circular model of cultural engagement", "zh": "一种更流动的、循环的文化参与模式"},
+              {"en": "A permanent separation model", "zh": "永久分离模式"},
+              {"en": "A single unified culture model", "zh": "单一统一文化模式"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The History and Science of Vaccination",
+          "zh": "文章1 - 疫苗接种的历史与科学"
+        },
+        "passage": "<p>Vaccination is widely regarded as one of the most important public health interventions in human history, having saved an estimated 154 million lives over the past fifty years, according to the World Health Organisation. The principle behind vaccination is elegantly simple: by exposing the immune system to a weakened, inactivated, or partial form of a pathogen, the body learns to recognise and fight the disease without experiencing its full effects. This process of building immunity has enabled the eradication of smallpox, the near-elimination of polio, and the dramatic reduction of numerous other infectious diseases. The practice of inducing immunity has ancient roots. As early as the tenth century, Chinese physicians practised a technique called variolation, in which material from smallpox scabs was blown into the nostrils of healthy individuals to produce a mild form of the disease and subsequent immunity. Similar practices were documented in India, the Ottoman Empire, and Africa. However, the modern era of vaccination began in 1796, when the English physician Edward Jenner conducted his famous experiment. Jenner observed that milkmaids who had contracted cowpox, a mild disease, appeared to be immune to smallpox, a devastating illness that killed approximately 30 percent of those infected. He tested his hypothesis by inoculating an eight-year-old boy, James Phipps, with material from a cowpox lesion and later exposing him to smallpox. The boy did not develop the disease, demonstrating that cowpox provided protection against smallpox. Jenner's work laid the foundation for the development of vaccines against many other diseases. The nineteenth century saw rapid advances in vaccine development, driven by the work of pioneering scientists such as Louis Pasteur and Robert Koch. Pasteur developed vaccines against rabies and anthrax, while his contemporary Koch identified the bacteria responsible for tuberculosis and cholera, enabling more targeted approaches to immunisation. The invention of laboratory techniques for growing and attenuating, or weakening, pathogens was a crucial breakthrough, allowing scientists to produce vaccines that were safe enough for widespread use. The twentieth century witnessed an explosion of vaccine development that transformed global health. Vaccines were developed against diphtheria, tetanus, pertussis, polio, measles, mumps, rubella, and hepatitis B, among others. The global smallpox eradication campaign, led by the WHO from 1967 to 1980, remains the greatest achievement of vaccination, resulting in the complete elimination of a disease that had killed an estimated 300 million people in the twentieth century alone. The development of the polio vaccines by Jonas Salk in 1955 and Albert Sabin in 1961 brought a crippling disease under control in much of the world, and polio is now endemic in only two countries: Afghanistan and Pakistan. The mechanism of vaccination involves several key components of the immune system. When a vaccine is administered, the antigens it contains are recognised by specialised white blood cells called antigen-presenting cells, which process the antigens and present them to T cells and B cells. T cells coordinate the immune response and can directly kill infected cells, while B cells produce antibodies, proteins that specifically recognise and neutralise the pathogen. Crucially, after the initial immune response, a subset of T cells and B cells become memory cells that persist in the body for years or even decades, enabling a rapid and robust response if the individual encounters the actual pathogen in the future. The COVID-19 pandemic accelerated vaccine technology in unprecedented ways. The development of mRNA vaccines by Pfizer-BioNTech and Moderna represented a revolutionary approach to immunisation. Unlike traditional vaccines, which use weakened or inactivated pathogens, mRNA vaccines deliver genetic instructions that teach cells to produce a harmless piece of the virus, triggering an immune response. This technology, which had been in development for over two decades, proved remarkably effective and was deployed in record time: the first COVID-19 vaccine received emergency use authorisation less than a year after the virus was identified. The success of mRNA technology has opened new possibilities for vaccine development against other diseases, including malaria, HIV, and various types of cancer. Despite the overwhelming evidence of vaccination's benefits, vaccine hesitancy has emerged as a significant public health concern. The WHO listed vaccine hesitancy as one of the top ten threats to global health in 2019, even before the COVID-19 pandemic. Factors contributing to vaccine hesitancy include misinformation spread through social media, historical instances of medical malpractice that have eroded trust in health institutions, and genuine concerns about rare side effects. Addressing vaccine hesitancy requires transparent communication about both the benefits and risks of vaccination, culturally sensitive outreach, and sustained investment in public health infrastructure.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "How many lives has vaccination saved over the past fifty years according to the WHO?",
+              "zh": "根据世界卫生组织的数据，疫苗接种在过去五十年中挽救了多少生命？"
+            },
+            "options": [
+              {"en": "Approximately 54 million", "zh": "约5,400万"},
+              {"en": "Approximately 104 million", "zh": "约1.04亿"},
+              {"en": "Approximately 154 million", "zh": "约1.54亿"},
+              {"en": "Approximately 204 million", "zh": "约2.04亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "When did Chinese physicians first practise variolation?",
+              "zh": "中国医生最早什么时候开始实行人痘接种术？"
+            },
+            "options": [
+              {"en": "As early as the fifth century", "zh": "早在五世纪"},
+              {"en": "As early as the eighth century", "zh": "早在八世纪"},
+              {"en": "As early as the tenth century", "zh": "早在十世纪"},
+              {"en": "As early as the twelfth century", "zh": "早在十二世纪"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What was the mortality rate of smallpox?",
+              "zh": "天花的死亡率是多少？"
+            },
+            "options": [
+              {"en": "Approximately 10 percent", "zh": "约10%"},
+              {"en": "Approximately 20 percent", "zh": "约20%"},
+              {"en": "Approximately 30 percent", "zh": "约30%"},
+              {"en": "Approximately 40 percent", "zh": "约40%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "When was the global smallpox eradication campaign conducted?",
+              "zh": "全球天花根除运动是在什么时候进行的？"
+            },
+            "options": [
+              {"en": "1957 to 1970", "zh": "1957年至1970年"},
+              {"en": "1962 to 1975", "zh": "1962年至1975年"},
+              {"en": "1967 to 1980", "zh": "1967年至1980年"},
+              {"en": "1972 to 1985", "zh": "1972年至1985年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "In which two countries is polio still endemic?",
+              "zh": "小儿麻痹症仍在哪两个国家流行？"
+            },
+            "options": [
+              {"en": "India and Nigeria", "zh": "印度和尼日利亚"},
+              {"en": "Afghanistan and Pakistan", "zh": "阿富汗和巴基斯坦"},
+              {"en": "Syria and Iraq", "zh": "叙利亚和伊拉克"},
+              {"en": "Somalia and Yemen", "zh": "索马里和也门"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What do B cells produce in the immune response?",
+              "zh": "B细胞在免疫反应中产生什么？"
+            },
+            "options": [
+              {"en": "Antigens", "zh": "抗原"},
+              {"en": "Antibodies", "zh": "抗体"},
+              {"en": "White blood cells", "zh": "白细胞"},
+              {"en": "Red blood cells", "zh": "红细胞"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How long had mRNA vaccine technology been in development before COVID-19?",
+              "zh": "在COVID-19之前，mRNA疫苗技术已经发展了多长时间？"
+            },
+            "options": [
+              {"en": "Approximately five years", "zh": "约五年"},
+              {"en": "Approximately ten years", "zh": "约十年"},
+              {"en": "Approximately two decades", "zh": "约二十年"},
+              {"en": "Approximately three decades", "zh": "约三十年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "How quickly was the first COVID-19 vaccine developed after the virus was identified?",
+              "zh": "在病毒被发现后，第一支COVID-19疫苗用了多长时间开发？"
+            },
+            "options": [
+              {"en": "Less than six months", "zh": "不到六个月"},
+              {"en": "Less than a year", "zh": "不到一年"},
+              {"en": "Approximately eighteen months", "zh": "约十八个月"},
+              {"en": "Approximately two years", "zh": "约两年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "When did the WHO list vaccine hesitancy as a top ten global health threat?",
+              "zh": "世界卫生组织什么时候将疫苗犹豫列为十大全球健康威胁之一？"
+            },
+            "options": [
+              {"en": "2015", "zh": "2015年"},
+              {"en": "2017", "zh": "2017年"},
+              {"en": "2019", "zh": "2019年"},
+              {"en": "2021", "zh": "2021年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "The word 'attenuating' in paragraph 3 is closest in meaning to:",
+              "zh": "第3段中的"attenuating"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Strengthening", "zh": "加强"},
+              {"en": "Weakening", "zh": "减弱"},
+              {"en": "Duplicating", "zh": "复制"},
+              {"en": "Destroying", "zh": "摧毁"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "What is the key innovation of mRNA vaccines compared to traditional vaccines?",
+              "zh": "与传统疫苗相比，mRNA疫苗的关键创新是什么？"
+            },
+            "options": [
+              {"en": "They use live pathogens", "zh": "它们使用活病原体"},
+              {"en": "They deliver genetic instructions for cells to produce a harmless piece of the virus", "zh": "它们提供遗传指令，使细胞产生无害的病毒片段"},
+              {"en": "They inject antibodies directly", "zh": "它们直接注射抗体"},
+              {"en": "They use chemical compounds to kill viruses", "zh": "它们使用化合物杀死病毒"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "Which of the following is mentioned as a factor contributing to vaccine hesitancy?",
+              "zh": "以下哪项被提及为导致疫苗犹豫的因素？"
+            },
+            "options": [
+              {"en": "High cost of vaccines", "zh": "疫苗价格高"},
+              {"en": "Lack of access to healthcare facilities", "zh": "缺乏医疗设施"},
+              {"en": "Misinformation spread through social media", "zh": "通过社交媒体传播的虚假信息"},
+              {"en": "Insufficient government funding", "zh": "政府资金不足"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "What is the overall tone of the passage regarding vaccination?",
+              "zh": "文章对疫苗接种的总体基调是什么？"
+            },
+            "options": [
+              {"en": "Cautiously sceptical", "zh": "谨慎怀疑的"},
+              {"en": "Strongly supportive while acknowledging challenges", "zh": "在承认挑战的同时强烈支持"},
+              {"en": "Neutral and detached", "zh": "中立和客观的"},
+              {"en": "Primarily concerned about side effects", "zh": "主要关注副作用"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Impact of Space Exploration on Everyday Life",
+          "zh": "文章2 - 太空探索对日常生活的影响"
+        },
+        "passage": "<p>When most people think of space exploration, they imagine astronauts floating in zero gravity, rovers traversing the surface of Mars, or spectacular rocket launches. What is less commonly appreciated is the profound and pervasive impact that space technology has on everyday life on Earth. From the memory foam in your mattress to the GPS navigation in your car, many technologies that we take for granted originated from or were significantly advanced by space research. The relationship between space exploration and terrestrial technology dates back to the earliest days of the space race. When NASA was established in 1958, one of its founding mandates was to share the technological benefits of space research with the wider public. This commitment led to the creation of the Technology Transfer Programme, which has facilitated the commercialisation of thousands of space-derived technologies. NASA's annual publication, Spinoff, has documented over 2,000 such technologies since its first edition in 1976. Perhaps the most ubiquitous space-derived technology is the Global Positioning System, or GPS. Originally developed by the United States Department of Defense for military navigation, GPS relies on a constellation of 24 satellites orbiting the Earth at an altitude of approximately 20,200 kilometres. Each satellite broadcasts precise timing signals, and a GPS receiver on the ground calculates its position by comparing the time signals from multiple satellites. While GPS was initially restricted to military use, it was made available for civilian applications in 1983 following the shooting down of a Korean Air Lines flight that had strayed into Soviet airspace due to a navigation error. Today, GPS technology supports an estimated four billion users worldwide and underpins critical infrastructure including aviation, maritime navigation, agriculture, emergency services, and telecommunications. The estimated economic value of GPS to the US economy alone is approximately 1.4 trillion dollars since its civilian introduction. Water purification technology is another area where space research has made significant terrestrial contributions. In the 1960s, NASA developed advanced water filtration systems for the Apollo missions to ensure astronauts had access to clean drinking water in space. These systems, which used iodine and activated carbon to remove contaminants, were subsequently adapted for use in developing countries where access to clean water is limited. Today, spin-off water purification technology based on NASA's designs provides clean drinking water to millions of people in over 80 countries. One notable example is the Microbial Check Valve, a device originally designed for the Space Shuttle that has been adapted into portable water purification units used in disaster relief operations and rural communities worldwide. Medical technology has also benefited enormously from space research. The digital image processing techniques originally developed by NASA's Jet Propulsion Laboratory to enhance images of the Moon's surface were later adapted for use in medical imaging, including CT scans and MRI technology. Infrared thermometers, now ubiquitous in hospitals and homes, derive from technology developed to measure the temperature of stars and planets. Robotic surgery systems, which allow surgeons to perform complex procedures with enhanced precision, have roots in the robotic arm technology developed for the Space Shuttle and International Space Station. Even the humble cochlear implant, which has restored hearing to hundreds of thousands of people worldwide, benefited from NASA's research into miniaturised electronics for space applications. Materials science represents perhaps the most widespread category of space spin-offs. Memory foam, originally developed by NASA in the 1966 to improve crash protection for airline pilots, is now used in mattresses, pillows, shoes, and medical equipment worldwide. Scratch-resistant coatings for eyeglasses were derived from astronaut helmet visor technology. Space suits, which must protect astronauts from extreme temperatures ranging from minus 157 to 121 degrees Celsius, have inspired advanced insulation materials now used in winter clothing and firefighting equipment. The heat-resistant materials developed for spacecraft re-entry have found applications in industrial furnaces, racing car components, and protective equipment for firefighters. The International Space Station, which has been continuously occupied since November 2000, serves as a unique laboratory for scientific research that cannot be conducted on Earth. Experiments in microgravity have led to advances in drug development, materials science, and our understanding of fundamental biological processes. For example, protein crystal growth experiments conducted on the ISS have produced larger and more perfect protein crystals than can be grown on Earth, enabling scientists to better understand the structure of proteins associated with diseases such as muscular dystrophy and Duchenne disease. This research has directly contributed to the development of new pharmaceutical treatments. Looking to the future, the emerging commercial space industry promises to generate even more technological spin-offs. Companies such as SpaceX, Blue Origin, and Virgin Galactic are dramatically reducing the cost of space access, while space tourism, asteroid mining, and the establishment of permanent lunar and Martian bases could drive innovation in life support systems, renewable energy, construction materials, and agricultural technologies that would benefit life on Earth.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "When was NASA established?",
+              "zh": "美国宇航局是什么时候成立的？"
+            },
+            "options": [
+              {"en": "1955", "zh": "1955年"},
+              {"en": "1958", "zh": "1958年"},
+              {"en": "1961", "zh": "1961年"},
+              {"en": "1965", "zh": "1965年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How many space-derived technologies has NASA's Spinoff documented?",
+              "zh": "NASA的Spinoff记录了多少太空衍生技术？"
+            },
+            "options": [
+              {"en": "Over 1,000", "zh": "超过1,000项"},
+              {"en": "Over 2,000", "zh": "超过2,000项"},
+              {"en": "Over 3,000", "zh": "超过3,000项"},
+              {"en": "Over 5,000", "zh": "超过5,000项"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "How many satellites make up the GPS constellation?",
+              "zh": "GPS星座由多少颗卫星组成？"
+            },
+            "options": [
+              {"en": "18", "zh": "18颗"},
+              {"en": "21", "zh": "21颗"},
+              {"en": "24", "zh": "24颗"},
+              {"en": "30", "zh": "30颗"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "When was GPS made available for civilian use?",
+              "zh": "GPS什么时候对民用开放？"
+            },
+            "options": [
+              {"en": "1978", "zh": "1978年"},
+              {"en": "1980", "zh": "1980年"},
+              {"en": "1983", "zh": "1983年"},
+              {"en": "1986", "zh": "1986年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What is the estimated economic value of GPS to the US economy?",
+              "zh": "GPS对美国经济的估计经济价值是多少？"
+            },
+            "options": [
+              {"en": "Approximately 500 billion dollars", "zh": "约5000亿美元"},
+              {"en": "Approximately 900 billion dollars", "zh": "约9000亿美元"},
+              {"en": "Approximately 1.4 trillion dollars", "zh": "约1.4万亿美元"},
+              {"en": "Approximately 2 trillion dollars", "zh": "约2万亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How many countries use spin-off water purification technology based on NASA's designs?",
+              "zh": "有多少个国家使用基于NASA设计的衍生水净化技术？"
+            },
+            "options": [
+              {"en": "Over 40", "zh": "超过40个"},
+              {"en": "Over 60", "zh": "超过60个"},
+              {"en": "Over 80", "zh": "超过80个"},
+              {"en": "Over 100", "zh": "超过100个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "When was memory foam originally developed by NASA?",
+              "zh": "NASA最初什么时候开发了记忆泡沫？"
+            },
+            "options": [
+              {"en": "1962", "zh": "1962年"},
+              {"en": "1966", "zh": "1966年"},
+              {"en": "1970", "zh": "1970年"},
+              {"en": "1975", "zh": "1975年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "What temperature range must space suits protect astronauts from?",
+              "zh": "太空服必须保护宇航员免受什么温度范围的影响？"
+            },
+            "options": [
+              {"en": "Minus 100 to 80 degrees Celsius", "zh": "-100到80摄氏度"},
+              {"en": "Minus 157 to 121 degrees Celsius", "zh": "-157到121摄氏度"},
+              {"en": "Minus 200 to 150 degrees Celsius", "zh": "-200到150摄氏度"},
+              {"en": "Minus 250 to 200 degrees Celsius", "zh": "-250到200摄氏度"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "Since when has the International Space Station been continuously occupied?",
+              "zh": "国际空间站从什么时候开始一直有人驻守？"
+            },
+            "options": [
+              {"en": "Since 1998", "zh": "自1998年起"},
+              {"en": "Since November 2000", "zh": "自2000年11月起"},
+              {"en": "Since 2003", "zh": "自2003年起"},
+              {"en": "Since 2005", "zh": "自2005年起"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "The word 'ubiquitous' in paragraph 2 is closest in meaning to:",
+              "zh": "第2段中的"ubiquitous"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Rare", "zh": "罕见的"},
+              {"en": "Found everywhere", "zh": "无处不在的"},
+              {"en": "Expensive", "zh": "昂贵的"},
+              {"en": "Complicated", "zh": "复杂的"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "Which companies are mentioned as reducing the cost of space access?",
+              "zh": "哪些公司被提及正在降低太空访问的成本？"
+            },
+            "options": [
+              {"en": "SpaceX, Boeing, and Lockheed Martin", "zh": "SpaceX、波音和洛克希德·马丁"},
+              {"en": "SpaceX, Blue Origin, and Virgin Galactic", "zh": "SpaceX、蓝色起源和维珍银河"},
+              {"en": "NASA, ESA, and Roscosmos", "zh": "NASA、ESA和Roscosmos"},
+              {"en": "Google, Amazon, and Apple", "zh": "谷歌、亚马逊和苹果"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "How many users does GPS support worldwide?",
+              "zh": "GPS在全球支持多少用户？"
+            },
+            "options": [
+              {"en": "Approximately two billion", "zh": "约20亿"},
+              {"en": "Approximately three billion", "zh": "约30亿"},
+              {"en": "Approximately four billion", "zh": "约40亿"},
+              {"en": "Approximately five billion", "zh": "约50亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What is the main argument of this passage?",
+              "zh": "这篇文章的主要论点是什么？"
+            },
+            "options": [
+              {"en": "Space exploration is too expensive and should be defunded", "zh": "太空探索太昂贵，应该停止资助"},
+              {"en": "Space exploration has generated numerous technologies that benefit everyday life on Earth", "zh": "太空探索产生了许多造福地球日常生活的技术"},
+              {"en": "Private companies are more effective than government agencies at space research", "zh": "私营公司在太空研究方面比政府机构更有效"},
+              {"en": "Space tourism is the future of the space industry", "zh": "太空旅游是太空行业的未来"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Global Coffee Industry: Past, Present, and Future",
+          "zh": "文章3 - 全球咖啡产业：过去、现在和未来"
+        },
+        "passage": "<p>Coffee is one of the most widely traded commodities on Earth, with an estimated 2.25 billion cups consumed every day across the globe. The global coffee industry is valued at approximately 495 billion dollars annually and supports the livelihoods of an estimated 125 million people, predominantly smallholder farmers in developing countries. Yet despite its ubiquity in modern life, the coffee industry faces unprecedented challenges that threaten its long-term sustainability. The origins of coffee drinking are steeped in legend and debate. The most popular story, likely apocryphal, involves an Ethiopian goat herder named Kaldi who noticed his goats became unusually energetic after eating berries from a particular tree. Whether or not this story is true, Ethiopia is widely recognised as the birthplace of coffee, and the plant Coffea arabica originated in the highlands of eastern Africa. By the fifteenth century, coffee drinking had spread to the Arabian Peninsula, where coffee houses, known as qahveh khaneh, became important centres of social activity, intellectual discourse, and political debate. The seventeenth century saw coffee arrive in Europe, where it quickly became fashionable. Coffee houses sprang up in major cities across the continent, becoming hubs of commerce, creativity, and conversation. Lloyd's of London, the famous insurance market, began as a coffee house in 1688. The Parisian café culture that persists to this day has its roots in the coffee houses of the same era. European colonial powers, recognising the commercial potential of coffee, began cultivating it in their tropical colonies, establishing plantation systems in Java, Ceylon, Brazil, and the Caribbean. These colonial plantations relied heavily on slave labour and later on indentured workers, a dark chapter in coffee's history that continues to shape the industry's power dynamics. Today, Brazil is by far the world's largest coffee producer, accounting for approximately 37 percent of global production, followed by Vietnam at 16 percent, Colombia at 7 percent, and Indonesia at 6 percent. However, the vast majority of coffee farmers are smallholders cultivating plots of fewer than five hectares. These farmers typically earn only 10 percent of the retail price of their coffee, with the remaining value captured by processors, traders, roasters, and retailers in consuming countries. This disparity has fuelled the fair trade movement, which guarantees farmers a minimum price for their coffee and promotes more equitable trading relationships. The fair trade coffee market has grown significantly since its inception in the late 1980s, with certified sales reaching approximately 1.3 billion dollars in 2022. Climate change poses the most significant existential threat to the coffee industry. The two main species cultivated commercially, Coffea arabica and Coffea canephora, commonly known as robusta, are both highly sensitive to changes in temperature, rainfall, and humidity. Arabica, which accounts for approximately 60 percent of global production and is prized for its complex flavour profile, grows best at temperatures between 18 and 22 degrees Celsius and is particularly vulnerable to rising temperatures. A 2022 study published in the journal PLOS ONE projected that by 2050, the amount of land suitable for growing arabica coffee could decrease by approximately 50 percent under moderate climate change scenarios and by up to 80 percent under severe scenarios. Robusta, while more resilient to heat, is sensitive to drought and is also expected to face significant production challenges. The impact of climate change on coffee production is already being observed. In Brazil, severe frosts in 2021 destroyed approximately 11 percent of the country's coffee plants, causing global coffee prices to spike by over 40 percent. In Central America, the spread of coffee leaf rust, a fungal disease exacerbated by changing climate conditions, has devastated plantations across the region, forcing thousands of farmers to abandon coffee cultivation. The World Coffee Research organisation estimates that by 2050, up to 50 percent of the land currently used for coffee production may become unsuitable without significant adaptation measures. In response to these challenges, researchers and industry stakeholders are pursuing several strategies. Climate-resilient coffee varieties are being developed through both traditional breeding techniques and genetic research. World Coffee Research has developed over 60 experimental hybrid varieties that combine the flavour quality of arabica with the climate resilience of robusta. Agroforestry, the practice of growing coffee under a canopy of shade trees, is being promoted as a way to moderate temperatures, reduce water stress, and sequester carbon. Studies have shown that shade-grown coffee can be two to four degrees cooler than coffee grown in full sun, providing a buffer against rising temperatures. The specialty coffee movement, which emphasises quality, origin, and unique flavour profiles, has also emerged as a potential saviour for the industry. By commanding premium prices, specialty coffee can provide farmers with higher incomes that enable investment in sustainable practices. The global specialty coffee market was valued at approximately 83 billion dollars in 2023 and is growing at a rate of approximately 12 percent per year. Direct trade relationships between roasters and farmers, bypassing traditional intermediaries, are becoming increasingly common and can return up to 50 percent of the retail price to the farmer, compared to the typical 10 percent.</p>",
+        "questions": [
+          {
+            "id": 27,
+            "text": {
+              "en": "How many cups of coffee are consumed globally every day?",
+              "zh": "全球每天消费多少杯咖啡？"
+            },
+            "options": [
+              {"en": "Approximately 1.25 billion", "zh": "约12.5亿"},
+              {"en": "Approximately 1.75 billion", "zh": "约17.5亿"},
+              {"en": "Approximately 2.25 billion", "zh": "约22.5亿"},
+              {"en": "Approximately 3 billion", "zh": "约30亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What is the global coffee industry valued at annually?",
+              "zh": "全球咖啡产业年价值是多少？"
+            },
+            "options": [
+              {"en": "Approximately 295 billion dollars", "zh": "约2950亿美元"},
+              {"en": "Approximately 395 billion dollars", "zh": "约3950亿美元"},
+              {"en": "Approximately 495 billion dollars", "zh": "约4950亿美元"},
+              {"en": "Approximately 595 billion dollars", "zh": "约5950亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What did Lloyd's of London originally begin as?",
+              "zh": "劳合社最初是什么？"
+            },
+            "options": [
+              {"en": "A tea house", "zh": "茶馆"},
+              {"en": "A coffee house", "zh": "咖啡馆"},
+              {"en": "A trading post", "zh": "贸易站"},
+              {"en": "A government office", "zh": "政府办公室"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "What percentage of global coffee production does Brazil account for?",
+              "zh": "巴西占全球咖啡产量的多少百分比？"
+            },
+            "options": [
+              {"en": "27 percent", "zh": "27%"},
+              {"en": "32 percent", "zh": "32%"},
+              {"en": "37 percent", "zh": "37%"},
+              {"en": "42 percent", "zh": "42%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What percentage of the retail price do coffee farmers typically earn?",
+              "zh": "咖啡农通常获得零售价的多少百分比？"
+            },
+            "options": [
+              {"en": "5 percent", "zh": "5%"},
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "20 percent", "zh": "20%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "What percentage of global coffee production does arabica account for?",
+              "zh": "阿拉比卡占全球咖啡产量的多少百分比？"
+            },
+            "options": [
+              {"en": "50 percent", "zh": "50%"},
+              {"en": "55 percent", "zh": "55%"},
+              {"en": "60 percent", "zh": "60%"},
+              {"en": "65 percent", "zh": "65%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "By how much could suitable land for arabica coffee decrease by 2050 under moderate scenarios?",
+              "zh": "在中等情景下，到2050年适合种植阿拉比卡咖啡的土地可能减少多少？"
+            },
+            "options": [
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "40 percent", "zh": "40%"},
+              {"en": "50 percent", "zh": "50%"},
+              {"en": "60 percent", "zh": "60%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "How much did global coffee prices spike after the 2021 Brazil frosts?",
+              "zh": "2021年巴西霜冻后全球咖啡价格上涨了多少？"
+            },
+            "options": [
+              {"en": "Over 20 percent", "zh": "超过20%"},
+              {"en": "Over 30 percent", "zh": "超过30%"},
+              {"en": "Over 40 percent", "zh": "超过40%"},
+              {"en": "Over 50 percent", "zh": "超过50%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many experimental hybrid coffee varieties has World Coffee Research developed?",
+              "zh": "世界咖啡研究组织开发了多少种实验性杂交咖啡品种？"
+            },
+            "options": [
+              {"en": "Over 30", "zh": "超过30种"},
+              {"en": "Over 45", "zh": "超过45种"},
+              {"en": "Over 60", "zh": "超过60种"},
+              {"en": "Over 80", "zh": "超过80种"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "How much cooler can shade-grown coffee be compared to full-sun coffee?",
+              "zh": "遮荫种植的咖啡比全日照种植的咖啡低多少温度？"
+            },
+            "options": [
+              {"en": "One to two degrees", "zh": "一到两度"},
+              {"en": "Two to four degrees", "zh": "二到四度"},
+              {"en": "Four to six degrees", "zh": "四到六度"},
+              {"en": "Six to eight degrees", "zh": "六到八度"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "What was the value of the global specialty coffee market in 2023?",
+              "zh": "2023年全球精品咖啡市场的价值是多少？"
+            },
+            "options": [
+              {"en": "Approximately 53 billion dollars", "zh": "约530亿美元"},
+              {"en": "Approximately 68 billion dollars", "zh": "约680亿美元"},
+              {"en": "Approximately 83 billion dollars", "zh": "约830亿美元"},
+              {"en": "Approximately 98 billion dollars", "zh": "约980亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What percentage of the retail price can direct trade return to farmers?",
+              "zh": "直接贸易可以返还给农民多少百分比的零售价？"
+            },
+            "options": [
+              {"en": "Up to 25 percent", "zh": "最多25%"},
+              {"en": "Up to 35 percent", "zh": "最多35%"},
+              {"en": "Up to 50 percent", "zh": "最多50%"},
+              {"en": "Up to 60 percent", "zh": "最多60%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "The word 'ubiquity' in paragraph 1 is closest in meaning to:",
+              "zh": "第1段中的"ubiquity"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Scarcity", "zh": "稀缺"},
+              {"en": "Quality", "zh": "质量"},
+              {"en": "Widespread presence", "zh": "普遍存在"},
+              {"en": "Complexity", "zh": "复杂性"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What is the passage's overall message about the future of the coffee industry?",
+              "zh": "文章关于咖啡产业未来的整体信息是什么？"
+            },
+            "options": [
+              {"en": "The coffee industry is doomed to fail", "zh": "咖啡产业注定要失败"},
+              {"en": "Coffee will be replaced by other beverages", "zh": "咖啡将被其他饮料取代"},
+              {"en": "The industry faces serious climate and equity challenges but innovation offers paths forward", "zh": "该行业面临严峻的气候和公平挑战，但创新提供了前进之路"},
+              {"en": "Government regulation alone can solve the industry's problems", "zh": "仅靠政府监管就能解决行业问题"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1 - Describe a Map",
+          "zh": "任务1 - 描述地图"
+        },
+        "prompt": {
+          "en": "The maps below show a coastal town called Pebbleton in 2000 and the proposed changes for 2025.\n\n2000: A small fishing harbour with a fish market on the waterfront. A main road runs through the town centre with local shops and a town hall. Residential houses are located to the north. A primary school is in the northeast corner. Farmland occupies the eastern section.\n\n2025 Proposed Changes: The fishing harbour will be replaced by a modern marina with restaurants and a hotel. The fish market will become a shopping centre. The main road will be widened and a new bypass road will be built around the town. The farmland in the east will be converted into a housing estate with 200 new homes. A new secondary school will be built adjacent to the primary school. A leisure centre with a swimming pool will be constructed near the marina.\n\nSummarise the changes by selecting and reporting the main features. Write at least 150 words.",
+          "zh": "下面的地图显示了一个名为Pebbleton的沿海城镇在2000年的情况以及2025年的拟议变化。\n\n2000年：滨水区有一个小渔港和鱼市场。主干道穿过市中心，两侧有当地商店和市政厅。住宅区位于北部。东北角有一所小学。东部为农田。\n\n2025年拟议变化：渔港将被一个现代化的游艇码头取代，配有餐厅和酒店。鱼市场将成为购物中心。主干道将被拓宽，将建设一条新的绕城公路。东部的农田将被改建为拥有200套新住宅的住宅区。将在小学旁边新建一所中学。在游艇码头附近将建设一个带游泳池的休闲中心。\n\n通过选择和报告主要特征来总结变化。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2 - Essay",
+          "zh": "任务2 - 议论文"
+        },
+        "prompt": {
+          "en": "International tourism has brought enormous benefits to many places around the world. However, some people argue that it has also caused serious problems for the local population and environment.\n\nTo what extent do you agree or disagree that the negative effects of international tourism outweigh the positive effects?\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "国际旅游业为世界许多地方带来了巨大的好处。然而，一些人认为它也给当地居民和环境造成了严重问题。\n\n你在多大程度上同意或不同意国际旅游的负面影响超过正面影响？\n\n给出你的理由，并包括你自己的知识或经验中任何相关的例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}
