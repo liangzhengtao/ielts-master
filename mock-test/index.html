@@ -1,381 +1,281 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IELTS Mock Test | 雅思模拟考试</title>
+    <title>IELTS Master | 雅思模考</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         :root {
-            --bg: #0f0f13; --surface: #1a1a24; --surface-2: #252535;
-            --accent: #6366f1; --accent-2: #a78bfa; --pink: #ec4899;
-            --text: #e8e8ed; --text-2: #9898a8; --border: rgba(255,255,255,0.08);
-            --success: #34d399; --warning: #fbbf24; --error: #f87171;
+            --bg: #07070a; --bg-2: #0c0c12; --surface: #12121a; --surface-2: #1a1a24;
+            --border: rgba(255,255,255,0.06); --text: #eaeaf0; --text-2: #8888a0; --text-3: #555570;
+            --accent: #6c5ce7; --accent-2: #a29bfe; --pink: #fd79a8; --green: #00b894;
+            --gradient: linear-gradient(135deg, #6c5ce7, #a29bfe, #fd79a8);
         }
-        body { font-family: 'Inter', -apple-system, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
-        
-        /* Header */
-        .header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 12px 20px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
-        .header-left { display: flex; align-items: center; gap: 16px; }
-        .logo { font-size: 18px; font-weight: 800; color: var(--accent); }
-        .section-tabs { display: flex; gap: 6px; }
-        .tab { padding: 6px 14px; border-radius: 6px; font-size: 12px; cursor: pointer; border: 1px solid var(--border); background: transparent; color: var(--text-2); transition: all 0.2s; }
-        .tab.active { background: var(--accent); color: white; border-color: var(--accent); }
-        .tab:hover:not(.active) { border-color: var(--accent); }
-        .header-right { display: flex; align-items: center; gap: 16px; }
-        .timer { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 600; color: var(--text-2); }
-        .timer.running { color: var(--warning); }
-        .timer.paused { color: var(--text-2); }
-        .lang-btn { padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; border: 1px solid var(--border); background: transparent; color: var(--text-2); transition: all 0.2s; }
-        .lang-btn:hover { border-color: var(--accent); color: var(--text); }
-        .lang-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
-        
-        /* Main layout */
-        .main { display: flex; height: calc(100vh - 52px); }
-        .left-panel { flex: 1; padding: 24px; overflow-y: auto; border-right: 1px solid var(--border); }
-        .right-panel { width: 380px; padding: 24px; overflow-y: auto; background: var(--surface); }
-        
-        /* Passage */
-        .passage { line-height: 1.8; font-size: 15px; color: var(--text-2); }
-        .passage p { margin-bottom: 14px; }
-        
-        /* Questions */
-        .question { margin-bottom: 20px; padding: 16px; background: rgba(255,255,255,0.02); border-radius: 10px; border: 1px solid var(--border); }
-        .question-num { font-size: 12px; font-weight: 600; color: var(--accent); margin-bottom: 8px; }
-        .question-text { font-size: 14px; margin-bottom: 12px; line-height: 1.6; }
-        .options { display: flex; flex-direction: column; gap: 6px; }
-        .option { display: flex; align-items: center; gap: 10px; padding: 8px 12px; border-radius: 6px; cursor: pointer; border: 1px solid var(--border); transition: all 0.2s; font-size: 13px; }
-        .option:hover { border-color: var(--accent); background: rgba(99,102,241,0.05); }
-        .option.selected { border-color: var(--accent); background: rgba(99,102,241,0.1); }
-        .option-letter { width: 24px; height: 24px; border-radius: 50%; border: 2px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 600; flex-shrink: 0; }
-        .option.selected .option-letter { border-color: var(--accent); background: var(--accent); color: white; }
-        
-        /* Writing */
-        .writing-area { width: 100%; min-height: 250px; padding: 14px; background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 14px; line-height: 1.7; outline: none; resize: vertical; font-family: inherit; }
-        .writing-area:focus { border-color: var(--accent); }
-        .word-count { text-align: right; font-size: 12px; color: var(--text-2); margin-top: 6px; }
-        
-        /* Navigation */
-        .nav-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
-        .btn { padding: 8px 20px; border-radius: 6px; font-size: 13px; font-weight: 600; cursor: pointer; border: none; transition: all 0.2s; }
-        .btn-primary { background: var(--accent); color: white; }
-        .btn-primary:hover { opacity: 0.9; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', 'Noto Sans SC', sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+        ::selection { background: rgba(108,92,231,0.3); }
+
+        /* ─── Navbar ─── */
+        .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; padding: 16px 0; transition: all 0.4s; }
+        .nav.scrolled { padding: 10px 0; background: rgba(7,7,10,0.92); backdrop-filter: blur(20px); border-bottom: 1px solid var(--border); }
+        .nav-inner { max-width: 1100px; margin: 0 auto; padding: 0 24px; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 20px; font-weight: 800; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-decoration: none; }
+        .nav-links { display: flex; gap: 24px; align-items: center; list-style: none; }
+        .nav-links a { color: var(--text-2); text-decoration: none; font-size: 13px; font-weight: 500; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--text); }
+        .lang-toggle { padding: 6px 12px; border-radius: 6px; border: 1px solid var(--border); background: transparent; color: var(--text-2); font-size: 12px; cursor: pointer; transition: all 0.2s; }
+        .lang-toggle:hover { border-color: var(--accent); color: var(--text); }
+        .mobile-btn { display: none; background: none; border: none; color: var(--text); font-size: 22px; cursor: pointer; }
+
+        /* ─── Hero ─── */
+        .hero { padding: 140px 0 80px; text-align: center; position: relative; }
+        .hero::before { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 30%, rgba(108,92,231,0.1) 0%, transparent 60%); pointer-events: none; }
+        .hero-content { position: relative; z-index: 1; }
+        .hero h1 { font-size: clamp(36px, 7vw, 64px); font-weight: 900; letter-spacing: -2px; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; margin-bottom: 12px; }
+        .hero p { font-size: 18px; color: var(--text-2); max-width: 500px; margin: 0 auto 32px; }
+        .hero-stats { display: flex; justify-content: center; gap: 40px; flex-wrap: wrap; }
+        .hero-stat { text-align: center; }
+        .hero-stat-num { font-size: 32px; font-weight: 800; font-family: 'JetBrains Mono', monospace; color: var(--text); }
+        .hero-stat-lbl { font-size: 12px; color: var(--text-3); margin-top: 2px; }
+
+        /* ─── Container ─── */
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 24px; }
+
+        /* ─── Section ─── */
+        .section { padding: 80px 0; border-top: 1px solid var(--border); }
+        .section-head { margin-bottom: 32px; }
+        .section-tag { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 3px; color: var(--accent); margin-bottom: 8px; display: flex; align-items: center; gap: 8px; }
+        .section-tag::before { content: '✦'; font-size: 7px; }
+        .section-title { font-size: 28px; font-weight: 700; letter-spacing: -1px; }
+
+        /* ─── Test Grid ─── */
+        .test-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+        .test-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1); cursor: pointer; position: relative; overflow: hidden; }
+        .test-card::before { content: ''; position: absolute; inset: -1px; border-radius: 17px; background: conic-gradient(from var(--a, 0deg), #6c5ce7, #a29bfe, #fd79a8, #00b894, #6c5ce7); z-index: -1; opacity: 0; transition: opacity 0.4s; animation: spin 4s linear infinite; }
+        .test-card::after { content: ''; position: absolute; inset: 1px; border-radius: 15px; background: var(--surface); z-index: -1; }
+        @keyframes spin { to { --a: 360deg; } }
+        @property --a { syntax: '<angle>'; initial-value: 0deg; inherits: false; }
+        .test-card:hover { transform: translateY(-6px); box-shadow: 0 16px 48px rgba(108,92,231,0.15); }
+        .test-card:hover::before { opacity: 1; }
+        .test-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+        .test-card-num { font-size: 11px; font-family: 'JetBrains Mono', monospace; color: var(--accent); }
+        .test-card-title { font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+        .test-card-desc { font-size: 12px; color: var(--text-2); }
+        .test-card-tags { display: flex; gap: 6px; margin-top: 12px; flex-wrap: wrap; }
+        .test-tag { padding: 3px 8px; border-radius: 4px; font-size: 10px; background: rgba(108,92,231,0.1); color: var(--accent-2); border: 1px solid rgba(108,92,231,0.15); }
+
+        /* Random card */
+        .test-card.random { border: 2px dashed rgba(108,92,231,0.3); background: rgba(108,92,231,0.03); }
+        .test-card.random:hover { border-color: var(--accent); background: rgba(108,92,231,0.08); }
+
+        /* ─── Features ─── */
+        .features { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin-top: 32px; }
+        .feature { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 24px; transition: border-color 0.3s; }
+        .feature:hover { border-color: rgba(108,92,231,0.2); }
+        .feature-icon { font-size: 28px; margin-bottom: 12px; }
+        .feature-title { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+        .feature-desc { font-size: 13px; color: var(--text-2); line-height: 1.6; }
+
+        /* ─── CTA ─── */
+        .cta { text-align: center; padding: 80px 0; }
+        .cta h2 { font-size: 32px; font-weight: 800; margin-bottom: 12px; }
+        .cta p { color: var(--text-2); margin-bottom: 28px; }
+        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px; border-radius: 100px; font-size: 15px; font-weight: 600; text-decoration: none; transition: all 0.3s; border: none; cursor: pointer; }
+        .btn-primary { background: var(--gradient); color: white; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(108,92,231,0.3); }
         .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--border); }
         .btn-ghost:hover { border-color: var(--accent); }
-        .btn:disabled { opacity: 0.4; cursor: not-allowed; }
-        .progress { font-size: 12px; color: var(--text-2); }
-        
-        /* Start screen */
-        .start-screen { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; padding: 40px; text-align: center; }
-        .start-screen h1 { font-size: 42px; font-weight: 800; margin-bottom: 12px; background: linear-gradient(135deg, var(--accent), var(--pink)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        .start-screen .sub { font-size: 18px; color: var(--text-2); margin-bottom: 32px; }
-        .test-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; max-width: 800px; width: 100%; }
-        .test-card { padding: 24px; background: var(--surface); border: 2px solid var(--border); border-radius: 14px; cursor: pointer; transition: all 0.3s; text-align: left; }
-        .test-card:hover { border-color: var(--accent); transform: translateY(-3px); }
-        .test-card h3 { font-size: 16px; margin-bottom: 6px; }
-        .test-card p { font-size: 12px; color: var(--text-2); }
-        
-        /* Review */
-        .review { padding: 40px; max-width: 700px; margin: 0 auto; }
-        .review-header { text-align: center; margin-bottom: 32px; }
-        .score-box { display: inline-flex; flex-direction: column; align-items: center; padding: 24px 40px; background: var(--surface); border: 2px solid var(--accent); border-radius: 16px; margin-bottom: 16px; }
-        .score-num { font-size: 48px; font-weight: 800; color: var(--accent); }
-        .score-lbl { font-size: 12px; color: var(--text-2); }
-        .review-item { padding: 14px; background: var(--surface); border-radius: 10px; margin-bottom: 10px; border: 1px solid var(--border); }
-        .review-item.correct { border-left: 3px solid var(--success); }
-        .review-item.wrong { border-left: 3px solid var(--error); }
-        .review-q { font-size: 13px; color: var(--text-2); margin-bottom: 6px; }
-        .review-a { font-size: 14px; }
-        .review-a.correct { color: var(--success); }
-        .review-a.wrong { color: var(--error); }
-        
-        /* Audio */
-        .audio-bar { background: var(--surface-2); padding: 12px 16px; border-radius: 8px; margin-bottom: 20px; display: flex; align-items: center; gap: 12px; }
-        .play-btn { width: 36px; height: 36px; border-radius: 50%; background: var(--accent); border: none; color: white; font-size: 16px; cursor: pointer; }
-        .audio-track { flex: 1; height: 4px; background: var(--border); border-radius: 2px; }
-        .audio-fill { height: 100%; background: var(--accent); border-radius: 2px; width: 0; }
-        .audio-time { font-size: 12px; color: var(--text-2); font-family: monospace; }
-        
-        /* Responsive */
+
+        /* ─── Footer ─── */
+        .footer { padding: 32px 0; border-top: 1px solid var(--border); text-align: center; font-size: 12px; color: var(--text-3); }
+        .footer a { color: var(--accent-2); text-decoration: none; }
+
+        /* ─── Responsive ─── */
         @media (max-width: 768px) {
-            .main { flex-direction: column; }
-            .right-panel { width: 100%; border-top: 1px solid var(--border); }
-            .header { flex-wrap: wrap; gap: 8px; }
-            .start-screen h1 { font-size: 28px; }
+            .nav-links { display: none; }
+            .nav-links.open { display: flex !important; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(7,7,10,0.98); backdrop-filter: blur(20px); padding: 20px; gap: 14px; border-bottom: 1px solid var(--border); }
+            .mobile-btn { display: block; }
+            .hero { padding: 100px 0 60px; }
+            .hero h1 { font-size: 32px; }
+            .hero-stats { gap: 20px; }
+            .section { padding: 48px 0; }
         }
     </style>
 </head>
 <body>
-    <!-- Start Screen -->
-    <div id="startScreen" class="start-screen">
-        <h1 id="startTitle">IELTS Mock Test</h1>
-        <p class="sub" id="startSub">Practice with realistic questions. No time pressure.</p>
-        <div class="test-grid" id="testGrid"></div>
-    </div>
 
-    <!-- Test Screen -->
-    <div id="testScreen" style="display: none;">
-        <div class="header">
-            <div class="header-left">
-                <div class="logo">IELTS</div>
-                <div class="section-tabs" id="sectionTabs"></div>
-            </div>
-            <div class="header-right">
-                <div class="timer" id="timer">00:00</div>
-                <button class="lang-btn" id="langBtn" onclick="toggleLang()">EN/中</button>
+    <!-- Nav -->
+    <nav class="nav" id="nav">
+        <div class="nav-inner">
+            <a href="#" class="logo">IELTS Master</a>
+            <button class="mobile-btn" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+            <ul class="nav-links">
+                <li><a href="#tests">Tests</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="https://github.com/liangzhengtao/ielts-master">GitHub</a></li>
+                <li><button class="lang-toggle" onclick="toggleLang()" id="langBtn">EN/中</button></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1 id="heroTitle">雅思模考</h1>
+            <p id="heroDesc">模拟真实机考环境，剑雅真题训练，即刻开始</p>
+            <div class="hero-stats">
+                <div class="hero-stat"><div class="hero-stat-num" id="statTests">6</div><div class="hero-stat-lbl" id="statTestsLbl">套真题</div></div>
+                <div class="hero-stat"><div class="hero-stat-num">480+</div><div class="hero-stat-lbl" id="statQuesLbl">道题目</div></div>
+                <div class="hero-stat"><div class="hero-stat-num">100%</div><div class="hero-stat-lbl" id="statFreeLbl">免费</div></div>
             </div>
         </div>
-        <div class="main">
-            <div class="left-panel" id="leftPanel"></div>
-            <div class="right-panel" id="rightPanel"></div>
-        </div>
-    </div>
+    </section>
 
-    <!-- Review Screen -->
-    <div id="reviewScreen" style="display: none;">
-        <div class="review" id="reviewContent"></div>
-    </div>
+    <!-- Tests -->
+    <section class="section" id="tests">
+        <div class="container">
+            <div class="section-head">
+                <div class="section-tag" id="testsTag">套题来源</div>
+                <div class="section-title" id="testsTitle">剑雅真题</div>
+            </div>
+            <div class="test-grid" id="testGrid"></div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="section-head">
+                <div class="section-tag" id="featTag">功能特点</div>
+                <div class="section-title" id="featTitle">为什么选择 IELTS Master</div>
+            </div>
+            <div class="features">
+                <div class="feature"><div class="feature-icon">🎯</div><div class="feature-title" id="f1Title">真实模拟</div><div class="feature-desc" id="f1Desc">还原雅思机考界面，分屏布局，倒计时，答题卡</div></div>
+                <div class="feature"><div class="feature-icon">📊</div><div class="feature-title" id="f2Title">即时评分</div><div class="feature-desc" id="f2Desc">自动批改客观题，预估分数，答案解析</div></div>
+                <div class="feature"><div class="feature-icon">🌐</div><div class="feature-title" id="f3Title">中英双语</div><div class="feature-desc" id="f3Desc">界面和题目均支持中英文切换</div></div>
+                <div class="feature"><div class="feature-icon">📱</div><div class="feature-title" id="f4Title">全平台</div><div class="feature-desc" id="f4Desc">桌面端、手机端均可使用，无需安装</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2 id="ctaTitle">准备好了吗？</h2>
+            <p id="ctaDesc">选择一套真题，开始你的雅思之旅</p>
+            <a href="#tests" class="btn btn-primary" id="ctaBtn">开始练习 →</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 IELTS Master · <a href="https://github.com/liangzhengtao">Liang Zhengtao</a> · MIT License</p>
+        </div>
+    </footer>
 
     <script>
-        // Language
-        let lang = 'en';
+        // ─── Language ───
+        let lang = 'zh';
         function toggleLang() {
-            lang = lang === 'en' ? 'zh' : 'en';
-            document.getElementById('langBtn').textContent = lang === 'en' ? 'EN/中' : '中/EN';
-            loadQuestion();
-            updateStartScreen();
-        }
-        function t(obj) { return typeof obj === 'object' ? (obj[lang] || obj.en || '') : obj; }
-
-        // State
-        let currentTest = null;
-        let currentSection = 'listening';
-        let currentQ = 0;
-        let answers = {};
-        let timerSeconds = 0;
-        let timerInterval = null;
-        let isPlaying = false;
-
-        // Update start screen text
-        function updateStartScreen() {
-            document.getElementById('startTitle').textContent = lang === 'zh' ? '雅思模拟考试' : 'IELTS Mock Test';
-            document.getElementById('startSub').textContent = lang === 'zh' ? '用真题练习，没有时间压力' : 'Practice with realistic questions. No time pressure.';
+            lang = lang === 'zh' ? 'en' : 'zh';
+            document.getElementById('langBtn').textContent = lang === 'zh' ? 'EN/中' : '中/EN';
+            updateUI();
+            renderTests();
         }
 
-        // Load tests
-        async function loadTests() {
+        function updateUI() {
+            const isZh = lang === 'zh';
+            document.getElementById('heroTitle').textContent = isZh ? '雅思模考' : 'IELTS Mock Test';
+            document.getElementById('heroDesc').textContent = isZh ? '模拟真实机考环境，剑雅真题训练，即刻开始' : 'Simulate real IELTS CBT environment. Cambridge IELTS practice.';
+            document.getElementById('statTestsLbl').textContent = isZh ? '套真题' : 'Practice Tests';
+            document.getElementById('statQuesLbl').textContent = isZh ? '道题目' : 'Questions';
+            document.getElementById('statFreeLbl').textContent = isZh ? '免费' : 'Free';
+            document.getElementById('testsTag').textContent = isZh ? '套题来源' : 'Test Source';
+            document.getElementById('testsTitle').textContent = isZh ? '剑雅真题' : 'Cambridge IELTS';
+            document.getElementById('featTag').textContent = isZh ? '功能特点' : 'Features';
+            document.getElementById('featTitle').textContent = isZh ? '为什么选择 IELTS Master' : 'Why IELTS Master';
+            document.getElementById('f1Title').textContent = isZh ? '真实模拟' : 'Real Simulation';
+            document.getElementById('f1Desc').textContent = isZh ? '还原雅思机考界面，分屏布局，倒计时，答题卡' : 'IELTS CBT interface, split-screen, timer, answer sheet';
+            document.getElementById('f2Title').textContent = isZh ? '即时评分' : 'Instant Scoring';
+            document.getElementById('f2Desc').textContent = isZh ? '自动批改客观题，预估分数，答案解析' : 'Auto-grade, estimated band score, answer review';
+            document.getElementById('f3Title').textContent = isZh ? '中英双语' : 'Bilingual';
+            document.getElementById('f3Desc').textContent = isZh ? '界面和题目均支持中英文切换' : 'UI and questions support EN/ZH toggle';
+            document.getElementById('f4Title').textContent = isZh ? '全平台' : 'Cross Platform';
+            document.getElementById('f4Desc').textContent = isZh ? '桌面端、手机端均可使用，无需安装' : 'Desktop & mobile, no installation required';
+            document.getElementById('ctaTitle').textContent = isZh ? '准备好了吗？' : 'Ready to Start?';
+            document.getElementById('ctaDesc').textContent = isZh ? '选择一套真题，开始你的雅思之旅' : 'Choose a test and start your IELTS journey';
+            document.getElementById('ctaBtn').textContent = isZh ? '开始练习 →' : 'Start Practice →';
+        }
+
+        // ─── Tests ───
+        const testNames = [
+            { zh: '剑雅真题 1', en: 'Cambridge IELTS 1' },
+            { zh: '剑雅真题 2', en: 'Cambridge IELTS 2' },
+            { zh: '剑雅真题 3', en: 'Cambridge IELTS 3' },
+            { zh: '剑雅真题 4', en: 'Cambridge IELTS 4' },
+            { zh: '剑雅真题 5', en: 'Cambridge IELTS 5' },
+            { zh: '剑雅真题 6', en: 'Cambridge IELTS 6' },
+        ];
+
+        async function renderTests() {
             const grid = document.getElementById('testGrid');
             grid.innerHTML = '';
-            const loadedTests = [];
-            
+            const loaded = [];
+
             for (let i = 1; i <= 10; i++) {
                 try {
                     const resp = await fetch(`tests/test${i}.json`);
                     if (resp.ok) {
                         const test = await resp.json();
-                        loadedTests.push(test);
+                        loaded.push(test);
+                        const name = testNames[i-1] || { zh: `真题 ${i}`, en: `Test ${i}` };
                         const card = document.createElement('div');
                         card.className = 'test-card';
-                        card.innerHTML = `<h3>${t(test.title)}</h3><p>${lang === 'zh' ? '听力 + 阅读 + 写作' : 'Listening + Reading + Writing'}</p>`;
+                        card.innerHTML = `
+                            <div class="test-card-header"><span class="test-card-num">Test ${i}</span></div>
+                            <div class="test-card-title">${lang === 'zh' ? name.zh : name.en}</div>
+                            <div class="test-card-desc">${lang === 'zh' ? '听力 + 阅读 + 写作' : 'Listening + Reading + Writing'}</div>
+                            <div class="test-card-tags"><span class="test-tag">${lang === 'zh' ? '听力' : 'Listening'}</span><span class="test-tag">${lang === 'zh' ? '阅读' : 'Reading'}</span><span class="test-tag">${lang === 'zh' ? '写作' : 'Writing'}</span></div>
+                        `;
                         card.onclick = () => startTest(test);
                         grid.appendChild(card);
                     }
                 } catch (e) {}
             }
-            
-            // Random test card
-            if (loadedTests.length > 1) {
-                const randomCard = document.createElement('div');
-                randomCard.className = 'test-card';
-                randomCard.style.borderColor = 'var(--accent)';
-                randomCard.innerHTML = `<h3>🎲 ${lang === 'zh' ? '随机抽题' : 'Random Test'}</h3><p>${lang === 'zh' ? '随机选择一套真题' : 'Randomly select a practice test'}</p>`;
-                randomCard.onclick = () => {
-                    const idx = Math.floor(Math.random() * loadedTests.length);
-                    startTest(loadedTests[idx]);
-                };
-                grid.appendChild(randomCard);
+
+            // Random card
+            if (loaded.length > 1) {
+                const random = document.createElement('div');
+                random.className = 'test-card random';
+                random.innerHTML = `
+                    <div class="test-card-header"><span class="test-card-num">🎲</span></div>
+                    <div class="test-card-title">${lang === 'zh' ? '随机抽题' : 'Random Test'}</div>
+                    <div class="test-card-desc">${lang === 'zh' ? '随机选择一套真题' : 'Randomly select a test'}</div>
+                `;
+                random.onclick = () => { const idx = Math.floor(Math.random() * loaded.length); startTest(loaded[idx]); };
+                grid.appendChild(random);
             }
-            
-            // Built-in test
-            const builtIn = document.createElement('div');
-            builtIn.className = 'test-card';
-            builtIn.innerHTML = `<h3>${lang === 'zh' ? '内置练习' : 'Built-in Practice'}</h3><p>${lang === 'zh' ? '快速练习题' : 'Quick practice questions'}</p>`;
-            builtIn.onclick = () => startTest(getBuiltInTest());
-            grid.appendChild(builtIn);
         }
 
-        // Built-in test
-        function getBuiltInTest() {
-            return {
-                id: 0,
-                title: { en: 'Quick Practice', zh: '快速练习' },
-                listening: { sections: [{ title: { en: 'Listening Practice', zh: '听力练习' }, passage: '<p>Practice listening comprehension questions.</p>', questions: [
-                    { id: 1, text: { en: 'What is the main topic of the conversation?', zh: '对话的主要话题是什么？' }, options: ['Travel', 'Education', 'Food', 'Sports'], answer: 1 },
-                    { id: 2, text: { en: 'Where does the conversation take place?', zh: '对话发生在哪里？' }, options: ['Library', 'Restaurant', 'Airport', 'Hospital'], answer: 0 },
-                    { id: 3, text: { en: 'What time does the meeting start?', zh: '会议几点开始？' }, options: ['9:00 AM', '10:00 AM', '11:00 AM', '2:00 PM'], answer: 1 },
-                ]}]},
-                reading: { sections: [{ title: { en: 'Reading Passage', zh: '阅读文章' }, passage: '<p>The development of artificial intelligence has transformed many industries. From healthcare to finance, AI systems are being used to automate tasks, analyze data, and make predictions. However, this rapid advancement has also raised concerns about job displacement and ethical implications.</p><p>Many experts believe that while AI will eliminate some jobs, it will also create new ones. The key is for workers to develop skills that complement AI, such as critical thinking, creativity, and emotional intelligence.</p>', questions: [
-                    { id: 4, text: { en: 'What is the main concern about AI mentioned in the passage?', zh: '文章中提到的关于AI的主要担忧是什么？' }, options: ['Speed of development', 'Job displacement', 'Cost', 'Complexity'], answer: 1 },
-                    { id: 5, text: { en: 'According to experts, what should workers develop?', zh: '根据专家，工人应该发展什么？' }, options: ['Technical skills', 'Physical strength', 'Complementary skills', 'Math skills'], answer: 2 },
-                ]}]},
-                writing: { sections: [
-                    { title: { en: 'Task 1', zh: '任务1' }, prompt: { en: 'Describe the chart showing global internet usage from 2010 to 2023.', zh: '描述2010年至2023年全球互联网使用情况的图表。' }, minWords: 150 },
-                    { title: { en: 'Task 2', zh: '任务2' }, prompt: { en: 'Some people think technology makes life easier. Others think it makes life more complicated. Discuss both views and give your opinion.', zh: '有些人认为科技让生活更简单， others think it makes life more complicated. 讨论两种观点并给出你的看法。' }, minWords: 250 }
-                ]}
-            };
-        }
-
-        // Start test
+        // ─── Start Test ───
         function startTest(test) {
-            currentTest = test;
-            currentSection = 'listening';
-            currentQ = 0;
-            answers = {};
-            timerSeconds = 0;
-            
-            document.getElementById('startScreen').style.display = 'none';
-            document.getElementById('testScreen').style.display = 'block';
-            
-            // Setup tabs
-            const tabs = document.getElementById('sectionTabs');
-            tabs.innerHTML = '';
-            ['listening', 'reading', 'writing'].forEach(sec => {
-                const tab = document.createElement('button');
-                tab.className = 'tab' + (sec === currentSection ? ' active' : '');
-                tab.textContent = lang === 'zh' ? { listening: '听力', reading: '阅读', writing: '写作' }[sec] : sec.charAt(0).toUpperCase() + sec.slice(1);
-                tab.dataset.section = sec;
-                tab.onclick = () => switchSection(sec);
-                tabs.appendChild(tab);
-            });
-            
-            // Start timer
-            timerInterval = setInterval(() => {
-                timerSeconds++;
-                const m = Math.floor(timerSeconds / 60);
-                const s = timerSeconds % 60;
-                document.getElementById('timer').textContent = `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
-            }, 1000);
-            
-            loadQuestion();
+            // Store test and redirect
+            sessionStorage.setItem('ielts-test', JSON.stringify(test));
+            sessionStorage.setItem('ielts-lang', lang);
+            window.location.href = 'exam.html';
         }
 
-        function switchSection(sec) {
-            currentSection = sec;
-            currentQ = 0;
-            document.querySelectorAll('.tab').forEach(t => t.classList.toggle('active', t.dataset.section === sec));
-            loadQuestion();
-        }
+        // ─── Scroll ───
+        window.addEventListener('scroll', () => {
+            document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 50);
+        });
 
-        // Load question
-        function loadQuestion() {
-            if (!currentTest) return;
-            const secData = currentTest[currentSection];
-            if (!secData || !secData.sections[0]) return;
-            const section = secData.sections[0];
-            const questions = section.questions || [];
-            
-            // Left panel
-            const left = document.getElementById('leftPanel');
-            left.innerHTML = `
-                <h2 style="font-size:18px;font-weight:700;margin-bottom:16px;">${t(section.title)}</h2>
-                ${currentSection === 'listening' ? '<div class="audio-bar"><button class="play-btn" onclick="togglePlay()">▶</button><div class="audio-track"><div class="audio-fill" id="audioFill"></div></div><span class="audio-time">0:00</span></div>' : ''}
-                <div class="passage">${section.passage}</div>
-            `;
-            
-            // Right panel
-            const right = document.getElementById('rightPanel');
-            if (currentQ >= questions.length) {
-                right.innerHTML = `<div style="text-align:center;padding:40px;"><p style="color:var(--text-2);margin-bottom:20px;">${lang === 'zh' ? '本部分完成！' : 'Section complete!'}</p><button class="btn btn-primary" onclick="nextSection()">${lang === 'zh' ? '下一部分' : 'Next Section'} →</button></div>`;
-                return;
-            }
-            
-            const q = questions[currentQ];
-            let html = `<div class="question"><div class="question-num">${lang === 'zh' ? '第' : 'Question '}${currentQ + 1}${lang === 'zh' ? '题，共' : ' of '}${questions.length}${lang === 'zh' ? '题' : ''}</div>`;
-            
-            if (q.type === 'writing') {
-                const wc = answers[q.id] ? answers[q.id].split(/\s+/).filter(w=>w).length : 0;
-                html += `<div class="question-text">${t(q.text || q.prompt)}</div>
-                    <textarea class="writing-area" oninput="updateWC(${q.id},${q.minWords||250})">${answers[q.id]||''}</textarea>
-                    <div class="word-count">${wc} / ${q.minWords||250} ${lang === 'zh' ? '字' : 'words'}</div>`;
-            } else {
-                html += `<div class="question-text">${t(q.text)}</div><div class="options">`;
-                (q.options || []).forEach((opt, i) => {
-                    const sel = answers[q.id] === i ? ' selected' : '';
-                    html += `<div class="option${sel}" onclick="selectOpt(${q.id},${i})"><div class="option-letter">${String.fromCharCode(65+i)}</div><div>${opt}</div></div>`;
-                });
-                html += '</div>';
-            }
-            
-            html += `<div class="nav-bar"><button class="btn btn-ghost" onclick="prevQ()" ${currentQ===0?'disabled':''}>← ${lang === 'zh' ? '上一题' : 'Prev'}</button><span class="progress">${currentQ+1}/${questions.length}</span><button class="btn btn-primary" onclick="nextQ()">${currentQ===questions.length-1 ? (lang==='zh'?'完成':'Finish') : (lang==='zh'?'下一题':'Next →')}</button></div></div>`;
-            right.innerHTML = html;
-        }
-
-        function selectOpt(qid, idx) { answers[qid] = idx; loadQuestion(); }
-        function updateWC(qid, min) {
-            const ta = document.querySelector('.writing-area');
-            answers[qid] = ta.value;
-            const wc = ta.value.split(/\s+/).filter(w=>w).length;
-            document.querySelector('.word-count').textContent = `${wc} / ${min} ${lang === 'zh' ? '字' : 'words'}`;
-        }
-        function nextQ() { currentQ++; loadQuestion(); }
-        function prevQ() { if (currentQ > 0) { currentQ--; loadQuestion(); } }
-        function nextSection() {
-            if (currentSection === 'listening') switchSection('reading');
-            else if (currentSection === 'reading') switchSection('writing');
-            else endTest();
-        }
-        function togglePlay() {
-            isPlaying = !isPlaying;
-            document.querySelector('.play-btn').textContent = isPlaying ? '⏸' : '▶';
-        }
-
-        // End test
-        function endTest() {
-            clearInterval(timerInterval);
-            document.getElementById('testScreen').style.display = 'none';
-            document.getElementById('reviewScreen').style.display = 'block';
-            showReview();
-        }
-
-        function showReview() {
-            let correct = 0, total = 0;
-            ['listening', 'reading'].forEach(sec => {
-                if (currentTest[sec]) {
-                    currentTest[sec].sections.forEach(s => {
-                        s.questions.forEach(q => {
-                            if (q.answer !== undefined) {
-                                total++;
-                                if (answers[q.id] === q.answer) correct++;
-                            }
-                        });
-                    });
-                }
-            });
-            
-            const band = total > 0 ? Math.round((correct / total) * 9) : 0;
-            const review = document.getElementById('reviewContent');
-            let html = `<div class="review-header"><h1 style="font-size:32px;margin-bottom:20px;">${lang === 'zh' ? '测试完成！' : 'Test Complete!'}</h1><div class="score-box"><div class="score-num">${band}</div><div class="score-lbl">${lang === 'zh' ? '预估分数' : 'Estimated Band'}</div></div><p style="color:var(--text-2);">${lang === 'zh' ? `你答对了 ${correct}/${total} 题` : `You answered ${correct} out of ${total} correctly`}</p></div><h2 style="margin-bottom:16px;">${lang === 'zh' ? '答案回顾' : 'Review Answers'}</h2>`;
-            
-            ['listening', 'reading'].forEach(sec => {
-                if (currentTest[sec]) {
-                    currentTest[sec].sections.forEach(s => {
-                        s.questions.forEach(q => {
-                            if (q.answer !== undefined) {
-                                const ok = answers[q.id] === q.answer;
-                              html += `<div class="review-item ${ok?'correct':'wrong'}"><div class="review-q">Q${q.id}: ${t(q.text)}</div><div class="review-a ${ok?'correct':'wrong'}">${ok?'✓':'✗'} ${lang==='zh'?'你的答案':'Your answer'}: ${answers[q.id]!==undefined?q.options[answers[q.id]]:(lang==='zh'?'未作答':'Not answered')} ${!q.options?'<br>'+(lang==='zh'?'正确答案':'Correct answer')+': '+q.options[q.answer]:''}</div></div>`;
-                            }
-                        });
-                    });
-                }
-            });
-            
-            html += `<div style="text-align:center;margin-top:32px;"><button class="btn btn-primary" onclick="location.reload()">${lang === 'zh' ? '再做一套' : 'Take Another Test'}</button></div>`;
-            review.innerHTML = html;
-        }
-
-        // Init
-        updateStartScreen();
-        loadTests();
+        // ─── Init ───
+        updateUI();
+        renderTests();
     </script>
 </body>
 </html>
