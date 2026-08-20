@@ -745,7 +745,7 @@
                 <div class="start-option-desc">2h 45min · All sections</div>
             </div>
         </div>
-        <button class="start-btn" onclick="startExam('full')">Start Test →</button>
+        <button class="start-btn" id="startBtn" onclick="startExam('full')" disabled>Loading...</button>
     </div>
 
     <!-- Exam Screen -->
@@ -824,33 +824,35 @@
 
         // ─── Load Test Data ───
         async function loadTestData() {
-            // First try to get from sessionStorage (passed from index.html)
+            // First try sessionStorage
             const stored = sessionStorage.getItem('ielts-test');
             if (stored) {
                 try {
                     currentTest = JSON.parse(stored);
-                    console.log('Test loaded from session:', currentTest.title);
+                    enableStart();
                     return;
-                } catch (e) {
-                    console.error('Failed to parse stored test:', e);
-                }
+                } catch (e) {}
             }
 
-            // Fallback: fetch test1.json
+            // Fallback: fetch
             try {
                 const resp = await fetch('tests/test1.json');
                 if (resp.ok) {
                     currentTest = await resp.json();
-                    console.log('Test loaded from file:', currentTest.title);
-                } else {
-                    console.error('Failed to load test data:', resp.status);
+                    enableStart();
                 }
-            } catch (e) {
-                console.error('Failed to load test data:', e);
+            } catch (e) {}
+        }
+
+        function enableStart() {
+            const btn = document.getElementById('startBtn');
+            if (btn) {
+                btn.disabled = false;
+                btn.textContent = 'Start Test →';
             }
         }
 
-        // Auto-load on page load
+        // Auto-load
         loadTestData();
 
         // ─── Start Exam ───
