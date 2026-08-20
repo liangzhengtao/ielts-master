@@ -301,10 +301,11 @@
             document.getElementById('filterPractice').textContent = lang === 'zh' ? '模拟题' : 'Practice';
         }
 
-        // Load tests
+        // Load tests - lazy load, only load when needed
         async function loadTests() {
             const tests = [];
-            for (let i = 1; i <= 10; i++) {
+            // Only load first 6 practice tests initially
+            for (let i = 1; i <= 6; i++) {
                 try {
                     const resp = await fetch(`tests/test${i}.json`);
                     if (resp.ok) {
@@ -315,6 +316,22 @@
             }
             allTests = tests;
             renderTests(tests);
+        }
+
+        // Load Cambridge test on demand
+        async function loadCambridgeTest(bookId) {
+            const paddedId = String(bookId).padStart(2, '0');
+            try {
+                const resp = await fetch(`tests/cambridge-${paddedId}-test1.json`);
+                if (resp.ok) {
+                    const t = await resp.json();
+                    sessionStorage.setItem('ielts-test', JSON.stringify(t));
+                    sessionStorage.setItem('ielts-lang', lang);
+                    window.location.href = 'exam.html';
+                }
+            } catch (e) {
+                alert(lang === 'zh' ? '加载失败' : 'Failed to load');
+            }
         }
 
         function renderTests(tests) {
@@ -359,7 +376,6 @@
 
                 // Show4 tests per book, or link to actual test data
                 for (let t = 1; t <= 4; t++) {
-                    const testData = tests[idx * 4 + t - 1] || tests[t - 1] || tests[0];
                     const row = document.createElement('div');
                     row.className = 'test-row';
                     row.innerHTML = `
@@ -369,7 +385,7 @@
                             <span class="test-tag">${lang === 'zh' ? '阅读' : 'R'}</span>
                             <span class="test-tag">${lang === 'zh' ? '写作' : 'W'}</span>
                         </div>
-                        <button class="test-btn" onclick="startTest(${idx * 4 + t - 1})">${lang === 'zh' ? '开始' : 'Start'}</button>
+                        <button class="test-btn" onclick="loadCambridgeTest(${book.id})">${lang === 'zh' ? '开始' : 'Start'}</button>
                     `;
                     testsDiv.appendChild(row);
                 }
@@ -432,7 +448,9 @@
             startTest(idx);
         }
 
-        // Init
+        // Init - show loading
+        const testList = document.getElementById('testList');
+        testList.innerHTML = '<div style="text-align:center;padding:40px;color:#999;">Loading tests...</div>';
         loadTests();
     </script>
 </body>
