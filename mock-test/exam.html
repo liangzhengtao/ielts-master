@@ -1098,12 +1098,6 @@
         }
 
         // ─── Audio (TTS-based) ───
-        let audioPlaying = false;
-        let audioProgress = 0;
-        let audioInterval = null;
-        let currentUtterance = null;
-        let audioFiles = {}; // section index -> audio URL
-        let audioElement = null; // HTML5 audio element
 
         function toggleAudio() {
             if (audioPlaying) {
