@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IELTS Computer-Based Test Simulator</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --bg: #1a1a2e;
+            --surface: #16213e;
+            --surface-2: #0f3460;
+            --accent: #e94560;
+            --accent-2: #533483;
+            --text: #eee;
+            --text-2: #aaa;
+            --border: rgba(255,255,255,0.1);
+            --success: #4ade80;
+            --warning: #fbbf24;
+            --error: #f87171;
+        }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; }
+        
+        /* Header */
+        .header { background: var(--surface); border-bottom: 2px solid var(--accent); padding: 12px 24px; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 100; }
+        .header-left { display: flex; align-items: center; gap: 16px; }
+        .logo { font-size: 20px; font-weight: 800; color: var(--accent); }
+        .section-tabs { display: flex; gap: 8px; }
+        .tab { padding: 8px 16px; border-radius: 8px; font-size: 13px; cursor: pointer; border: 1px solid var(--border); background: transparent; color: var(--text-2); transition: all 0.3s; }
+        .tab.active { background: var(--accent); color: white; border-color: var(--accent); }
+        .tab:hover:not(.active) { border-color: var(--accent); color: var(--text); }
+        .timer { font-family: 'Courier New', monospace; font-size: 24px; font-weight: 700; color: var(--warning); }
+        .timer.warning { color: var(--error); animation: pulse 1s infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+        
+        /* Main layout */
+        .main { display: flex; height: calc(100vh - 56px); }
+        
+        /* Left panel - passage/question */
+        .left-panel { flex: 1; padding: 24px; overflow-y: auto; border-right: 1px solid var(--border); }
+        
+        /* Right panel - answer area */
+        .right-panel { width: 400px; padding: 24px; overflow-y: auto; background: var(--surface); }
+        
+        /* Passage styles */
+        .passage { line-height: 1.8; font-size: 15px; color: var(--text-2); }
+        .passage p { margin-bottom: 16px; }
+        .passage-highlight { background: rgba(233,69,96,0.2); padding: 2px 4px; border-radius: 3px; }
+        
+        /* Question styles */
+        .question { margin-bottom: 24px; padding: 16px; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid var(--border); }
+        .question-number { font-size: 14px; font-weight: 700; color: var(--accent); margin-bottom: 8px; }
+        .question-text { font-size: 15px; margin-bottom: 12px; line-height: 1.6; }
+        .options { display: flex; flex-direction: column; gap: 8px; }
+        .option { display: flex; align-items: center; gap: 12px; padding: 10px 14px; border-radius: 8px; cursor: pointer; border: 1px solid var(--border); transition: all 0.2s; }
+        .option:hover { border-color: var(--accent); background: rgba(233,69,96,0.05); }
+        .option.selected { border-color: var(--accent); background: rgba(233,69,96,0.1); }
+        .option-letter { width: 28px; height: 28px; border-radius: 50%; border: 2px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; transition: all 0.2s; }
+        .option.selected .option-letter { border-color: var(--accent); background: var(--accent); color: white; }
+        
+        /* Input styles */
+        .input-answer { width: 100%; padding: 12px 16px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 15px; outline: none; transition: border-color 0.2s; }
+        .input-answer:focus { border-color: var(--accent); }
+        
+        /* Writing area */
+        .writing-area { width: 100%; min-height: 300px; padding: 16px; background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 8px; color: var(--text); font-size: 15px; line-height: 1.8; outline: none; resize: vertical; }
+        .writing-area:focus { border-color: var(--accent); }
+        .word-count { text-align: right; font-size: 13px; color: var(--text-2); margin-top: 8px; }
+        .word-count.warning { color: var(--warning); }
+        .word-count.error { color: var(--error); }
+        
+        /* Navigation */
+        .nav-buttons { display: flex; justify-content: space-between; margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); }
+        .btn { padding: 10px 24px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; border: none; transition: all 0.2s; }
+        .btn-primary { background: var(--accent); color: white; }
+        .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+        .btn-secondary { background: transparent; color: var(--text); border: 1px solid var(--border); }
+        .btn-secondary:hover { border-color: var(--accent); }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        
+        /* Progress */
+        .progress-bar { height: 4px; background: var(--surface-2); border-radius: 2px; margin-bottom: 24px; }
+        .progress-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent-2)); border-radius: 2px; transition: width 0.3s; }
+        
+        /* Start screen */
+        .start-screen { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 100vh; text-align: center; padding: 40px; }
+        .start-screen h1 { font-size: 48px; font-weight: 800; margin-bottom: 16px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .start-screen p { font-size: 18px; color: var(--text-2); max-width: 600px; margin-bottom: 40px; }
+        .test-options { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; max-width: 600px; width: 100%; }
+        .test-option { padding: 24px; background: var(--surface); border: 2px solid var(--border); border-radius: 16px; cursor: pointer; transition: all 0.3s; text-align: left; }
+        .test-option:hover { border-color: var(--accent); transform: translateY(-2px); }
+        .test-option h3 { font-size: 18px; margin-bottom: 8px; }
+        .test-option p { font-size: 13px; color: var(--text-2); }
+        
+        /* Review screen */
+        .review-screen { padding: 40px; max-width: 800px; margin: 0 auto; }
+        .review-header { text-align: center; margin-bottom: 40px; }
+        .score-circle { width: 120px; height: 120px; border-radius: 50%; border: 4px solid var(--accent); display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto 16px; }
+        .score-number { font-size: 36px; font-weight: 800; color: var(--accent); }
+        .score-label { font-size: 12px; color: var(--text-2); }
+        .review-item { padding: 16px; background: var(--surface); border-radius: 12px; margin-bottom: 12px; border: 1px solid var(--border); }
+        .review-item.correct { border-color: var(--success); }
+        .review-item.incorrect { border-color: var(--error); }
+        .review-question { font-size: 14px; color: var(--text-2); margin-bottom: 8px; }
+        .review-answer { font-size: 15px; font-weight: 600; }
+        .review-answer.correct { color: var(--success); }
+        .review-answer.incorrect { color: var(--error); }
+        
+        /* Audio player */
+        .audio-player { background: var(--surface-2); padding: 16px; border-radius: 12px; margin-bottom: 24px; }
+        .audio-controls { display: flex; align-items: center; gap: 12px; }
+        .play-btn { width: 40px; height: 40px; border-radius: 50%; background: var(--accent); border: none; color: white; font-size: 18px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+        .audio-progress { flex: 1; height: 4px; background: var(--border); border-radius: 2px; position: relative; }
+        .audio-progress-fill { height: 100%; background: var(--accent); border-radius: 2px; width: 0; transition: width 0.1s; }
+        .audio-time { font-size: 13px; color: var(--text-2); font-family: monospace; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .main { flex-direction: column; }
+            .right-panel { width: 100%; border-top: 1px solid var(--border); }
+            .test-options { grid-template-columns: 1fr; }
+            .header { flex-direction: column; gap: 12px; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Start Screen -->
+    <div id="startScreen" class="start-screen">
+        <h1>IELTS Mock Test</h1>
+        <p>Simulate the real IELTS computer-based test experience. Practice with timed sections, realistic interface, and instant scoring.</p>
+        <div class="test-options">
+            <div class="test-option" onclick="startTest('listening')">
+                <h3>🎧 Listening</h3>
+                <p>30 minutes · 40 questions · Audio recordings</p>
+            </div>
+            <div class="test-option" onclick="startTest('reading')">
+                <h3>📖 Reading</h3>
+                <p>60 minutes · 40 questions · 3 passages</p>
+            </div>
+            <div class="test-option" onclick="startTest('writing')">
+                <h3>✍️ Writing</h3>
+                <p>60 minutes · Task 1 + Task 2</p>
+            </div>
+            <div class="test-option" onclick="startTest('full')">
+                <h3>📝 Full Test</h3>
+                <p>2 hours 45 minutes · All sections</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Screen -->
+    <div id="testScreen" style="display: none;">
+        <div class="header">
+            <div class="header-left">
+                <div class="logo">IELTS</div>
+                <div class="section-tabs">
+                    <button class="tab active" data-section="listening" onclick="switchSection('listening')">Listening</button>
+                    <button class="tab" data-section="reading" onclick="switchSection('reading')">Reading</button>
+                    <button class="tab" data-section="writing" onclick="switchSection('writing')">Writing</button>
+                </div>
+            </div>
+            <div class="timer" id="timer">30:00</div>
+        </div>
+
+        <div class="main">
+            <div class="left-panel" id="leftPanel">
+                <!-- Content loaded dynamically -->
+            </div>
+            <div class="right-panel" id="rightPanel">
+                <!-- Questions loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Review Screen -->
+    <div id="reviewScreen" class="review-screen" style="display: none;">
+        <!-- Review content loaded dynamically -->
+    </div>
+
+    <script>
+        // Test data
+        const testData = {
+            listening: {
+                title: 'Listening',
+                duration: 30 * 60,
+                sections: [
+                    {
+                        title: 'Section 1 - Conversation',
+                        passage: `<p><strong>Conversation between a student and a library assistant:</strong></p>
+                        <p>Assistant: Good morning, welcome to the university library. How can I help you?</p>
+                        <p>Student: Hi, I'd like to borrow some books for my research project. I'm studying Environmental Science.</p>
+                        <p>Assistant: Of course. Do you have your student ID card with you?</p>
+                        <p>Student: Yes, here it is. My student number is ES2024001.</p>
+                        <p>Assistant: Thank you. I can see you're in your third year. You can borrow up to 15 books at a time. The loan period is 3 weeks, and you can renew twice online.</p>
+                        <p>Student: That's great. I also need access to the electronic databases. Are they available off-campus?</p>
+                        <p>Assistant: Yes, you can access all databases through the library portal using your university credentials. We have JSTOR, ScienceDirect, and Web of Science, among others.</p>
+                        <p>Student: Perfect. One more thing - is there a quiet study area available?</p>
+                        <p>Assistant: The third floor is designated as a silent study zone. We also have group study rooms on the second floor that you can book online.</p>`,
+                        questions: [
+                            { id: 1, text: "What is the student's field of study?", options: ['Computer Science', 'Environmental Science', 'Biology', 'Chemistry'], answer: 1 },
+                            { id: 2, text: "What is the student's student number?", options: ['ES2024001', 'ES2024002', 'ES2024100', 'ES2024010'], answer: 0 },
+                            { id: 3, text: "How many books can the student borrow at a time?", options: ['10', '12', '15', '20'], answer: 2 },
+                            { id: 4, text: "What is the loan period for books?", options: ['1 week', '2 weeks', '3 weeks', '4 weeks'], answer: 2 },
+                            { id: 5, text: "How many times can the student renew books?", options: ['Once', 'Twice', 'Three times', 'Unlimited'], answer: 1 },
+                        ]
+                    },
+                    {
+                        title: 'Section 2 - Monologue',
+                        passage: `<p><strong>Announcement about a new community center:</strong></p>
+                        <p>Welcome everyone. I'm pleased to announce the opening of our new community center, which will take place on March 15th. The center is located at 45 Oak Street, next to the public park.</p>
+                        <p>The center will be open Monday through Friday from 8 AM to 9 PM, and on weekends from 10 AM to 6 PM. We offer a variety of programs including fitness classes, art workshops, and language courses.</p>
+                        <p>For children aged 5 to 12, we have a dedicated kids' zone with supervised activities every afternoon. Teenagers can enjoy our gaming room and study area.</p>
+                        <p>Membership fees are very reasonable: $25 per month for adults, $15 for students, and $10 for seniors. Family packages are also available at $50 per month for up to 4 members.</p>
+                        <p>We're currently hiring part-time staff for various positions. If you're interested, please submit your application at the front desk or email us at careers@communitycenter.org.</p>`,
+                        questions: [
+                            { id: 6, text: "When will the community center open?", options: ['March 5th', 'March 15th', 'March 25th', 'April 15th'], answer: 1 },
+                            { id: 7, text: "What are the weekend opening hours?", options: ['8 AM - 6 PM', '9 AM - 6 PM', '10 AM - 6 PM', '10 AM - 9 PM'], answer: 2 },
+                            { id: 8, text: "What is the monthly fee for students?", options: ['$10', '$15', '$25', '$50'], answer: 1 },
+                            { id: 9, text: "How many members does the family package cover?", options: ['2', '3', '4', '5'], answer: 2 },
+                            { id: 10, text: "How can you apply for a job at the center?", options: ['By phone', 'By email only', 'At front desk or email', 'Online only'], answer: 2 },
+                        ]
+                    }
+                ]
+            },
+            reading: {
+                title: 'Reading',
+                duration: 60 * 60,
+                sections: [
+                    {
+                        title: 'Passage 1 - The Impact of Artificial Intelligence on Employment',
+                        passage: `<p>Artificial intelligence (AI) is rapidly transforming the global workforce. According to a recent study by McKinsey Global Institute, up to 800 million workers worldwide could be displaced by automation by 2030. However, the same study suggests that AI will also create new jobs, potentially adding 555 million new positions to the global economy.</p>
+                        <p>The impact of AI varies significantly across industries. Manufacturing and transportation face the highest risk of automation, with up to 45% of activities potentially automatable. In contrast, healthcare and education are less susceptible, with only 20-25% of tasks being automatable. The financial sector falls somewhere in between, with approximately 35% of activities at risk.</p>
+                        <p>Experts emphasize that the key to navigating this transition lies in education and reskilling. Workers who can adapt to new technologies and develop complementary skills will thrive. Critical thinking, creativity, and emotional intelligence are among the skills that AI cannot easily replicate.</p>
+                        <p>Several countries have already begun implementing policies to address AI-driven unemployment. Singapore has launched a comprehensive SkillsFuture program, while Denmark has invested heavily in lifelong learning initiatives. These programs aim to help workers transition to new roles created by AI.</p>
+                        <p>Despite the challenges, many economists remain optimistic about AI's long-term impact on employment. They argue that, like previous technological revolutions, AI will ultimately create more jobs than it destroys, though the transition period may be difficult for some workers.</p>`,
+                        questions: [
+                            { id: 1, text: "According to McKinsey, how many workers could be displaced by 2030?", options: ['500 million', '600 million', '700 million', '800 million'], answer: 3 },
+                            { id: 2, text: "Which industry faces the highest risk of automation?", options: ['Healthcare', 'Education', 'Manufacturing', 'Finance'], answer: 2 },
+                            { id: 3, text: "What percentage of financial sector activities are at risk?", options: ['25%', '35%', '45%', '55%'], answer: 1 },
+                            { id: 4, text: "Which country has a SkillsFuture program?", options: ['Denmark', 'Singapore', 'USA', 'UK'], answer: 1 },
+                            { id: 5, text: "What do economists believe about AI's long-term impact?", options: ['It will destroy all jobs', 'It will create more jobs than it destroys', 'It will have no impact', 'It will only affect manufacturing'], answer: 1 },
+                        ]
+                    }
+                ]
+            },
+            writing: {
+                title: 'Writing',
+                duration: 60 * 60,
+                sections: [
+                    {
+                        title: 'Task 1 - Describe the chart',
+                        passage: `<p><strong>The bar chart below shows the number of tourists visiting three different countries from 2018 to 2022.</strong></p>
+                        <p>Write at least 150 words describing the main features and making comparisons where relevant.</p>
+                        <div style="background: var(--surface-2); padding: 20px; border-radius: 12px; margin-top: 16px;">
+                            <p style="text-align: center; font-weight: 600; margin-bottom: 16px;">Tourist Arrivals (millions)</p>
+                            <div style="display: flex; justify-content: space-around; align-items: flex-end; height: 200px; border-bottom: 2px solid var(--border); padding-bottom: 8px;">
+                                <div style="text-align: center;">
+                                    <div style="width: 40px; background: var(--accent); height: 120px; margin: 0 auto;"></div>
+                                    <div style="font-size: 12px; margin-top: 8px;">Country A</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="width: 40px; background: var(--accent-2); height: 80px; margin: 0 auto;"></div>
+                                    <div style="font-size: 12px; margin-top: 8px;">Country B</div>
+                                </div>
+                                <div style="text-align: center;">
+                                    <div style="width: 40px; background: var(--success); height: 160px; margin: 0 auto;"></div>
+                                    <div style="font-size: 12px; margin-top: 8px;">Country C</div>
+                                </div>
+                            </div>
+                            <p style="font-size: 12px; color: var(--text-2); margin-top: 12px; text-align: center;">Data: Country A: 12M, Country B: 8M, Country C: 16M (2022)</p>
+                        </div>`,
+                        questions: [
+                            { id: 1, text: 'Write your Task 1 response (at least 150 words):', type: 'writing', minWords: 150 }
+                        ]
+                    },
+                    {
+                        title: 'Task 2 - Essay',
+                        passage: `<p><strong>Some people believe that technology has made our lives more complex. Others believe it has made our lives simpler.</strong></p>
+                        <p>Discuss both views and give your own opinion.</p>
+                        <p>Write at least 250 words.</p>`,
+                        questions: [
+                            { id: 2, text: 'Write your Task 2 response (at least 250 words):', type: 'writing', minWords: 250 }
+                        ]
+                    }
+                ]
+            }
+        };
+
+        // State
+        let currentSection = 'listening';
+        let currentQuestion = 0;
+        let answers = {};
+        let timerInterval;
+        let timeLeft;
+        let isPlaying = false;
+        let audioProgress = 0;
+
+        // Initialize
+        function startTest(type) {
+            document.getElementById('startScreen').style.display = 'none';
+            document.getElementById('testScreen').style.display = 'block';
+            
+            if (type === 'full') {
+                timeLeft = testData.listening.duration + testData.reading.duration + testData.writing.duration;
+            } else {
+                timeLeft = testData[type].duration;
+            }
+            
+            startTimer();
+            loadSection(currentSection);
+        }
+
+        // Timer
+        function startTimer() {
+            updateTimerDisplay();
+            timerInterval = setInterval(() => {
+                timeLeft--;
+                updateTimerDisplay();
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    endTest();
+                }
+            }, 1000);
+        }
+
+        function updateTimerDisplay() {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60;
+            const timerEl = document.getElementById('timer');
+            timerEl.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+            timerEl.className = timeLeft < 300 ? 'timer warning' : 'timer';
+        }
+
+        // Load section
+        function loadSection(section) {
+            currentSection = section;
+            currentQuestion = 0;
+            
+            // Update tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.toggle('active', tab.dataset.section === section);
+            });
+            
+            loadQuestion();
+        }
+
+        function switchSection(section) {
+            loadSection(section);
+        }
+
+        // Load question
+        function loadQuestion() {
+            const sectionData = testData[currentSection];
+            if (!sectionData) return;
+            
+            const sectionContent = sectionData.sections[0];
+            if (!sectionContent) return;
+            
+            // Left panel - passage
+            const leftPanel = document.getElementById('leftPanel');
+            leftPanel.innerHTML = `
+                <h2 style="font-size: 20px; font-weight: 700; margin-bottom: 20px;">${sectionContent.title}</h2>
+                ${currentSection === 'listening' ? `
+                <div class="audio-player">
+                    <div class="audio-controls">
+                        <button class="play-btn" onclick="toggleAudio()">▶</button>
+                        <div class="audio-progress">
+                            <div class="audio-progress-fill" id="audioProgressFill" style="width: ${audioProgress}%"></div>
+                        </div>
+                        <span class="audio-time" id="audioTime">0:00 / 30:00</span>
+                    </div>
+                </div>` : ''}
+                <div class="passage">${sectionContent.passage}</div>
+            `;
+            
+            // Right panel - questions
+            const rightPanel = document.getElementById('rightPanel');
+            const question = sectionContent.questions[currentQuestion];
+            
+            if (!question) return;
+            
+            let questionHTML = `
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: ${((currentQuestion + 1) / sectionContent.questions.length) * 100}%"></div>
+                </div>
+                <div class="question">
+                    <div class="question-number">Question ${currentQuestion + 1} of ${sectionContent.questions.length}</div>
+                    <div class="question-text">${question.text}</div>
+            `;
+            
+            if (question.type === 'writing') {
+                const wordCount = answers[question.id] ? answers[question.id].split(/\s+/).filter(w => w).length : 0;
+                const minWords = question.minWords || 0;
+                const countClass = wordCount < minWords ? 'error' : 'warning';
+                
+                questionHTML += `
+                    <textarea class="writing-area" id="writingArea" oninput="updateWordCount(${question.id}, ${minWords})" placeholder="Start writing here...">${answers[question.id] || ''}</textarea>
+                    <div class="word-count ${countClass}" id="wordCount">${wordCount} / ${minWords} words minimum</div>
+                `;
+            } else {
+                questionHTML += '<div class="options">';
+                question.options.forEach((option, idx) => {
+                    const isSelected = answers[question.id] === idx;
+                    questionHTML += `
+                        <div class="option ${isSelected ? 'selected' : ''}" onclick="selectOption(${question.id}, ${idx})">
+                            <div class="option-letter">${String.fromCharCode(65 + idx)}</div>
+                            <div>${option}</div>
+                        </div>
+                    `;
+                });
+                questionHTML += '</div>';
+            }
+            
+            questionHTML += `
+                <div class="nav-buttons">
+                    <button class="btn btn-secondary" onclick="prevQuestion()" ${currentQuestion === 0 ? 'disabled' : ''}>← Previous</button>
+                    <button class="btn btn-primary" onclick="nextQuestion()">
+                        ${currentQuestion === sectionContent.questions.length - 1 ? 'Finish Section →' : 'Next →'}
+                    </button>
+                </div>
+            </div>`;
+            
+            rightPanel.innerHTML = questionHTML;
+        }
+
+        // Select option
+        function selectOption(questionId, optionIdx) {
+            answers[questionId] = optionIdx;
+            loadQuestion();
+        }
+
+        // Update word count
+        function updateWordCount(questionId, minWords) {
+            const textarea = document.getElementById('writingArea');
+            const text = textarea.value;
+            answers[questionId] = text;
+            
+            const wordCount = text.split(/\s+/).filter(w => w).length;
+            const countEl = document.getElementById('wordCount');
+            countEl.textContent = `${wordCount} / ${minWords} words minimum`;
+            countEl.className = wordCount < minWords ? 'word-count error' : 'word-count';
+        }
+
+        // Navigation
+        function nextQuestion() {
+            const sectionData = testData[currentSection];
+            const sectionContent = sectionData.sections[0];
+            
+            if (currentQuestion < sectionContent.questions.length - 1) {
+                currentQuestion++;
+                loadQuestion();
+            } else {
+                // End of section
+                if (currentSection === 'listening') {
+                    switchSection('reading');
+                } else if (currentSection === 'reading') {
+                    switchSection('writing');
+                } else {
+                    endTest();
+                }
+            }
+        }
+
+        function prevQuestion() {
+            if (currentQuestion > 0) {
+                currentQuestion--;
+                loadQuestion();
+            }
+        }
+
+        // Audio simulation
+        function toggleAudio() {
+            isPlaying = !isPlaying;
+            const btn = document.querySelector('.play-btn');
+            btn.textContent = isPlaying ? '⏸' : '▶';
+            
+            if (isPlaying) {
+                simulateAudio();
+            }
+        }
+
+        function simulateAudio() {
+            if (!isPlaying) return;
+            
+            audioProgress += 0.5;
+            if (audioProgress >= 100) {
+                audioProgress = 100;
+                isPlaying = false;
+                document.querySelector('.play-btn').textContent = '▶';
+            }
+            
+            document.getElementById('audioProgressFill').style.width = audioProgress + '%';
+            
+            const totalSeconds = 30 * 60;
+            const currentSeconds = Math.floor(totalSeconds * audioProgress / 100);
+            const minutes = Math.floor(currentSeconds / 60);
+            const seconds = currentSeconds % 60;
+            document.getElementById('audioTime').textContent = 
+                `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')} / 30:00`;
+            
+            if (isPlaying) {
+                setTimeout(simulateAudio, 100);
+            }
+        }
+
+        // End test
+        function endTest() {
+            clearInterval(timerInterval);
+            document.getElementById('testScreen').style.display = 'none';
+            document.getElementById('reviewScreen').style.display = 'block';
+            
+            showReview();
+        }
+
+        // Show review
+        function showReview() {
+            const reviewScreen = document.getElementById('reviewScreen');
+            
+            // Calculate score
+            let correct = 0;
+            let total = 0;
+            
+            Object.keys(testData).forEach(section => {
+                testData[section].sections.forEach(sec => {
+                    sec.questions.forEach(q => {
+                        if (q.answer !== undefined) {
+                            total++;
+                            if (answers[q.id] === q.answer) {
+                              correct++;
+                            }
+                          }
+                        });
+                      });
+                    });
+                    
+                    const score = total > 0 ? Math.round((correct / total) * 9) : 0;
+                    
+                    let reviewHTML = `
+                        <div class="review-header">
+                            <h1 style="font-size: 36px; margin-bottom: 24px;">Test Complete!</h1>
+                            <div class="score-circle">
+                                <div class="score-number">${score}</div>
+                                <div class="score-label">Band Score</div>
+                            </div>
+                            <p style="color: var(--text-2);">You answered ${correct} out of ${total} questions correctly.</p>
+                        </div>
+                        <h2 style="margin-bottom: 20px;">Review Your Answers</h2>
+                    `;
+                    
+                    Object.keys(testData).forEach(section => {
+                        testData[section].sections.forEach(sec => {
+                            sec.questions.forEach(q => {
+                              if (q.answer !== undefined) {
+                                const userAnswer = answers[q.id];
+                                const isCorrect = userAnswer === q.answer;
+                                
+                                reviewHTML += `
+                                    <div class="review-item ${isCorrect ? 'correct' : 'incorrect'}">
+                                        <div class="review-question">Q${q.id}: ${q.text}</div>
+                                        <div class="review-answer ${isCorrect ? 'correct' : 'incorrect'}">
+                                            ${isCorrect ? '✓' : '✗'} Your answer: ${userAnswer !== undefined ? q.options[userAnswer] : 'Not answered'}
+                                            ${!isCorrect ? `<br>Correct answer: ${q.options[q.answer]}` : ''}
+                                        </div>
+                                    </div>
+                                `;
+                              }
+                            });
+                          });
+                        });
+                        
+                        reviewHTML += `
+                            <div style="text-align: center; margin-top: 40px;">
+                                <button class="btn btn-primary" onclick="location.reload()">Take Another Test</button>
+                            </div>
+                        `;
+                        
+                        reviewScreen.innerHTML = reviewHTML;
+                      }
+                    </script>
+                </body>
+                </html>
