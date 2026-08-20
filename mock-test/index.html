@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IELTS Master | 雅思模考</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'Inter', 'Noto Sans SC', -apple-system, sans-serif; background: #f5f7fa; color: #1a1a2e; line-height: 1.6; }
@@ -78,6 +78,131 @@
             .page { flex-direction: column; }
             .sidebar { width: 100%; }
             .nav { padding: 0 16px; }
+            .hero-section { padding: 40px 0; }
+            .hero-title { font-size: 28px; }
+            .hero-subtitle { font-size: 14px; }
+        }
+
+        /* ─── Animations ─── */
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(-20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        .fade-in { animation: fadeInUp 0.5s ease forwards; }
+        .slide-in { animation: slideIn 0.4s ease forwards; }
+
+        /* Hero section */
+        .hero-section {
+            text-align: center;
+            padding: 60px 0 40px;
+            background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+            color: white;
+            border-radius: 16px;
+            margin-bottom: 32px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-title {
+            font-size: 36px;
+            font-weight: 800;
+            margin-bottom: 12px;
+        }
+
+        .hero-subtitle {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Stats */
+        .stats-row {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 28px;
+            font-weight: 800;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.8;
+        }
+
+        /* Book section animation */
+        .book-section {
+            animation: fadeInUp 0.3s ease forwards;
+            opacity: 0;
+        }
+
+        .book-section:nth-child(1) { animation-delay: 0.05s; }
+        .book-section:nth-child(2) { animation-delay: 0.1s; }
+        .book-section:nth-child(3) { animation-delay: 0.15s; }
+        .book-section:nth-child(4) { animation-delay: 0.2s; }
+        .book-section:nth-child(5) { animation-delay: 0.25s; }
+
+        /* Sidebar animations */
+        .sidebar-card {
+            animation: fadeInUp 0.4s ease forwards;
+            opacity: 0;
+        }
+
+        .sidebar-card:nth-child(1) { animation-delay: 0.1s; }
+        .sidebar-card:nth-child(2) { animation-delay: 0.2s; }
+        .sidebar-card:nth-child(3) { animation-delay: 0.3s; }
+
+        /* Random card pulse */
+        .random-card {
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        /* Filter button transitions */
+        .filter-btn {
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(108, 92, 231, 0.2);
+        }
+
+        /* Book header hover effect */
+        .book-header {
+            transition: all 0.2s ease;
+        }
+
+        .book-header:hover {
+            transform: translateX(4px);
+        }
+
+        /* Test button hover */
+        .test-btn {
+            transition: all 0.2s ease;
+        }
+
+        .test-btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(108, 92, 231, 0.3);
         }
     </style>
 </head>
@@ -93,6 +218,26 @@
     </nav>
 
     <div class="container">
+        <!-- Hero Section -->
+        <div class="hero-section fade-in">
+            <div class="hero-title">IELTS Master</div>
+            <div class="hero-subtitle">Computer-Delivered Mock Test</div>
+            <div class="stats-row">
+                <div class="stat-item">
+                    <div class="stat-number">20+</div>
+                    <div class="stat-label">Practice Tests</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">800+</div>
+                    <div class="stat-label">Questions</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Sections</div>
+                </div>
+            </div>
+        </div>
+
         <div class="page">
             <!-- Main -->
             <div class="main">
