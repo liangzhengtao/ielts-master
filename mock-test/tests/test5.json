@@ -1,0 +1,1224 @@
+{
+  "id": 5,
+  "title": {
+    "en": "IELTS Practice Test 5",
+    "zh": "雅思模拟考试 5"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Conversation between two people in an everyday social context",
+          "zh": "第一部分 - 日常社交场景中的两人对话"
+        },
+        "passage": "<p>A conversation between a prospective student and an admissions officer at a language school. The student, Yuki, is a Japanese national interested in enrolling in an intensive English course before starting her master's degree at a British university. The admissions officer, Helen, greets Yuki and asks about her current English level and her goals. Yuki explains that she has an IELTS score of 5.5 and needs to achieve a score of 7.0 for her university admission, which begins in September next year. Helen recommends the Academic English Preparation Programme, which is specifically designed for students planning to enter British universities. The programme runs for either twelve weeks or twenty-four weeks, depending on the student's starting level and target score. Helen explains that based on Yuki's current score of 5.5, she would likely need the twenty-four-week programme to reach 7.0, as the school typically sees students improve by approximately 0.5 bands per twelve-week term. Yuki asks about the schedule. Helen tells her that classes run from Monday to Friday, 9 AM to 1 PM, with additional optional workshops on Tuesday and Thursday afternoons from 2 PM to 4 PM focusing on academic writing and IELTS exam preparation. The total cost of the twenty-four-week programme is 4,800 pounds, which includes all course materials, access to the school's language laboratory, and weekly one-on-one tutorials with a teacher. Yuki asks about accommodation options. Helen explains that the school offers homestay accommodation with local families, which costs 180 pounds per week and includes breakfast and dinner on weekdays and all meals on weekends. Alternatively, students can choose a shared flat option for 140 pounds per week, which is self-catering. The school also has a student residence for 200 pounds per week, which includes a private room with en-suite bathroom and access to a shared kitchen. Yuki says she prefers the homestay option because she wants to practise her English outside of class hours. Helen mentions that the school requires a deposit of 500 pounds to secure a place on the programme, with the remaining balance due four weeks before the course start date. She also advises Yuki to apply early as places fill up quickly, particularly for the January and April intake sessions.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What is Yuki's current IELTS score?",
+              "zh": "Yuki目前的雅思成绩是多少？"
+            },
+            "options": [
+              {"en": "5.0", "zh": "5.0"},
+              {"en": "5.5", "zh": "5.5"},
+              {"en": "6.0", "zh": "6.0"},
+              {"en": "6.5", "zh": "6.5"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What IELTS score does Yuki need for university admission?",
+              "zh": "Yuki需要多少雅思成绩才能被大学录取？"
+            },
+            "options": [
+              {"en": "6.0", "zh": "6.0"},
+              {"en": "6.5", "zh": "6.5"},
+              {"en": "7.0", "zh": "7.0"},
+              {"en": "7.5", "zh": "7.5"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "How much do students typically improve per twelve-week term?",
+              "zh": "学生在每个12周学期中通常能提高多少？"
+            },
+            "options": [
+              {"en": "0.5 bands", "zh": "0.5个分数段"},
+              {"en": "1.0 band", "zh": "1.0个分数段"},
+              {"en": "1.5 bands", "zh": "1.5个分数段"},
+              {"en": "2.0 bands", "zh": "2.0个分数段"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "What are the regular class hours?",
+              "zh": "常规课程时间是什么？"
+            },
+            "options": [
+              {"en": "Monday to Friday, 8 AM to 12 PM", "zh": "周一至周五，上午8点至中午12点"},
+              {"en": "Monday to Friday, 9 AM to 1 PM", "zh": "周一至周五，上午9点至下午1点"},
+              {"en": "Monday to Thursday, 9 AM to 3 PM", "zh": "周一至周四，上午9点至下午3点"},
+              {"en": "Monday to Saturday, 10 AM to 2 PM", "zh": "周一至周六，上午10点至下午2点"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "On which days are optional workshops held?",
+              "zh": "选修研讨会在哪几天举行？"
+            },
+            "options": [
+              {"en": "Monday and Wednesday", "zh": "周一和周三"},
+              {"en": "Tuesday and Thursday", "zh": "周二和周四"},
+              {"en": "Wednesday and Friday", "zh": "周三和周五"},
+              {"en": "Thursday and Friday", "zh": "周四和周五"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "What is the total cost of the twenty-four-week programme?",
+              "zh": "24周课程的总费用是多少？"
+            },
+            "options": [
+              {"en": "3,600 pounds", "zh": "3,600英镑"},
+              {"en": "4,200 pounds", "zh": "4,200英镑"},
+              {"en": "4,800 pounds", "zh": "4,800英镑"},
+              {"en": "5,400 pounds", "zh": "5,400英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How much does homestay accommodation cost per week?",
+              "zh": "寄宿家庭住宿每周费用是多少？"
+            },
+            "options": [
+              {"en": "140 pounds", "zh": "140英镑"},
+              {"en": "160 pounds", "zh": "160英镑"},
+              {"en": "180 pounds", "zh": "180英镑"},
+              {"en": "200 pounds", "zh": "200英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What meals are included in the homestay option on weekdays?",
+              "zh": "寄宿家庭选项在工作日包含哪些餐食？"
+            },
+            "options": [
+              {"en": "All three meals", "zh": "三餐全包"},
+              {"en": "Breakfast and lunch", "zh": "早餐和午餐"},
+              {"en": "Breakfast and dinner", "zh": "早餐和晚餐"},
+              {"en": "Dinner only", "zh": "仅晚餐"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "Why does Yuki prefer the homestay option?",
+              "zh": "Yuki为什么更喜欢寄宿家庭选项？"
+            },
+            "options": [
+              {"en": "It is the cheapest option", "zh": "它是最便宜的选择"},
+              {"en": "She wants to practise English outside of class", "zh": "她想在课外练习英语"},
+              {"en": "It includes all meals", "zh": "它包含所有餐食"},
+              {"en": "It is closest to the school", "zh": "它离学校最近"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "How much deposit is required to secure a place on the programme?",
+              "zh": "需要多少押金才能确保课程名额？"
+            },
+            "options": [
+              {"en": "300 pounds", "zh": "300英镑"},
+              {"en": "400 pounds", "zh": "400英镑"},
+              {"en": "500 pounds", "zh": "500英镑"},
+              {"en": "600 pounds", "zh": "600英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Monologue in an everyday social context",
+          "zh": "第二部分 - 日常社交场景中的独白"
+        },
+        "passage": "<p>A presentation by the manager of a sustainable farming initiative introducing a new community-supported agriculture programme. Good afternoon, everyone. My name is Richard Greenfield, and I am the programme manager for Sustainable Harvest, a community-supported agriculture initiative based in the Greenfield Valley. I am excited to share with you the details of our new programme, which aims to connect local consumers directly with farmers while promoting environmentally responsible agricultural practices. Community-supported agriculture, or CSA, is a model in which consumers purchase shares of a farm's harvest in advance, providing farmers with upfront capital and a guaranteed market for their produce. In return, shareholders receive regular deliveries of fresh, seasonal produce throughout the growing season. Our programme covers a twenty-six-week season from May through October, and we offer three share sizes to accommodate different household needs. The Small Share is designed for individuals or couples and costs fifteen pounds per week, providing enough produce for approximately two people. This typically includes four to five different types of vegetables and one fruit selection per week. The Medium Share, at twenty-two pounds per week, is suitable for a family of three to four and includes six to eight vegetables and two fruit selections. Our Large Share, priced at thirty pounds per week, is designed for larger families or those who enjoy preserving and cooking with a wide variety of produce, and includes eight to ten vegetables, three fruit selections, and a weekly herb bundle. What sets our programme apart from other CSA initiatives is our commitment to sustainable farming methods. All our partner farms use organic or biodynamic growing practices, which means no synthetic pesticides, herbicides, or fertilisers are used. We employ crop rotation, cover cropping, and integrated pest management to maintain soil health and biodiversity. Our farms are also committed to water conservation, using drip irrigation systems that reduce water usage by up to 60 percent compared to traditional sprinkler methods. Deliveries are made every Thursday between 2 PM and 7 PM. Shareholders can choose to have their boxes delivered to their home for an additional fee of three pounds per delivery, or they can collect their produce for free from one of our twelve collection points located throughout the city, including farmers markets, community centres, and participating local shops. We also offer a workplace delivery option for groups of five or more shareholders at the same address, which includes free delivery. In addition to the regular produce deliveries, shareholders have access to several benefits. These include a monthly farm visit where you can see exactly how your food is grown, seasonal recipe cards created by local chefs, a members-only online forum for sharing recipes and gardening tips, and a ten percent discount at our annual harvest festival. We also run a hardship fund to ensure that the programme remains accessible to low-income families. If you are receiving government benefits, you may qualify for a fifty percent discount on your share. Applications for the hardship fund are available on our website or at our information desk. To sign up, please visit our website at www.sustainableharvest.org or fill in the registration form available here today. We require payment in full at least two weeks before the season begins, although we do offer a monthly payment plan for an additional administrative fee of twenty pounds. Early registration before the end of March qualifies for a ten percent early bird discount.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "What is Richard Greenfield's role?",
+              "zh": "Richard Greenfield的职位是什么？"
+            },
+            "options": [
+              {"en": "A farmer", "zh": "农民"},
+              {"en": "Programme manager for Sustainable Harvest", "zh": "Sustainable Harvest项目经理"},
+              {"en": "A local chef", "zh": "当地厨师"},
+              {"en": "A city councillor", "zh": "市议员"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What does CSA stand for?",
+              "zh": "CSA代表什么？"
+            },
+            "options": [
+              {"en": "Consumer Shopping Alliance", "zh": "消费者购物联盟"},
+              {"en": "Community-Supported Agriculture", "zh": "社区支持农业"},
+              {"en": "Crop Sustainability Association", "zh": "作物可持续性协会"},
+              {"en": "Centralised Supply Agreement", "zh": "集中供应协议"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "How long is the growing season covered by the programme?",
+              "zh": "该计划涵盖的种植季节有多长？"
+            },
+            "options": [
+              {"en": "20 weeks", "zh": "20周"},
+              {"en": "24 weeks", "zh": "24周"},
+              {"en": "26 weeks", "zh": "26周"},
+              {"en": "30 weeks", "zh": "30周"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "How much does the Medium Share cost per week?",
+              "zh": "中份每周费用是多少？"
+            },
+            "options": [
+              {"en": "15 pounds", "zh": "15英镑"},
+              {"en": "20 pounds", "zh": "20英镑"},
+              {"en": "22 pounds", "zh": "22英镑"},
+              {"en": "30 pounds", "zh": "30英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How much water can drip irrigation systems save compared to traditional sprinkler methods?",
+              "zh": "滴灌系统比传统喷灌方法能节省多少水？"
+            },
+            "options": [
+              {"en": "Up to 30 percent", "zh": "最多30%"},
+              {"en": "Up to 40 percent", "zh": "最多40%"},
+              {"en": "Up to 50 percent", "zh": "最多50%"},
+              {"en": "Up to 60 percent", "zh": "最多60%"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What day are deliveries made?",
+              "zh": "配送在星期几进行？"
+            },
+            "options": [
+              {"en": "Tuesday", "zh": "周二"},
+              {"en": "Wednesday", "zh": "周三"},
+              {"en": "Thursday", "zh": "周四"},
+              {"en": "Friday", "zh": "周五"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "How much does home delivery cost per delivery?",
+              "zh": "送货上门每次费用是多少？"
+            },
+            "options": [
+              {"en": "2 pounds", "zh": "2英镑"},
+              {"en": "3 pounds", "zh": "3英镑"},
+              {"en": "5 pounds", "zh": "5英镑"},
+              {"en": "Free", "zh": "免费"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "How many collection points are available throughout the city?",
+              "zh": "全市有多少个取货点？"
+            },
+            "options": [
+              {"en": "8", "zh": "8个"},
+              {"en": "10", "zh": "10个"},
+              {"en": "12", "zh": "12个"},
+              {"en": "15", "zh": "15个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What discount do hardship fund recipients receive?",
+              "zh": "困难基金受助者享受多少折扣？"
+            },
+            "options": [
+              {"en": "25 percent", "zh": "25%"},
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "40 percent", "zh": "40%"},
+              {"en": "50 percent", "zh": "50%"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What is the early bird discount for registering before the end of March?",
+              "zh": "在3月底之前注册的早鸟折扣是多少？"
+            },
+            "options": [
+              {"en": "5 percent", "zh": "5%"},
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "20 percent", "zh": "20%"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Conversation between two or more people in an educational context",
+          "zh": "第三部分 - 教育场景中的多人对话"
+        },
+        "passage": "<p>A conversation between two postgraduate students, Tomoko and Marcus, discussing their education research assignment with their tutor, Dr. Patel. The assignment requires them to investigate the effectiveness of different teaching methodologies in primary school education. Tomoko begins by presenting their literature review findings. She explains that they have identified three primary teaching methodologies that are widely used in contemporary primary education: the traditional direct instruction model, the inquiry-based learning approach, and the project-based learning method. She notes that direct instruction, where the teacher delivers content through lectures and demonstrations while students listen and take notes, remains the most prevalent approach globally, used in approximately 70 percent of primary schools according to a 2022 UNESCO report. However, research increasingly suggests that this method may be less effective for developing critical thinking and problem-solving skills compared to more student-centred approaches. Marcus then discusses their findings on inquiry-based learning, which encourages students to ask questions, investigate problems, and construct understanding through exploration rather than passive reception of information. He cites a major study conducted across 15 countries by the Organisation for Economic Co-operation and Development, which found that students taught using inquiry-based methods scored an average of 12 percent higher on tests measuring analytical thinking and problem-solving ability compared to students taught primarily through direct instruction. However, he acknowledges that the same study found no significant difference in factual knowledge acquisition between the two methods. Dr. Patel asks about project-based learning, the third methodology. Tomoko explains that project-based learning involves students working collaboratively on extended projects that address real-world problems or challenges. She mentions a three-year longitudinal study conducted in Finland, where project-based learning was implemented in 200 primary schools. The study found that students in project-based programmes demonstrated 18 percent higher levels of engagement and motivation, 15 percent better collaborative skills, and 22 percent greater ability to apply knowledge to novel situations compared to control groups. However, the study also noted that teachers required significantly more preparation time, approximately 40 percent more than for traditional lessons, and that some parents initially expressed concerns about the lack of structured academic content. Dr. Patel raises the important issue of assessment. She explains that traditional assessment methods, such as standardised tests and examinations, are primarily designed to measure factual recall and may not accurately capture the benefits of student-centred learning approaches. She mentions that several countries, including Finland and Singapore, have moved towards more holistic assessment frameworks that include portfolio assessments, project evaluations, and peer review alongside traditional examinations. The students then discuss the role of technology in modern education. Marcus points out that the COVID-19 pandemic accelerated the adoption of educational technology, with many schools now using a blend of in-person and digital learning, known as hybrid or blended learning. He references a 2023 meta-analysis of 200 studies that found blended learning approaches produced moderately better learning outcomes than either purely face-to-face or purely online instruction, with an effect size of 0.35. Tomoko adds that digital tools can support all three teaching methodologies by providing interactive simulations for direct instruction, virtual laboratories for inquiry-based learning, and collaborative platforms for project-based work. The trio agrees that their report should recommend a balanced approach that combines elements of all three methodologies, adapted to the subject matter, student age, and available resources. They set a deadline of two weeks for completing the first draft, with Dr. Patel agreeing to provide feedback within one week of submission.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the topic of Tomoko and Marcus's assignment?",
+              "zh": "Tomoko和Marcus的作业主题是什么？"
+            },
+            "options": [
+              {"en": "University teaching methods", "zh": "大学教学方法"},
+              {"en": "The effectiveness of different teaching methodologies in primary education", "zh": "不同教学方法在小学教育中的有效性"},
+              {"en": "The history of education", "zh": "教育史"},
+              {"en": "Technology in secondary schools", "zh": "中学中的技术"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "According to the UNESCO report, what percentage of primary schools use direct instruction?",
+              "zh": "根据联合国教科文组织的报告，多少百分比的小学使用直接教学法？"
+            },
+            "options": [
+              {"en": "60 percent", "zh": "60%"},
+              {"en": "65 percent", "zh": "65%"},
+              {"en": "70 percent", "zh": "70%"},
+              {"en": "75 percent", "zh": "75%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "How much higher did inquiry-based students score on analytical thinking tests?",
+              "zh": "使用探究式学习的学生在分析性思维测试中得分高多少？"
+            },
+            "options": [
+              {"en": "8 percent higher", "zh": "高8%"},
+              {"en": "10 percent higher", "zh": "高10%"},
+              {"en": "12 percent higher", "zh": "高12%"},
+              {"en": "15 percent higher", "zh": "高15%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "How many countries were included in the OECD study?",
+              "zh": "OECD研究涵盖了多少个国家？"
+            },
+            "options": [
+              {"en": "10 countries", "zh": "10个国家"},
+              {"en": "12 countries", "zh": "12个国家"},
+              {"en": "15 countries", "zh": "15个国家"},
+              {"en": "20 countries", "zh": "20个国家"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "In which country was the longitudinal study on project-based learning conducted?",
+              "zh": "关于项目式学习的纵向研究在哪个国家进行？"
+            },
+            "options": [
+              {"en": "Japan", "zh": "日本"},
+              {"en": "Singapore", "zh": "新加坡"},
+              {"en": "Finland", "zh": "芬兰"},
+              {"en": "Canada", "zh": "加拿大"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "How many primary schools were included in the Finland study?",
+              "zh": "芬兰的研究涵盖了多少所小学？"
+            },
+            "options": [
+              {"en": "100", "zh": "100所"},
+              {"en": "150", "zh": "150所"},
+              {"en": "200", "zh": "200所"},
+              {"en": "250", "zh": "250所"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "By what percentage did project-based students show higher engagement and motivation?",
+              "zh": "项目式学习的学生表现出多少百分比更高的参与度和动机？"
+            },
+            "options": [
+              {"en": "12 percent", "zh": "12%"},
+              {"en": "15 percent", "zh": "15%"},
+              {"en": "18 percent", "zh": "18%"},
+              {"en": "22 percent", "zh": "22%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "How much more preparation time did project-based learning require for teachers?",
+              "zh": "项目式学习需要教师多多少准备时间？"
+            },
+            "options": [
+              {"en": "20 percent more", "zh": "多20%"},
+              {"en": "30 percent more", "zh": "多30%"},
+              {"en": "40 percent more", "zh": "多40%"},
+              {"en": "50 percent more", "zh": "多50%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What effect size did the meta-analysis find for blended learning?",
+              "zh": "荟萃分析发现混合学习的效果量是多少？"
+            },
+            "options": [
+              {"en": "0.25", "zh": "0.25"},
+              {"en": "0.35", "zh": "0.35"},
+              {"en": "0.45", "zh": "0.45"},
+              {"en": "0.55", "zh": "0.55"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "When is the first draft of their report due?",
+              "zh": "他们的报告初稿截止日期是什么时候？"
+            },
+            "options": [
+              {"en": "In one week", "zh": "一周后"},
+              {"en": "In two weeks", "zh": "两周后"},
+              {"en": "In three weeks", "zh": "三周后"},
+              {"en": "In one month", "zh": "一个月后"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Monologue on an academic subject",
+          "zh": "第四部分 - 学术主题的独白"
+        },
+        "passage": "<p>A university lecture on the economics of renewable energy and the transition away from fossil fuels. Good morning. Today's lecture examines the economic dimensions of the global transition from fossil fuels to renewable energy sources, a transformation that is reshaping industries, labour markets, and national economies around the world. Let us begin by considering the scale of the energy transition. The International Energy Agency estimates that achieving net-zero carbon emissions by 2050 will require annual clean energy investment to reach approximately four trillion dollars by 2030, roughly triple the current level. This represents one of the largest economic transformations in human history, comparable in scale to the industrial revolution but compressed into a much shorter timeframe. The economics of renewable energy have shifted dramatically over the past decade. The levelised cost of electricity, which represents the average cost per unit of electricity generated over the lifetime of a power plant, has fallen sharply for renewable technologies. Between 2010 and 2023, the cost of solar photovoltaic electricity fell by 89 percent, onshore wind by 70 percent, and offshore wind by 59 percent. As a result, solar and onshore wind are now the cheapest sources of new electricity generation in regions accounting for more than two-thirds of the global population, undercutting coal and natural gas even without subsidies. This cost revolution has driven massive investment in renewable energy capacity. Global investment in clean energy reached 1.8 trillion dollars in 2023, surpassing investment in fossil fuels for the first time. China led the way with approximately 758 billion dollars in clean energy investment, followed by the European Union with 340 billion dollars and the United States with 300 billion dollars. The renewable energy sector now employs approximately 13.7 million people worldwide, a figure that has more than doubled since 2012. However, the energy transition also presents significant economic challenges, particularly for communities and countries that depend heavily on fossil fuel production and exports. Coal mining regions in countries such as Australia, India, Poland, and the United States face potential job losses and economic disruption as coal demand declines. Similarly, oil-dependent economies in the Middle East, Africa, and Central Asia must diversify their economies to avoid fiscal crises as global oil demand eventually peaks and declines. The concept of a 'just transition' has emerged as a key framework for addressing these challenges. A just transition aims to ensure that the economic benefits of the clean energy shift are broadly shared and that workers and communities affected by the decline of fossil fuel industries receive adequate support. This includes retraining programmes, investment in new industries, social safety nets, and community development initiatives. Germany's Coal Commission, established in 2018, provides one model, having allocated 40 billion euros over twenty years to support coal-dependent regions in transitioning to new economic activities. The role of government policy in accelerating the energy transition cannot be overstated. Carbon pricing mechanisms, such as carbon taxes and emissions trading systems, are among the most widely studied policy tools. The European Union's Emissions Trading System, the world's largest carbon market, has helped drive a 37 percent reduction in emissions from covered sectors since 2005. China launched its national emissions trading system in 2021, covering approximately 4.5 billion tonnes of carbon dioxide from the power sector, making it the world's largest by coverage. Subsidies and tax incentives have also played crucial roles. The United States' Inflation Reduction Act of 2022 allocated approximately 370 billion dollars for clean energy incentives, including tax credits for renewable energy production, electric vehicle purchases, and domestic manufacturing of clean energy components. Early analyses suggest the legislation could reduce US emissions by approximately 40 percent below 2005 levels by 2030. The financial sector is increasingly recognising the risks and opportunities associated with the energy transition. Climate-related financial disclosures are becoming mandatory in many jurisdictions, and major institutional investors are incorporating environmental, social, and governance factors into their investment decisions. The growth of green bonds, which finance environmentally beneficial projects, reached a record 620 billion dollars in new issuance in 2023. Looking forward, emerging technologies such as green hydrogen, advanced nuclear reactors, long-duration energy storage, and enhanced geothermal systems could further accelerate the transition. Green hydrogen, produced by splitting water molecules using renewable electricity, has the potential to decarbonise heavy industries such as steel manufacturing, chemical production, and long-distance shipping, which are difficult to electrify directly.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "What annual clean energy investment does the IEA estimate is needed by 2030?",
+              "zh": "国际能源署估计到2030年需要多少年度清洁能源投资？"
+            },
+            "options": [
+              {"en": "Two trillion dollars", "zh": "2万亿美元"},
+              {"en": "Three trillion dollars", "zh": "3万亿美元"},
+              {"en": "Four trillion dollars", "zh": "4万亿美元"},
+              {"en": "Five trillion dollars", "zh": "5万亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "By how much did the cost of solar photovoltaic electricity fall between 2010 and 2023?",
+              "zh": "2010年至2023年间太阳能光伏发电成本下降了多少？"
+            },
+            "options": [
+              {"en": "79 percent", "zh": "79%"},
+              {"en": "84 percent", "zh": "84%"},
+              {"en": "89 percent", "zh": "89%"},
+              {"en": "94 percent", "zh": "94%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How much was global clean energy investment in 2023?",
+              "zh": "2023年全球清洁能源投资是多少？"
+            },
+            "options": [
+              {"en": "1.2 trillion dollars", "zh": "1.2万亿美元"},
+              {"en": "1.5 trillion dollars", "zh": "1.5万亿美元"},
+              {"en": "1.8 trillion dollars", "zh": "1.8万亿美元"},
+              {"en": "2.1 trillion dollars", "zh": "2.1万亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "Which country led in clean energy investment in 2023?",
+              "zh": "2023年哪个国家在清洁能源投资方面领先？"
+            },
+            "options": [
+              {"en": "The United States", "zh": "美国"},
+              {"en": "The European Union", "zh": "欧盟"},
+              {"en": "China", "zh": "中国"},
+              {"en": "Japan", "zh": "日本"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "How many people does the renewable energy sector employ worldwide?",
+              "zh": "全球可再生能源行业雇用了多少人？"
+            },
+            "options": [
+              {"en": "Approximately 8.5 million", "zh": "约850万"},
+              {"en": "Approximately 11.2 million", "zh": "约1,120万"},
+              {"en": "Approximately 13.7 million", "zh": "约1,370万"},
+              {"en": "Approximately 16.3 million", "zh": "约1,630万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "How much did Germany's Coal Commission allocate for the transition of coal-dependent regions?",
+              "zh": "德国煤炭委员会为煤炭依赖地区的转型拨款多少？"
+            },
+            "options": [
+              {"en": "20 billion euros over ten years", "zh": "200亿欧元，为期十年"},
+              {"en": "30 billion euros over fifteen years", "zh": "300亿欧元，为期十五年"},
+              {"en": "40 billion euros over twenty years", "zh": "400亿欧元，为期二十年"},
+              {"en": "50 billion euros over twenty-five years", "zh": "500亿欧元，为期二十五年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "By how much has the EU Emissions Trading System reduced emissions since 2005?",
+              "zh": "自2005年以来，欧盟排放交易系统减少了多少排放？"
+            },
+            "options": [
+              {"en": "27 percent", "zh": "27%"},
+              {"en": "32 percent", "zh": "32%"},
+              {"en": "37 percent", "zh": "37%"},
+              {"en": "42 percent", "zh": "42%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "How much did the US Inflation Reduction Act allocate for clean energy incentives?",
+              "zh": "美国《通胀削减法案》为清洁能源激励措施拨款多少？"
+            },
+            "options": [
+              {"en": "270 billion dollars", "zh": "2700亿美元"},
+              {"en": "320 billion dollars", "zh": "3200亿美元"},
+              {"en": "370 billion dollars", "zh": "3700亿美元"},
+              {"en": "420 billion dollars", "zh": "4200亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What was the record value of new green bond issuance in 2023?",
+              "zh": "2023年新发行绿色债券的创纪录价值是多少？"
+            },
+            "options": [
+              {"en": "420 billion dollars", "zh": "4200亿美元"},
+              {"en": "520 billion dollars", "zh": "5200亿美元"},
+              {"en": "620 billion dollars", "zh": "6200亿美元"},
+              {"en": "720 billion dollars", "zh": "7200亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What emerging technology has the potential to decarbonise heavy industries like steel manufacturing?",
+              "zh": "什么新兴技术有可能使钢铁制造等重工业脱碳？"
+            },
+            "options": [
+              {"en": "Nuclear fusion", "zh": "核聚变"},
+              {"en": "Green hydrogen", "zh": "绿色氢能"},
+              {"en": "Artificial intelligence", "zh": "人工智能"},
+              {"en": "Quantum computing", "zh": "量子计算"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - Deforestation and Its Global Consequences",
+          "zh": "文章1 - 森林砍伐及其全球后果"
+        },
+        "passage": "<p>Deforestation, the permanent removal of trees to make way for other land uses, is one of the most significant environmental challenges facing the world today. Forests cover approximately 31 percent of the Earth's land surface, roughly four billion hectares, but this area is shrinking at an alarming rate. Between 2001 and 2020, the world lost approximately 411 million hectares of tree cover, equivalent to an area roughly the size of the European Union. While the rate of deforestation has slowed compared to the 1990s, when an estimated 16 million hectares were lost annually, the current rate of approximately 10 million hectares per year remains unsustainable and has profound consequences for biodiversity, climate regulation, and human livelihoods. The primary drivers of deforestation vary by region but generally fall into four main categories: agricultural expansion, logging, infrastructure development, and mining. Agricultural expansion is by far the largest driver, accounting for approximately 73 percent of global deforestation. In tropical regions, forests are cleared for cattle ranching, soy cultivation, palm oil plantations, and smallholder farming. The Amazon rainforest, often described as the lungs of the Earth because it produces approximately 6 percent of the world's oxygen and absorbs vast quantities of carbon dioxide, has lost approximately 17 percent of its forest cover in the past fifty years, primarily due to cattle ranching and soy farming. In Southeast Asia, Indonesia and Malaysia have lost millions of hectares of tropical forest to palm oil plantations, making them among the countries with the highest rates of deforestation globally. The consequences of deforestation for biodiversity are severe. Forests are home to approximately 80 percent of the world's terrestrial biodiversity, and the destruction of forest habitats is the leading cause of species extinction. The Amazon alone contains approximately 10 percent of all known species on Earth. When forests are cleared, the species that depend on them lose their habitats, food sources, and breeding grounds. A 2023 study published in the journal Nature found that deforestation has put approximately 28,000 species at risk of extinction, including numerous species of birds, mammals, amphibians, and plants that have yet to be fully studied or even identified by science. The loss of these species has cascading effects throughout ecosystems, disrupting pollination, seed dispersal, nutrient cycling, and pest control. Deforestation is also a major contributor to climate change. Forests act as carbon sinks, absorbing approximately 2.6 billion tonnes of carbon dioxide annually, roughly 30 percent of human carbon emissions. When forests are cleared or burned, the stored carbon is released back into the atmosphere, contributing to global warming. Deforestation and forest degradation account for approximately 11 percent of global greenhouse gas emissions, making it the second-largest source after fossil fuel combustion. The loss of forests also reduces the Earth's capacity to absorb future emissions, creating a dangerous feedback loop that accelerates climate change. The impact on water cycles is equally significant. Forests play a crucial role in the hydrological cycle through a process called transpiration, in which trees release water vapour into the atmosphere through their leaves. This moisture contributes to cloud formation and rainfall patterns, not only locally but across vast distances. The Amazon rainforest, for example, generates approximately 50 percent of its own rainfall through transpiration. Studies have shown that large-scale deforestation in the Amazon could reduce rainfall across South America by up to 20 percent, potentially affecting agricultural productivity and water supplies for millions of people. Forests also help prevent soil erosion by anchoring soil with their root systems and reducing the impact of rain on bare ground. When forests are removed, soil is exposed to wind and rain, leading to increased erosion, reduced soil fertility, and sedimentation of rivers and waterways. This can result in decreased agricultural productivity, increased flooding, and degradation of aquatic ecosystems. International efforts to combat deforestation have intensified in recent decades. The United Nations' Reducing Emissions from Deforestation and Forest Degradation programme, known as REDD+, provides financial incentives for developing countries to protect their forests. The programme operates on the principle that standing forests have economic value for the ecosystem services they provide, including carbon sequestration, water regulation, and biodiversity conservation. In 2021, over 140 countries pledged to halt and reverse deforestation by 2030 at the COP26 climate summit in Glasgow, committing approximately 19 billion dollars in public and private funding.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What percentage of the Earth's land surface is covered by forests?",
+              "zh": "地球陆地表面有多少百分比被森林覆盖？"
+            },
+            "options": [
+              {"en": "21 percent", "zh": "21%"},
+              {"en": "26 percent", "zh": "26%"},
+              {"en": "31 percent", "zh": "31%"},
+              {"en": "36 percent", "zh": "36%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "How much tree cover was lost between 2001 and 2020?",
+              "zh": "2001年至2020年间损失了多少树木覆盖面积？"
+            },
+            "options": [
+              {"en": "Approximately 211 million hectares", "zh": "约2.11亿公顷"},
+              {"en": "Approximately 311 million hectares", "zh": "约3.11亿公顷"},
+              {"en": "Approximately 411 million hectares", "zh": "约4.11亿公顷"},
+              {"en": "Approximately 511 million hectares", "zh": "约5.11亿公顷"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What percentage of global deforestation is caused by agricultural expansion?",
+              "zh": "农业扩张导致了全球森林砍伐的多少百分比？"
+            },
+            "options": [
+              {"en": "53 percent", "zh": "53%"},
+              {"en": "63 percent", "zh": "63%"},
+              {"en": "73 percent", "zh": "73%"},
+              {"en": "83 percent", "zh": "83%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "How much of the Amazon rainforest's cover has been lost in the past fifty years?",
+              "zh": "过去五十年间亚马逊雨林失去了多少森林覆盖率？"
+            },
+            "options": [
+              {"en": "12 percent", "zh": "12%"},
+              {"en": "17 percent", "zh": "17%"},
+              {"en": "22 percent", "zh": "22%"},
+              {"en": "27 percent", "zh": "27%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What percentage of the world's terrestrial biodiversity lives in forests?",
+              "zh": "世界上多少百分比的陆地生物多样性生活在森林中？"
+            },
+            "options": [
+              {"en": "60 percent", "zh": "60%"},
+              {"en": "70 percent", "zh": "70%"},
+              {"en": "80 percent", "zh": "80%"},
+              {"en": "90 percent", "zh": "90%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "How many species has deforestation put at risk of extinction according to a 2023 study?",
+              "zh": "根据2023年的一项研究，森林砍伐使多少物种面临灭绝风险？"
+            },
+            "options": [
+              {"en": "Approximately 18,000", "zh": "约18,000种"},
+              {"en": "Approximately 23,000", "zh": "约23,000种"},
+              {"en": "Approximately 28,000", "zh": "约28,000种"},
+              {"en": "Approximately 35,000", "zh": "约35,000种"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How much carbon dioxide do forests absorb annually?",
+              "zh": "森林每年吸收多少二氧化碳？"
+            },
+            "options": [
+              {"en": "Approximately 1.6 billion tonnes", "zh": "约16亿吨"},
+              {"en": "Approximately 2.1 billion tonnes", "zh": "约21亿吨"},
+              {"en": "Approximately 2.6 billion tonnes", "zh": "约26亿吨"},
+              {"en": "Approximately 3.1 billion tonnes", "zh": "约31亿吨"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What percentage of global greenhouse gas emissions does deforestation account for?",
+              "zh": "森林砍伐占全球温室气体排放的多少百分比？"
+            },
+            "options": [
+              {"en": "7 percent", "zh": "7%"},
+              {"en": "9 percent", "zh": "9%"},
+              {"en": "11 percent", "zh": "11%"},
+              {"en": "14 percent", "zh": "14%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "What percentage of its own rainfall does the Amazon generate through transpiration?",
+              "zh": "亚马逊通过蒸腾作用产生了多少自身降雨量？"
+            },
+            "options": [
+              {"en": "30 percent", "zh": "30%"},
+              {"en": "40 percent", "zh": "40%"},
+              {"en": "50 percent", "zh": "50%"},
+              {"en": "60 percent", "zh": "60%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What is the REDD+ programme?",
+              "zh": "REDD+计划是什么？"
+            },
+            "options": [
+              {"en": "A tree planting charity", "zh": "一个植树慈善机构"},
+              {"en": "A UN programme providing financial incentives for forest protection", "zh": "一个为森林保护提供财政激励的联合国计划"},
+              {"en": "A logging regulation agency", "zh": "一个伐木监管机构"},
+              {"en": "An international court for environmental crimes", "zh": "一个处理环境犯罪的国际法庭"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "How many countries pledged to halt deforestation by 2030 at COP26?",
+              "zh": "在COP26上有多少个国家承诺到2030年停止森林砍伐？"
+            },
+            "options": [
+              {"en": "Over 100", "zh": "超过100个"},
+              {"en": "Over 120", "zh": "超过120个"},
+              {"en": "Over 140", "zh": "超过140个"},
+              {"en": "Over 160", "zh": "超过160个"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "The word 'cascading' in paragraph 3 is closest in meaning to:",
+              "zh": "第3段中的"cascading"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Isolated", "zh": "孤立的"},
+              {"en": "Chain-reaction", "zh": "连锁反应的"},
+              {"en": "Positive", "zh": "积极的"},
+              {"en": "Minimal", "zh": "最小的"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "Which statement best describes the passage's overall message?",
+              "zh": "以下哪句话最能描述文章的整体信息？"
+            },
+            "options": [
+              {"en": "Deforestation is an irreversible process that cannot be stopped", "zh": "森林砍伐是不可逆转的过程，无法阻止"},
+              {"en": "Deforestation has severe, far-reaching consequences but international efforts offer hope", "zh": "森林砍伐有严重而深远的后果，但国际努力提供了希望"},
+              {"en": "Economic development should take priority over forest conservation", "zh": "经济发展应优先于森林保护"},
+              {"en": "The problem of deforestation has been largely solved by international agreements", "zh": "森林砍伐问题已在很大程度上通过国际协议得到解决"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Science of Learning and Memory",
+          "zh": "文章2 - 学习与记忆的科学"
+        },
+        "passage": "<p>The human brain is the most complex organ in the known universe, containing approximately 86 billion neurons connected by an estimated 100 trillion synapses. Understanding how this remarkable organ learns, stores, and retrieves information has been one of the great scientific quests of the past century, with implications that stretch from education and psychology to artificial intelligence and medicine. Memory is not a single, unified process but rather a collection of systems that operate in different ways and involve different brain regions. Scientists generally distinguish between three main types of memory: sensory memory, short-term memory, and long-term memory. Sensory memory is the briefest form, lasting only a fraction of a second, and acts as a buffer that holds sensory information from the environment before it is either discarded or transferred to short-term memory. Short-term memory, also known as working memory, can hold information for approximately 15 to 30 seconds without rehearsal and has a capacity of roughly seven items, plus or minus two, as demonstrated by George Miller's famous 1956 study. Long-term memory, in contrast, has a virtually unlimited capacity and can store information for a lifetime. The process of converting short-term memories into long-term memories is known as consolidation. Research has shown that sleep plays a critical role in memory consolidation. During sleep, the brain replays neural patterns that were active during waking experiences, strengthening the synaptic connections that encode these memories. A landmark 2014 study published in Science demonstrated that participants who slept after learning a new task showed a 20 to 30 percent improvement in performance compared to those who remained awake, and brain imaging revealed increased activity in the hippocampus, a brain region essential for memory formation. The spacing effect is one of the most robust and well-replicated findings in the science of learning. First documented by German psychologist Hermann Ebbinghaus in 1885, the spacing effect demonstrates that learning is more effective when study sessions are spread out over time rather than concentrated in a single session, a practice commonly known as cramming. A 2018 meta-analysis published in Psychological Bulletin, which examined 254 studies involving over 14,000 participants, confirmed that distributed practice produces significantly better long-term retention than massed practice, with an average effect size of 0.53. The testing effect, also known as retrieval practice, is another powerful learning strategy supported by extensive research. Rather than simply re-reading or reviewing material, actively trying to recall information from memory strengthens the memory trace and makes future retrieval more likely. A 2011 study by Jeffrey Karpicke and Janell Blunt at Purdue University found that students who practised retrieving information remembered 50 percent more material on a delayed test compared to students who used concept mapping, a popular study technique that involves creating visual diagrams of relationships between ideas. Interleaving, the practice of mixing different topics or types of problems during study sessions, has also been shown to enhance learning compared to blocked practice, where one topic is studied exhaustively before moving to the next. While interleaving can feel more difficult and less productive in the moment, research suggests that it improves the ability to discriminate between different types of problems and apply the correct solution strategy. A 2014 study in the journal Applied Cognitive Psychology found that interleaved practice improved mathematics test scores by 43 percent compared to blocked practice. The role of emotion in memory formation is well-established. Emotionally charged events tend to be remembered more vividly and durably than neutral events, a phenomenon mediated by the amygdala, a brain structure closely connected to the hippocampus. This is why people can often remember exactly where they were and what they were doing when they heard about significant events such as natural disasters or national tragedies, a type of memory known as flashbulb memory. However, emotional arousal can also impair memory accuracy, as the heightened focus on the emotional core of an experience may come at the expense of peripheral details. Neuroplasticity, the brain's ability to reorganise itself by forming new neural connections throughout life, has revolutionised our understanding of learning. Contrary to the long-held belief that the brain becomes relatively fixed after childhood, research has demonstrated that the adult brain remains remarkably adaptable. London taxi drivers, who must memorise the complex layout of 25,000 streets and thousands of landmarks to pass the rigorous Knowledge exam, have been found to have significantly larger posterior hippocampi compared to bus drivers who follow fixed routes, suggesting that intensive spatial learning physically changes the brain's structure. These findings have important implications for education. They suggest that effective learning strategies should incorporate spaced practice, retrieval exercises, interleaved topics, adequate sleep, and emotional engagement. Unfortunately, research indicates that many students rely on less effective strategies such as re-reading, highlighting, and cramming, partly because these methods create an illusion of competence that feels satisfying in the short term but fails to produce durable learning.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "How many neurons does the human brain contain?",
+              "zh": "人类大脑包含多少个神经元？"
+            },
+            "options": [
+              {"en": "Approximately 26 billion", "zh": "约260亿"},
+              {"en": "Approximately 56 billion", "zh": "约560亿"},
+              {"en": "Approximately 86 billion", "zh": "约860亿"},
+              {"en": "Approximately 106 billion", "zh": "约1,060亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How long can short-term memory hold information without rehearsal?",
+              "zh": "短期记忆在没有复习的情况下能保持信息多久？"
+            },
+            "options": [
+              {"en": "5 to 10 seconds", "zh": "5到10秒"},
+              {"en": "15 to 30 seconds", "zh": "15到30秒"},
+              {"en": "1 to 2 minutes", "zh": "1到2分钟"},
+              {"en": "5 minutes", "zh": "5分钟"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What is the capacity of short-term memory according to George Miller's study?",
+              "zh": "根据George Miller的研究，短期记忆的容量是多少？"
+            },
+            "options": [
+              {"en": "Approximately three items", "zh": "约三个项目"},
+              {"en": "Approximately five items", "zh": "约五个项目"},
+              {"en": "Approximately seven items", "zh": "约七个项目"},
+              {"en": "Approximately ten items", "zh": "约十个项目"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What improvement in performance did sleeping participants show in the 2014 study?",
+              "zh": "2014年研究中，睡觉的参与者表现出多少性能改善？"
+            },
+            "options": [
+              {"en": "10 to 20 percent", "zh": "10%到20%"},
+              {"en": "20 to 30 percent", "zh": "20%到30%"},
+              {"en": "30 to 40 percent", "zh": "30%到40%"},
+              {"en": "40 to 50 percent", "zh": "40%到50%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What is the average effect size of the spacing effect according to the 2018 meta-analysis?",
+              "zh": "根据2018年的荟萃分析，间隔效应的平均效果量是多少？"
+            },
+            "options": [
+              {"en": "0.33", "zh": "0.33"},
+              {"en": "0.43", "zh": "0.43"},
+              {"en": "0.53", "zh": "0.53"},
+              {"en": "0.63", "zh": "0.63"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "How much more material did retrieval practice students remember compared to concept mapping students?",
+              "zh": "使用检索练习的学生比使用概念图的学生多记住了多少内容？"
+            },
+            "options": [
+              {"en": "30 percent more", "zh": "多30%"},
+              {"en": "40 percent more", "zh": "多40%"},
+              {"en": "50 percent more", "zh": "多50%"},
+              {"en": "60 percent more", "zh": "多60%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "By how much did interleaved practice improve mathematics test scores?",
+              "zh": "交错练习提高了多少数学测试成绩？"
+            },
+            "options": [
+              {"en": "23 percent", "zh": "23%"},
+              {"en": "33 percent", "zh": "33%"},
+              {"en": "43 percent", "zh": "43%"},
+              {"en": "53 percent", "zh": "53%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "What brain structure mediates the enhanced memory of emotionally charged events?",
+              "zh": "什么大脑结构介导了对情绪激动事件的增强记忆？"
+            },
+            "options": [
+              {"en": "The hippocampus", "zh": "海马体"},
+              {"en": "The amygdala", "zh": "杏仁核"},
+              {"en": "The cerebellum", "zh": "小脑"},
+              {"en": "The prefrontal cortex", "zh": "前额叶皮层"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What physical difference was found in London taxi drivers' brains?",
+              "zh": "在伦敦出租车司机的大脑中发现了什么物理差异？"
+            },
+            "options": [
+              {"en": "Larger anterior hippocampi", "zh": "更大的前海马体"},
+              {"en": "Larger posterior hippocampi", "zh": "更大的后海马体"},
+              {"en": "More neural connections", "zh": "更多的神经连接"},
+              {"en": "Thicker cerebral cortex", "zh": "更厚的大脑皮层"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What is neuroplasticity?",
+              "zh": "什么是神经可塑性？"
+            },
+            "options": [
+              {"en": "The brain's inability to change after childhood", "zh": "大脑在儿童期后无法改变"},
+              {"en": "The brain's ability to reorganise by forming new neural connections", "zh": "大脑通过形成新的神经连接来重组的能力"},
+              {"en": "A disease that affects memory", "zh": "一种影响记忆的疾病"},
+              {"en": "A technique for measuring brain activity", "zh": "一种测量大脑活动的技术"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "The word 'robust' in paragraph 4 is closest in meaning to:",
+              "zh": "第4段中的"robust"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Weak", "zh": "微弱的"},
+              {"en": "Controversial", "zh": "有争议的"},
+              {"en": "Strong and well-supported", "zh": "强有力的且有充分支持的"},
+              {"en": "Theoretical", "zh": "理论上的"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "According to the passage, what do many students rely on that research shows is less effective?",
+              "zh": "根据文章，许多学生依赖什么研究表明效果较差的方法？"
+            },
+            "options": [
+              {"en": "Spaced practice and testing", "zh": "间隔练习和测试"},
+              {"en": "Re-reading, highlighting, and cramming", "zh": "重读、划重点和临时抱佛脚"},
+              {"en": "Group study and discussion", "zh": "小组学习和讨论"},
+              {"en": "Teaching others and explaining concepts", "zh": "教别人和解释概念"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What is the main practical implication of the research discussed in this passage?",
+              "zh": "文章讨论的研究有什么主要的实际意义？"
+            },
+            "options": [
+              {"en": "Students should study more hours per day", "zh": "学生每天应该学习更多小时"},
+              {"en": "Effective learning strategies should incorporate spaced practice, retrieval, interleaving, sleep, and emotional engagement", "zh": "有效的学习策略应结合间隔练习、检索、交错、睡眠和情感参与"},
+              {"en": "Technology should replace traditional teaching", "zh": "技术应该取代传统教学"},
+              {"en": "Memory capacity cannot be improved", "zh": "记忆能力无法提高"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - The Evolution of Global Trade",
+          "zh": "文章3 - 全球贸易的演变"
+        },
+        "passage": "<p>International trade, the exchange of goods and services across national borders, has been a defining feature of human civilisation for thousands of years. From the ancient Silk Road that connected China with the Mediterranean world to the modern container ships that carry 80 percent of global trade by volume, commerce has shaped economies, cultures, and political relationships across the globe. Understanding the evolution of global trade is essential for comprehending the economic forces that shape our contemporary world. The earliest known long-distance trade routes emerged around 3000 BC, connecting civilisations in Mesopotamia, the Indus Valley, and Egypt. These early trade networks exchanged luxury goods such as lapis lazuli, gold, ivory, and spices. The Silk Road, which flourished from approximately 130 BC to 1453 AD, was the most extensive pre-modern trade network, spanning over 6,400 kilometres and facilitating the exchange of silk, porcelain, tea, and other goods between East Asia and Europe. The route also transmitted ideas, religions, and technologies, making it one of the most significant forces for cross-cultural exchange in human history. The Age of Exploration, beginning in the fifteenth century, fundamentally transformed global trade. Portuguese and Spanish explorers established maritime routes to Asia, Africa, and the Americas, creating the first truly global trading networks. The subsequent rise of the Dutch, British, and French trading companies in the seventeenth and eighteenth centuries marked the beginning of corporate-driven global commerce. The British East India Company, founded in 1600, became the world's most powerful commercial enterprise, controlling trade in tea, textiles, and spices across vast territories in Asia. The Industrial Revolution of the late eighteenth and nineteenth centuries dramatically increased the volume and complexity of international trade. Mechanised production created surpluses that needed new markets, while technological innovations in transportation, including steamships and railways, made it faster and cheaper to move goods across long distances. The development of the telegraph in the 1840s enabled near-instantaneous communication between trading partners in different countries, further facilitating commerce. By 1913, international trade accounted for approximately 14 percent of global GDP. The twentieth century saw both setbacks and advances in global trade. The two World Wars and the Great Depression of the 1930s severely disrupted international commerce, with global trade volumes falling by approximately 65 percent between 1929 and 1934. The establishment of the General Agreement on Tariffs and Trade, or GATT, in 1947, and its successor, the World Trade Organisation, or WTO, in 1995, created a rules-based framework for international trade that significantly reduced tariffs and other trade barriers. Average tariff rates among developed countries fell from approximately 22 percent in 1947 to less than 4 percent today. The late twentieth and early twenty-first centuries witnessed an acceleration of globalisation driven by advances in communication technology, containerisation of shipping, and the liberalisation of trade policies. Containerisation, the use of standardised shipping containers that can be transferred between ships, trucks, and trains without unloading the cargo, revolutionised global logistics. Before containerisation, loading and unloading cargo was a labour-intensive process that could take days; containers reduced this to hours, cutting shipping costs by an estimated 90 percent and enabling the creation of complex global supply chains. China's accession to the WTO in 2001 was a watershed moment for global trade. China rapidly became the world's largest exporter and second-largest importer, fundamentally reshaping global manufacturing patterns. By 2023, China accounted for approximately 14 percent of global merchandise exports. The integration of China, along with India and other emerging economies, into the global trading system lifted hundreds of millions of people out of poverty and created new consumer markets. However, the benefits of global trade have not been evenly distributed. While globalisation has reduced poverty in developing countries and lowered prices for consumers in developed countries, it has also contributed to job losses in certain industries and regions. The 'China shock,' a term economists use to describe the impact of China's rapid export growth on manufacturing employment in the United States and Europe, is estimated to have caused the loss of approximately 2.4 million American jobs between 1999 and 2011. This uneven distribution of trade's benefits has fuelled a backlash against globalisation, manifested in events such as Brexit and the rise of protectionist policies in various countries. Today, global trade faces new challenges and uncertainties. Geopolitical tensions between major trading powers, particularly the United States and China, have led to increased tariffs, technology restrictions, and efforts to restructure supply chains away from geopolitical rivals. The COVID-19 pandemic exposed the fragility of global supply chains, as lockdowns and transportation disruptions caused shortages of everything from medical equipment to semiconductor chips. Climate change is also reshaping trade patterns, as extreme weather events disrupt agricultural production and as countries implement carbon border taxes to prevent 'carbon leakage,' where production shifts to countries with weaker environmental regulations.</p>",
+        "questions": [
+          {
+            "id": 27,
+            "text": {
+              "en": "What percentage of global trade by volume do container ships carry?",
+              "zh": "集装箱船运输的贸易量占全球贸易总量的多少百分比？"
+            },
+            "options": [
+              {"en": "60 percent", "zh": "60%"},
+              {"en": "70 percent", "zh": "70%"},
+              {"en": "80 percent", "zh": "80%"},
+              {"en": "90 percent", "zh": "90%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "When did the earliest known long-distance trade routes emerge?",
+              "zh": "最早的长途贸易路线是什么时候出现的？"
+            },
+            "options": [
+              {"en": "Around 1000 BC", "zh": "约公元前1000年"},
+              {"en": "Around 2000 BC", "zh": "约公元前2000年"},
+              {"en": "Around 3000 BC", "zh": "约公元前3000年"},
+              {"en": "Around 4000 BC", "zh": "约公元前4000年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How long was the Silk Road?",
+              "zh": "丝绸之路有多长？"
+            },
+            "options": [
+              {"en": "Over 4,400 kilometres", "zh": "超过4,400公里"},
+              {"en": "Over 5,400 kilometres", "zh": "超过5,400公里"},
+              {"en": "Over 6,400 kilometres", "zh": "超过6,400公里"},
+              {"en": "Over 7,400 kilometres", "zh": "超过7,400公里"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "When was the British East India Company founded?",
+              "zh": "英国东印度公司是什么时候成立的？"
+            },
+            "options": [
+              {"en": "1500", "zh": "1500年"},
+              {"en": "1550", "zh": "1550年"},
+              {"en": "1600", "zh": "1600年"},
+              {"en": "1650", "zh": "1650年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "What percentage of global GDP did international trade account for by 1913?",
+              "zh": "到1913年国际贸易占全球GDP的多少百分比？"
+            },
+            "options": [
+              {"en": "8 percent", "zh": "8%"},
+              {"en": "11 percent", "zh": "11%"},
+              {"en": "14 percent", "zh": "14%"},
+              {"en": "17 percent", "zh": "17%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "By how much did global trade volumes fall between 1929 and 1934?",
+              "zh": "1929年至1934年间全球贸易量下降了多少？"
+            },
+            "options": [
+              {"en": "45 percent", "zh": "45%"},
+              {"en": "55 percent", "zh": "55%"},
+              {"en": "65 percent", "zh": "65%"},
+              {"en": "75 percent", "zh": "75%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What are current average tariff rates among developed countries?",
+              "zh": "目前发达国家之间的平均关税税率是多少？"
+            },
+            "options": [
+              {"en": "Less than 2 percent", "zh": "不到2%"},
+              {"en": "Less than 4 percent", "zh": "不到4%"},
+              {"en": "Less than 6 percent", "zh": "不到6%"},
+              {"en": "Less than 8 percent", "zh": "不到8%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "By how much did containerisation reduce shipping costs?",
+              "zh": "集装箱化降低了多少运输成本？"
+            },
+            "options": [
+              {"en": "Approximately 70 percent", "zh": "约70%"},
+              {"en": "Approximately 80 percent", "zh": "约80%"},
+              {"en": "Approximately 90 percent", "zh": "约90%"},
+              {"en": "Approximately 95 percent", "zh": "约95%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "When did China join the WTO?",
+              "zh": "中国什么时候加入世界贸易组织？"
+            },
+            "options": [
+              {"en": "1999", "zh": "1999年"},
+              {"en": "2001", "zh": "2001年"},
+              {"en": "2003", "zh": "2003年"},
+              {"en": "2005", "zh": "2005年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "What percentage of global merchandise exports did China account for by 2023?",
+              "zh": "到2023年中国占全球商品出口的多少百分比？"
+            },
+            "options": [
+              {"en": "10 percent", "zh": "10%"},
+              {"en": "12 percent", "zh": "12%"},
+              {"en": "14 percent", "zh": "14%"},
+              {"en": "16 percent", "zh": "16%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "How many American jobs did the 'China shock' cause between 1999 and 2011?",
+              "zh": ""中国冲击"在1999年至2011年间导致了多少美国工作岗位的流失？"
+            },
+            "options": [
+              {"en": "Approximately 1.2 million", "zh": "约120万"},
+              {"en": "Approximately 1.8 million", "zh": "约180万"},
+              {"en": "Approximately 2.4 million", "zh": "约240万"},
+              {"en": "Approximately 3.0 million", "zh": "约300万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "The word 'watershed' in paragraph 6 is closest in meaning to:",
+              "zh": "第6段中的"watershed"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Insignificant", "zh": "无关紧要的"},
+              {"en": "Turning point", "zh": "转折点"},
+              {"en": "Gradual", "zh": "渐进的"},
+              {"en": "Controversial", "zh": "有争议的"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What is 'carbon leakage' as described in the passage?",
+              "zh": "文章中描述的"碳泄漏"是什么？"
+            },
+            "options": [
+              {"en": "Damage to carbon-based materials during shipping", "zh": "运输过程中碳基材料的损坏"},
+              {"en": "Production shifting to countries with weaker environmental regulations", "zh": "生产转移到环境法规较弱的国家"},
+              {"en": "The natural release of carbon from forests", "zh": "森林自然释放碳"},
+              {"en": "Carbon emissions from container ships", "zh": "集装箱船的碳排放"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "Which of the following best describes the passage's perspective on global trade?",
+              "zh": "以下哪项最能描述文章对全球贸易的看法？"
+            },
+            "options": [
+              {"en": "Global trade has been universally beneficial for all countries", "zh": "全球贸易对所有国家都有普遍好处"},
+              {"en": "Global trade should be abandoned in favour of local economies", "zh": "应该放弃全球贸易，转而支持本地经济"},
+              {"en": "Global trade has driven progress but created complex challenges requiring careful management", "zh": "全球贸易推动了进步，但也产生了需要仔细管理的复杂挑战"},
+              {"en": "The future of global trade is entirely predictable", "zh": "全球贸易的未来完全可以预测"}
+            ],
+            "answer": 2
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1 - Describe a Chart",
+          "zh": "任务1 - 描述图表"
+        },
+        "prompt": {
+          "en": "The charts below show the main reasons why students chose a particular university in Country A and Country B in 2023.\n\nCountry A: Quality of teaching 35%, Employment prospects 28%, Location 18%, Cost of tuition 12%, Social life 7%\nCountry B: Cost of tuition 32%, Employment prospects 25%, Location 20%, Quality of teaching 15%, Social life 8%\n\nSummarise the information by selecting and reporting the main features, and make comparisons where relevant. Write at least 150 words.",
+          "zh": "下面的图表显示了2023年A国和B国学生选择特定大学的主要原因。\n\nA国：教学质量35%，就业前景28%，地理位置18%，学费成本12%，社交生活7%\nB国：学费成本32%，就业前景25%，地理位置20%，教学质量15%，社交生活8%\n\n通过选择和报告主要特征来总结信息，并在相关处进行比较。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2 - Essay",
+          "zh": "任务2 - 议论文"
+        },
+        "prompt": {
+          "en": "Some people believe that the best way to reduce environmental damage is to increase the cost of fuel for cars and other vehicles. Others argue that there are more effective ways to address environmental problems.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些人认为减少环境破坏的最佳方式是提高汽车和其他车辆的燃料成本。另一些人则认为有更有效的方式来应对环境问题。\n\n讨论两种观点并给出你自己的意见。\n\n给出你的理由，并包括你自己的知识或经验中任何相关的例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

@@ -166,12 +166,14 @@
         async function loadTests() {
             const grid = document.getElementById('testGrid');
             grid.innerHTML = '';
+            const loadedTests = [];
             
-            for (let i = 1; i <= 3; i++) {
+            for (let i = 1; i <= 10; i++) {
                 try {
                     const resp = await fetch(`tests/test${i}.json`);
                     if (resp.ok) {
                         const test = await resp.json();
+                        loadedTests.push(test);
                         const card = document.createElement('div');
                         card.className = 'test-card';
                         card.innerHTML = `<h3>${t(test.title)}</h3><p>${lang === 'zh' ? '听力 + 阅读 + 写作' : 'Listening + Reading + Writing'}</p>`;
@@ -181,7 +183,20 @@
                 } catch (e) {}
             }
             
-            // Add built-in test
+            // Random test card
+            if (loadedTests.length > 1) {
+                const randomCard = document.createElement('div');
+                randomCard.className = 'test-card';
+                randomCard.style.borderColor = 'var(--accent)';
+                randomCard.innerHTML = `<h3>🎲 ${lang === 'zh' ? '随机抽题' : 'Random Test'}</h3><p>${lang === 'zh' ? '随机选择一套真题' : 'Randomly select a practice test'}</p>`;
+                randomCard.onclick = () => {
+                    const idx = Math.floor(Math.random() * loadedTests.length);
+                    startTest(loadedTests[idx]);
+                };
+                grid.appendChild(randomCard);
+            }
+            
+            // Built-in test
             const builtIn = document.createElement('div');
             builtIn.className = 'test-card';
             builtIn.innerHTML = `<h3>${lang === 'zh' ? '内置练习' : 'Built-in Practice'}</h3><p>${lang === 'zh' ? '快速练习题' : 'Quick practice questions'}</p>`;

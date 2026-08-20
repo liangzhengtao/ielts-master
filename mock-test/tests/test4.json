@@ -1,0 +1,1224 @@
+{
+  "id": 4,
+  "title": {
+    "en": "IELTS Practice Test 4",
+    "zh": "雅思模拟考试 4"
+  },
+  "listening": {
+    "sections": [
+      {
+        "title": {
+          "en": "Section 1 - Conversation between two people in an everyday social context",
+          "zh": "第一部分 - 日常社交场景中的两人对话"
+        },
+        "passage": "<p>A conversation between a customer and a technical support representative at a smart home technology company. The customer, Mrs. Patterson, calls because her newly installed smart thermostat is not functioning correctly. The support agent, James, asks for her account number and product model. Mrs. Patterson provides her account number HX-4492 and says she has the ThermoSmart Pro 3000 model, which she purchased three weeks ago. James pulls up her account and asks her to describe the problem. Mrs. Patterson explains that the thermostat screen keeps freezing and the temperature readings are inaccurate, sometimes showing temperatures that are five to eight degrees higher than the actual room temperature. James suggests several troubleshooting steps. First, he asks her to perform a soft reset by holding down the power button for ten seconds. Mrs. Patterson tries this but reports that the problem persists. Next, James recommends checking the Wi-Fi connection, explaining that the thermostat requires a stable 2.4 GHz connection to function properly and sync with the mobile application. Mrs. Patterson checks and confirms that her thermostat is connected to her 5 GHz network instead. James guides her through switching to the correct network frequency. He also mentions that there was a firmware update released last week, version 4.2.1, which specifically addresses temperature calibration issues. He walks her through downloading and installing the update, which takes approximately fifteen minutes. After the update completes, Mrs. Patterson reports that the temperature readings now appear accurate and the screen is responding normally. James schedules a follow-up call for the following Monday at 2 PM to ensure everything continues working correctly. He also reminds Mrs. Patterson that her product has a two-year warranty and she can contact support anytime during business hours, which are Monday through Friday, 8 AM to 6 PM.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "What is Mrs. Patterson's account number?",
+              "zh": "Patterson夫人的账号是多少？"
+            },
+            "options": [
+              {"en": "HX-4492", "zh": "HX-4492"},
+              {"en": "HX-4429", "zh": "HX-4429"},
+              {"en": "HX-4992", "zh": "HX-4992"},
+              {"en": "HX-4249", "zh": "HX-4249"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What model of smart thermostat does Mrs. Patterson have?",
+              "zh": "Patterson夫人拥有哪种型号的智能恒温器？"
+            },
+            "options": [
+              {"en": "ThermoSmart Basic 2000", "zh": "ThermoSmart基础版2000"},
+              {"en": "ThermoSmart Pro 3000", "zh": "ThermoSmart专业版3000"},
+              {"en": "ThermoSmart Elite 5000", "zh": "ThermoSmart精英版5000"},
+              {"en": "ThermoSmart Lite 1000", "zh": "ThermoSmart精简版1000"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "When did Mrs. Patterson purchase the thermostat?",
+              "zh": "Patterson夫人什么时候购买的恒温器？"
+            },
+            "options": [
+              {"en": "One week ago", "zh": "一周前"},
+              {"en": "Two weeks ago", "zh": "两周前"},
+              {"en": "Three weeks ago", "zh": "三周前"},
+              {"en": "One month ago", "zh": "一个月前"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "How much higher were the temperature readings compared to actual room temperature?",
+              "zh": "温度读数比实际室温高多少？"
+            },
+            "options": [
+              {"en": "Two to three degrees", "zh": "两到三度"},
+              {"en": "Three to five degrees", "zh": "三到五度"},
+              {"en": "Five to eight degrees", "zh": "五到八度"},
+              {"en": "Eight to ten degrees", "zh": "八到十度"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What was the first troubleshooting step James suggested?",
+              "zh": "James建议的第一个故障排除步骤是什么？"
+            },
+            "options": [
+              {"en": "Replace the batteries", "zh": "更换电池"},
+              {"en": "Perform a soft reset", "zh": "执行软重置"},
+              {"en": "Check the Wi-Fi connection", "zh": "检查Wi-Fi连接"},
+              {"en": "Update the firmware", "zh": "更新固件"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "Which Wi-Fi frequency does the thermostat require?",
+              "zh": "恒温器需要哪个Wi-Fi频率？"
+            },
+            "options": [
+              {"en": "2.4 GHz", "zh": "2.4 GHz"},
+              {"en": "5 GHz", "zh": "5 GHz"},
+              {"en": "6 GHz", "zh": "6 GHz"},
+              {"en": "Either 2.4 or 5 GHz", "zh": "2.4或5 GHz都可以"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "What frequency was Mrs. Patterson's thermostat actually connected to?",
+              "zh": "Patterson夫人的恒温器实际连接到了哪个频率？"
+            },
+            "options": [
+              {"en": "2.4 GHz", "zh": "2.4 GHz"},
+              {"en": "5 GHz", "zh": "5 GHz"},
+              {"en": "6 GHz", "zh": "6 GHz"},
+              {"en": "It was not connected at all", "zh": "根本没有连接"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What is the firmware version that addresses temperature calibration issues?",
+              "zh": "解决温度校准问题的固件版本是多少？"
+            },
+            "options": [
+              {"en": "Version 3.2.1", "zh": "版本3.2.1"},
+              {"en": "Version 4.1.2", "zh": "版本4.1.2"},
+              {"en": "Version 4.2.1", "zh": "版本4.2.1"},
+              {"en": "Version 5.0.0", "zh": "版本5.0.0"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "When is the follow-up call scheduled?",
+              "zh": "后续电话安排在什么时候？"
+            },
+            "options": [
+              {"en": "The following Monday at 2 PM", "zh": "下周一下午2点"},
+              {"en": "The following Tuesday at 3 PM", "zh": "下周二下午3点"},
+              {"en": "The following Wednesday at 10 AM", "zh": "下周三上午10点"},
+              {"en": "The following Friday at 1 PM", "zh": "下周五下午1点"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What are the support business hours?",
+              "zh": "客服的营业时间是什么？"
+            },
+            "options": [
+              {"en": "Monday to Friday, 9 AM to 5 PM", "zh": "周一至周五，上午9点至下午5点"},
+              {"en": "Monday to Friday, 8 AM to 6 PM", "zh": "周一至周五，上午8点至下午6点"},
+              {"en": "Monday to Saturday, 8 AM to 8 PM", "zh": "周一至周六，上午8点至晚上8点"},
+              {"en": "Every day, 7 AM to 10 PM", "zh": "每天，上午7点至晚上10点"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 2 - Monologue in an everyday social context",
+          "zh": "第二部分 - 日常社交场景中的独白"
+        },
+        "passage": "<p>A speech by the director of a community health centre introducing new wellness programmes available to local residents. Good morning, everyone, and thank you for attending this information session. My name is Dr. Sarah Mitchell, and I am the director of the Riverside Community Health Centre. I am delighted to announce several new wellness programmes that we are launching next month to support the health and wellbeing of our community. Our first new programme is called Mindful Mornings, a mental health initiative designed to help residents manage stress and anxiety. This programme will run every Tuesday and Thursday from 7 AM to 8:30 AM and will include guided meditation sessions, breathing exercises, and cognitive behavioural therapy techniques led by our licensed psychologist, Dr. Robert Chen. The programme is free of charge and open to all adults aged eighteen and over. Participants can register online through our website or by calling our reception desk at 020-7946-0321. Our second programme is the Active Aging Fitness Club, specifically designed for residents aged sixty and above. Sessions will take place on Mondays, Wednesdays, and Fridays from 9 AM to 10:30 AM in our newly renovated gymnasium. The programme includes low-impact aerobics, strength training with resistance bands, balance exercises, and flexibility work. Our qualified physiotherapist, Emma Williams, will supervise all sessions to ensure safety and proper form. There is a nominal fee of five pounds per session, or residents can purchase a monthly pass for forty-five pounds, which represents a significant saving. We are also introducing a Nutrition and Cooking Workshop series, which will be held every Saturday from 10 AM to 1 PM. Our resident nutritionist, Dr. James Park, will teach participants how to prepare healthy, affordable meals. Each session will focus on a different dietary theme, such as heart-healthy cooking, managing diabetes through diet, plant-based nutrition, and meals for bone health. All ingredients will be provided, and participants will take home the meals they prepare. The cost is eight pounds per session. Finally, we are launching a Youth Sports Academy for children aged eight to sixteen. This programme will run during school holidays and will offer coaching in football, basketball, swimming, and tennis. All coaches are certified by the National Sports Association and have undergone background checks. The academy costs twenty-five pounds per week, and bursaries are available for families receiving government assistance. For more information about any of these programmes, please visit our website at www.riversidehealth.org or speak to our front desk staff after this session.</p>",
+        "questions": [
+          {
+            "id": 11,
+            "text": {
+              "en": "What is Dr. Sarah Mitchell's role?",
+              "zh": "Sarah Mitchell博士的职位是什么？"
+            },
+            "options": [
+              {"en": "Head nurse", "zh": "护士长"},
+              {"en": "Director of the health centre", "zh": "健康中心主任"},
+              {"en": "Chief surgeon", "zh": "首席外科医生"},
+              {"en": "Community liaison officer", "zh": "社区联络官"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "On which days does the Mindful Mornings programme run?",
+              "zh": ""正念早晨"项目在哪几天运行？"
+            },
+            "options": [
+              {"en": "Monday and Wednesday", "zh": "周一和周三"},
+              {"en": "Tuesday and Thursday", "zh": "周二和周四"},
+              {"en": "Wednesday and Friday", "zh": "周三和周五"},
+              {"en": "Saturday and Sunday", "zh": "周六和周日"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "Who leads the Mindful Mornings sessions?",
+              "zh": "谁主持"正念早晨"的课程？"
+            },
+            "options": [
+              {"en": "Dr. Sarah Mitchell", "zh": "Sarah Mitchell博士"},
+              {"en": "Emma Williams", "zh": "Emma Williams"},
+              {"en": "Dr. Robert Chen", "zh": "Robert Chen博士"},
+              {"en": "Dr. James Park", "zh": "James Park博士"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 14,
+            "text": {
+              "en": "What is the minimum age for the Active Aging Fitness Club?",
+              "zh": ""积极老龄化健身俱乐部"的最低年龄是多少？"
+            },
+            "options": [
+              {"en": "50 years old", "zh": "50岁"},
+              {"en": "55 years old", "zh": "55岁"},
+              {"en": "60 years old", "zh": "60岁"},
+              {"en": "65 years old", "zh": "65岁"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "How much does a single session of the Active Aging Fitness Club cost?",
+              "zh": ""积极老龄化健身俱乐部"单次课程费用是多少？"
+            },
+            "options": [
+              {"en": "3 pounds", "zh": "3英镑"},
+              {"en": "5 pounds", "zh": "5英镑"},
+              {"en": "8 pounds", "zh": "8英镑"},
+              {"en": "10 pounds", "zh": "10英镑"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What is the cost of a monthly pass for the Active Aging Fitness Club?",
+              "zh": ""积极老龄化健身俱乐部"的月卡费用是多少？"
+            },
+            "options": [
+              {"en": "35 pounds", "zh": "35英镑"},
+              {"en": "40 pounds", "zh": "40英镑"},
+              {"en": "45 pounds", "zh": "45英镑"},
+              {"en": "50 pounds", "zh": "50英镑"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "When are the Nutrition and Cooking Workshops held?",
+              "zh": "营养与烹饪研讨会在什么时候举行？"
+            },
+            "options": [
+              {"en": "Every Friday from 10 AM to 1 PM", "zh": "每周五上午10点至下午1点"},
+              {"en": "Every Saturday from 10 AM to 1 PM", "zh": "每周六上午10点至下午1点"},
+              {"en": "Every Sunday from 9 AM to 12 PM", "zh": "每周日上午9点至中午12点"},
+              {"en": "Every Saturday from 2 PM to 5 PM", "zh": "每周六下午2点至5点"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "Who teaches the Nutrition and Cooking Workshops?",
+              "zh": "谁教授营养与烹饪研讨会？"
+            },
+            "options": [
+              {"en": "Dr. Robert Chen", "zh": "Robert Chen博士"},
+              {"en": "Emma Williams", "zh": "Emma Williams"},
+              {"en": "Dr. James Park", "zh": "James Park博士"},
+              {"en": "Dr. Sarah Mitchell", "zh": "Sarah Mitchell博士"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "What age range is the Youth Sports Academy for?",
+              "zh": "青年体育学院面向什么年龄段？"
+            },
+            "options": [
+              {"en": "6 to 14 years old", "zh": "6至14岁"},
+              {"en": "8 to 16 years old", "zh": "8至16岁"},
+              {"en": "10 to 18 years old", "zh": "10至18岁"},
+              {"en": "12 to 18 years old", "zh": "12至18岁"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "How much does the Youth Sports Academy cost per week?",
+              "zh": "青年体育学院每周费用是多少？"
+            },
+            "options": [
+              {"en": "15 pounds", "zh": "15英镑"},
+              {"en": "20 pounds", "zh": "20英镑"},
+              {"en": "25 pounds", "zh": "25英镑"},
+              {"en": "30 pounds", "zh": "30英镑"}
+            ],
+            "answer": 2
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 3 - Conversation between two or more people in an educational context",
+          "zh": "第三部分 - 教育场景中的多人对话"
+        },
+        "passage": "<p>A discussion between two university students, Liam and Priya, and their professor, Dr. Anderson, about their research project on the impact of artificial intelligence on healthcare diagnostics. Liam begins by presenting their preliminary findings, which show that AI-powered diagnostic tools have demonstrated accuracy rates comparable to, and in some cases exceeding, those of experienced radiologists in detecting certain types of cancer from medical imaging. He cites a study from Stanford University where an AI system correctly identified skin cancer with an accuracy of 91 percent, compared to 87 percent for dermatologists. Dr. Anderson acknowledges the impressive statistics but cautions the students against presenting AI as a replacement for human doctors. She explains that the most effective approach is collaborative diagnosis, where AI serves as a screening tool that helps doctors prioritise cases and reduce diagnostic errors. She mentions that in the UK's National Health Service, AI tools are currently being used to screen for diabetic retinopathy, a condition that can lead to blindness if not detected early. Priya then raises the ethical concerns surrounding AI in healthcare. She discusses the issue of algorithmic bias, explaining that many AI diagnostic systems are trained primarily on data from Western populations, which may lead to less accurate results for patients from other ethnic backgrounds. She provides the example of dermatology AI tools that perform less accurately on darker skin tones because the training datasets contained predominantly lighter-skinned patients. Dr. Anderson praises this observation and suggests they include a section in their report on strategies for ensuring more diverse and representative training data. The discussion then moves to data privacy concerns. Liam points out that AI diagnostic systems require access to vast amounts of patient data, including medical records, imaging scans, and genetic information. He raises questions about who owns this data, how it is stored and protected, and whether patients should have the right to opt out of having their data used for AI training. Dr. Anderson references the General Data Protection Regulation, or GDPR, which provides a framework for data protection in Europe, but notes that regulations vary significantly across different countries. She encourages the students to compare regulatory approaches in at least three different regions for their report. The trio also discusses the potential for AI to improve healthcare access in underserved areas. Priya mentions a pilot programme in rural India where smartphone-based AI diagnostic tools are being used to screen for eye diseases in communities that have limited access to ophthalmologists. The programme has screened over 50,000 patients in its first year and has referred approximately 3,000 cases for further treatment. Dr. Anderson suggests this as a strong case study for their report. Finally, they agree on a timeline for completing their project, with a draft due in three weeks and the final submission in six weeks.</p>",
+        "questions": [
+          {
+            "id": 21,
+            "text": {
+              "en": "What is the topic of Liam and Priya's research project?",
+              "zh": "Liam和Priya的研究项目主题是什么？"
+            },
+            "options": [
+              {"en": "The history of medicine", "zh": "医学史"},
+              {"en": "The impact of AI on healthcare diagnostics", "zh": "人工智能对医疗诊断的影响"},
+              {"en": "Mental health treatment methods", "zh": "心理健康治疗方法"},
+              {"en": "Healthcare funding models", "zh": "医疗资金模式"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What accuracy rate did the Stanford AI system achieve in identifying skin cancer?",
+              "zh": "斯坦福大学的AI系统在识别皮肤癌方面达到了什么准确率？"
+            },
+            "options": [
+              {"en": "87 percent", "zh": "87%"},
+              {"en": "89 percent", "zh": "89%"},
+              {"en": "91 percent", "zh": "91%"},
+              {"en": "95 percent", "zh": "95%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What accuracy rate did dermatologists achieve in the same study?",
+              "zh": "皮肤科医生在同一研究中的准确率是多少？"
+            },
+            "options": [
+              {"en": "85 percent", "zh": "85%"},
+              {"en": "87 percent", "zh": "87%"},
+              {"en": "89 percent", "zh": "89%"},
+              {"en": "91 percent", "zh": "91%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "What approach does Dr. Anderson recommend regarding AI and doctors?",
+              "zh": "Anderson博士推荐了什么方式来处理AI与医生的关系？"
+            },
+            "options": [
+              {"en": "Complete replacement of doctors by AI", "zh": "完全用AI替代医生"},
+              {"en": "Using AI only for administrative tasks", "zh": "仅将AI用于行政任务"},
+              {"en": "Collaborative diagnosis combining AI and human expertise", "zh": "结合AI和人类专业知识的协作诊断"},
+              {"en": "Banning AI from medical settings", "zh": "禁止AI进入医疗环境"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What condition is AI being used to screen for in the UK's NHS?",
+              "zh": "英国国家医疗服务体系正在使用AI筛查什么疾病？"
+            },
+            "options": [
+              {"en": "Lung cancer", "zh": "肺癌"},
+              {"en": "Heart disease", "zh": "心脏病"},
+              {"en": "Diabetic retinopathy", "zh": "糖尿病视网膜病变"},
+              {"en": "Alzheimer's disease", "zh": "阿尔茨海默病"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "What ethical concern does Priya raise about AI diagnostic systems?",
+              "zh": "Priya提出了关于AI诊断系统的什么伦理问题？"
+            },
+            "options": [
+              {"en": "High cost of implementation", "zh": "实施成本高"},
+              {"en": "Algorithmic bias in training data", "zh": "训练数据中的算法偏见"},
+              {"en": "Job losses among doctors", "zh": "医生失业问题"},
+              {"en": "Environmental impact of computing", "zh": "计算的环境影响"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 27,
+            "text": {
+              "en": "Why do dermatology AI tools perform less accurately on darker skin tones?",
+              "zh": "为什么皮肤科AI工具在较深肤色上的准确度较低？"
+            },
+            "options": [
+              {"en": "Darker skin absorbs more light", "zh": "较深的皮肤吸收更多光线"},
+              {"en": "Training data contained predominantly lighter-skinned patients", "zh": "训练数据主要包含肤色较浅的患者"},
+              {"en": "The technology is still in early development", "zh": "技术仍处于早期发展阶段"},
+              {"en": "Medical imaging equipment is biased", "zh": "医学影像设备存在偏差"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What regulation does Dr. Anderson reference for data protection in Europe?",
+              "zh": "Anderson博士提到了欧洲的哪项数据保护法规？"
+            },
+            "options": [
+              {"en": "The Data Protection Act", "zh": "数据保护法"},
+              {"en": "The General Data Protection Regulation (GDPR)", "zh": "通用数据保护条例（GDPR）"},
+              {"en": "The European Privacy Directive", "zh": "欧洲隐私指令"},
+              {"en": "The Digital Services Act", "zh": "数字服务法"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "How many patients has the AI diagnostic programme in rural India screened in its first year?",
+              "zh": "印度农村的AI诊断项目在第一年筛查了多少名患者？"
+            },
+            "options": [
+              {"en": "Over 10,000", "zh": "超过10,000人"},
+              {"en": "Over 30,000", "zh": "超过30,000人"},
+              {"en": "Over 50,000", "zh": "超过50,000人"},
+              {"en": "Over 100,000", "zh": "超过100,000人"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "When is the final submission of the project due?",
+              "zh": "项目的最终提交截止日期是什么时候？"
+            },
+            "options": [
+              {"en": "In three weeks", "zh": "三周后"},
+              {"en": "In four weeks", "zh": "四周后"},
+              {"en": "In five weeks", "zh": "五周后"},
+              {"en": "In six weeks", "zh": "六周后"}
+            ],
+            "answer": 3
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Section 4 - Monologue on an academic subject",
+          "zh": "第四部分 - 学术主题的独白"
+        },
+        "passage": "<p>A university lecture on the sociological impact of social media on modern society. Good afternoon, everyone. Today's lecture examines how social media has fundamentally transformed the fabric of modern society, influencing everything from personal relationships and mental health to political discourse and cultural identity. Let us begin with the evolution of social media. The first recognisable social networking site, Six Degrees, was launched in 1997, allowing users to create profiles and list friends. This was followed by platforms like Friendster in 2002 and MySpace in 2003. However, it was the launch of Facebook in 2004 that truly revolutionised social networking. Originally limited to Harvard University students, Facebook expanded to the general public in 2006 and now has over three billion monthly active users worldwide. The subsequent emergence of Twitter in 2006, Instagram in 2010, and TikTok in 2016 further diversified the social media landscape. Now, let us consider the impact on interpersonal relationships. Social media has fundamentally altered how people form, maintain, and end relationships. On the positive side, it allows people to stay connected with friends and family across great distances, reconnect with old acquaintances, and form communities based on shared interests rather than geographical proximity. A 2023 survey by the Pew Research Centre found that 72 percent of adults use social media to stay in touch with friends and family, and 53 percent use it to meet new people with similar interests. However, the effects are not entirely positive. Research has shown that excessive social media use can lead to what psychologists call social comparison, where individuals constantly compare their lives to the curated, idealised versions presented by others online. A landmark study by the University of Pennsylvania in 2018 found that participants who limited their social media use to thirty minutes per day reported significant reductions in loneliness and depression over a three-week period compared to a control group. The impact on mental health, particularly among young people, is perhaps the most concerning aspect of social media's influence. Multiple studies have established correlations between heavy social media use and increased rates of anxiety, depression, body image issues, and sleep disturbances among adolescents. A 2022 report by the UK's Royal Society for Public Health found that Instagram was rated as the most negative social media platform for young people's mental health, particularly regarding body image and sleep quality. However, it is important to note that correlation does not imply causation, and some researchers argue that individuals with pre-existing mental health conditions may be more drawn to social media use. In the political sphere, social media has had a profound and complex impact. On one hand, it has democratised information sharing and given voice to marginalised communities. Social movements such as the Arab Spring in 2011, Black Lives Matter, and the climate change activism inspired by Greta Thunberg all leveraged social media to organise and amplify their messages. On the other hand, social media has also facilitated the spread of misinformation and disinformation, political polarisation, and foreign interference in democratic processes. A study by the Massachusetts Institute of Technology found that false news stories on Twitter spread six times faster than true stories, reaching significantly more people. The algorithms used by social media platforms, designed to maximise user engagement, often create what scholars call filter bubbles or echo chambers, where users are primarily exposed to information and viewpoints that reinforce their existing beliefs. This can lead to increased political polarisation and a fragmentation of shared reality. Economically, social media has created entirely new industries and transformed existing ones. The influencer marketing industry was valued at approximately 21 billion dollars in 2023, and social media platforms have become essential marketing channels for businesses of all sizes. The rise of social commerce, where consumers can purchase products directly through social media platforms, has blurred the lines between social networking and e-commerce. Looking to the future, emerging technologies such as virtual reality and augmented reality are likely to further integrate social media into daily life. The concept of the metaverse, a persistent virtual world where people can work, socialise, and play, represents the next frontier of social media development. However, this also raises significant questions about data privacy, digital addiction, and the potential for even deeper social isolation.</p>",
+        "questions": [
+          {
+            "id": 31,
+            "text": {
+              "en": "When was the first recognisable social networking site launched?",
+              "zh": "第一个可识别的社交网站是什么时候推出的？"
+            },
+            "options": [
+              {"en": "1995", "zh": "1995年"},
+              {"en": "1997", "zh": "1997年"},
+              {"en": "2000", "zh": "2000年"},
+              {"en": "2002", "zh": "2002年"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "When did Facebook expand to the general public?",
+              "zh": "Facebook什么时候向公众开放？"
+            },
+            "options": [
+              {"en": "2004", "zh": "2004年"},
+              {"en": "2005", "zh": "2005年"},
+              {"en": "2006", "zh": "2006年"},
+              {"en": "2008", "zh": "2008年"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "How many monthly active users does Facebook currently have?",
+              "zh": "Facebook目前有多少月活跃用户？"
+            },
+            "options": [
+              {"en": "Over one billion", "zh": "超过10亿"},
+              {"en": "Over two billion", "zh": "超过20亿"},
+              {"en": "Over three billion", "zh": "超过30亿"},
+              {"en": "Over four billion", "zh": "超过40亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What percentage of adults use social media to stay in touch with friends and family, according to the Pew Research Centre?",
+              "zh": "根据皮尤研究中心的数据，多少百分比的成年人使用社交媒体与朋友和家人保持联系？"
+            },
+            "options": [
+              {"en": "62 percent", "zh": "62%"},
+              {"en": "67 percent", "zh": "67%"},
+              {"en": "72 percent", "zh": "72%"},
+              {"en": "78 percent", "zh": "78%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What did the University of Pennsylvania study in 2018 find about limiting social media use?",
+              "zh": "2018年宾夕法尼亚大学的研究发现了什么关于限制社交媒体使用的结果？"
+            },
+            "options": [
+              {"en": "It had no measurable effect", "zh": "没有可衡量的效果"},
+              {"en": "It reduced loneliness and depression", "zh": "减少了孤独感和抑郁"},
+              {"en": "It increased productivity at work", "zh": "提高了工作效率"},
+              {"en": "It improved physical health", "zh": "改善了身体健康"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "Which social media platform was rated the most negative for young people's mental health?",
+              "zh": "哪个社交媒体平台被评为对年轻人心理健康最负面的？"
+            },
+            "options": [
+              {"en": "Facebook", "zh": "Facebook"},
+              {"en": "Twitter", "zh": "Twitter"},
+              {"en": "Instagram", "zh": "Instagram"},
+              {"en": "TikTok", "zh": "TikTok"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "Which social movement used social media to organise during the Arab Spring?",
+              "zh": "哪个社会运动在阿拉伯之春期间利用社交媒体进行组织？"
+            },
+            "options": [
+              {"en": "Black Lives Matter", "zh": "黑人的命也是命"},
+              {"en": "The Arab Spring itself", "zh": "阿拉伯之春本身"},
+              {"en": "Climate change activism", "zh": "气候变化行动主义"},
+              {"en": "The feminist movement", "zh": "女权运动"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "According to an MIT study, how much faster do false news stories spread on Twitter compared to true stories?",
+              "zh": "根据麻省理工学院的研究，假新闻在Twitter上的传播速度比真新闻快多少？"
+            },
+            "options": [
+              {"en": "Three times faster", "zh": "快三倍"},
+              {"en": "Six times faster", "zh": "快六倍"},
+              {"en": "Ten times faster", "zh": "快十倍"},
+              {"en": "Twenty times faster", "zh": "快二十倍"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What was the value of the influencer marketing industry in 2023?",
+              "zh": "2023年网红营销行业的价值是多少？"
+            },
+            "options": [
+              {"en": "Approximately 10 billion dollars", "zh": "约100亿美元"},
+              {"en": "Approximately 15 billion dollars", "zh": "约150亿美元"},
+              {"en": "Approximately 21 billion dollars", "zh": "约210亿美元"},
+              {"en": "Approximately 30 billion dollars", "zh": "约300亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What concept represents the next frontier of social media development?",
+              "zh": "什么概念代表了社交媒体发展的下一个前沿？"
+            },
+            "options": [
+              {"en": "Artificial intelligence", "zh": "人工智能"},
+              {"en": "The metaverse", "zh": "元宇宙"},
+              {"en": "Blockchain technology", "zh": "区块链技术"},
+              {"en": "Quantum computing", "zh": "量子计算"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "reading": {
+    "sections": [
+      {
+        "title": {
+          "en": "Passage 1 - The Rise of Telemedicine",
+          "zh": "文章1 - 远程医疗的兴起"
+        },
+        "passage": "<p>Telemedicine, the practice of delivering healthcare services remotely through telecommunications technology, has experienced remarkable growth over the past decade, accelerating dramatically during the COVID-19 pandemic. While the concept of remote medical consultation dates back to the early twentieth century, when doctors used radio and telephone to provide advice to patients in remote locations, modern telemedicine encompasses a far broader range of capabilities, including video consultations, remote patient monitoring, mobile health applications, and AI-assisted diagnosis. The origins of modern telemedicine can be traced to the 1960s, when NASA developed telemedicine systems to monitor the health of astronauts during space missions. These early systems transmitted physiological data from spacecraft to ground-based medical teams, enabling real-time health monitoring across vast distances. Throughout the 1970s and 1980s, telemedicine was primarily used to connect rural and underserved communities with specialist medical care in urban centres. However, the technology was expensive, unreliable, and limited in scope. The widespread adoption of the internet and mobile technology in the late 1990s and early 2000s transformed telemedicine from a niche capability into a viable healthcare delivery model. High-speed internet connections enabled real-time video consultations, while smartphones and wearable devices made continuous health monitoring practical and affordable. By 2019, the global telemedicine market was valued at approximately 50 billion dollars. The COVID-19 pandemic served as an unprecedented catalyst for telemedicine adoption. With lockdowns and social distancing measures making in-person medical visits difficult or impossible, healthcare providers around the world rapidly transitioned to remote consultations. In the United States, telehealth visits increased by 154 percent in the last week of March 2020 compared to the same period in 2019, according to the Centers for Disease Control and Prevention. In the United Kingdom, the National Health Service reported that by April 2020, nearly 100 percent of GP consultations were being conducted remotely, compared to approximately 1 percent before the pandemic. The benefits of telemedicine are numerous. It improves access to healthcare for people in rural and remote areas, reduces travel time and costs for patients, minimises the risk of infectious disease transmission, and can help alleviate pressure on overburdened hospital systems. Studies have shown that telemedicine consultations for certain conditions, such as chronic disease management, dermatological assessments, and mental health counselling, can achieve outcomes comparable to in-person visits. For patients with mobility limitations, chronic conditions requiring frequent monitoring, or those living in areas with physician shortages, telemedicine can be transformative. However, telemedicine also faces significant challenges. The digital divide means that those who would benefit most from remote healthcare, including elderly populations and people in developing countries, often lack access to the necessary technology and internet connectivity. A 2022 study by the World Health Organisation found that approximately 2.9 billion people worldwide still lack access to the internet, severely limiting telemedicine's reach. There are also concerns about the quality of remote diagnoses, particularly for conditions that require physical examination, and about data privacy and security, as sensitive medical information is transmitted and stored digitally. Regulatory and reimbursement challenges further complicate telemedicine's implementation. Medical licensing laws in many countries restrict doctors from treating patients across state or national borders, and insurance reimbursement policies for telemedicine services vary widely. The lack of standardised protocols for remote consultations and the potential for overprescription of medication without thorough physical examination are additional concerns that healthcare systems must address.</p>",
+        "questions": [
+          {
+            "id": 1,
+            "text": {
+              "en": "When did the concept of remote medical consultation first emerge?",
+              "zh": "远程医疗咨询的概念最早出现在什么时候？"
+            },
+            "options": [
+              {"en": "The early twentieth century", "zh": "二十世纪初"},
+              {"en": "The 1960s", "zh": "二十世纪六十年代"},
+              {"en": "The 1990s", "zh": "二十世纪九十年代"},
+              {"en": "The early 2000s", "zh": "二十一世纪初"}
+            ],
+            "answer": 0
+          },
+          {
+            "id": 2,
+            "text": {
+              "en": "What organisation developed early telemedicine systems in the 1960s?",
+              "zh": "哪个组织在1960年代开发了早期远程医疗系统？"
+            },
+            "options": [
+              {"en": "The World Health Organisation", "zh": "世界卫生组织"},
+              {"en": "NASA", "zh": "美国宇航局"},
+              {"en": "The British Medical Association", "zh": "英国医学协会"},
+              {"en": "The Red Cross", "zh": "红十字会"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 3,
+            "text": {
+              "en": "What was the value of the global telemedicine market by 2019?",
+              "zh": "到2019年全球远程医疗市场价值多少？"
+            },
+            "options": [
+              {"en": "Approximately 10 billion dollars", "zh": "约100亿美元"},
+              {"en": "Approximately 30 billion dollars", "zh": "约300亿美元"},
+              {"en": "Approximately 50 billion dollars", "zh": "约500亿美元"},
+              {"en": "Approximately 100 billion dollars", "zh": "约1000亿美元"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 4,
+            "text": {
+              "en": "By how much did telehealth visits increase in the US in the last week of March 2020?",
+              "zh": "2020年3月最后一周美国远程医疗访问量增加了多少？"
+            },
+            "options": [
+              {"en": "54 percent", "zh": "54%"},
+              {"en": "100 percent", "zh": "100%"},
+              {"en": "154 percent", "zh": "154%"},
+              {"en": "200 percent", "zh": "200%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 5,
+            "text": {
+              "en": "What percentage of NHS GP consultations were remote by April 2020?",
+              "zh": "到2020年4月，英国国家医疗服务体系的全科医生远程咨询比例是多少？"
+            },
+            "options": [
+              {"en": "Approximately 50 percent", "zh": "约50%"},
+              {"en": "Approximately 75 percent", "zh": "约75%"},
+              {"en": "Approximately 90 percent", "zh": "约90%"},
+              {"en": "Nearly 100 percent", "zh": "近100%"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 6,
+            "text": {
+              "en": "According to the passage, which of the following is NOT a benefit of telemedicine?",
+              "zh": "根据文章，以下哪项不是远程医疗的好处？"
+            },
+            "options": [
+              {"en": "Improved access for rural populations", "zh": "改善农村人口的医疗可及性"},
+              {"en": "Reduced travel time and costs", "zh": "减少出行时间和费用"},
+              {"en": "Elimination of all diagnostic errors", "zh": "消除所有诊断错误"},
+              {"en": "Minimised infection transmission risk", "zh": "减少传染病传播风险"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 7,
+            "text": {
+              "en": "How many people worldwide lack internet access according to a 2022 WHO study?",
+              "zh": "根据2022年世界卫生组织的研究，全球有多少人缺乏互联网接入？"
+            },
+            "options": [
+              {"en": "Approximately 1.5 billion", "zh": "约15亿"},
+              {"en": "Approximately 2.9 billion", "zh": "约29亿"},
+              {"en": "Approximately 3.5 billion", "zh": "约35亿"},
+              {"en": "Approximately 4 billion", "zh": "约40亿"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 8,
+            "text": {
+              "en": "What challenge related to medical practice does the passage mention as a barrier to telemedicine?",
+              "zh": "文章提到了什么与医疗实践相关的挑战作为远程医疗的障碍？"
+            },
+            "options": [
+              {"en": "Patients prefer in-person visits", "zh": "患者更喜欢面对面就诊"},
+              {"en": "Medical licensing laws restrict cross-border treatment", "zh": "医疗执照法限制跨境治疗"},
+              {"en": "Doctors are not trained in technology", "zh": "医生没有接受技术培训"},
+              {"en": "Insurance companies oppose telemedicine", "zh": "保险公司反对远程医疗"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 9,
+            "text": {
+              "en": "Which of the following conditions can telemedicine treat effectively according to the passage?",
+              "zh": "根据文章，远程医疗可以有效治疗以下哪种疾病？"
+            },
+            "options": [
+              {"en": "Emergency surgery cases", "zh": "急诊手术病例"},
+              {"en": "Severe trauma injuries", "zh": "严重创伤"},
+              {"en": "Mental health counselling", "zh": "心理健康咨询"},
+              {"en": "Complex cardiac procedures", "zh": "复杂心脏手术"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 10,
+            "text": {
+              "en": "What is the main purpose of this passage?",
+              "zh": "这篇文章的主要目的是什么？"
+            },
+            "options": [
+              {"en": "To argue against the use of telemedicine", "zh": "反对使用远程医疗"},
+              {"en": "To provide a balanced overview of telemedicine's history, benefits, and challenges", "zh": "全面概述远程医疗的历史、优势和挑战"},
+              {"en": "To promote specific telemedicine companies", "zh": "推广特定的远程医疗公司"},
+              {"en": "To compare healthcare systems across countries", "zh": "比较各国医疗系统"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 11,
+            "text": {
+              "en": "The word 'catalyst' in paragraph 3 is closest in meaning to:",
+              "zh": "第3段中的"catalyst"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Barrier", "zh": "障碍"},
+              {"en": "Accelerator", "zh": "加速器"},
+              {"en": "Alternative", "zh": "替代方案"},
+              {"en": "Obstacle", "zh": "阻碍"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 12,
+            "text": {
+              "en": "What does the passage suggest about the future of telemedicine?",
+              "zh": "文章对远程医疗的未来提出了什么看法？"
+            },
+            "options": [
+              {"en": "It will completely replace in-person healthcare", "zh": "它将完全取代面对面医疗"},
+              {"en": "It will decline as the pandemic recedes", "zh": "随着疫情消退，它将会衰退"},
+              {"en": "Significant challenges around equity and regulation remain to be addressed", "zh": "公平性和监管方面的重大挑战仍需解决"},
+              {"en": "It is only viable in wealthy countries", "zh": "它只在富裕国家可行"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 13,
+            "text": {
+              "en": "Which statement best describes the passage's stance on telemedicine?",
+              "zh": "以下哪句话最能描述文章对远程医疗的立场？"
+            },
+            "options": [
+              {"en": "Strongly in favour without reservations", "zh": "毫无保留地强烈支持"},
+              {"en": "Acknowledges potential while recognising existing challenges", "zh": "在认可潜力的同时也认识到现有挑战"},
+              {"en": "Primarily critical of its shortcomings", "zh": "主要批评其不足之处"},
+              {"en": "Neutral and purely factual", "zh": "中立且纯粹客观"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 2 - The Psychology of Consumer Decision-Making",
+          "zh": "文章2 - 消费者决策的心理学"
+        },
+        "passage": "<p>Understanding why consumers make the purchasing decisions they do has been a central focus of marketing research for over a century. The field of consumer psychology explores the cognitive, emotional, and social factors that influence how people evaluate, select, and use products and services. While classical economic theory assumes that consumers are rational actors who make decisions based on a careful analysis of costs and benefits, decades of research in behavioural economics and psychology have revealed that human decision-making is far more complex, often driven by unconscious biases, emotional impulses, and social influences. One of the most influential frameworks for understanding consumer behaviour is the concept of heuristics, or mental shortcuts, identified by psychologists Amos Tversky and Daniel Kahneman in the 1970s. Their groundbreaking work on prospect theory demonstrated that people tend to weigh potential losses more heavily than equivalent gains, a phenomenon known as loss aversion. In practical terms, this means that consumers are often more motivated by the fear of losing something than by the prospect of gaining something of equal value. Marketers frequently exploit this tendency through limited-time offers, countdown timers, and messages emphasising scarcity, such as 'only three items remaining in stock.' The anchoring effect is another powerful cognitive bias that influences consumer decisions. Research has shown that the first piece of information a consumer encounters, known as the anchor, disproportionately influences subsequent judgements. For example, if a product is initially displayed at a high price and then shown at a discounted price, consumers perceive the discount as a better deal, even if the final price is still higher than the product's actual market value. This explains why retailers often display the original price alongside the sale price and why negotiation typically begins with an artificially high starting point. Social proof, the tendency to follow the actions and opinions of others, is perhaps the most pervasive influence on consumer behaviour in the digital age. Online reviews, ratings, testimonials, and social media endorsements all serve as forms of social proof that can significantly impact purchasing decisions. A 2023 survey by BrightLocal found that 98 percent of consumers read online reviews before making a purchase, and 84 percent trust online reviews as much as personal recommendations from friends or family. Businesses recognise this and actively cultivate positive reviews, respond to negative ones, and partner with influencers to leverage their credibility and reach. The role of emotions in consumer decision-making cannot be overstated. Neuroscientific research has shown that emotions play a critical role in the decision-making process, often preceding and guiding rational analysis. Antonio Damasio's somatic marker hypothesis suggests that emotional responses to past experiences create physiological signals that influence future decisions. In marketing, this translates to the importance of brand storytelling, emotional advertising, and creating positive associations between products and desirable feelings such as happiness, belonging, security, or aspiration. Apple's marketing strategy, for example, has long emphasised creativity, innovation, and individuality rather than simply listing technical specifications. The digital revolution has fundamentally transformed the consumer decision-making process. The traditional linear model of awareness, interest, desire, and action has evolved into a complex, non-linear journey involving multiple touchpoints across online and offline channels. Consumers now research products extensively before purchasing, with the average consumer consulting eleven pieces of content before making a buying decision, according to Google's consumer journey research. The rise of comparison shopping, price-tracking tools, and personalised recommendations powered by artificial intelligence has given consumers unprecedented access to information and options, potentially leading to more informed decisions but also contributing to decision fatigue and choice overload. Cultural and socioeconomic factors also play significant roles in shaping consumer behaviour. Cross-cultural research has revealed substantial differences in purchasing patterns, brand preferences, and decision-making styles across different cultures. For instance, consumers in collectivist cultures, such as Japan and China, tend to place greater emphasis on brand reputation and social conformity, while consumers in individualist cultures, such as the United States and Australia, may prioritise personal expression and uniqueness.</p>",
+        "questions": [
+          {
+            "id": 14,
+            "text": {
+              "en": "According to the passage, what does classical economic theory assume about consumers?",
+              "zh": "根据文章，古典经济学理论对消费者有什么假设？"
+            },
+            "options": [
+              {"en": "They are driven by emotions", "zh": "他们受情感驱动"},
+              {"en": "They are rational actors who analyse costs and benefits", "zh": "他们是分析成本和收益的理性行为者"},
+              {"en": "They always choose the cheapest option", "zh": "他们总是选择最便宜的选项"},
+              {"en": "They are easily influenced by advertising", "zh": "他们很容易受广告影响"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 15,
+            "text": {
+              "en": "Who identified the concept of heuristics mentioned in the passage?",
+              "zh": "文章中提到的启发法概念是由谁提出的？"
+            },
+            "options": [
+              {"en": "Antonio Damasio", "zh": "安东尼奥·达马西奥"},
+              {"en": "Amos Tversky and Daniel Kahneman", "zh": "阿莫斯·特沃斯基和丹尼尔·卡尼曼"},
+              {"en": "BrightLocal researchers", "zh": "BrightLocal研究人员"},
+              {"en": "Google researchers", "zh": "谷歌研究人员"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 16,
+            "text": {
+              "en": "What does loss aversion refer to?",
+              "zh": "损失厌恶指的是什么？"
+            },
+            "options": [
+              {"en": "The preference for guaranteed gains", "zh": "偏好确定的收益"},
+              {"en": "Weighing potential losses more heavily than equivalent gains", "zh": "对潜在损失的权重大于等价收益"},
+              {"en": "The tendency to avoid all financial risk", "zh": "避免所有财务风险的倾向"},
+              {"en": "The fear of buying expensive products", "zh": "对购买昂贵产品的恐惧"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 17,
+            "text": {
+              "en": "What is the anchoring effect?",
+              "zh": "锚定效应是什么？"
+            },
+            "options": [
+              {"en": "The tendency to buy products that are on sale", "zh": "购买打折产品的倾向"},
+              {"en": "The disproportionate influence of the first piece of information encountered", "zh": "首先获得的信息对判断产生不成比例的影响"},
+              {"en": "The preference for well-known brands", "zh": "偏好知名品牌"},
+              {"en": "The habit of comparing prices across stores", "zh": "在不同商店比较价格的习惯"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 18,
+            "text": {
+              "en": "What percentage of consumers read online reviews before making a purchase?",
+              "zh": "多少百分比的消费者在购买前会阅读在线评论？"
+            },
+            "options": [
+              {"en": "84 percent", "zh": "84%"},
+              {"en": "90 percent", "zh": "90%"},
+              {"en": "95 percent", "zh": "95%"},
+              {"en": "98 percent", "zh": "98%"}
+            ],
+            "answer": 3
+          },
+          {
+            "id": 19,
+            "text": {
+              "en": "According to the passage, what percentage of consumers trust online reviews as much as personal recommendations?",
+              "zh": "根据文章，多少百分比的消费者信任在线评论如同信任个人推荐？"
+            },
+            "options": [
+              {"en": "72 percent", "zh": "72%"},
+              {"en": "78 percent", "zh": "78%"},
+              {"en": "84 percent", "zh": "84%"},
+              {"en": "92 percent", "zh": "92%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 20,
+            "text": {
+              "en": "What does Antonio Damasio's somatic marker hypothesis suggest?",
+              "zh": "安东尼奥·达马西奥的躯体标记假说提出了什么观点？"
+            },
+            "options": [
+              {"en": "Rational thinking is the primary driver of decisions", "zh": "理性思考是决策的主要驱动力"},
+              {"en": "Emotional responses create physiological signals that influence future decisions", "zh": "情绪反应产生影响未来决策的生理信号"},
+              {"en": "Consumers always make logical choices", "zh": "消费者总是做出逻辑选择"},
+              {"en": "Physical health determines purchasing behaviour", "zh": "身体健康决定购买行为"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 21,
+            "text": {
+              "en": "How many pieces of content does the average consumer consult before making a buying decision?",
+              "zh": "普通消费者在做出购买决定前会参考多少条内容？"
+            },
+            "options": [
+              {"en": "Five", "zh": "五条"},
+              {"en": "Eight", "zh": "八条"},
+              {"en": "Eleven", "zh": "十一条"},
+              {"en": "Fifteen", "zh": "十五条"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 22,
+            "text": {
+              "en": "What example does the passage give of emotional marketing?",
+              "zh": "文章给出了什么情感营销的例子？"
+            },
+            "options": [
+              {"en": "Samsung's technology-focused advertising", "zh": "三星以技术为重点的广告"},
+              {"en": "Apple's emphasis on creativity and individuality", "zh": "苹果对创造力和个性的强调"},
+              {"en": "Amazon's price comparison tools", "zh": "亚马逊的价格比较工具"},
+              {"en": "Nike's athlete endorsements", "zh": "耐克的运动员代言"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 23,
+            "text": {
+              "en": "What difference does the passage note between collectivist and individualist cultures?",
+              "zh": "文章指出了集体主义文化和个人主义文化之间有什么差异？"
+            },
+            "options": [
+              {"en": "Collectivist cultures prefer online shopping", "zh": "集体主义文化更喜欢网购"},
+              {"en": "Collectivist cultures emphasise brand reputation and social conformity", "zh": "集体主义文化更重视品牌声誉和社会从众"},
+              {"en": "Individualist cultures buy cheaper products", "zh": "个人主义文化购买更便宜的产品"},
+              {"en": "There is no significant difference", "zh": "没有显著差异"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 24,
+            "text": {
+              "en": "The word 'pervasive' in paragraph 4 is closest in meaning to:",
+              "zh": "第4段中的"pervasive"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Rare", "zh": "罕见的"},
+              {"en": "Widespread", "zh": "普遍的"},
+              {"en": "Harmful", "zh": "有害的"},
+              {"en": "Temporary", "zh": "临时的"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 25,
+            "text": {
+              "en": "What potential negative consequence of digital information access does the passage mention?",
+              "zh": "文章提到了数字信息获取的什么潜在负面影响？"
+            },
+            "options": [
+              {"en": "Higher prices for consumers", "zh": "消费者面临更高的价格"},
+              {"en": "Decision fatigue and choice overload", "zh": "决策疲劳和选择过载"},
+              {"en": "Reduced brand loyalty", "zh": "品牌忠诚度下降"},
+              {"en": "Privacy violations", "zh": "隐私侵犯"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 26,
+            "text": {
+              "en": "Which of the following best summarises the main argument of the passage?",
+              "zh": "以下哪项最能概括文章的主要论点？"
+            },
+            "options": [
+              {"en": "Consumers are becoming increasingly rational in their decision-making", "zh": "消费者在决策中变得越来越理性"},
+              {"en": "Consumer decisions are shaped by a complex interplay of cognitive, emotional, social, and cultural factors", "zh": "消费者决策受到认知、情感、社会和文化因素的复杂交互影响"},
+              {"en": "Digital technology has made consumer decision-making simpler", "zh": "数字技术使消费者决策更加简单"},
+              {"en": "Marketing strategies are the primary driver of consumer behaviour", "zh": "营销策略是消费者行为的主要驱动力"}
+            ],
+            "answer": 1
+          }
+        ]
+      },
+      {
+        "title": {
+          "en": "Passage 3 - Urbanisation and the Future of Cities",
+          "zh": "文章3 - 城市化与城市的未来"
+        },
+        "passage": "<p>For the first time in human history, more than half of the world's population lives in urban areas. According to the United Nations, 56 percent of the global population, approximately 4.4 billion people, resided in cities in 2022, and this proportion is projected to increase to 68 percent by 2050. This unprecedented urbanisation presents both enormous opportunities and formidable challenges for governments, planners, and citizens alike. The history of urbanisation is closely tied to industrialisation. Before the Industrial Revolution, which began in Britain in the late eighteenth century, the vast majority of people lived in rural areas and worked in agriculture. The shift to factory-based manufacturing drew millions of people to cities in search of employment, leading to rapid and often unplanned urban growth. By 1900, London had become the world's largest city with a population of 6.5 million, a figure that would have been unimaginable just a century earlier. The twentieth century saw urbanisation accelerate dramatically, particularly in developing countries. Cities like Tokyo, Mumbai, São Paulo, and Lagos grew at extraordinary rates, often outpacing the development of infrastructure and public services. Today, Tokyo remains the world's largest metropolitan area with approximately 37 million inhabitants, followed by Delhi with 32 million and Shanghai with 29 million. The challenges of rapid urbanisation are well documented. Housing shortages are among the most pressing issues, as the demand for affordable accommodation consistently outstrips supply. In many developing cities, this has led to the proliferation of informal settlements or slums, where residents live in substandard conditions without adequate access to clean water, sanitation, or electricity. The UN estimates that approximately one billion people currently live in slums, a number that is expected to increase significantly in the coming decades. Urban sprawl, the uncontrolled expansion of urban areas into surrounding countryside, presents environmental and social challenges. Sprawling cities require more extensive transportation networks, leading to increased car dependency, longer commute times, and higher carbon emissions. A study by the University of Toronto found that residents of sprawling cities in the United States drive an average of 40 percent more kilometres per year than residents of compact, densely built cities. In response to these challenges, urban planners and policymakers have developed various strategies for creating more sustainable, liveable cities. The concept of the 'smart city' has gained significant traction in recent years, leveraging technology and data to improve urban services, reduce waste, and enhance quality of life. Singapore, often cited as the world's smartest city, uses an extensive network of sensors and cameras to monitor traffic flow, air quality, waste management, and energy consumption in real time. The city-state's Smart Nation initiative has led to innovations such as autonomous vehicle testing, digital government services accessible through a single smartphone application, and predictive analytics for urban maintenance. Copenhagen has emerged as a global leader in sustainable urban planning. The Danish capital aims to become the world's first carbon-neutral capital by 2025, having already reduced its carbon emissions by 42 percent since 2005. Key initiatives include an extensive cycling network used by 62 percent of residents for their daily commute, a district heating system powered largely by renewable energy, and innovative waste-to-energy plants that convert household waste into electricity and heat. The city's Nordhavn district serves as a model for sustainable urban development, featuring energy-efficient buildings, car-free zones, and integrated green spaces. Barcelona's 'superblocks' initiative represents another innovative approach to urban redesign. The programme reorganises city blocks to prioritise pedestrians, cyclists, and green spaces over car traffic. Within superblocks, through traffic is redirected to perimeter roads, freeing up interior streets for community gardens, playgrounds, outdoor dining, and cultural activities. Early results from the programme show reductions in air pollution, noise levels, and traffic accidents, alongside increases in local business activity and community engagement. Green infrastructure, including urban forests, green roofs, and permeable surfaces, is increasingly recognised as essential for sustainable cities. Urban trees provide shade, reduce the heat island effect, absorb air pollution, and support biodiversity. Singapore's commitment to becoming a 'city in a garden' has resulted in over 300 kilometres of park connectors and the integration of vegetation into building facades and rooftops throughout the city. Similarly, Melbourne's ambitious plan to plant 3,000 trees per year aims to increase canopy cover and combat rising temperatures exacerbated by climate change.</p>",
+        "questions": [
+          {
+            "id": 27,
+            "text": {
+              "en": "What percentage of the global population lived in cities in 2022?",
+              "zh": "2022年全球有多少百分比的人口居住在城市？"
+            },
+            "options": [
+              {"en": "48 percent", "zh": "48%"},
+              {"en": "52 percent", "zh": "52%"},
+              {"en": "56 percent", "zh": "56%"},
+              {"en": "62 percent", "zh": "62%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 28,
+            "text": {
+              "en": "What was the population of London by 1900?",
+              "zh": "到1900年伦敦的人口是多少？"
+            },
+            "options": [
+              {"en": "2.5 million", "zh": "250万"},
+              {"en": "4.5 million", "zh": "450万"},
+              {"en": "6.5 million", "zh": "650万"},
+              {"en": "8.5 million", "zh": "850万"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 29,
+            "text": {
+              "en": "What is the world's largest metropolitan area by population?",
+              "zh": "按人口计算，世界上最大的都市区是哪里？"
+            },
+            "options": [
+              {"en": "Delhi", "zh": "德里"},
+              {"en": "Shanghai", "zh": "上海"},
+              {"en": "Tokyo", "zh": "东京"},
+              {"en": "São Paulo", "zh": "圣保罗"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 30,
+            "text": {
+              "en": "How many people does the UN estimate currently live in slums?",
+              "zh": "联合国估计目前有多少人生活在贫民窟中？"
+            },
+            "options": [
+              {"en": "Approximately 500 million", "zh": "约5亿"},
+              {"en": "Approximately 800 million", "zh": "约8亿"},
+              {"en": "Approximately one billion", "zh": "约10亿"},
+              {"en": "Approximately 1.5 billion", "zh": "约15亿"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 31,
+            "text": {
+              "en": "How much more do residents of sprawling US cities drive per year compared to compact cities?",
+              "zh": "美国城市扩张区的居民每年比紧凑型城市的居民多驾驶多少？"
+            },
+            "options": [
+              {"en": "20 percent more", "zh": "多20%"},
+              {"en": "30 percent more", "zh": "多30%"},
+              {"en": "40 percent more", "zh": "多40%"},
+              {"en": "50 percent more", "zh": "多50%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 32,
+            "text": {
+              "en": "By what percentage has Copenhagen reduced its carbon emissions since 2005?",
+              "zh": "自2005年以来哥本哈根减少了多少百分比的碳排放？"
+            },
+            "options": [
+              {"en": "32 percent", "zh": "32%"},
+              {"en": "42 percent", "zh": "42%"},
+              {"en": "52 percent", "zh": "52%"},
+              {"en": "62 percent", "zh": "62%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 33,
+            "text": {
+              "en": "What percentage of Copenhagen residents cycle for their daily commute?",
+              "zh": "哥本哈根有多少百分比的居民骑自行车通勤？"
+            },
+            "options": [
+              {"en": "42 percent", "zh": "42%"},
+              {"en": "52 percent", "zh": "52%"},
+              {"en": "62 percent", "zh": "62%"},
+              {"en": "72 percent", "zh": "72%"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 34,
+            "text": {
+              "en": "What does Barcelona's 'superblocks' initiative prioritise?",
+              "zh": "巴塞罗那的"超级街区"倡议优先考虑什么？"
+            },
+            "options": [
+              {"en": "Car traffic and parking", "zh": "汽车交通和停车"},
+              {"en": "Pedestrians, cyclists, and green spaces", "zh": "行人、骑自行车者和绿地"},
+              {"en": "Commercial development", "zh": "商业开发"},
+              {"en": "Industrial zones", "zh": "工业区"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 35,
+            "text": {
+              "en": "What is Singapore's vision for its urban environment?",
+              "zh": "新加坡对其城市环境有什么愿景？"
+            },
+            "options": [
+              {"en": "A city of skyscrapers", "zh": "摩天大楼之城"},
+              {"en": "A city in a garden", "zh": "花园中的城市"},
+              {"en": "A car-free metropolis", "zh": "无车大都市"},
+              {"en": "A digital-only city", "zh": "纯数字城市"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 36,
+            "text": {
+              "en": "How many trees per year does Melbourne plan to plant?",
+              "zh": "墨尔本计划每年种植多少棵树？"
+            },
+            "options": [
+              {"en": "1,000", "zh": "1,000棵"},
+              {"en": "2,000", "zh": "2,000棵"},
+              {"en": "3,000", "zh": "3,000棵"},
+              {"en": "5,000", "zh": "5,000棵"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 37,
+            "text": {
+              "en": "The word 'formidable' in paragraph 1 is closest in meaning to:",
+              "zh": "第1段中的"formidable"一词最接近的含义是："
+            },
+            "options": [
+              {"en": "Minor", "zh": "微小的"},
+              {"en": "Insurmountable", "zh": "不可逾越的"},
+              {"en": "Intimidating", "zh": "令人畏惧的"},
+              {"en": "Favourable", "zh": "有利的"}
+            ],
+            "answer": 2
+          },
+          {
+            "id": 38,
+            "text": {
+              "en": "What is the projected urban population percentage by 2050?",
+              "zh": "预计到2050年城市人口百分比是多少？"
+            },
+            "options": [
+              {"en": "62 percent", "zh": "62%"},
+              {"en": "68 percent", "zh": "68%"},
+              {"en": "72 percent", "zh": "72%"},
+              {"en": "75 percent", "zh": "75%"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 39,
+            "text": {
+              "en": "What do all three city examples in the passage (Singapore, Copenhagen, Barcelona) have in common?",
+              "zh": "文章中三个城市例子（新加坡、哥本哈根、巴塞罗那）有什么共同点？"
+            },
+            "options": [
+              {"en": "They are all in Europe", "zh": "它们都在欧洲"},
+              {"en": "They have all implemented innovative approaches to sustainable urban living", "zh": "它们都实施了可持续城市生活的创新方法"},
+              {"en": "They all have populations under five million", "zh": "它们的人口都不到五百万"},
+              {"en": "They all use the same technology", "zh": "它们都使用相同的技术"}
+            ],
+            "answer": 1
+          },
+          {
+            "id": 40,
+            "text": {
+              "en": "What is the main theme of this passage?",
+              "zh": "这篇文章的主题是什么？"
+            },
+            "options": [
+              {"en": "The decline of rural communities", "zh": "农村社区的衰落"},
+              {"en": "The challenges of urbanisation and innovative solutions for sustainable cities", "zh": "城市化的挑战和可持续城市的创新解决方案"},
+              {"en": "The history of architecture", "zh": "建筑史"},
+              {"en": "Population growth in developing countries", "zh": "发展中国家的人口增长"}
+            ],
+            "answer": 1
+          }
+        ]
+      }
+    ]
+  },
+  "writing": {
+    "sections": [
+      {
+        "title": {
+          "en": "Task 1 - Describe a Process",
+          "zh": "任务1 - 描述流程"
+        },
+        "prompt": {
+          "en": "The diagram below shows the process of recycling plastic bottles, from collection to the manufacture of new products.\n\nStage 1: Used plastic bottles are collected from recycling bins, households, and commercial establishments.\nStage 2: The collected bottles are transported to a sorting facility where they are separated by plastic type (PET, HDPE, PVC) using infrared scanning technology.\nStage 3: Sorted bottles are compressed into bales and sent to a washing facility where labels, caps, and adhesive residues are removed.\nStage 4: Clean bottles are shredded into small flakes approximately 5mm in size.\nStage 5: The flakes are further sorted by colour using optical sensors and then undergo a hot washing process to remove any remaining contaminants.\nStage 6: Dried flakes are melted at temperatures exceeding 260 degrees Celsius and extruded into small pellets called nurdles.\nStage 7: Nurdles are sold to manufacturers who use them to produce new products such as clothing fibres, packaging materials, automotive parts, and new bottles.\n\nSummarise the process by selecting and reporting the main stages. Write at least 150 words.",
+          "zh": "下面的流程图展示了塑料瓶回收的过程，从收集到新产品的制造。\n\n阶段1：使用过的塑料瓶从回收箱、家庭和商业机构收集。\n阶段2：收集的瓶子被运输到分拣设施，使用红外扫描技术按塑料类型（PET、HDPE、PVC）进行分离。\n阶段3：分拣后的瓶子被压缩成捆，送往清洗设施，在那里去除标签、瓶盖和粘合剂残留物。\n阶段4：干净的瓶子被粉碎成约5毫米大小的小碎片。\n阶段5：碎片通过光学传感器进一步按颜色分类，然后经过热水清洗过程以去除任何剩余污染物。\n阶段6：干燥的碎片在超过260摄氏度的温度下熔化，挤出成称为nurdles的小颗粒。\n阶段7：Nurdles被出售给制造商，用于生产新产品，如服装纤维、包装材料、汽车零部件和新瓶子。\n\n通过选择和报告主要阶段来总结流程。至少写150个单词。"
+        },
+        "minWords": 150
+      },
+      {
+        "title": {
+          "en": "Task 2 - Essay",
+          "zh": "任务2 - 议论文"
+        },
+        "prompt": {
+          "en": "Some people argue that technological advancement is the key to solving the world's most pressing problems, such as climate change, disease, and poverty. Others believe that technology creates more problems than it solves and that society should focus on simpler, more traditional approaches.\n\nDiscuss both views and give your own opinion.\n\nGive reasons for your answer and include any relevant examples from your own knowledge or experience. Write at least 250 words.",
+          "zh": "一些人认为技术进步是解决世界上最紧迫问题（如气候变化、疾病和贫困）的关键。另一些人则认为技术带来的问题比它解决的更多，社会应该专注于更简单、更传统的方法。\n\n讨论两种观点并给出你自己的意见。\n\n给出你的理由，并包括你自己的知识或经验中任何相关的例子。至少写250个单词。"
+        },
+        "minWords": 250
+      }
+    ]
+  }
+}

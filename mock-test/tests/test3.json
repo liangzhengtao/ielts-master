@@ -810,7 +810,7 @@
             "id": 17,
             "text": {
               "en": "Which city is cited as a leading smart city with a 'Smart Nation' initiative?",
-              "zh": "哪个城市被称为具有"智慧国家"倡议的领先智慧城市？"
+              "zh": "哪个城市被称为具有“智慧国家”倡议的领先智慧城市？"
             },
             "options": [
               {"en": "Tokyo", "zh": "东京"},
@@ -838,7 +838,7 @@
             "id": 19,
             "text": {
               "en": "Who popularised the concept of the '15-minute city'?",
-              "zh": "谁推广了"15分钟城市"的概念？"
+              "zh": "谁推广了“15分钟城市”的概念？"
             },
             "options": [
               {"en": "Anne Hidalgo", "zh": "安妮·伊达尔戈"},
@@ -936,7 +936,7 @@
             "id": 26,
             "text": {
               "en": "What does the term 'polycentric neighbourhoods' refer to in the context of Paris?",
-              "zh": "在巴黎的语境中，"多中心社区"一词指的是什么？"
+              "zh": "在巴黎的语境中，“多中心社区”一词指的是什么？"
             },
             "options": [
               {"en": "Neighbourhoods with multiple shopping centres", "zh": "有多个购物中心的社区"},
@@ -1001,7 +1001,7 @@
             "id": 30,
             "text": {
               "en": "What is 'biopiracy'?",
-              "zh": ""生物剽窃"是什么？"
+              "zh": "“生物剽窃”是什么？"
             },
             "options": [
               {"en": "Illegal trading of endangered species", "zh": "非法交易濒危物种"},
@@ -1071,7 +1071,7 @@
             "id": 35,
             "text": {
               "en": "What is 'reverse pharmacology'?",
-              "zh": ""反向药理学"是什么？"
+              "zh": "“反向药理学”是什么？"
             },
             "options": [
               {"en": "Testing random compounds in laboratories", "zh": "在实验室中测试随机化合物"},
